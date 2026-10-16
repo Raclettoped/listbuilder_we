@@ -2,10 +2,10 @@ import type {
   RawWarband,
   RawUnit,
   RawOption,
-  RawProfile,
   Army,
   ArmyUnit,
   ArmyOption,
+  RawProfile,
   ArmyProfile
 } from './types/warband';
 
@@ -39,6 +39,7 @@ function normalizeProfile(p: RawProfile): ArmyProfile {
     special: p.special ?? undefined
   };
 }
+
 
 export function toArmy(raw: RawWarband): Army {
   return {
