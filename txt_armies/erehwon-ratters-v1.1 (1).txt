@@ -1,0 +1,587 @@
+                                                      Ratters
+Version 1.1
+Date: 14/11/2019
+
+
+
+Players have been asking for a ‘Ratman’ themed list ever          would naturally associate with such rodents. So, they are
+since Warlords of Erehwon first came out. I’ve worked this        verminous critters, ridden with plague-carrying fleas and
+one up in order to scratch that particular itch... rodent         sundry unpleasant diseases (are there pleasant diseases?).
+fashion. Just to remind players, the Erehwon game is a            Nocturnal by preference, they have weak eyesight but a
+universal or broadly applicable game system. The rules            keen sense of smell and acute hearing. Ratters might be
+can be adapted to suit any background, be it one inspired         quick on their furry feet, but they are not especially bold
+by the pages of fiction, movies, video games, or minia-           or tough. Scavengers par excellence, they live amongst
+ture ranges that may or may not have been designed for            the detritus of other races, often inhabiting abandoned
+other game systems. We all know that a Dwarf is a Dwarf           dwellings, including subterranean tunnels and halls built
+and pretty consistently represented in many role-playing          by Goblins, Dwarfs and the like. Just as do real rats they
+games, works of fiction, tabletop and video games. Short,         breed prolifically and congregate together for protection,
+beardy, grumpy... you know the type. This isn’t strictly          feeling secure in large-broods. Individually they are timid,
+true of the Ratman trope: Ratmen are not a traditional            hiding away in the shadows and avoiding danger where
+race to be found in folklore or in time-honoured fantasy          possible. These are consistent themes that can be used to
+fiction. Different fictional backgrounds portray them in          construct a stat-line and list.
+different ways.
+                                                                  Taking the basic human stat-line as our starting point
+I’ve therefore written this list so that players who have         (555577) we begin with an Agility of 6 - more nimble
+already collected a typical force of models should be able        than humans as we might expect. Accuracy on the other
+to put together a warband quite easily, no matter which           hand is low, at 4, reflecting poor eyesight and little natural
+manufacturer’s offerings they favour. I’m afraid that some        ability with missiles. Strength we shall leave at the stand-
+of the most popular and distinctive models are impossible         ard 5 - remember Strength dictates the chances of striking
+to represent without overtly ‘copying’ ideas or otherwise         in hand-to-hand fighting, so an average value will serve us
+exploiting very specific property. If players want to closely     perfectly well. Res is dropped to 4 both to reflect a weed-
+represent an existing army they already own, then - of            ier (and possibly disease wracked) frame and an unwill-
+course - that it up to them, and I hope this list will serve      ingness to endure injury. Initiative has been dropped to a
+to point those who want to take this approach in the right        measly 6 and Command also falls to a 6 to reflect lack of
+direction.                                                        courage and a tendency to scatter and take to their heels
+                                                                  when threatened. However, we shall compensate for poor
+Right - that said - let’s consider where our Ratmen come
+                                                                  Command with new ‘Pack’ and ‘Pack Master’ rules as
+from and how we might interpret them in a game of
+                                                                  described later.
+Warlords of Erehwon. Firstly, I’ve given them a name, and
+as far as I know it’s not one attached to any specific model      Our Warband is led by a Ratter Warlord who we call a
+range: ‘Ratters’. You might equally well call them Ratmen,        Broodlord. The Broodlord is the meanest, most beady-
+a suitably generic description to be sure. I’ve chosen            eyed, bloated and snaggly-toothed of the brood. He is
+‘Ratters’ because many years ago I wrote a short piece of         possessed of low animal cunning and a well-honed talent
+fiction where our ‘hero’ always referred to Ratmen in this        for survival. He is surrounded by his favoured brood
+fashion... I’ll include an extract at the end to give a flavour   mates: the best armed and most determined of Ratter
+of things (you have been warned).                                 warriors. Note that he has the best Command stat of the
+                                                                  whole brood, as you might expect, and the Pack Master
+Ratmen and humanoid Wererats appeared in role-play-
+                                                                  rule which allows him to exert some degree of control
+ing games right from the start of things, for which we
+                                                                  over his feckless minions. Unlike other Warlords he does
+must thank the creators of D&D, as for so much else. The
+                                                                  not have the Command special rule... more of this later.
+concept has not changed substantially, and various man-
+ufacturers have played upon the theme to produce ranges           Amongst Ratters, competition for status and food is
+both for role-playing and tabletop gaming. Ratters are            intense, and it is only natural that the strongest and
+generally held to be human shaped and sized - or a little         meanest aspire to become Warlords and therefore first in
+smaller - furry, long-tailed and in all respects a humanoid       line for all the good things in life. We call these individ-
+rat. Similarly, they are always attributed qualities that we      uals Broodmasters - but they are ‘heroes’ in terms of our
+
+                                                                                                         Ratter Warband            1
+    game no matter how conniving and back-stabbing they              rendering them partly crippled or unable to feed unaid-
+    happen to be (‘Hero’ has been added to the unit descrip-         ed. They might be clad in ragged cloaks and cowls hiding
+    tion to make this especially clear). Every Broodmaster           their disfigurements, or swathed in bandages to keep body
+    would happily see their Broodlord meet some grisly end           and soul together. Their chief weapon is the very conta-
+    if it would advance their own cause. Ditto other Brood-          gion that they carry like a cloud about them, and hence
+    masters. The Ratter army relies upon its Broodmasters to         they are given a separate attack special rule rather than
+    overcome the natural timidity of Ratter-kind and hence           one based on their weaponry. We won’t worry how these
+    they have especially high Command stats (for their race)         are equipped exactly, allowing us to mix models that may
+    and the Pack Master special rule.                                be variously armed. Maybe some plague victims bran-
+                                                                     dish bells to warn others to keep away, or carry glass vials
+    For sorcerous support we have a Ratter Warlock, who we
+                                                                     filled with pus or miasmic pestilence drawn from their
+    imagine to summon up spirits of filth and contagion to
+                                                                     own bodies. A few might wield censors filled with burn-
+    accomplish dark magicks. The Warlock could be accom-
+                                                                     ing ordure; whether intended to dispel the pestilential
+    panied by slaves, whose chief job may be to carry the
+                                                                     vapours that cling to the Plague Ratters or enhance them
+    cauldron, or by Spirits of Contagion, which might be im-
+                                                                     still further is anyone’s guess.
+    agined to be rat-like ethereal manifestations - though any
+    suitable ‘spirit’ models or familiars will do the trick. The     Ratter Blunderbusters are armed with primitive firearms
+    Warlock also has the Pack Master special rule, allowing          scavenged from the discards of the battlefield and looted
+    him to drive other Ratters onwards. Normally a less effec-       from the armouries of their defeated foes. These come
+    tive leader than the Broodmaster, we allow for a upgrade         in all sorts of shapes and sizes, but we categorise all as
+    to the Warlock’s Command in the absence of a Brood-              handguns whether they take the form of blunderbusses,
+    master, to represent an especially ambitious and powerful        muskets, fowling pieces or whatever. For ammunition the
+    Ratter Warlock.                                                  Ratters prefer to employ buck-shot made from pellets of
+                                                                     dried droppings, hard as iron and full of noxious poisons;
+    Ratter Warriors are our core troop type. They are not the
+                                                                     also, readily available in large quantities. These are the
+    worst fighters in the Erehwon game, but nor are they the
+                                                                     only missile weapons considered worthy of Ratter War-
+    best by a long way. They can be armed with a variety of
+                                                                     riors rather than Rat Slaves, but they are only available in
+    hand-to-hand weapons and can be given armour if you
+                                                                     limited number.
+    are feeling generous. Like all Ratters they rely upon the
+    Pack special rule to keep them motivated, which means            Whilst the poisonous filth in which Ratters live means
+    they should be kept under the beady eye of the Broodlord         they are creatures cursed with all kinds of debilitating
+    or Broodmaster.                                                  diseases, a few amongst them have developed natural
+                                                                     resistance to the noxious substances that surround them.
+    Ratter Guard are the best of the bunch, the biggest and
+                                                                     Poisons and contagion have seen off the weaklings: the
+    meanest of their kind, almost certainly the brood-mates
+                                                                     strongest have survived, bred, and even thrived amongst
+    of the Warlord, no doubt favoured with the least-rancid
+                                                                     the filth. They have become Super Rats. Super Rats are
+    morsels from his table. They can be more heavily ar-
+                                                                     big, far bigger than a normal Ratter, incredibly strong
+    moured than ordinary Warriors.
+                                                                     and powerful. They are not all that bright - even by Ratter
+    Rat Slaves are the lowliest of under-Rats, the runtiest,         standards - and easily fall under the sway of more cunning
+    most ill-nourished and most put-upon of rat-kind. They           and devious members of the brood. Super Rats are the
+    get to do all the dirtiest, filthiest and most ghastly jobs in   Ratter equivalent of Ogres, and have been given similar
+    Ratter society - which is saying something considering the       stats and capabilities.
+    all-pervasive level of dirt, filth and ghastliness. They can
+                                                                     Living underground and amongst the cellars and tum-
+    be herded together and forced to fight, even if they are not
+                                                                     bledown ruins of civilisation, Ratters have little use for
+    all that keen. They can also be armed with missiles that
+                                                                     siege-machines that lob missiles high into the air, but they
+    they can shoot - just don’t expect too much from these
+                                                                     make larger versions of their firearms: primitive cannons
+    poor wretches. Note that their slavedriver leader has the
+                                                                     perhaps resembling a large blunderbuss. Such weapons
+    Pack special rule, but the Rat Slaves themselves do not.
+                                                                     are called Ratter Splatter Cannons and are very useful
+    This means that the unit benefits from the rule whilst the
+                                                                     in enclosed tunnels. These might be gunpowder affairs,
+    slavedriver lives, but should he be slain the unit must rely
+                                                                     or perhaps of a type that employs methane gas brewed
+    on its own Command stat... and good luck with that.
+                                                                     amongst the slurry-pits of the Ratters. Maybe flammable
+    Plague Ratters display evident and advanced signs of the         vapours are syphoned from flatulent nestlings, stored in
+    many diseases and vile illnesses to which ratters are prone.     barrels, and allowed to ferment until the noxious contents
+    Their fur may be patchy and crawling with lice, their bod-       are highly pressurised. Whatever the type of cannon we’ll
+    ies are likely to be covered in sores or blighted with boils     treat this in the same way as a regular cannon but give it
+    and vivid rashes. Their limbs may be weak and shrivelled,        further options for the Choking and Fire special rules.
+
+2    Warlords of Erehwon
+The Ratattack Cart is our Ratters’ equivalent of a chariot.       Units with the Pack special rule are treated as having
+Perhaps it takes the form of a mine cart pushed along             a Command stat equal to the Command stat of a Pack
+by industrious slave rats. Maybe it is shaped like a barrel       Master within 10”. If you have more than one Pack Master
+that the ratters propel from within, running upon the             within 10” count the highest stat value. This boost to the
+treadmill interior and bowling the barrel along. It might         unit’s stat is treated just as if the unit had a Command
+possibly be propelled by Giant Rats or even a whole               stat the same as the Pack Master. This applies to all rules
+swarm of tiny rodents. It might even mount a bell to warn         that use the Command stat, not just to tests taken using
+of its approach. Inside deep tunnels the Ratattack Cart           Command. It includes the Automatic Breaks from Pins
+can smash through enemies unable to get out of the way.           rule, for example.
+In the open field it may have its uses too. Whether the
+                                                                  Bear in mind that Rat Slaves only have the Pack rule so
+Ratattack Cart relies upon weight alone, spikes, whirling
+                                                                  long as their Slavedriver is alive - as only the Slavedriver
+blades fastened to it, or whatever, we’ll treat is as a chariot
+                                                                  has the Pack rule and not the Rat Slaves. The same is true
+and give its crew attacks as we would chariot crew. It has
+                                                                  for the Giant Rats. This is intentional!
+no need of specific models to pull or push it - but we’ll
+still apply the results of the chariot damage chart in full       Pack Master Slain/Moves and Autobreaks
+(i.e. a 4 still means the Cart takes 1+D3 pins, goes down,        It can happen that a Pack Master is slain or moves beyond
+and move is reduced to 1M - see p54).                             10” of a Pack unit leaving the unit with enough pins to
+                                                                  cause an automatic break where this was not the case
+Ratters live in close proximity with ordinary rats. Per-
+                                                                  before the Pack Master was slain/moved.
+haps something of the Ratters’ intelligence has rubbed
+off on their smaller cousins, and we may imagine the two          In this situation we allow the Pack unit a chance to sur-
+exchanging squeaky conversation. Rat-sized rats are the           vive if it has not already taken its action that turn (or all of
+eyes and ears of the Ratter community, scurrying about,           its actions should it somehow be endowed with more than
+shadowing strangers, warning of intruders, and ever alert         one). If the Pack unit has no action in hand that turn it is
+to danger and opportunity. We allow for this by including         auto-broken and removed at the end of the current action
+rat swarms in the Warband. We might equally imagine               regardless of which side’s action it happens to be (see p42
+that all Ratters are accompanied by a squeaking mass              of the rulebook for the Autobreak rule).
+of smaller, furry critters that scurry about their feet and       If a unit has yet to make its action and suffers one or more
+nestle within their clothing. We don’t have to worry about        further pins before it has a chance to do so it is auto-bro-
+rules for such things... the occasional squeak from the           ken and removed.
+Ratter player will do the job perfectly well.
+                                                                  Otherwise, the unit can be given an order and can attempt
+We shall also allow for Giant Rats - which is to say rats         an action as normal. It is only auto-broken at the end of
+the size of large dogs or ‘rodents of unusual size’ - fero-       the action if it still has at least as many pins as its Com-
+cious monsters possibly half-way to becoming Ratters in           mand stat (bearing in mind this will be an enhanced stat
+some unfathomable way. Models of these Giant Rats are a           if a Pack Master is now within range).
+common theme in many role-playing games, so we’ll take
+account of them too. I’ve reduced the Initiative and Com-         Note that this exception to the autobreak rule is there to
+mand stats of these compared to those in the Monster list         allow for another Pack Master to move into range and
+because these Giant Rats are very much under the lash of          whip the Ratters into shape, or for the unit to recover
+their Rat Master.                                                 one or more pins and avoid an autobreak by taking an
+                                                                  order test. Depending upon the unit’s own Command stat
+                                                                  it might be sufficient to issue an order (removing a pin
+      SOME SPECIAL RULES FOR RATTERS
+                                                                  whether you pass or fail) or it might be necessary to pass a
+Pack and Pack Master                                              Rally order and shed more pins. In either case, a unit car-
+                                                                  rying so many pins is extremely vulnerable and its options
+The Pack and Pack Master special rule extends and replac-         very limited.
+es the Command and Hero special rules that other races
+have. It makes Ratters especially dependant upon their            Although the Pack rule supplants both the Command and
+Broodlords and Broodmasters. Note that they are still             Hero special rules it doesn’t affect the unit’s Initiative stat
+Warlords and Heroes in terms of our game though - even            or tests that use Initiative. It only affects the unit’s Com-
+though they lack the Command and Hero rule. Ratter                mand stat. Ratter characters have relatively low Initiatives
+Warlocks also have the Pack Master rule, which means              and relatively high Command to enable them to function
+they can also pass on the benefit of their Command as             as Pack Masters.
+described below; however, they still count as Wizards and         The Pack rule has been added at no points cost to those
+not Heroes.                                                       units that have it, but the Pack Master rule is added at
+                                                                  20pts to the individual with the rule.
+
+                                                                                                          Ratter Warband             3
+    Venomous
+    The venomous rule usually applies to individual large
+    monsters. In this list it has been extended to cover most
+    Ratter units. Although it’s included in the stats as a special
+    rule for individual models, remember that the single
+    bonus hit is applied to the whole unit and not to each
+    individual model.
+    So, if a unit with Venomous hand-to-hand attacks scores
+    one or more hits it automatically inflicts one extra hit in
+    total. Similarly, if a unit has Venomous ranged attacks and
+    scores one or more hits it automatically inflicts one extra
+    hit.
+    If the unit includes Venomous individuals with differing
+    hit effects (for example if a Broodlord carries a magic
+    weapon that does so) then the extra hit scored can be
+    assumed to be made by any Venomous model that scored
+    a hit.
+    In the case of Plague Ratters note that hits are both Ven-
+    omous (inflicting an extra hit when any hits are scored)
+    and Choking (ignoring Res bonuses from armour and
+    cover). Plague Ratters are surrounded by a miasma of
+    contagion that defeats all armour.
+    Splatter Cannons
+    These are treated as ordinary cannons but with options
+    to make attacks Choking and/or Fire to represent toxic or
+    combustible ammunition distilled from rat droppings and
+    who knows what. The points for these have been set at
+    +10pts each. Flaming attacks normally work out as 3+SV
+    per attack - but I’ve added 10 points and I think it’s worth
+    it given the cannon’s range. The usual add for Choking at-
+    tacks is only +1 but in this case I’ve added 10 points both
+    to avoid what is otherwise a ‘no brainer’ and taking into
+    account the advantages of combination. It is a judgement
+    and I’m flagging it here to stop folks writing in to tell me
+    I’ve got my sums wrong -in this case at least.
+
+
+
+
+4    Warlords of Erehwon
+                                                 Carry On Slaying...
+The following yarn comprises two excerpts from a piece of
+                                                                ‘The stench!’ exclaimed Rumpo once more as if stupefied.
+short fiction written in the depths of time, other bits and
+pieces are scattered throughout the Erehwon rulebook. At        ‘Clears the lungs doesn’t it,’ proclaimed Dalin taking an
+this point our heroes have penetrated deep into an ancient      especially deep breath to prove the point before plunging
+Dwarf stronghold only to discover that others have got there    his hands into the noisome mound.
+first.                                                          This is the way to sneak about Ratter tunnels without ‘em
+                             ***                                smelling you. Keen sense of smell your Ratter – very keen
+                                                                – keener even than a dog I shouldn’t wonder. A Ratter
+Dalin Olagson sniffed the dank air. ‘Ratters he muttered
+                                                                could smell one of us before we’d even see it in this light.’
+‘ ‘orrible furry beggars. Could be ‘undreds of ‘em in these
+tunnels wouldn’t surprise me.’ There was a glint in his eye     As he spoke, the Dwarf began to smear himself all over
+that suggested he was quite pleased at the prospect.            with the foul ordure.
+‘There was nothing on the map about Ratters,’ exclaimed         ‘You don’t mean…’ began Thandir going quite pale.
+Thandir with an undisguised shudder.                            ‘Fraid so,’ grinned Dalin, enthusiastically guiding the Elf ’s
+‘Aye well,’ snorted Dalin stepping into the narrow tunnel,      elegant hand into an especially ripe vein of vermin dung,
+‘you can’t disbelieve everything you don’t read on treasure     ‘just smear it over yourself like this.’
+maps. I tell you I can smell em’.                                                            ***
+The Dwarf advanced cautiously about twenty paces until          At this point the tale is yet untold, but we may imagine our
+he reached what looked like the door to a chamber. By the       heroes’ misadventures up to the moment when they encoun-
+light of the torch it was apparent the door was made of a       ter a group of Ratters. Bran is knocked unconscious and
+thick, heavy wood and had once been bound with bands            captured along with the diminutive Halfling Rumpo. The
+of iron, now reduced to rusty stains. The door opened           pair are dragged before the Chief Ratter.
+with a gentle groan. Dalin stepped inside taking the torch
+with him. His companions found themselves plunged into                                       ***
+shadows with only the sound of the Dwarf ’s mithering to        ‘Why are they covered in shit?’ squeaked the old one. Its
+guide their steps.                                              eyes darted suspiciously from one minion to the next like
+‘It’s safe,’ shouted Dalin a few moments later as the others    tiny barbs of light.
+groped their way onward.                                        ‘We don’t know, O Master Skreech,’ shrilled the smallest of
+‘The stench it’s unbearable!’ exclaimed Rumpo. The Hal-         vermin. Its tail twitched nervously.
+fling’s famously superior eyesight had obliged him to take      ‘They was like that when we found them,’ jabbered its
+the lead much to his disadvantage.                              companion rather too quickly.
+‘It’s getting stronger too,’ said Thandir in a sleeve-muffled   At this the old one hissed angrily, curling its upper lip to
+but distressed voice that spoke much of Elven sensibilities.    expose a pair of great yellow teeth that came to surpris-
+Indeed, as they approached the door the smell became            ingly savage points. ‘Silence slave!’ it shrieked.
+even worse until they were almost overcome by it. Within        Rumpo felt his Ratter captor quiver. The Halfling winced
+a few steps, stinging tears welled up in their eyes, and a      as the creature’s grip tightened. Its filthy claws dug into his
+rotten taste settled in their mouths. It reminded Bran of       shoulder.
+the noisome stink that hung in the air about Slaughter
+Lane on market days. But this was a thousand times foul-        ‘Take them downstairs and throw them into a pen. You’ll
+er. And it was tinged with something else that the North-       get your reward later,’ snarled the elderly Ratter, somewhat
+man neither liked nor recognized.                               ambiguously Rumpo thought.
+
+The chamber was a rough-hewn square of rock a half              ‘At once, O Master Skreech,’ chattered the furry creature as
+dozen paces in each direction. Piles of filth covered the       it hefted the unconscious form of Bran towards one of the
+floor. Mounds of excrement were heaped high against the         tunnels.
+walls. In the centre of the room, on top of the tallest heap    ‘Thank you, O most generous of Masters,’ said the other as
+of all, stood Dalin. The Dwarf raised his torch aloft. Its      it roughly pushed Rumpo in the same direction.
+ruddy light fell upon the decaying body of a monstrous
+                                                                Beneath the Halfling’s feet the ground sloped unevenly
+hybrid of human and rat. A dozen actual rats squealed as
+                                                                downwards to he knew not where. What hope of rescue in
+the torchlight found them. The creatures quickly scurried
+                                                                this foul hole? Things could hardly get any worse.
+from the corpse to hide amongst the debris.
+                                                                ‘This one looks tasty!’ chuntered the smaller Ratter,
+                                                                squeezing Rumpo judiciously about the buttocks.
+                                                                                                       Ratter Warband             5
+                                                           RATTER BROODLORD
+     Warlord Warriors Unit                                       Points Value: 98
+     Special: You must include one Ratter Broodlord in your warband and one only.
+     Unit: Ratter Broodlord                     Ag         Acc     Str       Res         Init      Co                     Special
+     1 x Ratter Broodlord with sword or axe,                                                               Tough, Pack Master, Follow, 3x HtH,
+                                                 6          4       5        5(6)         6        8
+         light armour                                                                                                    Wound
+     2 x Ratter Bodyguard with sword or
+                                                 6          4       5        5(6)         6        6                       Pack
+         axe, light armour
+                                                                        Options
+     •Give unit huge swords or big axes @Free per model                    •Give unit Venomous rule @5pts making all HtH attacks Venomous
+     •Give unit spears @Free per model                                     •Upgrade Broodlord to Wounds 2 @12pts
+     •Give unit halberds @1pt per model                                    •Upgrade Broodlord to Tough 2 @10pts
+     •Give unit medium armour @10pts + 2pts per Bodyguard model            •Add up to 2 Ratter Bodyguards @9pts each
+       increasing Res to 5(7)
+
+
+
+
+                                                            RATTER WARLOCK
+     Warriors Unit                                               Points Value: 76
+     Special: You can include a maximum of one Ratter Warlock in your warband.
+     Unit: Ratter Warlock                       Ag         Acc     Str       Res         Init     Co                      Special
+                                                                                                              Tough, Pack Master, Wound,
+     1 x Ratter Warlock                          6          4       5         4           6        7
+                                                                                                          Magic Level 1, 1 x HtH SV1 Venomous
+     0 x Rat Slave with dagger                   6          4       5         4           6        6                 Pack, Venomous
+     0 x Spirits of Contagion                                                                                Spirit, 1x HtH SV1 Venomous,
+                                                 5          5       5         5           3        3
+                                                                                                           Exchange of Missiles SV1 Venomous
+                                                                        Options
+     •Give Rat Slaves swords or axes @1pt per model                          •Upgrade Warlock to Magic Level 2 @25pts
+     •Give Rat Slaves light armour @2pts per model increasing Res to         •Upgrade Warlock to Magic Level 3 @50pts
+       4(5)                                                                   •Upgrade Warlock to Tough 2 @10pts
+     •Give Warlock 2x HtH SV1 Venomous attacks @6pts                         •Add up to 4 Rat Slaves @4pts each OR
+     •Upgrade Warlock to Command 8 @2pts only available if there is              Add up to 4 Spirits of Contagion @18pts each
+       no Broodmaster in the warband.
+
+
+
+
+                                                       RATTER BROODMASTER
+     Hero Warriors Unit                                          Points Value: 87
+     Special: You can include a maximum of one Ratter Broodmaster in your warband if it also contains a Warlock, or a maximum two Brood-
+     masters if it does not include a Warlock.
+     Unit: Ratter Broodmaster                   Ag         Acc     Str       Res         Init      Co                     Special
+     1 x Ratter Broodmaster with sword or                                                                Tough 2, Pack Master, 3x HtH, Wound,
+                                                 6          4       6        5(6)         6        8
+         axe, light armour                                                                                             Venomous
+                                                                        Options
+     •Give Broodmaster huge sword or big axe @Free                         •Upgrade Broodmaster to Wounds 2 @12pts
+     •Give Broodmaster halberd @1pt                                        •Upgrade Broodmaster to Wounds 3 @24pts
+     •Give Broodmaster medium armour @10pts increasing Res to 5(7)         •Upgrade Broodmaster to Tough 3 @10pts
+
+
+
+
+6   Warlords of Erehwon
+                                                          RATTER GUARD
+Warriors Unit                                               Points Value: 57
+Special: You can include a maximum of one unit of Ratter Guards in your warband.
+Unit: Ratter Guard                          Ag      Acc       Str          Res      Init      Co                       Special
+1 x Ratter Guard Leader with sword or
+                                            6         4           5        5(6)       6        7                     Tough, Pack
+    axe, light armour
+4 x Ratter Guard with sword or axe,
+                                            6         4           5        5(6)       6        6                        Pack
+    light armour
+                                                                      Options
+•Give unit spears @Free                                                  •Give unit medium armour @2pts per model increasing Res to 5(7)
+•Give unit huge swords or big axes @Free                                 •Give unit Venomous rule @5pts making all HtH attacks Venomous
+•Give unit halberds @1pt per model                                       •Add up to 5 Ratter Guard @9pts each
+
+
+
+
+                                                     RATTER WARRIORS
+Warriors Unit                                               Points Value: 37
+Unit: Ratter Warriors                       Ag      Acc       Str          Res      Init      Co                       Special
+1 x Ratter Warrior Leader with sword
+                                            6         4           5         4         6        7                     Tough, Pack
+    or axe
+4 x Ratter Warrior with sword or axe       6         4           5         4         6        6                        Pack
+                                                                      Options
+•Give unit spears @Free                                                  •Give unit medium armour @4pts per model increasing Res to 4(6)
+•Give unit huge swords or big axes @Free                                 •Give unit Venomous rule @5pts making all HtH attacks Venomous
+•Give unit halberds @1pt per model                                       •Add up to 5 Ratter Warriors @5pts each
+•Give unit light armour @2pts per model increasing Res to 4(5)
+
+
+                                                 RATTER BLUNDERBUSTERS
+Warriors Unit                                                Points Value: 57
+Unit: Ratter Blunderbusters                 Ag      Acc       Str          Res      Init      Co                       Special
+1 x Ratter Blunderbuster Leader with
+                                            6         4           5         4         6        7                     Tough, Pack
+    sword or axe, handgun
+4 x Ratter Blunderbuster with sword or
+                                            6         4           5         4         6        6                        Pack
+    axe, handgun
+                                                                      Options
+•Give unit light armour @2pts per model increasing Res to 4(5)           •Add up to 5 Ratter Blunderbusters @9pts each
+•Give unit Venomous rule @5pts making all HtH and ranged
+  attacks Venomous
+
+
+
+                                                           RAT SLAVES
+Warriors Unit (just about)                                  Points Value: 28
+Unit: Rat Slaves                            Ag      Acc       Str          Res      Init      Co                       Special
+1 x Ratter Slavedriver with lash            6        4            5         4         6        7                     Tough, Pack
+4 x Rat Slave with sword or axe             6        4            4         4         6        6
+                                                                  Options
+•Give Rat Slaves spears @free per model                              •Give Ratter Slavedriver sword or axe @+1pt
+•Give unit light armour @2pts per model increasing Res to 4(5) •Give Ratter Slavedriver spear @+1pt
+•Give unit Venomous rule @5pts making all HtH attacks Venomous •Add up to 5 Rat Slaves @3pts each
+
+
+
+                                                                                                                       Ratter Warband        7
+                                                        RAT SLAVES WITH BOWS
+     Warriors Unit                                                Points Value: 32
+     Unit: Rat Slaves with Bows                 Ag        Acc      Str           Res      Init      Co                      Special
+     1 x Ratter Slavedriver with lash            6         4           5          4         6        7                    Tough, Pack
+     4 x Rat Slaves with dagger, bow             6         4           4          4         6        6
+                                                                           Options
+     •Give Rat Slaves swords or axes @1pt per model                           •Give unit Venomous rule @5pts making all HtH and all ranged
+     •Give Slavedriver sword or axe @1pt                                        attacks Venomous
+     •Give Slavedriver bow @2pts                                               •Add up to 5 Rat Slaves with bows @4pts each
+     •Give unit light armour @2pts per model increasing Res to 4(5)
+
+
+
+                                                        RAT SLAVES WITH SLINGS
+     Warriors Unit                                                Points Value: 36
+     Unit: Rat Slaves with Slings               Ag       Acc       Str           Res      Init      Co                      Special
+     1 x Ratter Slavedriver with lash            6        4            5          4         6        7                    Tough, Pack
+     4 x Rat Slaves with dagger, sling           6        4            4          4         6        6
+                                                                       Options
+     •Give Rat Slaves swords or axes @1pt per model                       •Give unit Venomous rule @5pts making all HtH and all ranged
+     •Give Slavedriver sword or axe @1pt                                    attacks Venomous
+     •Give Slavedriver sling @3pts                                            •Add up to 5 Rat Slaves with slings @5pts each
+     •Give unit light armour @2pts per model increasing Res to 4(5)
+
+
+
+                                                           PLAGUE RATTERS
+     Warriors Unit                                                Points Value: 49
+     Unit: Plague Ratters                       Ag       Acc       Str           Res      Init      Co                      Special
+                                                                                                            1 x HtH SV2 Venomous and Choking,
+     1 x Plague Ratter Leader                    6        4            5          4         6        7
+                                                                                                                       Tough, Pack
+     4 x Plague Ratter                                                                                      1 x HtH SV2 Venomous and Choking,
+                                                 6        4            4          4         6        6
+                                                                                                                           Pack
+                                                                       Options
+     •Give unit Berserk rule @5pts per model                              •Add up to 5 Plague Ratters @6pts each
+     •Give unit Dread rule @10pts
+
+
+
+                                                                SUPER RATTER
+     Monster Unit                                                 Points Value: 32
+     Special: You can include a maximum of one unit of Super Ratters in your warband.
+     Unit: Super Ratter                         Ag        Acc       Str          Res       Init     Co                      Special
+                                                                                                                Large, 2 x HtH SV2 Venomous,
+     1 x Super Ratter                            6         5           5           8        6        7
+                                                                                                                    Frenzied Charge, Pack
+                                                                           Options
+     •Give unit Choking attacks rule @2pts per model                           •Add up to 2 Super Ratters @32pts each
+
+
+
+
+8   Warlords of Erehwon
+                                                              GIANT RATS
+Warriors/Beast Unit                                            Points Value: 53
+Unit: Giant Rats                           Ag       Acc          Str       Res       Init      Co                        Special
+1 x Rat Master with lash                    6         4          5           4        6         7            Tough, Rapid Sprint, Pack
+3 x Giant Rats                              6         -          4           4        5         5       Rapid Sprint, 2x HtH SV1Venomous
+                                                                  Options
+•Give Rat Master light armour @2pts increasing Res to 4(5)               •Give Rat Master sword or axe @1pt
+•Give Rat Master spear @1pt                                              •Add up to 2 Giant Rats @10pts each
+
+
+
+
+                                                              RAT SWARM
+Swarm Unit                                                     Points Value: 75
+Unit: Rat Swarm                            Ag       Acc          Str       Res       Init      Co                        Special
+3 x Rat Swarm                               6         -          4           5        3         8                3x HtH SV1Venomous
+                                                                      Options
+•Add up to 2 Rat Swarms @25pts each
+
+
+
+
+                                                RATTER SPLATTER CANNON
+Artillery Unit                                                 Points Value: 62
+Special: You can include a maximum of one Splatter Cannon in your warband.
+Unit: Ratter Splatter Cannon               Ag       Acc          Str       Res       Init      Co                        Special
+3 x Ratter crew with daggers, cannon        6         4          5           4        6         6                 Pack, Large, Slow 3
+                                                                 Equipment
+1 x Small Cannon
+                                                                  Options
+•Give Ratter crew swords or axes @1pt per model                          •Give Cannon Choking rule @10pts making hits Choking attacks
+•Give unit Large Cannon instead of Small Cannon @50pts                   •Give Cannon Fire rule @10pts making hits Fire attacks
+•Give unit light armour @2pts per crew model increasing Res to           •Add up to 2 Ratter crew to unit @4pts each
+  4(5)
+
+
+
+
+                                                      RATATTACK CART
+Chariot Unit                                                  Points Value: 116
+Special: You can include a maximum of one Ratattack Cart in your warband.
+Unit: Ratattack Cart                       Ag       Acc          Str       Res       Init      Co                        Special
+1 x Ratattack Cart with crew who also                                                                  Large, Fast 6, Irresistable Charge, D6
+                                            3         -           -         10        -         -
+    propel it... somehow                                                                                     SV1 Impact hits on charge
+4 x Ratter crew with sword or axe           -         4          5              -     6         6                         Pack
+
+
+
+                                                                      Options
+•Give crew spears @Free per model                                        •Add up to 2 Ratter crew @5pts each
+•Give Cart Tough rule @10pts allowing re-roll of damage chart
+  result
+
+
+
+
+                                                                                                                         Ratter Warband          9
+                                     WEAPON AND SPECIAL RULE SUMMARY
+
+                                                RANGE
+                                                                    Strike
+                     WEAPON             Short    Long     Extreme   Value                      Special Rules
+                                                                    (SV)
+      Bow                               0-10”    10-20”      -        0
+      Sling                             0-10”    10-20”      -        0      2x ranged attacks on Fire order
+      Handgun                           0-10”    10-20”               3      Fire order to shoot
+      Small Cannon                      0-10”    10-30”   30-40”      5      Fire Order to Shoot, Unstoppable
+      Large Cannon                      0-10”    10-50”   50-100”     8      Fire Order to Shoot, Unstoppable
+
+
+
+
+      Sword or Axe                        Hand-to-Hand Combat         1      +1 Strength
+      Spear                               Hand-to-Hand Combat         1      Can be used for exchange of missiles
+      Lash                                Hand-to-Hand Combat         0      Can be used for exchange of missiles
+      Huge Sword or Big Axe               Hand-to-Hand Combat         2
+      Dagger                              Hand-to-Hand Combat         1
+      Halberd                             Hand-to-Hand Combat         2      +1 Strength
+
+
+      Berserk. Until defeated or fail a break test, double attacks in HtH, automatically pass orders to charge.
+      Choking. Choking attacks ignore the target’s armour and cover bonuses.
+      Dread. -1 to hit shooting/close combat. -1 to break test if defeated by dreaded enemy.
+      Fast/Slow. Move at the basic rate indicated.
+      Follow. Friendly un-pinned units within 5” can follow the unit’s order immediately.
+      Fire. Fire attacks add an extra pin to targets they hit.
+      Frenzied Charge. +1 extra Attack when charging.
+      Irresistible Charge. D3 SV bonus when charging.
+      Large. +1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models.
+      Pack/Pack Master. Pack units count as having the Command stat of Pack Master within 10”.
+      Rapid Sprint. Sprint at 4M.
+      Spirit. Can be sacrificed for a re-roll. Destroyed if wizard is slain.
+      Tough. Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).
+      Unstoppable. Shot penetrates the unit hit and can strike others beyond so long as target is hit each time.
+      Venomous. If one or more hits is scored on the target then one extra hit is added automatically.
+      Wound. Can lose the ‘wounds value’ of lives before a further Res fail slays. Can’t recover pins beyond
+      wounds suffered.
+
+
+
+
+10   Warlords of Erehwon
+

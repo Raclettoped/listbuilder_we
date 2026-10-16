@@ -1,0 +1,1028 @@
+{
+  "warband": "Beastman",
+  "version": "2.2",
+  "updated": "20/01/20",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "This updated version of the Beastman Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game.",
+  "units": [
+    {
+      "name": "Beastman Chieftain",
+      "type": "Warlord Warriors Unit",
+      "points_value": 114,
+      "special": "You must include one Beastman Chieftain or Beastman Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Beastman Chieftain with sword or axe, medium armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Beastman Bodyguard with sword or axe, medium armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit huge sword or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 3,
+          "per": null,
+          "note": "+1pt per Beastman Bodyguard"
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 16,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Beastman Bodyguards",
+          "cost": 17,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 3",
+          "cost": 32,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Beastman Chieftain in Chariot",
+      "type": "Warlord Chariot Unit",
+      "points_value": 171,
+      "special": "You must include one Beastman Chieftain or Beastman Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Chariot with Chieftain and crew in chariot pulled by wild boars",
+          "ag": 5,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough, Fast 6, Irresistable Charge"
+        },
+        {
+          "name": "Beastman Chieftain with sword or axe, medium armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 8,
+          "special": "[Tough], Command, Follow, 3x HtH, [Wound]"
+        },
+        {
+          "name": "Beastman Crew with sword or axe",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        },
+        {
+          "name": "Wild Boars",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1 x HtH SV3"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 16,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 5,
+          "per": null,
+          "note": "+1pt per Beastman Crew"
+        },
+        {
+          "description": "Add up to 2 Beastman Crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Beastman Shaman",
+      "type": "Warrior Unit",
+      "points_value": 62,
+      "special": "You can include a maximum of one Beastman Shaman or Beastman Shaman in Chariot in your warband.",
+      "profiles": [
+        {
+          "name": "Beastman Shaman with sword or axe",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": 6,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "Beastman Shamanic Cultists with sword or axe",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": 6,
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        },
+        {
+          "name": "Animal Spirit Guide or Familiar",
+          "ag": 5,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1xHtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Upgrade Shaman to Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Shamanic Cultists",
+          "cost": 13,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Upgrade Shaman to Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Animal Spirit Guides",
+          "cost": 23,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Shamanic Cultists light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(7)"
+        }
+      ]
+    },
+    {
+      "name": "Beastman Shaman in Chariot",
+      "type": "Chariot Unit",
+      "points_value": 153,
+      "special": "You can include a maximum of one Beastman Shaman or Beastman Shaman in Chariot in your warband.",
+      "profiles": [
+        {
+          "name": "Chariot with Shaman and crew in chariot pulled by wild boars",
+          "ag": 5,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough, Fast 6, Irresistable Charge"
+        },
+        {
+          "name": "Beastman Shaman with sword or axe",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": 6,
+          "init": 7,
+          "co": 8,
+          "special": "[Tough], [Wound], Magic Level 1"
+        },
+        {
+          "name": "Beastman Crew with sword or axe",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        },
+        {
+          "name": "Wild Boars",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1 x HtH Attack SV 3"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Upgrade Shaman to Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": null,
+          "note": "+ 1pt per Beastman Crew"
+        },
+        {
+          "description": "Upgrade Shaman to Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Beastman Crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Minotaur Lord",
+      "type": "Monster Unit",
+      "points_value": 66,
+      "special": "You can include a maximum of one Minotaur Lord unit in your warband.",
+      "profiles": [
+        {
+          "name": "Minotaur Lord, sword or axe, light armour",
+          "ag": 4,
+          "acc": 4,
+          "str": 6,
+          "res": "8(9)",
+          "init": 8,
+          "co": 8,
+          "special": "Large, Tough, 3x HtH, Frenzied Charge, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Minotaur Lord huge sword or big axe",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Minotaur Lord improbably vast sword or bloomin' big axe",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Minotaur Lord medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 8(10)"
+        },
+        {
+          "description": "Give Minotaur Lord Irresistible Charge instead of Frenzied Charge",
+          "cost": 8,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Minotaur Lord Savage rule",
+          "cost": 3,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Centaur Lord",
+      "type": "Monster Unit",
+      "points_value": 71,
+      "special": "You can include a maximum of one Centaur Lord unit in your warband.",
+      "profiles": [
+        {
+          "name": "Centaur Lord, sword or axe, medium armour",
+          "ag": 7,
+          "acc": 6,
+          "str": 6,
+          "res": "6(8)",
+          "init": 8,
+          "co": 8,
+          "special": "Large, Tough, Fast 8, 3 x HtH, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Centaur Lord lance",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Centaur Lord spear",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Centaur Lord bow",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give centaur Lord Savage rule",
+          "cost": 3,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Centaur Lord Dead Eye Shot rule",
+          "cost": 5,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Beastman Guard",
+      "type": "Warrior Unit",
+      "points_value": 87,
+      "special": "You can include a maximum of one unit of Beastman Guard in your warband.",
+      "profiles": [
+        {
+          "name": "Beastman Leader with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Beastman with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(7)",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(8)"
+        },
+        {
+          "description": "Give unit big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Beastmen",
+          "cost": 15,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Beastman Warriors",
+      "type": "Warrior Unit",
+      "points_value": 67,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Beastman Leader with sword or axe",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": 6,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Beastman with sword or axe",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": 6,
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(7)"
+        },
+        {
+          "description": "Give unit big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Beastmen",
+          "cost": 11,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Low Beastman Warriors",
+      "type": "Warrior Unit",
+      "points_value": 42,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Low Beastman Leader with club",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Low Beastman with club",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 6,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit swords or axes",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Beastmen",
+          "cost": 6,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Low Beastman Archers",
+      "type": "Warrior Unit",
+      "points_value": 52,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Low Beastman Leader with club, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Low Beastman with club, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 6,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords or axes",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Beastmen",
+          "cost": 8,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Minotaurs",
+      "type": "Monster Unit",
+      "points_value": 98,
+      "special": "You can include a maximum of one unit of Minotaurs in your warband.",
+      "profiles": [
+        {
+          "name": "Minotaur Champion with axe",
+          "ag": 4,
+          "acc": 4,
+          "str": 6,
+          "res": 8,
+          "init": 7,
+          "co": 8,
+          "special": "Large, Tough, 2x HtH, Frenzied Charge"
+        },
+        {
+          "name": "Minotaur with axe",
+          "ag": 4,
+          "acc": 4,
+          "str": 6,
+          "res": 8,
+          "init": 7,
+          "co": 7,
+          "special": "Large, 2x HtH, Frenzied Charge"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit bloomin' big axes",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Minotaurs to unit",
+          "cost": 28,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit Irresistible Charge instead of Frenzied Charge",
+          "cost": 8,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Centaurs",
+      "type": "Monster Unit",
+      "points_value": 108,
+      "special": "You can include a maximum of one unit of Centaurs in your warband.",
+      "profiles": [
+        {
+          "name": "Centaur Champion with club",
+          "ag": 7,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Fast 8, 2x HtH"
+        },
+        {
+          "name": "Centaur with club",
+          "ag": 7,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 8,
+          "co": 7,
+          "special": "Fast 8, 2x HtH"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords or axes",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(7)"
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 4,
+          "per": "model",
+          "note": "increasing Res to 6(8)"
+        },
+        {
+          "description": "Give unit Dead Eye Shot",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Centaurs to unit",
+          "cost": 32,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Harpies",
+      "type": "Warrior Unit",
+      "points_value": 150,
+      "special": "You can include a maximum of one unit of Harpies in your warband.",
+      "profiles": [
+        {
+          "name": "Harpies with rocks",
+          "ag": 10,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 9,
+          "co": 9,
+          "special": "Flies, Fast 10, 2x HtH SV1, 1x Drops SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Vengeful rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Harpies to unit",
+          "cost": 50,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Beast Hounds",
+      "type": "Warrior/Beast Unit",
+      "points_value": 85,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Beastman Pack master with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Rapid Sprint"
+        },
+        {
+          "name": "Beasthounds",
+          "ag": 5,
+          "acc": "-",
+          "str": 6,
+          "res": 7,
+          "init": 5,
+          "co": 5,
+          "special": "Savage, Rapid Sprint"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Pack Master medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(8)"
+        },
+        {
+          "description": "Add up to 5 Beast Hounds",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Beast Hounds Dog Breath",
+          "cost": 1,
+          "per": "model",
+          "note": "giving all Beasthounds Choking attacks."
+        }
+      ]
+    },
+    {
+      "name": "Beastman Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Low Beastman crew with swords or axes, bolt throwing engine",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Add up to 2 Low Beastman crew to unit",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
+          "cost": 21,
+          "per": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire order required to shoot, 3x Ranged Attacks"
+    },
+    {
+      "weapon": "Large Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 5,
+      "special_rules": "Fire order required to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Rock",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Also HtH"
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 to Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can be used for exchange of missiles"
+    },
+    {
+      "weapon": "Long Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Cancels charge bonus"
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "+1 to Strength"
+    },
+    {
+      "weapon": "Club",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Bloomin' Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "Heavily Laden"
+    },
+    {
+      "weapon": "Lance",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "SV3 on charge"
+    }
+  ],
+  "special_rules": {
+    "Choking": "Choking attacks ignore the target's armour and cover bonuses.",
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Dead Eye Shot": "Re-roll 1 miss.",
+    "Flies": "Moves over any terrain/obstacles without test or penalties. Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, or if flyers are down.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Frenzied Charge": "+1 extra Attack when charging.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw Los over non-large models (artillery overhead only)",
+    "Rapid Sprint": "Sprint at 4M.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Savage": "Re-roll Str to hit in first round of combat in game.",
+    "Spirit": "Can be sacrificed for a re-roll. Destroyed if wizard is slain.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Unstoppable": "Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time. Roll twice on the monstrosity damage table.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

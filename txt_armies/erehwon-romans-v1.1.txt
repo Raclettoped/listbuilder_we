@@ -1,0 +1,527 @@
+                                                  Romans
+Version 1.1
+Date: 21/11/2019
+
+Yes I know... Romans are not what you’d call a figment of       Our list includes a Centurion in the role of Warlord to
+the imagination. So, what are they doing here you might         head-up our gallant Romans. He might equally well be
+well ask? Well, Warlords of Erehwon aims to encompass           a senior officer of the senatorial class, a legate (Legates
+the whole realm of myth and folklore as well as pure            Legionis - who commanded a legion), tribune (Tribunus
+fantasy, which naturally leads us to classical subjects and     Laticlavius - his second in command), or equestrian trib-
+historical mythology. This list is based on the age of the      une (staff officiers). Or he could be another character who
+Roman legions, which we’ll acknowledge as lasting from          finds himself in charge of your warband, perhaps a former
+the time of Augustus to the mid-third century. In other         soldier turned settler, maybe a rebel leader unfortunate to
+words, we are talking about Romans as they are common-          choose the wrong side in the Year of Four Emperors.
+ly portrayed and understood in film, TV, etc.
+                                                                Our hero is more likely to be one of the senior Centuri-
+This list is not strictly ‘historical’ in so far as I’ve con-   ons or perhaps a battle-hardened veteran. Alternatively,
+structed it to represent a warband as defined in the game.      he might have learned his fighting prowess as a private
+However, it uses historical troop types wielding historical     bodyguard or even a gladiator, but whatever his story we
+weapons, and we will have to simply imagine how such            present him armed and armoured as we might expect a
+a body of men has come about. Perhaps they are refu-            Roman officer to be. We’ve also allowed for our hero to
+gees from some disaster: the remnants of the 9th Legion         ride a chariot, not a strictly historical option for a military
+fleeing the wrath of the Iceni Queen, or a band of survi-       force, but our hero has plainly seen the right movies.
+vors from the sorry defeat of Crassus at the hands of the
+                                                                The Haruspex may be imagined as the Priest of one or
+Parthians. Maybe they are a small force dispatched to
+                                                                other of the many Roman cults that were popular with
+raid beyond the frontier, rescue Roman captives, or detain
+                                                                soldiers. Although the presence of a magic-wielding sor-
+some trouble-making tribal chief.
+                                                                cerer is entirely fictional, the ancients believed in all kinds
+Either way, I have taken the liberty of adding a Haruspex       of magics and eagerly sought the omens before engaging
+to turn the ‘historical’ warband into a fantasy one, should     in battle. We give our chap the usual choice of hangers-on,
+players wish to do so. I’ve also added gladiators and a         either mortal or spiritual, and leave it to players to fix
+few other romantic elements. Gladiators did actually take       upon suitable models for the latter.
+to the field on at least one occasion, but that was rather
+                                                                Legionaries are represented in different guises to allow
+the exception. Anyone wishing to play a more accurately
+                                                                us to field our typical fighting men as well as veterans,
+historical game can ignore such things.
+                                                                heavily armoured troops, or work parties armed with the
+I’m sure that anyone who has a yen to field Romans will         dolabra. Heavy legionaries are equipped with segmented
+be familiar enough with the subject to dispense with the        manica to protect their sword arms, reinforced helmets
+usual Erehwonian summary of their place in literature,          and shoulder armour, and possibly with greaves as well.
+popular culture and history. If we choose to take our           They were prominent during the time of Trajan’s Da-
+examples from history, then we already know what we             cian wars and their armour may have been developed to
+are about and I shall spare you a potted history of the         counter the fearsome double-handed falx of the Dacians
+Julio-Claudian dynasty and its successors. If, on the other     (equivalent to a big axe).
+hand, our motivation comes from such sources as The
+                                                                Legionaries formed into work parties would wear their
+Life of Bryan, Carry On Cleo, and Gladiator, then we are
+                                                                armour if they suspected trouble, keeping helmets and
+already primed with all we need to know. So, step forward
+                                                                shields at hand. Hence I have allowed for lighter armour
+Biggus Dickus... the mighty Hengist Pod by your side ...
+                                                                and an upgrade. I’ve armed them with the ubiquitous
+and titter ye not Lurkio... the Romans are here.
+                                                                work-tool, the pick-axe-like ‘dolabra’ (big axe equivalent)
+                                                                as useful for hewing bone and piercing armour as for
+            “Nec terrore! Nec terrore!”                         chopping wood and breaking stone.
+                                                                The architypal weapon of the legionary is the sword com-
+                                  Optio Ionnis                  bined with a heavy javelin - the pilum. I have included
+                                                                new rules for the pila because it is a characteristic weapon
+                                                                with a specific tactical role, which I’ve tried to reflect in
+                                                                terms of our game without creating a ‘super weapon’.
+                                                                                                       Roman Warband              1
+    Auxiliaries provide further infantry options in what is        were lighter. Roman soldiers carried one heavy and one
+    fundamentally an infantry-based warband. Unarmoured            light version. Pila were held back until just before contact
+    and lightly armoured missile troops take the form of           in order to cause the most damage, and also - one imagi-
+    slingers, archers and javelinmen. Our typical Auxiliary        nes - because their weight gave them only a limited range
+    trooper wears a mail coat and a helmet, and he bears           compared to conventional javelins.
+    a shield and spear. In fact, he is as well-armoured as
+                                                                   The pilum is represented as follows. The pilum is a missile
+    a legionary, even if he does not enjoy the same status:
+                                                                   weapon which has no range and is only used during an
+    legionaries were Roman citizens - auxiliaries could earn
+                                                                   exchange of missiles. The first time the unit throws its pila
+    citizenship by military service and this was one reason
+                                                                   it counts as having an SV of 2. When the unit throws pila
+    locals signed up.
+                                                                   subsequently it counts as having an SV of 1. This repre-
+    Although one does not immediately think of cavalry when        sents the initial dischange of the heavier weapon, followed
+    Romans are mentioned, their army included mounted              by subsequent use of the lighter weapon or discards. The
+    units, which were called Alae or ‘wings’. Alae were divided    pilum has been costed at 2pts.
+    into Turmae - a Turma being roughly a squadron of 32
+                                                                   Note that not all models of Roman legionaries are por-
+    men. I’ve tried to represent a variety of historical caval-
+                                                                   trayed with their pila. Rarely are they blessed with more
+    ry types, although not all types would necessarily serve
+                                                                   than one. It is left to players to decide whether to assume
+    across the whole of the Roman Empire.
+                                                                   units carry pila or to field their troops ‘as you see’. The
+    The most common kind of cavalry are Auxiliary cavalry          usual rule in Warlords of Erehwon is to assume mod-
+    equipped with a number of spears both to throw or thrust.      els armed with thrown missiles carry enough to last the
+    A few units were equipped with a longer spear called the       whole battle, regardless of how many a model carries.
+    Contos, that was held in two hands. This type of long
+                                                                   Alternatively, if players want to come to some mutually
+    lance was probably inspired by Sarmatian cavalry encoun-
+                                                                   acceptable arrangement limiting the number of times a
+    tered by Romans during the wars against the Dacians in
+                                                                   model or unit can throw pila, then that’s entirely fine. I
+    what is modern Romania. I’ve added this option as a lance
+                                                                   would sooner avoid the book-keeping myself, but ‘never
+    along with the option to carry swords.
+                                                                   say never’. Imagine a situation where a last stand of le-
+    Other cavalry units were equipped with heavier armour          gionaries is obliged to harbour its resources in the face of
+    and some were designated as Cataphractarii or Clibanar-        a relentless foe. Can we hold out until nightfall and sneak
+    ii. It’s not clear what the difference between these is - or   off under cover of darkness? O tempora o mores. (Which
+    even if there is any - but I’ve followed the suggestion that   is your actual Latin for ‘no more battered vegetables’).
+    Clibararii were armed in a more eastern tradition and
+                                                                   Rete
+    carried bows.
+                                                                   The Retiarius is the gladiator who fights with net (rete)
+    Gladiators give us an unusual fighting unit. The most
+                                                                   and trident. Although gladiators certainly fought in
+    heavily armoured have been given the slow rule, as well as
+                                                                   real-life conflicts on occasion they certainly did so using
+    the usual penalties, to represent the lumbering armour of
+                                                                   more conventional arms. However, I’ve allowed for our
+    the most heavily armoured gladiators. This has loose his-
+                                                                   gladiators to have nets as an option because it gives us an
+    torical precedence and plenty of support from the movies
+                                                                   interesting and different combatant. The net is a hand-
+    and literature, ‘Ave Imperator, morituri te salutant!’
+                                                                   hurled missile weapon that can only be thrown as part of
+    Our Roman warband is favoured with artillery options in        an exchange of missiles. Hits from a net cause no damage,
+    the form of the familiar Scorpion bolt-throwing engine         but inflict a pin on the target in the usual way.
+    and stone throwing Ballista.
+                                                                   In addition, if the target is a warrior or mounted unit,
+    Don’t Point That Pilum at me!                                  make a D10 test against the total number of net hits
+                                                                   scored. If successful then 1 opposing model cannot strike
+    The archetypical weaponry of the Roman legionary com-
+                                                                   any blows at all during the ensuing hand-to-hand fighting,
+    prises a stout sword (gladius) and a brace of heavy javelins
+                                                                   including in any follow-on combat. This model is chosen
+    (pila - singular pilum). With a small diamond-shaped
+                                                                   from the unit by the player that threw the net. The model
+    head and long, thin, iron shank the weighted pilum was
+                                                                   is tangled in the net for the duration of the fighting, but
+    designed to penetrate shields and armour (not to mention
+                                                                   is automatically freed at the conclusion of fighting if still
+    bodies).
+                                                                   alive. The net is costed at 1pt.
+    Pila varied in weight, but we can think of them as ‘heavy
+                                                                   Note that I’ve used the rule developed for the bolas in the
+    javelins’ similar to other weighted missiles such as the
+                                                                   Lizardmen list, where it can be found together with exam-
+    Frankish Angon and later Roman Plumbata. Some pila
+                                                                   ples should you seek further clarification. The same rule
+    incorporated a substantial lead weight to give them great-
+                                                                   can equally be used for lariats or lassos.
+    er penetrating power, but others lacked this feature and
+
+2    Warlords of Erehwon
+                                                          CENTURION
+Warlord Warriors Unit                                     Points Value: 108
+Special: You must include one Centurion or Mounted Centurion in your warband and one only.
+Unit: Centurion                               Ag    Acc     Str       Res     Init      Co                      Special
+1 x Centurion with sword, medium                                                                 Tough, Command, Follow, 3x HtH,
+                                              5      5       5       5(7)       8        8
+    armour                                                                                                   Wound
+2 x Bodyguard with sword, medium
+                                              5      5       5       5(7)       7        8
+    armour
+                                                              Options
+•Give unit pila @2pts per model                                    •Give unit Disciplined rule @10pts
+•Upgrade Centurion to Wounds 2 @14pts                              •Add up to 2 Bodyguards @16pts each
+•Upgrade Centurion to Tough 2 @10pts
+
+
+
+
+                                                   MOUNTED CENTURION
+Warlord Mounted Unit                                      Points Value: 134
+Special: You must include one Centurion or Mounted Centurion in your warband and one only.
+Unit: Mounted Centurion                       Ag    Acc     Str       Res     Init      Co                      Special
+1 x Mounted Centurion with sword,                                                               Tough, Command, Follow, Fast 8, 3x
+                                              5      5       5       6(8)       8        8
+    medium armour                                                                                          HtH, Wound
+2 x Mounted Bodyguard with sword,
+                                              5      5       5       6(8)       7        8                      Fast 8
+    light armour
+                                                              Options
+•Give unit spears @Free per model                                  •Give unit Disciplined rule @10pts
+•Upgrade Centurion to Wounds 2 @16pts                              •Add up to 2 Bodyguards @24pts each
+•Upgrade Centurion to Tough 2 @10pts
+
+
+
+
+                                                          HARUSPEX
+Warriors Unit                                              Points Value: 57
+Special: You can include a maximum of one Haruspex in your warband.
+Unit: Haruspex                                Ag   Acc      Str       Res     Init      Co                      Special
+1 x Haruspex with sword                       5     5        5         5        7        8           Tough, Wound, Magic Level 1
+0 x Acolytes with sword                       5     5        5         5        7        7
+                                                                                                         Spirit, 1x HtH SV1,
+0 x Genii Spirits                             5     5        5         5        3        3
+                                                                                                       Exchange of Missiles SV1
+                                                              Options
+•Give Haruspex dolabra (big axe) @free                             •Give Haruspex and Acolytes light armour @5pts + a further 2pts
+•Upgrade Haruspex to Magic Level 2 @25pts                            per Acolyte model increasing Res to 5(6)
+•Upgrade Haruspex to Magic Level 3 @50pts                          •Add up to 4 Acolytes @ 10pts each OR
+•Upgrade Haruspex to Tough 2 @10pts                                 Add up to 4 Genii Spirits @ 18pts each
+•Give unit Divine Intervention rule @10pts
+
+
+
+
+                                                                                                               Roman Warband           3
+                                                                  ROMAN HERO
+     Warriors Unit                                                 Points Value: 85
+     Special: You can include a maximum of one Roman Hero, Roman Mounted Hero or Roman Hero in Chariot in your warband.
+     Unit: Roman Hero                           Ag       Acc        Str          Res       Init     Co                     Special
+     1 x Roman Hero with sword, medium
+                                                5         5          6           6(8)       9       9          Tough 2, Hero, 3x HtH, Wound
+         armour
+                                                                      Options
+     •Give Hero pilum @2pts                                                    •Upgrade Hero to Wounds 3 @32pts
+     •Give unit Disciplined rule @10pts                                        •Upgrade Hero to Tough 3 @10pts
+     •Upgrade Hero to Wounds 2 @16pts
+
+
+
+                                                        MOUNTED ROMAN HERO
+      Mounted Unit                                                 Points Value: 95
+      Special: You can include a maximum of one Roman Hero, Roman Mounted Hero or Roman Hero in Chariot in your warband.
+      Unit: Mounted Roman Hero                  Ag       Acc        Str           Res      Init     Co                     Special
+      1 x Mounted Roman Hero with sword,                                                                    Tough 2, Hero, 3x HtH, Wound,
+                                                5         5          6           7(9)       9        9
+          medium armour                                                                                                  Fast 8
+                                                                         Options
+      •Give Hero spear @free                                                   •Upgrade Hero to Tough 3 @10pts
+      •Give Hero javelins @2pts                                                •Upgrade Hero to Wound 2 @18pts
+      •Give unit Disciplined rule @10pts                                       •Upgrade Hero to Wound 3 @36pts
+
+
+
+
+                                                        ROMAN HERO IN CHARIOT
+       Chariot Unit                                                Points Value: 160
+       Special: You can include a maximum of one Roman Hero, Roman Mounted Hero or Roman Hero in Chariot in your warband.
+       Unit: Roman Hero in Chariot              Ag        Acc        Str          Res       Init     Co                     Special
+       1 x Chariot with Roman Hero and crew                                                                        Large, Tough 2, Fast 8,
+                                                 3            -          -         10           -       -
+           pulled by two horses                                                                                       Irresistible Charge
+       1 x Roman Hero with sword, [medium
+                                                [5]        5          6          [6(8)]      9        9      [Tough 2], Hero, 3x HtH, [Wound}
+           armour]
+       1 x Roman crew with sword                    -      5          5                -        -       -                      -
+       2 x Horse                                    -         -          -             -        -       -                      -
+                                                                             Options
+       •Give Hero and crew pilum @4pts                                          •Upgrade Hero to Wound 2 @16pts on foot only
+       •Give unit Disciplined rule @10pts                                       •Upgrade Hero to Wound 3 @32pts on foot only
+       •Upgrade Hero to Tough 3 @10pts                                           •Give chariot Scythes @25pts with D6 SV1 impact hits on charge
+
+
+
+
+4   Warlords of Erehwon
+                                                  ROMAN LEGIONARIES
+Warriors Unit                                             Points Value: 82
+Unit: Roman Legionaries                   Ag       Acc      Str      Res      Init       Co                   Special
+1 x Roman Optio with sword, medium
+                                           5        5        5       5(7)      7         8                       Tough
+    armour
+4 x Roman Legionary with sword,
+                                           5        5        5       5(7)      7         7
+    medium armour
+                                                              Options
+•Give unit pila @2pts per model                                   •Add up to 5 Roman legionaries @14pts each
+•Give unit Disciplined rule @10pts
+
+
+
+                                               LEGIONARY WORKING PARTY
+Warriors Unit                                             Points Value: 72
+Special: You can include a maximum of one Legionary Working Party in your warband.
+Unit: Legionary Working Party             Ag       Acc      Str      Res      Init       Co                   Special
+1 x Roman Optio with dolabra (big
+                                           5        5        5       5(6)      7         8                       Tough
+    axe), light armour
+4 x Roman Legionary with dolabra (big
+                                           5        5        5       5(6)      7         7
+    axe), light armour
+                                                              Options
+•Give unit swords @Free per model                                 •Give unit medium armour @2pts per model increasing Res to 5(7)
+•Give unit Disciplined rule @10pts                                •Add up to 5 Legionaries with dolabra @12pts each
+
+
+
+
+                                         LEGIONARIES IN HEAVY ARMOUR
+Warriors Unit                                             Points Value: 77
+Special: You can include a maximum of one unit of Legionaries in Heavy Armour in your warband.
+Unit: Legionaries in Heavy Armour         Ag       Acc      Str      Res      Init       Co                   Special
+1 x Roman Optio in heavy armour with
+                                           4        5        5       5(8)      6         8             Tough, Heavily Laden
+    sword, heavy armour
+4 x Roman Legionary in heavy armour
+                                           4        5        5       5(8)      6         7                 Heavily Laden
+    with sword, heavy armour
+                                                              Options
+•Give unit pila @2pts per model                                   •Add up to 5 Legionaries in heavy armour @13pts each
+•Give unit Disciplined rule @10pts
+
+
+
+                                                 VETERAN LEGIONARIES
+Warriors Unit                                             Points Value: 100
+Special: You can include a maximum of one unit of Veteran Legionaries in your warband.
+Unit: Veteran Legionaries                 Ag      Acc       Str      Res      Init       Co                   Special
+1 x Veteran Optio with sword, medium
+                                           5        5        6       5(7)      7         8                       Tough
+    armour
+4 x Veteran Legionary with sword,
+                                           5        5        6       5(7)      7         8
+    medium armour
+                                                              Options
+•Give unit pila @2pts per model                                   •Add up to 5 Veteran Legionaries @18pts each
+•Give unit Disciplined rule @10pts
+
+
+
+
+                                                                                                              Roman Warband           5
+                                                         ROMAN AUXILIARIES
+     Warriors Unit                                               Points Value: 72
+     Unit: Roman Auxiliaries                    Ag       Acc       Str      Res       Init      Co                      Special
+     1 x Auxiliary Decurion with sword,
+                                                 5         5           5    5(6)       7         8                       Tough
+         light armour
+     4 x Auxiliary with sword, light armour      5         5           5    5(6)       7         7
+                                                                       Options
+     •Give unit spears @Free per model                                    •Add up to 5 Roman Auxiliaries @12pts each
+     •Give unit medium armour @2pts per model increasing Res to 5(7)
+
+
+
+
+                                               AUXILIARY INFANTRY WITH BOWS
+     Warriors Unit                                               Points Value: 72
+     Unit: Auxiliary Infantry with Bows         Ag       Acc       Str      Res       Init      Co                      Special
+     1 x Decurion with sword or axe, bow         5         5           5      5        7         8                       Tough
+     4 x Bowman with sword or axe, bow           5         5           5      5        7         7
+                                                                       Options
+     •Give unit light armour @2pts per model increasing Res to 5(6)       •Add up to 5 Bowmen @12pts each
+
+
+
+
+                                              AUXILIARY INFANTRY WITH JAVELINS
+     Warriors Unit                                               Points Value: 72
+     Unit: Auxiliary Infantry with Javelins     Ag       Acc       Str      Res       Init      Co                      Special
+     1 x Decurion with sword, javelin            5         5           5      5        7         8                       Tough
+     4 x Infantry with sword, javelin            5         5           5      5        7         7
+                                                                       Options
+     •Give unit light armour @2pts per model increasing Res to 5(6)       •Add up to 5 Infantry with javelin @12pts each
+
+
+
+
+                                              AUXILIARY INFANTRY WITH SLINGS
+     Warriors Unit                                               Points Value: 77
+     Unit: Auxiliary Infantry with Slings       Ag       Acc       Str      Res       Init      Co                      Special
+     1 x Decurion with sword, sling              5         5           5      5        7         8                       Tough
+     4 x Slinger with sword, sling               5         5           5      5        7         7
+                                                                       Options
+     •Give unit light armour @2pts per model increasing Res to 5(6)       •Add up to 5 Slingers @13pts each
+
+
+
+
+6   Warlords of Erehwon
+                                         ROMAN AUXILIARY CAVALRY - EQUITES
+Mounted Unit                                                Points Value: 72
+Unit: Auxiliary Cavalry                     Ag       Acc     Str      Res      Init     Co                    Special
+1 x Decurion with spear, light armour      5         5       5       6(7)      7        8                  Tough, Fast 8
+2 x Cavalryman with spear, light
+                                            5         5       5       6(7)      7        7                     Fast 8
+    armour
+                                                               Options
+•Give unit swords @ free per model                                  •Add up to 2 Cavalrymen @20pts each
+•Give unit lances @1pt per model to make Contarii
+
+
+
+
+                               ROMAN CATAPHRACT CAVALRY - CATAPHRACTARII
+Mounted Unit                                                Points Value: 81
+Special: You can include a maximum of one Cataphract unit in your warband.
+Unit: Cataphract Cavalry                    Ag       Acc     Str      Res      Init     Co                    Special
+1 x Decurion with lance, medium
+                                            5         5       5       6(8)      7        8                  Tough, Fast 8
+    armour
+2 x Cavalryman with lance, medium
+                                            5         5       5       6(8)      7        7                     Fast 8
+    armour
+                                                               Options
+•Give unit heavy armour @1pt per model increasing Res to 6(9) and •Add up to 2 Cavalrymen @23pts each
+  adding Heavily Laden rule (no sprint)
+•Give unit bow @2pts per model only if also given heavy armour to
+  make eastern Clibanarii
+
+
+
+
+                                          ROMAN HORSE ARCHERS - SAGITTARII
+Mounted Unit                                                Points Value: 78
+Special: You can include a maximum of one Horse Archer unit in your warband.
+Unit: Horse Archers                         Ag       Acc     Str      Res      Init     Co                    Special
+1 x Decurion with sword, bow, light
+                                            5         5       5       6(7)      7        8                  Tough, Fast 8
+    armour
+2 x Horse Archer with sword, bow,
+                                            5         5       5       6(7)      7        7                     Fast 8
+    light armour
+                                                               Options
+•Add up to 2 Horse Archers 22pts each
+
+
+
+                                                          LIGHT CAVALRY
+Mounted Unit                                                Points Value: 72
+Unit: Auxiliary Cavalry                     Ag       Acc     Str      Res      Init     Co                    Special
+1 x Decurion with sword, javelin           5         5       5         6       7        8                  Tough, Fast 8
+2 x Cavalryman with sword, javelin         5         5       5         6       7        7                     Fast 8
+                                                               Options
+•Add up to 2 Light Cavalry @20pts each
+
+
+
+
+                                                                                                              Roman Warband   7
+                                                               GLADIATORS
+     Warriors Unit                                                  Points Value: 82
+     Unit: Gladiators                           Ag       Acc         Str      Res       Init      Co                      Special
+     1 x Gladiator Leader with sword             5        5           6         6        7         8                       Tough
+     4 x Gladiator with sword                    5        5           6         6        7         7
+                                                                      Options
+     •Give unit light armour @2pts a model increasing Res to 6(7)            •Give unit Nets @1pts per model - not available to Gladiators in
+     •Give unit medium armour @4pts a model increasing Res to 6(8)             heavy armour
+     •Give unit heavy armour @3pts a model increasing Res to 6(9)           •Add up to 5 Gladiators @14pts each
+       reducing Ag and Init by 1 and adding Heavily Laden rule
+
+
+
+
+                                                 ROMAN CATAPULT - SCORPION
+     Artillery Unit                                                 Points Value: 84
+     Unit: Roman Catapult - Scorpion            Ag       Acc         Str      Res       Init      Co                      Special
+     3 x Legionary crew with swords, medi-
+                                                 5        5           5       5(7)       7         7                   Large, Slow 3
+         um armour, bolt throwing engine
+                                                                      Equipment
+     •1 x Small Bolt Thrower
+
+                                                                      Options
+     •Give unit Large Bolt Thrower instead of Small Bolt Thrower            •Add up to 2 Legionary crew to unit @14pts each
+       @21pts
+
+
+
+                                                  ROMAN CATAPULT - BALLISTA
+     Artillery Unit                                                 Points Value: 96
+     Unit: Roman Catapult - Ballista            Ag       Acc         Str      Res       Init      Co                      Special
+     3 x Legionary crew with swords, medi-
+                                                 5        5           5       5(7)       7         7                   Large, Slow 3
+         um armour, stone throwing engine
+                                                                      Equipment
+     •1 x Small Stone Thrower
+
+                                                                      Options
+     •Give unit Large Stone Thrower instead of Small Stone Thrower          •Add up to 2 Legionary crew to unit @14pts each
+       @27pts
+
+
+
+
+8   Warlords of Erehwon
+                              WEAPON AND SPECIAL RULE SUMMARY
+
+                                         RANGE
+                                                            Strike
+               WEAPON            Short    Long    Extreme   Value                       Special Rules
+                                                            (SV)
+Pilum                              -        -        -       1/2     Exchange of missiles only. SV2 first use.
+Bow                              0-10”   10-20”      -        0
+Sling                            0-10”   10-20”      -        0      2x ranged attacks on Fire order
+Javelin                          0-10”      -        -        1
+Net                                                                  Exchange of missiles only. No Damage. Test num-
+                                   -        -        -        -
+                                                                     ber of hits to disable.
+Small Bolt Thrower               0-20”   20-30”    30-40”     3      Fire Order to Shoot, 3x Ranged SV3
+Large Bolt Thrower               0-20”   20-40”    40-60”     5      Fire Order to Shoot, Unstoppable
+Small Stone Thrower             10-30”   30-40”    40-60”     3      Overhead, Fire order required to shoot, D6 hits
+Large Stone Thrower             10-30”   30-50”    50-80”     6      Overhead, Fire order required to shoot, D6 hits
+
+
+Sword or Axe                       Hand-to-Hand Combat        1      +1 Strength
+Spear                              Hand-to-Hand Combat        1      Can be used for exchange of missiles
+Lance                              Hand-to-Hand Combat       1/3     SV3 on Charge
+Huge Sword or Big Axe              Hand-to-Hand Combat        2
+Daggers                            Hand-to-Hand Combat        1
+
+
+
+
+Command. Friendly units within 10” can use the model’s Co stat to take Command based tests.
+Disciplined. Lose all pins when pass a Rally test.
+Divine Intervention. Can steal an order dice from an enemy unit within 20” with successful Command
+test. If fail take 1 pin instead. Maximum of 1 attempt in any turn.
+Heavily Laden. Cannot Sprint.
+Hero. Friendly units within 10” can use the model’s Initiative stat to take Reaction tests.
+Follow. Friendly un-pinned units within 5” can follow the unit’s order immediately.
+Irresistible Charge. D3 SV bonus when charging.
+Large. +1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models.
+Slow/Fast. Move at the basic rate indicated.
+Spirit. Can be sacrificed for a re-roll. Destroyed if wizard is slain.
+Tough. Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).
+Wound. Can lose the ‘wounds value’ of lives before a further Res fail slays. Can’t recover pins beyond
+wounds suffered.
+
+
+
+
+                                                                                               Roman Warband           9
+

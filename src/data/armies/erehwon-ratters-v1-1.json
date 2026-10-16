@@ -1,0 +1,465 @@
+{
+  "warband": "Ratters",
+  "version": "1.1",
+  "updated": "14/11/2019",
+  "additional_notes": "Players have been asking for a Ratman-themed list ever since Warlords of Erehwon first came out. Ratters are generally held to be human shaped and sized - or a little smaller - furry, long-tailed and in all respects a humanoid rat. Scavengers par excellence, they live amongst the detritus of other races. Individually they are timid, hiding away in the shadows and avoiding danger where possible. Ratter Warlords are called Broodlords; Ratter Heroes are called Broodmasters.",
+  "units": [
+    {
+      "name": "Ratter Broodlord",
+      "type": "Warlord Warrior Unit",
+      "points_value": 98,
+      "special": "You must include one Ratter Broodlord in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Ratter Broodlord with sword or axe, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "5(6)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Pack Master, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Ratter Bodyguard with sword or axe, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "5(6)",
+          "init": 6,
+          "co": 6,
+          "special": "Pack"
+        }
+      ],
+      "options": [
+        { "description": "Give unit huge swords or big axes", "cost": 0, "per": "model" },
+        { "description": "Give unit spears", "cost": 0, "per": "model" },
+        { "description": "Give unit halberds", "cost": 1, "per": "model" },
+        { "description": "Give unit medium armour increasing Res to 5(7)", "cost": 10, "note": "+2pts per Bodyguard model" },
+        { "description": "Give unit Venomous rule making all HtH attacks Venomous", "cost": 5 },
+        { "description": "Upgrade Broodlord to Wounds 2", "cost": 12 },
+        { "description": "Upgrade Broodlord to Tough 2", "cost": 10 },
+        { "description": "Add up to 2 Ratter Bodyguards", "cost": 9, "per": "each" }
+      ]
+    },
+    {
+      "name": "Ratter Warlock",
+      "type": "Warriors Unit",
+      "points_value": 76,
+      "special": "You can include a maximum of one Ratter Warlock in your warband.",
+      "profiles": [
+        {
+          "name": "Ratter Warlock",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack Master, Wound, Magic Level 1, 1 x HtH SV1 Venomous"
+        },
+        {
+          "name": "Rat Slave with dagger",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": "Pack, Venomous"
+        },
+        {
+          "name": "Spirits of Contagion",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1 Venomous, Exchange of Missiles SV1 Venomous"
+        }
+      ],
+      "options": [
+        { "description": "Give Rat Slaves swords or axes", "cost": 1, "per": "model" },
+        { "description": "Give Rat Slaves light armour increasing Res to 4(5)", "cost": 2, "per": "model" },
+        { "description": "Give Warlock 2x HtH SV1 Venomous attacks", "cost": 6 },
+        { "description": "Upgrade Warlock to Command 8 (only available if there is no Broodmaster in the warband)", "cost": 2 },
+        { "description": "Upgrade Warlock to Magic Level 2", "cost": 25 },
+        { "description": "Upgrade Warlock to Magic Level 3", "cost": 50 },
+        { "description": "Upgrade Warlock to Tough 2", "cost": 10 },
+        { "description": "Add up to 4 Rat Slaves", "cost": 4, "per": "each" },
+        { "description": "Add up to 4 Spirits of Contagion", "cost": 18, "per": "each" }
+      ]
+    },
+    {
+      "name": "Ratter Broodmaster",
+      "type": "Hero Warriors Unit",
+      "points_value": 87,
+      "special": "You can include a maximum of one Ratter Broodmaster in your warband if it also contains a Warlock, or a maximum two Broodmasters if it does not include a Warlock.",
+      "profiles": [
+        {
+          "name": "Ratter Broodmaster with sword or axe, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough 2, Pack Master, 3x HtH, Wound, Venomous"
+        }
+      ],
+      "options": [
+        { "description": "Give Broodmaster huge sword or big axe", "cost": 0 },
+        { "description": "Give Broodmaster halberd", "cost": 1 },
+        { "description": "Give Broodmaster medium armour increasing Res to 5(7)", "cost": 10 },
+        { "description": "Upgrade Broodmaster to Wounds 2", "cost": 12 },
+        { "description": "Upgrade Broodmaster to Wounds 3", "cost": 24 },
+        { "description": "Upgrade Broodmaster to Tough 3", "cost": 10 }
+      ]
+    },
+    {
+      "name": "Rat Slaves with Bows",
+      "type": "Warriors Unit",
+      "points_value": 32,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Ratter Slavedriver with lash",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "Rat Slave with dagger, bow",
+          "ag": 6,
+          "acc": 4,
+          "str": 4,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Give Rat Slaves swords or axes", "cost": 1, "per": "model" },
+        { "description": "Give Slavedriver sword or axe", "cost": 1 },
+        { "description": "Give Slavedriver bow", "cost": 2 },
+        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "model" },
+        { "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous", "cost": 5 },
+        { "description": "Add up to 5 Rat Slaves with bows", "cost": 4, "per": "each" }
+      ]
+    },
+    {
+      "name": "Rat Slaves with Slings",
+      "type": "Warriors Unit",
+      "points_value": 36,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Ratter Slavedriver with lash",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "Rat Slave with dagger, sling",
+          "ag": 6,
+          "acc": 4,
+          "str": 4,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Give Rat Slaves swords or axes", "cost": 1, "per": "model" },
+        { "description": "Give Slavedriver sword or axe", "cost": 1 },
+        { "description": "Give Slavedriver sling", "cost": 3 },
+        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "model" },
+        { "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous", "cost": 5 },
+        { "description": "Add up to 5 Rat Slaves with slings", "cost": 5, "per": "each" }
+      ]
+    },
+    {
+      "name": "Ratter Guard",
+      "type": "Warriors Unit",
+      "points_value": 57,
+      "special": 1,
+      "profiles": [
+        {
+          "name": "Ratter Guard Leader with sword or axe, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "Ratter Guard with sword or axe, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "5(6)",
+          "init": 6,
+          "co": 6,
+          "special": "Pack"
+        }
+      ],
+      "options": [
+        { "description": "Give unit spears", "cost": 0, "per": "model" },
+        { "description": "Give unit huge swords or big axes", "cost": 0, "per": "model" },
+        { "description": "Give unit halberds ", "cost": 1, "per": "model" },
+        { "description": "Give unit medium armour increasing Res to 5(7)", "cost": 2, "per": "model" },
+        { "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous", "cost": 5 },
+        { "description": "Add up to 5 Ratter Guard", "cost": 9, "per": "each" }
+      ]
+    },
+    {
+      "name": "Ratter Warriors",
+      "type": "Warriors Unit",
+      "points_value": 37,
+      "special": 0,
+      "profiles": [
+        {
+          "name": "Ratter Warrior Leader with sword or axe",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "Ratter Warrior with sword or axe",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": "Pack"
+        }
+      ],
+      "options": [
+        { "description": "Give unit spears", "cost": 0, "per": "model" },
+        { "description": "Give unit huge swords or big axes", "cost": 0, "per": "model" },
+        { "description": "Give unit halberds ", "cost": 1, "per": "model" },
+        { "description": "Give unit medium armour increasing Res to 4(6)", "cost": 4, "per": "model" },
+        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "model" },
+        { "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous", "cost": 5 },
+        { "description": "Add up to 5 Ratter Warriors", "cost": 5, "per": "each" }
+      ]
+    },
+    {
+      "name": "Plague Ratters",
+      "type": "Warriors Unit",
+      "points_value": 49,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Plague Ratter Leader",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "1 x HtH SV2 Venomous and Choking, Tough, Pack"
+        },
+        {
+          "name": "Plague Ratter",
+          "ag": 6,
+          "acc": 4,
+          "str": 4,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": "1 x HtH SV2 Venomous and Choking, Pack"
+        }
+      ],
+      "options": [
+        { "description": "Give unit Berserk rule", "cost": 5, "per": "model" },
+        { "description": "Give unit Dread rule", "cost": 10 },
+        { "description": "Add up to 5 Plague Ratters", "cost": 6, "per": "each" }
+      ]
+    },
+    {
+      "name": "Super Ratter",
+      "type": "Monster Unit",
+      "points_value": 32,
+      "special": "You can include a maximum of one unit of Super Ratters in your warband.",
+      "profiles": [
+        {
+          "name": "Super Ratter",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": 8,
+          "init": 6,
+          "co": 7,
+          "special": "Large, 2 x HtH SV2 Venomous, Frenzied Charge, Pack"
+        }
+      ],
+      "options": [
+        { "description": "Give unit Choking attacks rule", "cost": 2, "per": "model" },
+        { "description": "Add up to 2 Super Ratters", "cost": 32, "per": "each" }
+      ]
+    },
+    {
+      "name": "Rat Master with Giant Rats",
+      "type": "Warriors Unit",
+      "points_value": null,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Rat Master with lash",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Rapid Sprint, Pack"
+        },
+        {
+          "name": "Giant Rat",
+          "ag": 6,
+          "acc": 4,
+          "str": 4,
+          "res": 5,
+          "init": 5,
+          "co": 5,
+          "special": "Rapid Sprint, 2x HtH SV1 Venomous"
+        }
+      ],
+      "options": [
+        { "description": "Give Rat Master light armour increasing Res to 4(5)", "cost": 2 },
+        { "description": "Give Rat Master spear", "cost": 1 },
+        { "description": "Give Rat Master sword or axe", "cost": 1 },
+        { "description": "Add up to 2 Giant Rats", "cost": 10, "per": "each" }
+      ]
+    },
+    {
+      "name": "Rat Swarm",
+      "type": "Swarm Unit",
+      "points_value": null,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Rat Swarm",
+          "ag": 6,
+          "acc": "-",
+          "str": 4,
+          "res": 5,
+          "init": 3,
+          "co": 8,
+          "special": "3x HtH SV1 Venomous"
+        }
+      ],
+      "options": [
+        { "description": "Add up to 2 Rat Swarms", "cost": 25, "per": "each" }
+      ]
+    },
+    {
+      "name": "Ratter Splatter Cannon",
+      "type": "Artillery Unit",
+      "points_value": null,
+      "special": "You can include a maximum of one Splatter Cannon in your warband.",
+      "profiles": [
+        {
+          "name": "Ratter crew with daggers, cannon",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": "Pack, Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Cannon",
+      "options": [
+        { "description": "Give Ratter crew swords or axes", "cost": 1, "per": "model" },
+        { "description": "Give unit Large Cannon instead of Small Cannon", "cost": 50 },
+        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "crew model" }
+      ]
+    },
+    {
+      "name": "Ratattack Cart",
+      "type": "Chariot Unit",
+      "points_value": null,
+      "special": "You can include a maximum of one Ratattack Cart in your warband.",
+      "profiles": [
+        {
+          "name": "Ratattack Cart with crew who also propel it",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Fast 6, Irresistible Charge, D6 SV1 Impact hits on charge"
+        },
+        {
+          "name": "Ratter crew with sword or axe",
+          "ag": "-",
+          "acc": 4,
+          "str": 5,
+          "res": "-",
+          "init": 6,
+          "co": 6,
+          "special": "Pack"
+        }
+      ],
+      "options": [
+        { "description": "Give crew spears", "cost": 0, "per": "model" },
+        { "description": "Give Cart Tough rule allowing re-roll of damage chart result", "cost": 10 }
+      ]
+    }
+  ],
+  "weapons_table": [
+    { "weapon": "Bow", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },
+    { "weapon": "Sling", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },
+    { "weapon": "Small Cannon", "short_range": "0-10\"", "long_range": "10-30\"", "extreme_range": "30-40\"", "strike_value": 5, "special_rules": "Fire order to shoot, Unstoppable" },
+    { "weapon": "Large Cannon", "short_range": "0-10\"", "long_range": "10-50\"", "extreme_range": "50-100\"", "strike_value": 8, "special_rules": "Fire order to shoot, Unstoppable" },
+    { "weapon": "Lash", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": null, "special_rules": null },
+    { "weapon": "Dagger", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": null, "special_rules": null },
+    { "weapon": "Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": null, "special_rules": "+1 to Strength" },
+    { "weapon": "Big Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": null },
+    { "weapon": "Halberd", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": "+1 to Strength" },
+    { "weapon": "Spear", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": "Can also be thrown during exchange of missiles" }
+  ],
+  "special_rules": {
+    "Pack": "Units with the Pack special rule are treated as having a Command stat equal to the Command stat of a Pack Master within 10\". If more than one Pack Master is within 10\", count the highest stat value. Applies to all rules that use the Command stat, including Automatic Breaks from Pins.",
+    "Pack Master": "Extends and replaces the Command and Hero special rules. Ratter Warlords (Broodlords) and Heroes (Broodmasters) have Pack Master instead of Command/Hero. Ratter Warlocks also have Pack Master but count as Wizards, not Heroes. Added at 20pts to the individual with the rule.",
+    "Venomous": "When a unit with Venomous hand-to-hand attacks scores one or more hits it automatically inflicts one extra hit in total. Similarly for Venomous ranged attacks.",
+    "Choking": "Attacks ignore Res bonuses from armour and cover.",
+    "Fire": "Fire attacks add an extra pin to targets they hit.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Frenzied Charge": "Gains additional attacks when charging.",
+    "Irresistible Charge": "Charge cannot be resisted by certain rules.",
+    "Rapid Sprint": "Can move an additional distance when sprinting.",
+    "Spirit": "Ethereal unit; certain restrictions apply.",
+    "Exchange of Missiles": "Can shoot during the exchange of missiles phase.",
+    "Large": "+1 to hit shooting. Can draw LOS to body.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays.",
+    "Berserk": "Unit fights with increased ferocity.",
+    "Dread": "Enemies suffer penalties when targeting this unit."
+  }
+}

@@ -1,0 +1,82 @@
+You are a data extraction engine for the Warlords of Erehwon tabletop game.
+Convert the warband text below into JSON matching this exact schema.
+Output ONLY valid JSON — no markdown fences, no prose.
+
+SCHEMA:
+{
+  "warband": string,
+  "version": string,
+  "updated": string,
+  "special_army_rule": { "name": string, "description": string },
+  "additional_notes": string,
+  "units": [
+    {
+      "name": string,
+      "type": string,
+      "points_value": integer,
+      "special": string | null,
+      "profiles": [
+        {
+          "name": string,
+          "ag": integer | "-",
+          "acc": integer | "-",
+          "str": integer | "-",
+          "res": string | integer,
+          "init": integer | "-",
+          "co": integer | "-",
+          "special": string | null
+        }
+      ],
+      "equipment": string,
+      "options": [
+        {
+          "description": string,
+          "cost": integer,
+          "per": "model" | "each",
+          "note": string
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    { "weapon": string, "short_range": string, "long_range": string|null,
+      "extreme_range": string|null, "strike_value": integer|null,
+      "special_rules": string|null }
+  ],
+  "special_rules": { "<RuleName>": "<description>" }
+}
+
+RULES:
+- Output raw JSON only. Do not wrap in markdown fences.
+- Use null (not "") for empty optional fields.
+- res values like "6(8)" stay as strings with parentheses intact.
+- Include "equipment" only when the source lists equipment for that unit.
+- Include "per" on an option only when the source says "per model" or "each".
+- Include "note" on an option only when the source has an extra note.
+- Do NOT invent units, options, weapons, or rules.
+- Preserve exact wording of special rule descriptions.
+- Copy the warband's own name into "warband" (e.g. "Dwarfs", not the filename).
+- Omit optional keys entirely when their value would be null
+  (special_army_rule, equipment, note, per).
+
+EXAMPLE (one unit — your output must follow this shape exactly):
+{
+  "name": "Dwarf Lord",
+  "type": "Warlord Warrior Unit",
+  "points_value": 118,
+  "special": "You must include one Dwarf Lord in your warband and one only.",
+  "profiles": [
+    {
+      "name": "Dwarf Lord with axe, medium armour",
+      "ag": 4, "acc": 5, "str": 6, "res": "6(8)",
+      "init": 7, "co": 9,
+      "special": "Tough, Command, Follow, 3x HtH, Wound"
+    }
+  ],
+  "options": [
+    { "description": "Give unit big axes", "cost": 0, "per": "model" }
+  ]
+}
+
+SOURCE TEXT:
+<<<SOURCE>>>

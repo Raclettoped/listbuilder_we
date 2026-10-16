@@ -1,0 +1,413 @@
+                                               DWARFS
+VERSION 2.0
+UPDATED 31/03/19
+INCLUDING CORRECTIONS, REVISIONS AND ADDITIONAL NOTES
+
+Our Dwarf warband owes as much to the works of Tolk-            When it comes to wizardry we allow for the runesmith -
+ien and traditional role-playing games as it does to the        a master of runic magic - who serves as a wizard in our
+Norse and Germanic myths from which these creatures             game. He lacks none of the usual fighting qualities of his
+ultimately derive. The image is now so established in fic-      kin.
+tion, film, and video games that readers will immediately
+                                                                Dwarfs are one of the most technologically accomplished
+recognise our theme. Naturally that theme can be inter-
+                                                                of our fantasy races, and this is reflected in our list in the
+preted in different ways, and our list has been constructed
+                                                                form of a great variety of war machines including fire
+with that in mind, allowing the player to build a warband
+                                                                cannons, bombards, bolt throwers and stone throwing
+inspired by works of fiction, legend, or simply by the
+                                                                engines. We also allow for the inclusion of primitive fire-
+availability of suitable models of which there are now so
+                                                                arms in the form of handguns for those who wish to stray
+many.
+                                                                beyond the mythical past. For those to whom the myth-
+Dwarfs are shorter than humans, stout, immensely strong,        ical past is a ship that has long since sailed we include a
+hardy, ill-tempered, proud to the point of taking offense       ramshackle contraption flying machine.
+at every imagined slight, expert at making and smithying,
+                                                                ADDITIONAL NOTES
+fond of living underneath mountains, and - most impor-
+tantly of all - very keen on gold.                              This updated version of the Dwarf Warband list includes
+                                                                corrections and revisions of the original published
+This list provides us with a variety of dwarf warriors from
+                                                                version. This list forms part of the online resource base
+stubborn guards to axe-wielding warriors clad in armour
+                                                                for the Erehwon game. If you spot any errors, typos or
+and wily archers with bows or crossbows. We also have
+                                                                grammatical infidelities please drop me a line via the This
+rangers that combine big axes, crossbows and the vengeful
+                                                                Gaming Life pages.
+rule and crazed psychotic axe wielding maniacs - fanatical
+death-cultists sworn to die heroically in battle in a man-      The Dwarf Warbands list reflects the availability of Dwarf
+ner to be celebrated by their kind and feared by their foes     models from a wide variety of manufacturers, and I have
+for generations to come.                                        tried to allow for most of the weapons and armour types
+                                                                from those ranges. Because some ranges choose to depict
+Dwarfs are generally creatures who like to fight with their
+                                                                Dwarfs in a heavy, late-medieval style of armour I have
+feet firmly planted on the ground, but some manufac-
+                                                                allowed for that. If you choose to go down that route you
+turers do make riders and we allow these in the form of
+                                                                will have a small but incredibly resilient warband, but one
+pony cavalry. They are not terribly fast it has to be said,
+                                                                that is a bit of a ‘one trick pony’, which can be vulnerable
+and most of the examples we’ve spotted are cold-blooded
+                                                                to magic, and which can perform poorly in scenarios
+beasts to put it mildly. Our rules reflect this with a rather
+                                                                where numbers and mobility count.
+plodding mounted arm, but mounted they are and stout
+to boot, giving our riders one of the highest resist stats in   I have taken the opportunity to add the Organ Gun to the
+the game!                                                       list, because so many players asked for it - plainly there
+                                                                is demand! It has also been added it as an option to the
+Dwarf leaders are exemplars of their race, favouring lots
+                                                                Juggernaut.
+of armour and large axes. They combine strength and
+hardiness together with excellent discipline, reflected in      As with all of our lists this one allows you to put together
+high strength, resist and command stats. Dwarf heroes           a warband that suits your own preferred style and back
+are a more diverse bunch and can carry some of the more         story. Obviously, there are some essential restrictions
+esoteric qualities such as the vengeful rule, mechanical        of choice - and even these can be ignored, or new ones
+genius rule and crazed psychotic rule - these being traits      agreed, if players prefer. The prospect of fielding a squad-
+that would be unseemly in one given to the burden of            ron of Steam Juggernauts is not to be ignored after all -
+high command.                                                   and would certainly make for a spectacular game.
+
+
+                                                                                                               Dwarfs
+                                                        DWARF LORD
+Warlord Warrior Unit                                     Points Value: 118
+Special: You must include one Dwarf Lord in your warband and one only.
+Unit: Dwarf Lord                            Ag    Acc      Str       Res      Init      Co                      Special
+1 x Dwarf Lord with axe, medium                                                                  Tough, Command, Follow, 3xHtH,
+                                            4      5        6        6(8)       7        9
+    armour                                                                                                   Wound
+2 x Dwarf Bodyguard with axe, medi-
+                                            4      5        6        6(8)       6        8
+    um armour
+                                                                Options
+•Give unit big axes @Free per model                                •Upgrade Dwarf Lord to Tough 2 @10pts
+•Give unit bloomin’ big axes @1pt per model                        •Add up to 2 Dwarf bodyguards @18pts each
+•Give unit Stubborn rule @2pts per model                           •Give unit heavy armour @9pt + 1pt per Bodyguard model increas-
+•Upgrade Dwarf Lord to Wound 2 @16pts                                ing Res to 6(9) and adding Heavily Laden rule.
+
+
+
+
+                                                  DWARF RUNESMITH
+Warrior Unit                                              Points Value: 81
+Special: You can include a maximum of one Runesmith in your warband.
+Unit: Dwarf Runesmith                       Ag    Acc      Str       Res      Init      Co                      Special
+1 x Runesmith with axe, medium
+                                            4      5        6        6(8)       7        9      Tough, 2xHtH, Wound , Magic Level 1
+    armour
+0 x Apprentice Runesmiths with axe,
+                                            4      5        6        6(8)       6        8
+    medium armour
+                                                             Options
+•Upgrade Runesmith to Magic Level 2 @25pts                         •Upgrade Dwarf Runesmith to Tough 2 @10pts
+•Upgrade Runesmith to Magic Level 3 @50pts                         •Give unit Stubborn rule @2pts per model
+•Upgrade Dwarf Runesmith to Wound 2 @16pts                         •Add up to 4 Apprentice Runesmiths @18pts each
+
+
+
+                                                        DWARF HERO
+Warrior Unit                                              Points Value: 86
+Special: You can include a maximum of one Dwarf Hero in your warband.
+Unit: Dwarf Hero                            Ag    Acc      Str       Res      Init      Co                      Special
+1 x Dwarf Hero with big axe, medium
+                                            4      5        7        6(8)       9        9          Tough 2, Hero, 3x HtH, Wound
+    armour
+                                                                Options
+•Give Hero bloomin’ big axe @1pt                                   •Give Hero Vengeful Rule @1pt
+•Upgrade Hero to Wound 2 @16pts                                    •Give Hero Mechanical Genius rule @10pts
+•Upgrade Hero to Wound 3 @32pts                                    •Give Hero heavy armour @9pts increasing Res to 6(9) and adding
+•Upgrade Hero to Tough 3 @10pts                                      Heavily Laden rule
+•Give Hero Stubborn rule @2pts                                     •Give Hero Crazed Psychotic Rule @1pt but lose all armour reducing
+                                                                      Res to 6
+
+
+
+
+Warlords of Erehwon
+                                                         DWARF GUARD
+Warrior Unit                                              Points Value: 115
+Special: You can include a maximum of one Dwarf Guard unit in your warband.
+Unit: Dwarf Guard                          Ag      Acc      Str      Res      Init     Co                     Special
+1 x Dwarf Guard Leader with bloomin’
+                                               4    5        6       6(8)      6        8                 Tough, Stubborn
+    big axe, medium armour
+4 x Dwarf Guard with bloomin’ big axe,
+                                               4    5        6       6(8)      6        8                    Stubborn
+    medium armour
+                                                              Options
+•Give unit halberds @free per model                               •Give unit heavy armour @1pt per model increasing Res to 6(9) and
+•Add up to 5 Dwarf Guard @21pts each                                adding Heavily Laden rule.
+
+
+
+
+                                                    DWARF WARRIORS
+Warrior Unit                                              Points Value: 100
+Unit: Dwarf Warriors                       Ag      Acc      Str      Res      Init     Co                     Special
+1 x Dwarf Leader with axe, medium
+                                               4    5        6       6(8)      6        8                      Tough
+    armour
+4 x Dwarf with axe, medium armour             4    5        6       6(8)      6        8
+                                                              Options
+•Give unit spears @free per model                                 •Add up to 5 Dwarf Warriors @18pts each
+•Give unit big axes @free per model                               •Give unit heavy armour @1pt per model increasing Res to 6(9) and
+•Give unit bloomin’ big axes @1pt per model                         adding Heavily Laden rule.
+•Give unit halberds @1pt per model
+
+
+
+
+                                                        DWARF ARCHERS
+Warrior Unit                                              Points Value: 100
+Unit: Dwarf Archers                        Ag      Acc      Str      Res      Init     Co                     Special
+1 x Dwarf Archer Leader with axe, bow,
+                                               4    5        6       6(7)      6        8                      Tough
+    light armour
+4 x Dwarf Archer with axe, bow, light
+                                               4    5        6       6(7)      6        8
+    armour
+                                                              Options
+•Give unit crossbows @1pt per model                               •Add up to 5 Dwarf Archers @18pts each
+•Give unit medium armour @2pts per model increasing Res to 6(8)
+
+
+
+
+                                                                                                                        Dwarfs
+                                                   DWARF HANDGUNNERS
+Warrior Unit                                               Points Value: 110
+Unit: Dwarf Handgunners                    Ag       Acc      Str      Res      Init     Co                      Special
+1 x Dwarf Handgunner Leader with
+                                               4     5        6       6(7)      6       8                         Tough
+    axe, handgun, light armour
+4 x Dwarf Handgunner with axe, hand-
+                                               4     5        6       6(7)      6       8
+    gun, light armour
+                                                               Options
+•Give unit medium armour @2pts per model increasing Res to 6(8)    •Add up to 5 Dwarf Handgunners @20pts each
+
+
+                                                   DWARF PONY RIDERS
+
+Mounted Unit                                               Points Value: 70
+Unit: Dwarf Pony Riders                    Ag       Acc      Str      Res      Init     Co                      Special
+1 x Dwarf Pony Rider Leader with axe,
+                                               4     5        6       7(8)      6       8                     Tough, Fast 6
+    light armour
+2 x Dwarf Pony Rider Leader with axe,
+                                               4     5        6       7(8)      6       8                         Fast 6
+    light armour
+                                                               Options
+•Give unit medium armour @2pts per model increasing Res to 7(9)    •Add up to 2 Dwarf Pony Riders @20pts each
+•Give unit spears @free per model
+
+
+
+                                                         DWARF RANGERS
+Warrior Unit                                               Points Value: 112
+Unit: Dwarf Rangers                        Ag       Acc      Str      Res      Init     Co                      Special
+1 x Dwarf Ranger Leader with big axe,
+                                               4     5        6       6(7)      6       9                 Tough, Vengeful
+    crossbow, light armour
+4 x Dwarf Ranger with big axe, cross-
+                                               4     5        6       6(7)      6       8                       Vengeful
+    bow, light armour
+                                                               Options
+•Give unit bloomin’ big axes @1pt per model                        •Give unit medium armour @2pts per model increasing Res to 6(8)
+•Give unit Stubborn rule @2pts per model                           •Add up to 5 Dwarf Rangers @20pts each
+
+
+                             DWARF CRAZED PSYCHOTIC AXE WIELDING MANIACS
+Warrior Unit                                               Points Value: 117
+Unit: Dwarf Crazed Psycho... etc           Ag       Acc      Str      Res      Init     Co                      Special
+                                                                                                      Tough, Crazed Psychotic,
+1 x Dwarf Maniac Leader with big axe          4     5        6        6        6        9
+                                                                                                             Stubborn
+4 x Dwarf Maniac with big axe                 4     5        6        6        6        8           Crazed Psychotic, Stubborn
+                                                               Options
+•Give unit bloomin’ big axes @1pt per model                        •Add up to 5 Dwarf Maniacs @21pts each
+
+
+
+
+Warlords of Erehwon
+                                                DWARF STONE THROWER
+Artillery Unit                                             Points Value: 102
+Unit: Dwarf Stone Thrower                  Ag      Acc       Str       Res      Init      Co                     Special
+3 x Dwarf crew with axes, light armour,
+                                           4         5           6     6(7)       6        8                  Large, Slow 3
+    stone throwing engine
+                                                             Equipment
+1 x Small Stone Thrower
+                                                                 Options
+•Give unit Large Stone Thrower instead of Small Stone Thrower        •Add up to 2 Dwarf crew to unit @16pts each
+  @27pts
+
+
+
+                                                         DWARF CANNON
+Artillery Unit                                             Points Value: 98
+Unit: Dwarf Cannon                         Ag      Acc       Str       Res      Init      Co                     Special
+3 x Dwarf crew with axes, light armour,
+                                           4         5           6     6(7)       6        8                  Large, Slow 3
+    small cannon
+                                                             Equipment
+1 x Small Cannon
+                                                                 Options
+•Give unit Large Cannon instead of Small Cannon @50pts               •Add up to 2 Dwarf crew to unit @16pts each
+
+
+
+                                                   DWARF FIRE CANNON
+Artillery Unit                                             Points Value: 108
+Unit: Dwarf Fire Cannon                    Ag      Acc       Str       Res      Init      Co                     Special
+3 x Dwarf crew with axes, light armour,
+                                           4         5           6     6(7)       6        8                  Large, Slow 3
+    fire cannon
+                                                             Equipment
+1 x Fire Cannon
+                                                                 Options
+•Add up to 2 Dwarf crew to unit @16pts each
+
+
+
+                                                     DWARF BOMBARD
+Artillery Unit                                             Points Value: 93
+Unit: Dwarf Bombard                        Ag      Acc       Str       Res      Init      Co                     Special
+3 x Dwarf crew with axes, light armour,
+                                           4         5           6     6(7)       6        8                  Large, Slow 3
+    bombard
+                                                             Equipment
+1 x Bombard
+                                                                 Options
+•Add up to 2 Dwarf crew to unit @16pts each
+
+
+
+
+                                                                                                                           Dwarfs
+                                                   DWARF BOLT THROWER
+Artillery Unit                                                 Points Value: 90
+Unit: Dwarf Bolt Thrower                    Ag       Acc         Str       Res       Init      Co                     Special
+3 x Dwarf crew with axes, light armour,
+                                             4         5          6        6(7)       6        8                   Large, Slow 3
+    bolt throwing engine
+                                                                 Equipment
+1 x Small Bolt Thrower
+                                                                  Options
+•Give unit Large Bolt Thrower instead of Small Bolt Thrower              •Add up to 2 Dwarf crew to unit @16pts each
+  @21pts
+
+
+
+                                                  DWARF FLYING MACHINE
+Monstrosity Unit                                               Points Value: 94
+Special: You can include a maximum of one Dwarf Flying Machine in your warband.
+Unit: Dwarf Flying Machine                  Ag       Acc         Str       Res       Init     Co                      Special
+                                                                                                        Large, Flies, Fast 10, MoD2, 0xHtH,
+1 x Flying Machine with bombs               4        5           -         10        -        -      3x Drop SV4 Fire (Bombs), Ramshackle
+                                                                                                                     Contraption
+1 x Pilot with axe                           -        5           5             -     6        8
+                                                                      Options
+•Give Flying Machine bouncing bomb instead of bombs @1pt                 •Make pilot Mechanical Genius @10pts
+
+
+
+
+                                                 DWARF STEAM JUGGERNAUT
+Monstrosity Unit                                               Points Value: 245
+Special: You can include a maximum of one Dwarf Steam Juggernaut in your warband.
+Unit: Steam Juggernaut                      Ag       Acc         Str       Res       Init     Co                      Special
+                                                                                                           Large, MoD3, 3xHtH SV5,
+1 x Steam Juggernaut with small can-
+                                             4        5           5         15        -        -        Ramshackle Contraption, Surly (ma-
+    non and Dwarf Crew
+                                                                                                              chinery is like that!)
+6 x Dwarf crew with axe                      -        5           5             -     6        8
+                                                                Equipment
+1 x Small Cannon. The cannon is fixed upon the deck or possibly in a turret and is permitted to fire with a Fire or Advance order,
+                                                                      Options
+•Give Dwarf Crew bows @2pts per model                                    •Give unit organ gun instead of small cannon @free
+•Give Dwarf Crew crossbows @3pts per model                               •Give unit large cannon instead of small cannon @50pts
+•Make crew Mechanical Genius @10 pts                                     •Give unit fire cannon instead of small cannon @10pts
+•Add up to 4 Dwarf Crew @5pts each
+
+
+                                                      DWARF ORGAN GUN
+Artillery Unit                                                 Points Value: 108
+Unit: Dwarf Organ Gun                       Ag       Acc         Str        Res      Init      Co                     Special
+3 x Dwarf crew with axes, light armour,
+                                             4         5          6        6(7)       6         8                  Large, Slow 3
+    organ gun
+                                                                 Equipment
+1 x Organ Gun
+                                                                  Options
+•Add up to 2 Dwarf crew to unit @16pts each
+
+
+Warlords of Erehwon
+                                 WEAPON SUMMARY
+
+                                 RANGE
+                                                    Strike
+               WEAPON   Short     Long    Extreme   Value                       Special Rules
+                                                    (SV)
+Bow                     0-10”    10-20”      -        0
+Crossbow                0-10”    10-30”      -        1      Fire order to shoot
+Handgun                 0-10”    10-20”      -        3      Fire order to shoot
+Small Bolt Thrower      0-20”    20-30”   30-40”      3      Fire order to shoot, 3x Ranged SV3
+Large Bolt Thrower      0-20”    20-40”   40-60”      5      Fire order to shoot, Unstoppable
+Small Stone Thrower     10-30”   30-40”   40-60”      3      Overhead, Fire order to shoot, D6 hits
+Large Stone Thrower     10-30”   30-50”   50-80”      6      Overhead, Fire order to shoot, D6 hits
+Small Cannon            0-10”    10-30”   30-40”      5      Fire order to shoot, Unstoppable
+Large Cannon            0-10”    10-50”   50-100”     8      Fire order to shoot, Unstoppable
+Fire Cannon             0-10”    10-20”      -        5      Fire order to shoot, Fire attacks, D6 hits
+Bombard                 10-20”   20-30”   30-40”      3      Overhead, Fire order to shoot, D4 hits
+Organ Gun               0-10”    10-20”   20-30”      3      Fire order to shoot, D6x Ranged SV3
+Bomb                    0-10”      -         -        4      3x Drop SV4 Fire
+Bouncing Bomb           0-20”      -         -        6      1x Drop SV6 Fire, Unstoppable
+
+
+Axe                       Hand-to-Hand Combat         1      +1 to Strength
+Big Axe                   Hand-to-Hand Combat         2
+Bloomin’ Big Axe          Hand-to-Hand Combat         3      Heavily laden
+Spear                     Hand-to-Hand Combat         1      Can also be thrown during exchange of missiles
+Halberd                   Hand-to-Hand Combat         2      +1 to Strength
+
+
+
+
+                                                                                                 Dwarfs
+                                    SPECIAL RULES SUMMARY
+
+Command. Friendly units within 10” can use the model’s Co stat to take Command based tests.
+Crazed Psychotic. Automatically pass charge orders, cannot be routed, immune to dread and terror.
+Drop. Drop attacks ignore cover modifiers.
+Fire. Fire attacks add an extra pin to targets they hit.
+Flies. Moves over any terrain/obstacles without test or penalties. Enemy cannot charge or follow-on in
+combat unless they can also fly, or if flyers are down.
+Follow. Friendly un-pinned units within 5” can follow the unit’s order immediately.
+Heavily Laden. Cannot sprint.
+Hero. Friendly units within 10” can use the model’s Initiative stat to take Reaction tests.
+Large. +1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery over-
+head only).
+Mechanical Genius. Add +1 to Acc of all artillery in 10”, +/-1 from any Monstrosity (machine) damage
+chart result within 10”.
+MoD2. Unit has 2 order dice.
+Ramshackle Contraption. On a failed order result of a 10 roll on the Monstrosity damage chart.
+Slow/Fast. Move at the basic rate indicated.
+Stubborn. Remove 2 pins for passing Order test.
+Surly. Cannot benefit from Command, Follow or Hero rules.
+Tough. Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).
+Unstoppable. Shot penetrates the unit hit and can strike others beyond so long as the target is hit each
+time. Roll twice on monstrosity damage table.
+Vengeful. Must follow-on combat, double attacks in follow-on combats.
+Wound. Can lose the ‘wounds value’ of lives before a further Res fail slays. Can’t recover pins beyond
+wounds suffered.
+
+
+
+
+Warlords of Erehwon
+

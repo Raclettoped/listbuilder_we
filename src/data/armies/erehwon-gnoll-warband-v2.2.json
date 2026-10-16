@@ -1,0 +1,678 @@
+{
+  "warband": "Gnolls",
+  "version": "2.2",
+  "updated": "25/05/19",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "This updated version of the Gnoll Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game. If you spot any errors, typos or grammatical infidelities please drop me a line via the This Gaming Life pages. I put this list together having purchased and assembled some of North Star's excellent Gnoll models - the first new models purchased to play Warlords of Erehwon. A number of other manufacturers also make comparable - and I would say compatible - models. Most of these ranges have a roleplaying - rather than wargaming - angle on Gnolls, so they tend to lack the bells and whistles we associate with other races. No cavalry of course, but arguably Gnolls don't really need a mounted arm; a chariot was added to give them something equivalent (a conversion from any suitable chariot model). Similarly, I felt it necessary to add at least some artillery, and taken as a whole we have a very credible force. I have not felt it necessary to expand the force at this stage, but as with all these lists are players are welcome (and encouraged) to tinker. The list is drawn broadly to facilitate different styles of play, and those who wish to introduce further restrictions - or to remove others - can easily arrange such matters with their opponents.",
+  "units": [
+    {
+      "name": "Gnoll Chieftain",
+      "type": "Warlord Warrior Unit",
+      "points_value": 112,
+      "special": "You must include one Gnoll Chieftain unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Gnoll Chieftain with axe or sword, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 7,
+          "res": "7(8)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Gnoll Guard with axes or swords, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "7(8)",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit big axes or huge swords",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit flails, chainmaces or morning stars",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Gnoll Guard",
+          "cost": 17,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Chieftain to Wound 2",
+          "cost": 16,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Chieftain to Tough 3",
+          "cost": 20,
+          "per": null,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Shaman",
+      "type": "Warrior Unit",
+      "points_value": 66,
+      "special": "You can include a maximum of one Gnoll Shaman unit in your warband.",
+      "profiles": [
+        {
+          "name": "Gnoll Shaman with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "7",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "Totem Beasts: Dogs, Wolves or Hyenas",
+          "ag": 5,
+          "acc": 0,
+          "str": 5,
+          "res": "6",
+          "init": 5,
+          "co": 5,
+          "special": "Savage, 1x HtH SV1"
+        },
+        {
+          "name": "Animal Spirit Guides or Familiars",
+          "ag": 5,
+          "acc": 6,
+          "str": 6,
+          "res": "6",
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1xHtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Upgrade Gnoll Shaman to Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Shaman to Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Shaman to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Add up to 4 Totem Beasts",
+          "cost": 14,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Add up to 4 Animal Spirit Guides or Familiars",
+          "cost": 23,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Champion",
+      "type": "Warrior Unit",
+      "points_value": 83,
+      "special": "You can include a maximum of one Gnoll Champion unit in your warband.",
+      "profiles": [
+        {
+          "name": "Gnoll Champion with axe or sword, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 7,
+          "res": "7(8)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough 2, Hero, 3x HtH, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Gnoll Champion big axe or huge sword",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Gnoll Champion flail, chainmace or morning star",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Champion to Wound 2",
+          "cost": 16,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Champion to Wound 3",
+          "cost": 32,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gnoll Champion to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Guard",
+      "type": "Warrior Unit",
+      "points_value": 87,
+      "special": "You can include a maximum of one unit of Gnoll Guard in your warband.",
+      "profiles": [
+        {
+          "name": "Gnoll Guard Pack Master with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "7",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Gnoll Guard with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "7",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit big axes or huge swords instead of swords/axes",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit halberds instead of swords/axes",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit flails, chainmaces or morning stars instead of swords/ axes",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 7(8)"
+        },
+        {
+          "description": "Add up to 5 Gnoll Guards",
+          "cost": 15,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Warriors",
+      "type": "Warrior Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Gnoll Pack Master with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Gnoll Warrior with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Gnoll Warriors",
+          "cost": 13,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Archers",
+      "type": "Warrior Unit",
+      "points_value": 82,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Gnoll Pack Master with bow and dagger",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Gnoll Archer with bow and dagger",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords/axes instead of daggers",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit crossbows instead of bows",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Gnoll Archers",
+          "cost": 14,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Scouts",
+      "type": "Warrior Unit",
+      "points_value": 92,
+      "special": "You can include a maximum of one unit of Gnoll Scouts in your warband.",
+      "profiles": [
+        {
+          "name": "Gnoll Pack Master with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Rapid Sprint, Stealthy"
+        },
+        {
+          "name": "Gnoll Scout with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 7,
+          "special": "Rapid Sprint, Stealthy"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Gnoll Scouts",
+          "cost": 16,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Trackers",
+      "type": "Warriors/Beast Unit",
+      "points_value": 104,
+      "special": "You can include a maximum of one unit of Gnoll Trackers in your warband.",
+      "profiles": [
+        {
+          "name": "Gnoll Tracker with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Rapid Sprint, Woodsmen"
+        },
+        {
+          "name": "Hyenas",
+          "ag": 5,
+          "acc": 0,
+          "str": 5,
+          "res": "7",
+          "init": 5,
+          "co": 5,
+          "special": "1x HtH SV1, Savage, Rapid Sprint, Woodsmen"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Tracker light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 7(8)"
+        },
+        {
+          "description": "Give Tracker big axe/huge sword instead of sword/axes",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Tracker flail, chainmace or morning star instead of sword/axe",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Hyenas",
+          "cost": 19,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Chariot",
+      "type": "Chariot Unit",
+      "points_value": 100,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Chariot: Gnoll crew, pulled by two hyenas",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": "10",
+          "init": "-",
+          "co": "-",
+          "special": "Large, Irresistible Charge, Rapid Sprint, Fast 6"
+        },
+        {
+          "name": "Gnoll crew with sword or axe",
+          "ag": "-",
+          "acc": 4,
+          "str": 5,
+          "res": "-",
+          "init": 7,
+          "co": 8,
+          "special": "-"
+        },
+        {
+          "name": "Hyenas",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Gnoll crew spears",
+          "cost": 0,
+          "per": "crew",
+          "note": ""
+        },
+        {
+          "description": "Give Gnoll crew bows",
+          "cost": 2,
+          "per": "crew",
+          "note": ""
+        },
+        {
+          "description": "Give Gnoll crew crossbows",
+          "cost": 3,
+          "per": "crew",
+          "note": ""
+        },
+        {
+          "description": "Give Gnoll Chariot Savage rule",
+          "cost": 1,
+          "per": "crew and hyena",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Gnoll crew",
+          "cost": 5,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": "with D6 SV1 impact hits on charge"
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 96,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Gnoll crew with daggers, stone throwing engine",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": "7",
+          "init": 7,
+          "co": 8,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "Small Stone Thrower",
+      "options": [
+        {
+          "description": "Give Gnoll crew swords or axes instead of daggers",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Big Stone Thrower instead of Small Stone Thrower",
+          "cost": 27,
+          "per": null,
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Gnoll crew to unit",
+          "cost": 14,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Give Gnoll crew light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 7(8)"
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Fire order to shoot"
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Large Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-50\"",
+      "extreme_range": "50-80\"",
+      "strike_value": 6,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Flail, Chainmace or Morning Star",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Armour +1 maximum bonus"
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Huge Sword, Mace or Warhammer",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Daggers",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Dead-Eye Shot": "Can re-roll one miss.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Irresistible Charge": "+D3 strike value (SV) on charge.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw Los over non-large models (artillery overhead only).",
+    "Rapid Sprint": "Sprint 4M.",
+    "Savage": "Re-roll misses in first combat of game.",
+    "Slow/Fast": "Move as rate indicated.",
+    "Spirit": "Can be sacrificed for a re-roll. Destroyed if wizard is slain.",
+    "Stealthy": "Re-roll missile hits if in cover",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Woodsmen": "Add +1 Res in woodland and ignore movement penalties.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

@@ -1,0 +1,835 @@
+{
+  "warband": "Orcs",
+  "version": "2.1",
+  "updated": "24/08/19",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "This updated version of the Orc Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game.",
+  "units": [
+    {
+      "name": "Orc Chieftain",
+      "type": "Warlord Warrior Unit",
+      "points_value": 95,
+      "special": "You must include one Orc Chieftain or Orc Chieftain Boar Rider unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Orc Chieftain with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH Attacks, Wound"
+        },
+        {
+          "name": "Orc Bodyguard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit huge swords or big axe",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit improbably vast sword or bloomin' big axe adding the Heavily Laden special rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Frenzied Charge",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 12,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour increasing Res to 5(7)",
+          "cost": 10,
+          "per": null,
+          "note": "+ 2pts per Bodyguard model"
+        },
+        {
+          "description": "Add up to 2 Orc bodyguards",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 3",
+          "cost": 20,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Chieftain Boar Rider",
+      "type": "Warlord Mounted Unit",
+      "points_value": 136,
+      "special": "You must include one Orc Chieftain or Orc Chieftain Boar Rider unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Orc Chieftain with sword or axe, light armour, riding Wild Boar",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Command, Follow, Fast 6, Ferocious Charge, 3x HtH, Wound: Boar 1HtH Attack SV3"
+        },
+        {
+          "name": "Orc Bodyguard with sword or axe , light armour, riding Wild Boar",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 7,
+          "special": "Fast 6, Ferocious Charge: Boar 1HtH Attack SV3"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit huge swords or big axe",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit improbably vast sword or bloomin' big axe adding the Heavily Laden special rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Frenzied Charge",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 3",
+          "cost": 20,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 14,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour increasing Res to 6(8)",
+          "cost": 10,
+          "per": null,
+          "note": "+2pts per Bodyguard model"
+        },
+        {
+          "description": "Add up to 2 Orc bodyguards",
+          "cost": 25,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Shaman",
+      "type": "Warrior Unit",
+      "points_value": 57,
+      "special": "You can include a maximum of one Orc Shaman in your warband.",
+      "profiles": [
+        {
+          "name": "Orc Shaman with sword or axe",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Magic Level 1, Wound"
+        },
+        {
+          "name": "Orc Bodyguard with sword or axe",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Make Shaman Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Make Shaman Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shaman to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Ferocious Charge",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Orc Bodyguards huge swords or big axe",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Orc Bodyguards",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Champion",
+      "type": "Warrior Unit",
+      "points_value": 75,
+      "special": "You can include a maximum of one Orc Champion unit in your warband.",
+      "profiles": [
+        {
+          "name": "Orc Champion with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Ferocious Charge"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Champion huge sword or big axe",
+          "cost": 0,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Champion improbably huge sword or bloomin' big axe adding the Heavily Laden special rule",
+          "cost": 1,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Champion medium armour increasing Res to 5(7)",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Champion Vengeful rule",
+          "cost": 1,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Champion Frenzied Charge",
+          "cost": 2,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Champion to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Champion to Wound 2",
+          "cost": 12,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Champion Irresistible Charge instead of Ferocious Charge",
+          "cost": 9,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Champion to Wound 3",
+          "cost": 24,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Guard",
+      "type": "Warrior Unit",
+      "points_value": 70,
+      "special": "You can include a maximum of one Orc Guard unit in your warband.",
+      "profiles": [
+        {
+          "name": "Orc Leader with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Orc Guard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit medium armour increasing Res to 5(7)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Ferocious Charge rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Orc Guards",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Warriors",
+      "type": "Warrior Unit",
+      "points_value": 70,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Orc Leader with sword, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Orc Warrior with sword, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Ferocious Charge rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Orc Warriors",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Archers",
+      "type": "Warrior Unit",
+      "points_value": 70,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Orc Leader with sword, bow",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5",
+          "init": 6,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Orc Archer with sword, bow",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour increasing Res to 5(6)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit crossbows",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Ferocious Charge rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Orc Archers",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Boar Riders",
+      "type": "Mounted Unit",
+      "points_value": 85,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Orc Boar Rider Leader with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Fast 6, Ferocious Charge: Boar 1xHtH SV3"
+        },
+        {
+          "name": "Orc Boar Rider with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 7,
+          "special": "Fast 6, Ferocious Charge: Boar 1xHtH SV3"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit medium armour increasing Res to 6(8)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Orc Boar Riders",
+          "cost": 25,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Boar Chariot",
+      "type": "Chariot Unit",
+      "points_value": 101,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Orc Chariot: Orc crew, pulled by two boars",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": "10",
+          "init": "-",
+          "co": "-",
+          "special": "Large, Irresistible Charge, Fast 6"
+        },
+        {
+          "name": "Orc crew with swords or axes",
+          "ag": "-",
+          "acc": 4,
+          "str": 6,
+          "res": "-",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        },
+        {
+          "name": "Boars",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1xHtH Attack SV3"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Orc crew spears",
+          "cost": 0,
+          "per": "crew",
+          "note": null
+        },
+        {
+          "description": "Give Orc crew bows",
+          "cost": 2,
+          "per": "crew",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Orc crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give chariot Scythes with D6 SV1 impact hits on charge",
+          "cost": 25,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Trolls",
+      "type": "Monster Unit",
+      "points_value": 105,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Troll",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "7",
+          "init": 4,
+          "co": 7,
+          "special": "Large, 3x HtH SV2, Chunder, Regenerate"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Trolls",
+          "cost": 35,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 84,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Orc crew with swords or axes, stone throwing engine",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5",
+          "init": 6,
+          "co": 7,
+          "special": "Large, Slow 3"
+        },
+        {
+          "name": "Small Stone Thrower",
+          "ag": null,
+          "acc": null,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": null
+        }
+      ],
+      "equipment": "1 x Small Stone Thrower",
+      "options": [
+        {
+          "description": "Add up to 2 Orc crew to unit",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Orc crew light armour increasing Res to 5(6)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Large Stone Thrower instead of Small Stone Thrower",
+          "cost": 27,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Orc Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 60,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Orc crew with swords or axes, bolt throwing engine",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5",
+          "init": 6,
+          "co": 7,
+          "special": "Large, Slow 3"
+        },
+        {
+          "name": "Small Bolt Thrower",
+          "ag": null,
+          "acc": null,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": null
+        }
+      ],
+      "equipment": "1 x Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Add up to 2 Orc crew to unit",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Orc crew light armour increasing Res to 5(6)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
+          "cost": 21,
+          "per": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Fire order to shoot"
+    },
+    {
+      "weapon": "Chunder",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": "Target counts Res of 5, exhausted on roll of 6+"
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire order to shoot, 3x Ranged attacks"
+    },
+    {
+      "weapon": "Large Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 5,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": null,
+      "long_range": "10-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Large Stone Thrower",
+      "short_range": null,
+      "long_range": "10-30\"",
+      "extreme_range": "30-50\"",
+      "strike_value": 6,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Sword",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    },
+    {
+      "weapon": "Huge Sword or Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Improbably Huge Sword or Bloomin' Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "Heavily laden"
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Ferocious Charge": "+1 Strength bonus when charging.",
+    "Frenzied Charge": "+1 extra Attack when charging",
+    "Heavily Laden": "The unit is unable to make a sprint move.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery OH only).",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Unstoppable": "Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time.",
+    "Vengeful": "Must follow-on combat, double attacks in follow-on combats.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "warband": "Halflings",
+  "version": "2.0",
+  "updated": "02/04/19",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "This updated version of the Halfling Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game.",
+  "units": [
+    {
+      "name": "Halfling Chief Sheriff",
+      "type": "Warlord Warrior Unit",
+      "points_value": 85,
+      "special": "You must include one Halfling Chief Sheriff unit in your warband either a Halfling Chief Sheriff or a Halfling Chief Sheriff in Cart and one only.",
+      "profiles": [
+        {
+          "name": "Halfling Sheriff with sword or axe",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Halfling Henchmen with sword or axe",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit slings",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Stealthy rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 10,
+          "per": null,
+          "note": "+2pts per Henchman increasing Res to 4(5)"
+        },
+        {
+          "description": "Upgrade Chief Sheriff to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chief Sheriff to Wound 2",
+          "cost": 8,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Henchmen",
+          "cost": 8,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Chief Sheriff in Cart",
+      "type": "Warlord Chariot Unit",
+      "points_value": 130,
+      "special": "You must include one Halfling Chief Sheriff unit in your warband either a Halfling Chief Sheriff or a Halfling Chief Sheriff in Cart and one only.",
+      "profiles": [
+        {
+          "name": "Cart with Chief Sheriff and driver",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough, Fast 6"
+        },
+        {
+          "name": "Halfling Chief Sheriff with sword or axe",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 8,
+          "co": 8,
+          "special": "[Tough], Command, Follow, 3x HtH, [Wound]"
+        },
+        {
+          "name": "Halfing driver with sword or axe",
+          "ag": "-",
+          "acc": 6,
+          "str": 4,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Donkey (pony, goat, chicken, etc)",
+          "ag": "-",
+          "acc": "-",
+          "str": 4,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV0"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Chief Sheriff and driver spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Chief Sheriff and driver bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Chief Sheriff and driver Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Chief Sherif light armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to [4(5)] on foot only"
+        },
+        {
+          "description": "Upgrade Chief Sheriff to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chief Sheriff to Wound 2",
+          "cost": 8,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Cart to Fast 8",
+          "cost": 4,
+          "per": null,
+          "note": "(by judicious use of carrots)"
+        }
+      ]
+    },
+    {
+      "name": "Halfling Fortune Teller",
+      "type": "Warrior Unit",
+      "points_value": 51,
+      "special": "You can include a maximum of one Halfing Fortune Teller in your warband.",
+      "profiles": [
+        {
+          "name": "Halfling Fortune Teller with club or cudgel",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "Halfling Henchmen with clubs or cudgels",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": null
+        },
+        {
+          "name": "Spirit Guides",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Make Fortune Teller Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Make Fortune Teller Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Fortune Teller to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Stealthy rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Halfling Henchmen",
+          "cost": 6,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Spirit Guides",
+          "cost": 18,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Clan Chief",
+      "type": "Warrior Unit",
+      "points_value": 76,
+      "special": "You can include one Halfling Clan Chief unit in your warband either a Clan Chief or Mounted Clan Chief.",
+      "profiles": [
+        {
+          "name": "Halfling Clan Chief with sword or axe",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 4,
+          "init": 8,
+          "co": 8,
+          "special": "Tough 2, Hero, 3x HtH, 3x Ranged (if bow armed), Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Clan Chief spear",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Clan Chief bow",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Clan Chief Dead Eye Shot rule",
+          "cost": 5,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Clan Chief Stealthy rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Clan Chief light armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to 4(5)"
+        },
+        {
+          "description": "Upgrade Clan Chief to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Clan Chief to Wound 2",
+          "cost": 8,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Clan Chief to Wound 3",
+          "cost": 16,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Halfling Clan Chief",
+      "type": "Mounted Unit",
+      "points_value": 87,
+      "special": "You can include one Halfling Clan Chief unit in your warband either a Clan Chief or Mounted Clan Chief.",
+      "profiles": [
+        {
+          "name": "Halfling Clan Chief with sword or axe, riding donkey",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 5,
+          "init": 8,
+          "co": 8,
+          "special": "Tough 2, Hero, Fast 6, 3x HtH, 3x Ranged )if bow armed) Wound: Donkey 1x HtH SV0"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Clan Chief spear",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Clan Chief bow",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Clan Chief Dead Eye Shot rule",
+          "cost": 5,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Clan Chief light armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Upgrade Clan Chief to Fast 8",
+          "cost": 4,
+          "per": null,
+          "note": "(by judicious use of carrots)"
+        },
+        {
+          "description": "Upgrade Clan Chief to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Clan Chief to Wound 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Clan Chief to Wound 3",
+          "cost": 20,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Sheriffs",
+      "type": "Warrior Unit",
+      "points_value": 47,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Halfling Sheriff Leader with stave",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Halfling Sheriff with stave",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords or axes",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit slings",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Stealthy rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 4(5)"
+        },
+        {
+          "description": "Add up to 5 Halfling Sheriffs",
+          "cost": 7,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Militia",
+      "type": "Warrior Unit",
+      "points_value": 42,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Halfling Militia Leader with club or cudgel",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Halfling Militia with club or cudgel",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords or axes",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit staves",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit rocks to throw",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Stealthy rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Halfling Militia",
+          "cost": 6,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Archers",
+      "type": "Warrior Unit",
+      "points_value": 52,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Halfling Archer Leader with club and bow",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Halfling Archer with club and bow",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit daggers",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit swords or axes",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit slings (instead of bows)",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Stealthy rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Halfling Archers",
+          "cost": 8,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Urchin Swarm",
+      "type": "Swarm Unit",
+      "points_value": 141,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Halfling Urchin Swarm with rocks",
+          "ag": 8,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 8,
+          "co": 8,
+          "special": "3x HtH, 3x Ranged"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit slings",
+          "cost": 9,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Stealthy rule",
+          "cost": 1,
+          "per": "Swarm",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Swarms",
+          "cost": 47,
+          "per": "Swarm",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Halflings",
+      "type": "Mounted Unit",
+      "points_value": 63,
+      "special": "You can include a maximum of one unit of Mounted Halflings in your warband.",
+      "profiles": [
+        {
+          "name": "Halfling Leader with sword or axe, riding donkey",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 6: Donkey 1x HtH SV0"
+        },
+        {
+          "name": "Halfling with sword or axe, riding donkey",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "Fast 6, Donkey 1x HtH SV0"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Mounted Halflings",
+          "cost": 17,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Halfling crew with clubs, stone throwing engine",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "Small Stone Thrower",
+      "options": [
+        {
+          "description": "Give Halfling crew sword or axe",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Halfling crew to unit",
+          "cost": 6,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Halfling Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 60,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Halfling crew with clubs, bolt throwing engine",
+          "ag": 6,
+          "acc": 6,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Give Halfling crew sword or axe",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Halfling crew to unit",
+          "cost": 6,
+          "per": "each",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sling",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "2x ranged attacks on Fire order"
+    },
+    {
+      "weapon": "Rock",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be used in HtH"
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire order to shoot, 3x Ranged"
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Club or Cudgel",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Stave",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Dagger",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediatley.",
+    "Wounds": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Dead Eye Shots": "Re-roll 1 missed shot from unit.",
+    "Stealthy": "Re-roll hits on unit if in cover.",
+    "Spirit": "Can be sacrificed in exchange for re-roll. Destroyed if wizard slain.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery overhead only)."
+  }
+}

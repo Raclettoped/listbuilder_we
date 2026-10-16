@@ -1,0 +1,580 @@
+{
+  "warband": "Dwarfs",
+  "version": "2.0",
+  "updated": "31/03/19",
+  "additional_notes": "This updated version of the Dwarf Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game. If you spot any errors, typos or grammatical infidelities please drop me a line via the This Gaming Life pages.\n\nThe Dwarf Warbands list reflects the availability of Dwarf models from a wide variety of manufacturers, and I have tried to allow for most of the weapons and armour types from those ranges. Because some ranges choose to depict Dwarfs in a heavy, late-medieval style of armour I have allowed for that. If you choose to go down that route you will have a small but incredibly resilient warband, but one that is a bit of a 'one trick pony', which can be vulnerable to magic, and which can perform poorly in scenarios where numbers and mobility count.\n\nI have taken the opportunity to add the Organ Gun to the list, because so many players asked for it - plainly there is demand! It has also been added it as an option to the Juggernaut.\n\nAs with all of our lists this one allows you to put together a warband that suits your own preferred style and back story. Obviously, there are some essential restrictions of choice - and even these can be ignored, or new ones agreed, if players prefer. The prospect of fielding a squadron of Steam Juggernauts is not to be ignored after all - and would certainly make for a spectacular game.",
+  "units": [
+    {
+      "name": "Dwarf Lord",
+      "type": "Warlord Warrior Unit",
+      "points_value": 118,
+      "special": "You must include one Dwarf Lord in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Dwarf Lord with axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 9,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Dwarf Bodyguard with axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 6,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Give unit big axes", "cost": 0, "per": "model" },
+        { "description": "Give unit bloomin' big axes", "cost": 1, "per": "model" },
+        { "description": "Give unit Stubborn rule", "cost": 2, "per": "model" },
+        { "description": "Give unit heavy armour increasing Res to 6(9) and adding Heavily Laden rule", "cost": 9, "note": "+1pt per Bodyguard model" },
+        { "description": "Upgrade Dwarf Lord to Tough 2", "cost": 10 },
+        { "description": "Upgrade Dwarf Lord to Wound 2", "cost": 16 },
+        { "description": "Add up to 2 Dwarf bodyguards", "cost": 18, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Runesmith",
+      "type": "Warrior Unit",
+      "points_value": 81,
+      "special": "You can include a maximum of one Runesmith in your warband.",
+      "profiles": [
+        {
+          "name": "Runesmith with axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 9,
+          "special": "Tough, 2x HtH, Wound, Magic Level 1"
+        },
+        {
+          "name": "Apprentice Runesmith with axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 6,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Upgrade Runesmith to Magic Level 2", "cost": 25 },
+        { "description": "Upgrade Runesmith to Magic Level 3", "cost": 50 },
+        { "description": "Upgrade Dwarf Runesmith to Tough 2", "cost": 10 },
+        { "description": "Upgrade Dwarf Runesmith to Wound 2", "cost": 16 },
+        { "description": "Give unit Stubborn rule", "cost": 2, "per": "model" },
+        { "description": "Add up to 4 Apprentice Runesmiths", "cost": 18, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Hero",
+      "type": "Warrior Unit",
+      "points_value": 86,
+      "special": "You can include a maximum of one Dwarf Hero in your warband.",
+      "profiles": [
+        {
+          "name": "Dwarf Hero with big axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 7,
+          "res": "6(8)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound"
+        }
+      ],
+      "options": [
+        { "description": "Give Hero bloomin' big axe", "cost": 1 },
+        { "description": "Give Hero Vengeful Rule", "cost": 1 },
+        { "description": "Give Hero Mechanical Genius rule", "cost": 10 },
+        { "description": "Give Hero heavy armour increasing Res to 6(9) and adding Heavily Laden rule", "cost": 9 },
+        { "description": "Give Hero Crazed Psychotic Rule but lose all armour reducing Res to 6", "cost": 1 },
+        { "description": "Give Hero Stubborn rule", "cost": 2 },
+        { "description": "Upgrade Hero to Wound 2", "cost": 16 },
+        { "description": "Upgrade Hero to Wound 3", "cost": 32 },
+        { "description": "Upgrade Hero to Tough 3", "cost": 10 }
+      ]
+    },
+    {
+      "name": "Dwarf Guard",
+      "type": "Warrior Unit",
+      "points_value": 115,
+      "special": "You can include a maximum of one Dwarf Guard unit in your warband.",
+      "profiles": [
+        {
+          "name": "Dwarf Guard Leader with bloomin' big axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Stubborn"
+        },
+        {
+          "name": "Dwarf Guard with bloomin' big axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 6,
+          "co": 8,
+          "special": "Stubborn"
+        }
+      ],
+      "options": [
+        { "description": "Give unit halberds", "cost": 0, "per": "model" },
+        { "description": "Give unit heavy armour increasing Res to 6(9) and adding Heavily Laden rule", "cost": 1, "per": "model" },
+        { "description": "Add up to 5 Dwarf Guard", "cost": 21, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Warriors",
+      "type": "Warrior Unit",
+      "points_value": 100,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf Leader with axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Dwarf with axe, medium armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 6,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Give unit spears", "cost": 0, "per": "model" },
+        { "description": "Give unit big axes", "cost": 0, "per": "model" },
+        { "description": "Give unit bloomin' big axes", "cost": 1, "per": "model" },
+        { "description": "Give unit halberds", "cost": 1, "per": "model" }
+      ]
+    },
+    {
+      "name": "Dwarf Archers",
+      "type": "Warrior Unit",
+      "points_value": 100,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf Archer Leader with axe, bow, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Dwarf Archer with axe, bow, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Give unit crossbows", "cost": 1, "per": "model" },
+        { "description": "Give unit medium armour increasing Res to 6(8)", "cost": 2, "per": "model" }
+      ]
+    },
+    {
+      "name": "Dwarf Handgunners",
+      "type": "Warrior Unit",
+      "points_value": 110,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf Handgunner Leader with axe, handgun, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Dwarf Handgunner with axe, handgun, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Give unit medium armour increasing Res to 6(8)", "cost": 2, "per": "model" },
+        { "description": "Add up to 5 Dwarf Handgunners", "cost": 20, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Pony Riders",
+      "type": "Mounted Unit",
+      "points_value": 70,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf Pony Rider Leader with axe, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "7(8)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Fast 6"
+        },
+        {
+          "name": "Dwarf Pony Rider with axe, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "7(8)",
+          "init": 6,
+          "co": 8,
+          "special": "Fast 6"
+        }
+      ],
+      "options": [
+        { "description": "Give unit medium armour increasing Res to 7(9)", "cost": 2, "per": "model" },
+        { "description": "Give unit spears", "cost": 0, "per": "model" }
+      ]
+    },
+    {
+      "name": "Dwarf Rangers",
+      "type": "Warrior Unit",
+      "points_value": 112,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf Ranger Leader with big axe, crossbow, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 9,
+          "special": "Tough, Vengeful"
+        },
+        {
+          "name": "Dwarf Ranger with big axe, crossbow, light armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Vengeful"
+        }
+      ],
+      "options": [
+        { "description": "Give unit bloomin' big axes", "cost": 1, "per": "model" },
+        { "description": "Give unit Stubborn rule", "cost": 2, "per": "model" },
+        { "description": "Give unit medium armour increasing Res to 6(8)", "cost": 2, "per": "model" },
+        { "description": "Add up to 5 Dwarf Rangers", "cost": 20, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Crazed Psychotic Axe Wielding Maniacs",
+      "type": "Warrior Unit",
+      "points_value": 117,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf Maniac Leader with big axe",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": 6,
+          "init": 6,
+          "co": 9,
+          "special": "Tough, Crazed Psychotic, Stubborn"
+        },
+        {
+          "name": "Dwarf Maniac with big axe",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": 6,
+          "init": 6,
+          "co": 8,
+          "special": "Crazed Psychotic, Stubborn"
+        }
+      ],
+      "options": [
+        { "description": "Give unit bloomin' big axes", "cost": 1, "per": "model" }
+      ]
+    },
+    {
+      "name": "Dwarf Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 102,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf crew with axes, light armour, stone throwing engine",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Stone Thrower",
+      "options": [
+        { "description": "Give unit Large Stone Thrower instead of Small Stone Thrower", "cost": 27 }
+      ]
+    },
+    {
+      "name": "Dwarf Cannon",
+      "type": "Artillery Unit",
+      "points_value": 98,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf crew with axes, light armour, small cannon",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Cannon",
+      "options": [
+        { "description": "Give unit Large Cannon instead of Small Cannon", "cost": 50 }
+      ]
+    },
+    {
+      "name": "Dwarf Fire Cannon",
+      "type": "Artillery Unit",
+      "points_value": 108,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf crew with axes, light armour, fire cannon",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Fire Cannon",
+      "options": [
+        { "description": "Add up to 2 Dwarf crew to unit", "cost": 16, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Bombard",
+      "type": "Artillery Unit",
+      "points_value": 93,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf crew with axes, light armour, bombard",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Bombard",
+      "options": [
+        { "description": "Add up to 2 Dwarf crew to unit", "cost": 16, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 90,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf crew with axes, light armour, bolt throwing engine",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Bolt Thrower",
+      "options": [
+        { "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower", "cost": 21 },
+        { "description": "Add up to 2 Dwarf crew to unit", "cost": 16, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Flying Machine",
+      "type": "Monstrosity Unit",
+      "points_value": 94,
+      "special": "You can include a maximum of one Dwarf Flying Machine in your warband.",
+      "profiles": [
+        {
+          "name": "Flying Machine with bombs",
+          "ag": 4,
+          "acc": 5,
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Flies, Fast 10, MoD2, 0x HTH, 3x Drop SV4 Fire (Bombs), Ramshackle Contraption"
+        },
+        {
+          "name": "Pilot with axe",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": "-",
+          "init": 6,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "options": [
+        { "description": "Give Flying Machine bouncing bomb instead of bombs", "cost": 1 },
+        { "description": "Make pilot Mechanical Genius", "cost": 10 }
+      ]
+    },
+    {
+      "name": "Dwarf Steam Juggernaut",
+      "type": "Monstrosity Unit",
+      "points_value": 245,
+      "special": "You can include a maximum of one Dwarf Steam Juggernaut in your warband.",
+      "profiles": [
+        {
+          "name": "Steam Juggernaut with small cannon and Dwarf Crew",
+          "ag": 4,
+          "acc": 5,
+          "str": 5,
+          "res": 15,
+          "init": "-",
+          "co": "-",
+          "special": "Large, MoD3, 3x HTH SV5, Ramshackle Contraption, Surly (machinery is like that!)"
+        },
+        {
+          "name": "Dwarf crew with axe",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": "-",
+          "init": 6,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "equipment": "1 x Small Cannon. The cannon is fixed upon the deck or possibly in a turret and is permitted to fire with a Fire or Advance order.",
+      "options": [
+        { "description": "Give Dwarf Crew bows", "cost": 2, "per": "model" },
+        { "description": "Give Dwarf Crew crossbows", "cost": 3, "per": "model" },
+        { "description": "Make crew Mechanical Genius", "cost": 10 },
+        { "description": "Add up to 4 Dwarf Crew", "cost": 5, "per": "each" }
+      ]
+    },
+    {
+      "name": "Dwarf Organ Gun",
+      "type": "Artillery Unit",
+      "points_value": 108,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dwarf crew with axes, light armour, organ gun",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Organ Gun",
+      "options": [
+        { "description": "Add up to 2 Dwarf crew to unit", "cost": 16, "per": "each" }
+      ]
+    }
+  ],
+  "weapons_table": [
+    { "weapon": "Bow", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },
+    { "weapon": "Crossbow", "short_range": "0-10\"", "long_range": "10-30\"", "extreme_range": "-", "strike_value": 1, "special_rules": "Fire order to shoot" },
+    { "weapon": "Handgun", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 3, "special_rules": "Fire order to shoot" },
+    { "weapon": "Small Bolt Thrower", "short_range": "0-20\"", "long_range": "20-30\"", "extreme_range": "30-40\"", "strike_value": 3, "special_rules": "Fire order to shoot, 3x Ranged SV3" },
+    { "weapon": "Large Bolt Thrower", "short_range": "0-20\"", "long_range": "20-40\"", "extreme_range": "40-60\"", "strike_value": 5, "special_rules": "Fire order to shoot, Unstoppable" },
+    { "weapon": "Small Stone Thrower", "short_range": "10-30\"", "long_range": "30-40\"", "extreme_range": "40-60\"", "strike_value": 3, "special_rules": "Overhead, Fire order to shoot, D6 hits" },
+    { "weapon": "Large Stone Thrower", "short_range": "10-30\"", "long_range": "30-50\"", "extreme_range": "50-80\"", "strike_value": 6, "special_rules": "Overhead, Fire order to shoot, D6 hits" },
+    { "weapon": "Small Cannon", "short_range": "0-10\"", "long_range": "10-30\"", "extreme_range": "30-40\"", "strike_value": 5, "special_rules": "Fire order to shoot, Unstoppable" },
+    { "weapon": "Large Cannon", "short_range": "0-10\"", "long_range": "10-50\"", "extreme_range": "50-100\"", "strike_value": 8, "special_rules": "Fire order to shoot, Unstoppable" },
+    { "weapon": "Fire Cannon", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 5, "special_rules": "Fire order to shoot, Fire attacks, D6 hits" },
+    { "weapon": "Bombard", "short_range": "10-20\"", "long_range": "20-30\"", "extreme_range": "30-40\"", "strike_value": 3, "special_rules": "Overhead, Fire order to shoot, D4 hits" },
+    { "weapon": "Organ Gun", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "20-30\"", "strike_value": 3, "special_rules": "Fire order to shoot, D6x Ranged SV3" },
+    { "weapon": "Bomb", "short_range": "0-10\"", "long_range": "-", "extreme_range": "-", "strike_value": 4, "special_rules": "3x Drop SV4 Fire" },
+    { "weapon": "Bouncing Bomb", "short_range": "0-20\"", "long_range": "-", "extreme_range": "-", "strike_value": 6, "special_rules": "1x Drop SV6 Fire, Unstoppable" },
+    { "weapon": "Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": null, "special_rules": "+1 to Strength" },
+    { "weapon": "Big Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": null },
+    { "weapon": "Bloomin' Big Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 3, "special_rules": "Heavily Laden" },
+    { "weapon": "Spear", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": "Can also be thrown during exchange of missiles" },
+    { "weapon": "Halberd", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": "+1 to Strength" }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Crazed Psychotic": "Automatically pass charge orders, cannot be routed, immune to dread and terror.",
+    "Drop": "Drop attacks ignore cover modifiers.",
+    "Fire": "Fire attacks add an extra pin to targets they hit.",
+    "Flies": "Moves over any terrain/obstacles without test or penalties. Enemy cannot charge or follow-on in combat unless they can also fly, or if flyers are down.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Heavily Laden": "Cannot sprint.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery overhead only).",
+    "Mechanical Genius": "Add +1 to Acc of all artillery in 10\", +1/-1 from any Monstrosity (machine) damage chart result within 10\".",
+    "MoD2": "Unit has 2 order dice.",
+    "Ramshackle Contraption": "On a failed order result of a 10 roll on the Monstrosity damage chart.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Stubborn": "Remove 2 pins for passing Order test.",
+    "Surly": "Cannot benefit from Command, Follow or Hero rules.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Unstoppable": "Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time. Roll twice on monstrosity damage table.",
+    "Vengeful": "Must follow-on combat, double attacks in follow-on combats.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

@@ -1,0 +1,872 @@
+{
+  "warband": "Olympians",
+  "version": "2.2",
+  "updated": "21/12/19",
+  "special_army_rule": {
+    "name": "Divine Intervention",
+    "description": "Can steal an order dice from an enemy unit within 20\" with successful Command test. If fail take 1 pin instead. Maximum of one attempt in any turn"
+  },
+  "additional_notes": "This updated version of the Olympians Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game. If you spot any errors, typos or grammatical infidelities please drop me a line via the This Gaming Life pages.",
+  "units": [
+    {
+      "name": "Greek Lord",
+      "type": "Warlord Warrior Unit",
+      "points_value": 108,
+      "special": "You must include one of Greek Lord or Greek Lord in Chariot in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Greek Lord with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Hoplite Bodyguard with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "-"
+        }
+      ],
+      "equipment": "1 x Greek Lord with sword, medium armour; 2 x Hoplite Bodyguard with sword, medium armour",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Shieldwall rule",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Greek Lord to Wound 2",
+          "cost": 14
+        },
+        {
+          "description": "Give unit Divine Intervention rule",
+          "cost": 10
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Greek Lord to Tough 2",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 2 Hoplite Bodyguards",
+          "cost": 16,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Greek Lord in Chariot",
+      "type": "Warlord Chariot Unit",
+      "points_value": 160,
+      "special": "You must include one of Greek Lord or Greek Lord in Chariot in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Greek Lord in Chariot with Hero and crew",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough, Fast 8, Irresistible Charge"
+        },
+        {
+          "name": "Greek Lord with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 8,
+          "co": 8,
+          "special": "[Tough,] Command, Follow, 3x HtH, [Wound]"
+        },
+        {
+          "name": "Greek crew with sword",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        },
+        {
+          "name": "Horse",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        }
+      ],
+      "equipment": "1 x Chariot with Hero and crew, pulled by two horses; 1 x Greek Lord with sword, medium armour; 1 x Greek crew with sword; 2 x Horse",
+      "options": [
+        {
+          "description": "Give Greek Lord and crew spear",
+          "cost": 0
+        },
+        {
+          "description": "Give Greek Lord and crew long spear",
+          "cost": 0
+        },
+        {
+          "description": "Give Greek Lord and crew bow",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Divine Intervention rule",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Greek Lord to Tough 2 on foot only",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Greek Lord to Wound 2 on foot only",
+          "cost": 14
+        },
+        {
+          "description": "Give chariot Scythes with D6 SV1 impact hits on charge",
+          "cost": 25
+        }
+      ]
+    },
+    {
+      "name": "Greek Seer",
+      "type": "Warrior Unit",
+      "points_value": 57,
+      "special": "You can include a maximum of one Greek Seer in your warband.",
+      "profiles": [
+        {
+          "name": "Greek Seer with sword",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "Attendants with sword",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        },
+        {
+          "name": "Nymphs",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": "1 x Greek Seer with sword; 0 x Attendants with sword; 0 x Nymphs",
+      "options": [
+        {
+          "description": "Upgrade Seer to Magic Level 2",
+          "cost": 25
+        },
+        {
+          "description": "Upgrade Seer to Magic Level 3",
+          "cost": 50
+        },
+        {
+          "description": "Upgrade Seer to Tough 2",
+          "cost": 10
+        },
+        {
+          "description": "Give unit Divine Intervention rule",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 4 Attendants",
+          "cost": 10,
+          "per": "each"
+        },
+        {
+          "description": "Add up to 4 Nymphs",
+          "cost": 18,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Greek Hero",
+      "type": "Warrior Unit",
+      "points_value": 85,
+      "special": "You can include a maximum of one Greek Hero in your warband, either a Greek Hero or Greek Hero Charioteer",
+      "profiles": [
+        {
+          "name": "Greek Hero with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound"
+        }
+      ],
+      "equipment": "1 x Greek Hero with sword, medium armour",
+      "options": [
+        {
+          "description": "Give Hero spear",
+          "cost": 0
+        },
+        {
+          "description": "Give Hero long spear",
+          "cost": 0
+        },
+        {
+          "description": "Give Hero bow",
+          "cost": 2
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10
+        },
+        {
+          "description": "Give Hero Divine Intervention rule",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Hero to Wound 2",
+          "cost": 16
+        },
+        {
+          "description": "Upgrade Hero to Wound 3",
+          "cost": 32
+        }
+      ]
+    },
+    {
+      "name": "Greek Hero Charioteer",
+      "type": "Chariot Unit",
+      "points_value": 160,
+      "special": "You can include a maximum of one Greek Hero in your warband, either a Greek Hero or Greek Hero Charioteer",
+      "profiles": [
+        {
+          "name": "Greek Hero Charioteer with Hero and crew",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough 2, Fast 8, Irresistible Charge"
+        },
+        {
+          "name": "Greek Hero with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 9,
+          "co": 9,
+          "special": "[Tough 2,] Hero, 3x HtH, [Wound]"
+        },
+        {
+          "name": "Greek crew with sword",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        },
+        {
+          "name": "Horse",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        }
+      ],
+      "equipment": "1 x Chariot with Hero and crew, pulled by two horses; 1 x Greek Hero with sword, medium armour; 1 x Greek crew with sword; 2 x Horse",
+      "options": [
+        {
+          "description": "Give Hero and crew spear",
+          "cost": 0
+        },
+        {
+          "description": "Give Hero and crew long spear",
+          "cost": 0
+        },
+        {
+          "description": "Give Hero and crew bow",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give Hero Divine Intervention rule",
+          "cost": 10
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Hero to Tough 3 on foot only",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Hero to Wound 2 on foot only",
+          "cost": 16
+        },
+        {
+          "description": "Upgrade Hero to Wound 3 on foot only",
+          "cost": 32
+        },
+        {
+          "description": "Give chariot Scythes with D6 SV1 impact hits on charge",
+          "cost": 25
+        }
+      ]
+    },
+    {
+      "name": "Hoplite Guard",
+      "type": "Warrior Unit",
+      "points_value": 102,
+      "special": "You can include a maximum of one unit of Hoplite Guard in your warband.",
+      "profiles": [
+        {
+          "name": "Hoplite Leader with spear, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Shieldwall, Disciplined"
+        },
+        {
+          "name": "Hoplite with spear, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Shieldwall, Disciplined"
+        }
+      ],
+      "equipment": "1 x Hoplite Leader with spear, medium armour; 4 x Hoplite with spear, medium armour",
+      "options": [
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Divine Intervention rule",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 5 Hoplite Guard",
+          "cost": 16,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Hoplites",
+      "type": "Warrior Unit",
+      "points_value": 92,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Hoplite Leader with long spear, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Shieldwall"
+        },
+        {
+          "name": "Hoplite with long spear, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Shieldwall"
+        }
+      ],
+      "equipment": "1 x Hoplite Leader with long spear, medium armour; 4 x Hoplite with long spear, medium armour",
+      "options": [
+        {
+          "description": "Give unit Divine Intervention rule",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 5 Hoplites",
+          "cost": 16,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Peltasts",
+      "type": "Warrior Unit",
+      "points_value": 67,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Peltast Leader with dagger, javelin",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Peltast with dagger, javelin",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": "1 x Peltast Leader with dagger, javelin; 4 x Peltast with dagger, javelin",
+      "options": [
+        {
+          "description": "Give unit bows",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit slings",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit swords",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 5 Peltasts",
+          "cost": 11,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Amazon Warrior",
+      "type": "Warrior Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Amazon Leader with sword, light armour",
+          "ag": 5,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Amazon with sword, light armour",
+          "ag": 5,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": "1 x Amazon Leader with sword, light armour; 4 x Amazon with sword, light armour",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 5 Amazon Warriors",
+          "cost": 13,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Amazon Archers",
+      "type": "Warrior Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Amazon Archer Leader with dagger, bow",
+          "ag": 5,
+          "acc": 6,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Amazon Archer with dagger, bow",
+          "ag": 5,
+          "acc": 6,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": "1 x Amazon Archer Leader with dagger, bow; 4 x Amazon Archer with dagger, bow",
+      "options": [
+        {
+          "description": "Give unit swords",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give unit slings (instead of bows)",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 5 Amazon Archers",
+          "cost": 12,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Amazon Cavalry",
+      "type": "Mounted Unit",
+      "points_value": 75,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Amazon Leader with sword, light armour",
+          "ag": 5,
+          "acc": 6,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "Amazon Cavalry with sword, light armour",
+          "ag": 5,
+          "acc": 6,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        }
+      ],
+      "equipment": "1 x Amazon Leader with sword, light armour; 2 x Amazon Cavalry with sword, light armour",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 2 Amazon Cavalry",
+          "cost": 21,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Centaurs",
+      "type": "Monster Unit",
+      "points_value": 108,
+      "special": "You can include a maximum of one unit of Centaurs in your warband.",
+      "profiles": [
+        {
+          "name": "Centaur Champion with club",
+          "ag": 7,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Large, Fast 8, 2x HtH"
+        },
+        {
+          "name": "Centaur with club",
+          "ag": 7,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 8,
+          "co": 7,
+          "special": "Large, Fast 8, 2x HtH"
+        }
+      ],
+      "equipment": "1 x Centaur Champion with club; 2 x Centaur with club",
+      "options": [
+        {
+          "description": "Give unit swords and/or axes",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 3,
+          "per": "model"
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Dead Eye Shot",
+          "cost": 10
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 4,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 2 Centaurs to unit",
+          "cost": 32,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Harpies",
+      "type": "Beast Unit",
+      "points_value": 150,
+      "special": "You can include a maximum of one unit of Harpies in your warband.",
+      "profiles": [
+        {
+          "name": "Harpies with rocks",
+          "ag": 10,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 9,
+          "co": 9,
+          "special": "Flies, Fast 10, 2x HtH SV1, 1x Drop SV1"
+        }
+      ],
+      "equipment": "3 x Harpies with rocks",
+      "options": [
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10
+        },
+        {
+          "description": "Give unit Vengeful rule",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 2 Harpies",
+          "cost": 50,
+          "per": "each"
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sling",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "2x Ranged attacks on fire order"
+    },
+    {
+      "weapon": "Javelin",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Rocks",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be used hand-to-hand"
+    },
+    {
+      "weapon": "Club",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Dagger",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sword",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    },
+    {
+      "weapon": "Long Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Cancels charge bonus"
+    },
+    {
+      "weapon": "Lance",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "SV3 on charge"
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Dead-Eye Shot": "Can re-roll one miss.",
+    "Disciplined": "Lose all pins when pass a Rally test.",
+    "Divine Intervention": "Can steal an order dice from an enemy unit within 20\" with successful Command test. If fail take 1 pin instead. Maximum of one attempt in any turn",
+    "Fast/Slow": "Move at the basic rate indicated.",
+    "Flies": "Moves over any terrain/obstacles without test or penalties. Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, or if flyers are down.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery overhead only).",
+    "Shieldwall": "In shieldwall formation cannot sprint and suffer -1 Ag and Init. -1 to hit ranged and hand-to-hand. Must form at start of move.",
+    "Spirit": "Can be sacrificed in exchange for re-roll. Destroyed if wizard slain.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Vengeful": "Must follow-on combat, double attacks in follow-on combats.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

@@ -1,0 +1,268 @@
+                                               GNOLLS
+VERSION 2.2
+UPDATED 25/05/19
+INCLUDING CORRECTIONS, REVISIONS AND ADDITIONAL NOTES
+
+
+
+
+Gnolls appear to have originated in literature as a port-       ADDITIONAL NOTES
+manteau word combining gnome and troll, but they have
+                                                                This updated version of the Gnoll Warband list includes
+since evolved a character and appearance at the hands of
+                                                                corrections and revisions of the original published
+creators of roleplaying games and miniature lines. Not
+                                                                version. This list forms part of the online resource base
+really a traditional creature of folklore, they might best
+                                                                for the Erehwon game. If you spot any errors, typos or
+be described as dog-like or hyena-like beastmen. Indeed,
+                                                                grammatical infidelities please drop me a line via the This
+suitable models might easily be incorporated into or used
+                                                                Gaming Life pages.
+to represent a Beastman Warband. Players are welcome
+to use that selector instead of this one if they wish. This     I put this list together having purchased and assembled
+list is almost entirely inspired by the existence of readily    some of North Star’s excellent Gnoll models - the first new
+available miniatures with some embellishment to provide         models purchased to play Warlords of Erehwon. A num-
+options for players who fancy converting or adopting            ber of other manufacturers also make comparable - and I
+chariots and war machines.                                      would say compatible - models. Most of these ranges have
+                                                                a roleplaying - rather than wargaming - angle on Gnolls,
+Our Gnoll War Party is primarily an infantry list but
+                                                                so they tend to lack the bells and whistles we associate
+Gnolls are tough warriors and capable combatants so this
+                                                                with other races. No cavalry of course, but arguably
+should not prove a hindrance. Unfortunately, they are not
+                                                                Gnolls don’t really need a mounted arm; a chariot was
+terribly good shots, so even though they have options for
+                                                                added to give them something equivalent (a conversion
+missile weapons it’s not wise to rely upon their ranged
+                                                                from any suitable chariot model). Similarly, I felt it neces-
+abilities. Even Gnoll archers are pretty good close-quar-
+                                                                sary to add at least some artillery, and taken as a whole we
+ter fighters though. As well as your basic Gnoll warriors
+                                                                have a very credible force.
+armed with axes or swords, we’ve allowed for a unit of
+Guards who can carry a variety of nasty weapons includ-         I have not felt it necessary to expand the force at this
+ing big axes, morning stars and halberds. There are also        stage, but as with all these lists are players are welcome
+scouts, who have the rapid sprint and infiltrator rules, and    (and encouraged) to tinker. The list is drawn broadly to
+Trackers who manage packs of ferocious hyenas.                  facilitate different styles of play, and those who wish to
+                                                                introduce further restrictions - or to remove others - can
+Gnoll Chieftains are tough fighters - we figure they have
+                                                                easily arrange such matters with their opponents.
+to be to stay top dog - and are accompanied by body-
+guards who are well armed and armoured by Gnoll stand-
+ards. Those standards are pretty low on the whole, with
+equipment that is battered and clothes that may be little
+more than rags, but this matters little when Gnoll warriors
+close in for the kill! Similarly beragged and bedraggled we
+have the Gnoll Shaman who combines shabby-chic with
+masterful spell casting abilities.
+For those who are prepared to indulge in a little modelling
+we have included a chariot pulled by hyenas - although
+players might equally wish to use boars or hounds as sub-
+stitutes and we shall not quibble. Finally, a stone thrower
+is offered, although none is available at the time of writing
+any suitable model will pass muster and crew can easily be
+converted from any of the model ranges on offer.
+
+                                                                                                                   Gnolls
+                                                          GNOLL CHIEFTAIN
+Warlord Warrior Unit                                            Points Value: 112
+Special: You must include one Gnoll Chieftain unit in your warband and one only.
+Unit: Gnoll Chieftain                        Ag          Acc      Str       Res      Init      Co                        Special
+1 x Gnoll Chieftain with axe or sword,                                                                  Tough, Command, Follow, 3x HtH,
+                                              5           4        7        7(8)       7        8
+    light armour                                                                                                    Wound
+2 x Gnoll Guard with axes or swords,
+                                              5           4        6        7(8)       7        7                           -
+    light armour
+                                                                    Options
+•Give unit big axes or huge swords @Free                                 •Upgrade Gnoll Chieftain to Wound 2 @16pts
+•Give unit flails, chainmaces or morning stars @Free                     •Upgrade Gnoll Chieftain to Tough 2 @10pts
+•Add up to 2 Gnoll Guard @17pts per model                                  •Upgrade Gnoll Chieftain to Tough 3 @20pts
+
+
+
+
+                                                              GNOLL SHAMAN
+Warrior Unit                                                    Points Value: 66
+Special: You can include a maximum of one Gnoll Shaman unit in your warband.
+Unit: Gnoll Shaman                           Ag          Acc      Str       Res      Init      Co                        Special
+1 x Gnoll Shaman with axe or sword           5           4        6         7         7        8          Tough, Wound, Magic Level 1
+0 x Totem Beasts: Dogs, Wolves or
+                                              5           0        5         6         5        5               Savage, 1x HtH SV1
+    Hyenas
+0 x Animal Spirit Guides or Familiars                                                                          Spirit, 1xHtH SV1,
+                                              5           6        6         6         3        3
+                                                                                                             Exchange of Missiles SV1
+                                                                    Options
+•Upgrade Gnoll Shaman to Magic Level 2 @25pts                              •Add up to 4 Totem Beasts @ 14pts each OR
+•Upgrade Gnoll Shaman to Magic Level 3 @50pts                              •Add up to 4 Animal Spirit Guides or Familiars @ 23pts each
+•Upgrade Gnoll Shaman to Tough 2 @10pts
+
+
+
+
+                                                          GNOLL CHAMPION
+Warrior Unit                                                    Points Value: 83
+Special: You can include a maximum of one Gnoll Champion unit in your warband.
+Unit: Gnoll Champion                         Ag          Acc      Str        Res      Init     Co                        Special
+1 x Gnoll Champion with axe or sword,
+                                              5           4        7        7(8)       8        8          Tough 2, Hero, 3x HtH, Wound
+    light armour
+                                                                       Options
+•Give Gnoll Champion big axe or huge sword @Free                         •Upgrade Gnoll Champion to Wound 3 @32pts
+•Give Gnoll Champion flail, chainmace or morning star @Free              •Upgrade Gnoll Champion to Tough 3 @10pts
+•Upgrade Gnoll Champion to Wound 2 @16pts
+
+
+
+
+ Warlords of Erehwon
+                                                             GNOLL GUARD
+Warrior Unit                                                   Points Value: 87
+Special: You can include a maximum of one unit of Gnoll Guard in your warband.
+Unit: Gnoll Guard                            Ag        Acc       Str       Res      Init      Co                      Special
+1 x Gnoll Guard Pack Master with axe
+                                              5         4         6         7         7        8                      Tough
+    or sword
+4 x Gnoll Guard with axe or sword            5         4         6         7         7        7
+                                                                      Options
+•Give unit big axes or huge swords instead of swords/axes @Free         •Give unit light armour @2pts per model increasing Res to 7(8)
+•Give unit halberds instead of swords/axes @1pt per model               •Add up to 5 Gnoll Guards @15pts each
+•Give unit flails, chainmaces or morning stars instead of swords/
+   axes @Free
+
+
+
+                                                         GNOLL WARRIORS
+Warrior Unit                                                   Points Value: 77
+Unit: Gnoll Warriors                         Ag        Acc       Str       Res      Init      Co                      Special
+1 x Gnoll Pack Master with axe or
+                                              5         4         5         7         7        8                      Tough
+    sword
+4 x Gnoll Warrior with axe or sword           5         4         5         7         7        7                         -
+                                                                      Options
+•Give unit light armour @2pts per model                                   •Add up to 5 Gnoll Warriors @13pts each
+
+
+
+                                                            GNOLL ARCHERS
+Warrior Unit                                                   Points Value: 82
+Unit: Gnoll Archers                          Ag        Acc       Str       Res      Init      Co                      Special
+1 x Gnoll Pack Master with bow and
+                                              5         4         5         7         7        8                      Tough
+    dagger
+4 x Gnoll Archer with bow and dagger          5         4         5         7         7        7                         -
+                                                                      Options
+•Give unit swords/axes instead of daggers @1pts per model                 •Add up to 5 Gnoll Archers @14pts each
+•Give unit crossbows instead of bows @1pts per model
+
+
+
+                                                             GNOLL SCOUTS
+Warrior Unit                                                   Points Value: 92
+Special: You can include a maximum of one unit of Gnoll Scouts in your warband.
+Unit: Gnoll Scouts                           Ag        Acc       Str       Res      Init      Co                      Special
+1 x Gnoll Pack Master with axe or
+                                              5         4         5         7         7        8           Tough, Rapid Sprint, Stealthy
+    sword
+4 x Gnoll Scout with axe or sword             5         4         5         7         7        7               Rapid Sprint, Stealthy
+                                                                      Options
+•Give unit bows @2pts per model                                           •Add up to 5 Gnoll Scouts @16pts each
+•Give unit Dead Eye Shot rule @10pts
+
+
+
+
+                                                                                                                                    Gnolls
+                                                         GNOLL TRACKERS
+Warriors/Beast Unit                                           Points Value: 104
+Special: You can include a maximum of one unit of Gnoll Trackers in your warband.
+Unit: Gnoll Hounds                           Ag        Acc      Str       Res       Init     Co                      Special
+1 x Gnoll Tracker with axe or sword          5         4        5         7         7        8         Tough, Rapid Sprint, Woodsmen
+4 x Hyenas                                                                                              1x HtH SV1, Savage, Rapid Sprint,
+                                              5         0        5         7         5        5
+                                                                                                                 Woodsmen
+                                                                  Options
+•Give Tracker light armour @2pts increasing Res to 7(8)                  •Give Tracker big axe/huge sword instead of sword/axes @Free
+•Give Tracker flail, chainmace or morning star instead of              •Add up to 5 Hyenas @19pts each
+   sword/axe @Free
+
+
+
+                                                            GNOLL CHARIOT
+Chariot Unit                                                  Points Value: 100
+Unit: Gnoll Chariot                          Ag        Acc      Str       Res       Init      Co                     Special
+1 x Chariot: Gnoll crew, pulled by two                                                              Large, Irresistible Charge, Rapid Sprint,
+                                              3         -        -         10        -         -
+    hyenas                                                                                                              Fast 6
+2 x Gnoll crew with sword or axe               -        4        5             -     7         8
+2 x Hyenas                                     -        -        5             -     -         -                   1x HtH SV1
+                                                                     Options
+•Give Gnoll crew spears @Free per crew                                  •Give Gnoll Chariot Savage rule @1pts per crew and hyena
+•Give Gnoll crew bows @2pts per crew                                    •Add up to 2 Gnoll crew @5pts each
+•Give Gnoll crew crossbows @3pts per crew                                •Give chariot Scythes @25pts with D6 SV1 impact hits on charge
+
+
+
+                                                   GNOLL STONE THROWER
+Artillery Unit                                                Points Value: 96
+Unit: Gnoll Stone Thrower                    Ag        Acc      Str       Res       Init     Co                      Special
+3 x Gnoll crew with daggers, stone
+                                              5         4        5          7        7        8                   Large, Slow 3
+    throwing engine
+                                                                Equipment
+1 x Small Stone Thrower
+                                                                 Options
+•Give Gnoll crew swords or axes instead of daggers @1pt per model       •Add up to 2 Gnoll crew to unit @14pts each
+•Give unit Big Stone Thrower instead of Small Stone Thrower             •Give Gnoll crew light armour @2pts per model increasing Res to
+  @27pts                                                                   7(8)
+
+
+
+
+ Warlords of Erehwon
+                                    WEAPON AND SPECIAL RULE SUMMARY
+
+                                               RANGE
+                                                                  Strike
+                WEAPON                Short    Long     Extreme   Value                          Special Rules
+                                                                  (SV)
+
+
+ Bow                                  0-10”    10-20”      -        0
+ Crossbow                             0-10”    10-30”      -        1      Fire order to shoot
+ Small Stone Thrower                  10-30”   30-40”   40-60”      3      Overhead, Fire order to shoot, D6 hits
+ Large Stone Thrower                  10-30”   30-50”   50-80”      6      Overhead, Fire order to shoot, D6 hits
+
+
+ Sword or Axe                           Hand-to-Hand Combat         1      +1 Strength
+ Flail, Chainmace or Morning Star       Hand-to-Hand Combat         1      Armour +1 maximum bonus
+ Halberd                                Hand-to-Hand Combat         2      +1 Strength
+ Huge Sword, Mace or Warhammer          Hand-to-Hand Combat         2
+ Daggers                                Hand-to-Hand Combat         1
+ Spear                                  Hand-to-Hand Combat         1      Can also be thrown during exchange of missiles
+
+
+Command. Friendly units within 10” can use the model’s Co stat to take Command based tests.
+Dead-Eye Shot. Can re-roll one miss.
+Follow. Friendly un-pinned units within 5” can follow the unit’s order immediately.
+Hero. Friendly units within 10” can use the model’s Initiative stat to take Reaction tests.
+Irresistible Charge. +D3 strike value (SV) on charge.
+Large. +1 to hit shooting. Can draw LOS to body. Can draw Los over non-large models (artillery overhead
+only).
+Rapid Sprint. Sprint 4M.
+Savage. Re-roll misses in first combat of game.
+Slow/Fast. Move as rate indicated.
+Spirit. Can be sacrificed for a re-roll. Destroyed if wizard is slain.
+Stealthy. Re-roll missile hits if in cover
+Tough. Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).
+Woodsmen. Add +1 Res in woodland and ignore movement penalties.
+Wound. Can lose the ‘wounds value’ of lives before a further Res fail slays. Can’t recover pins beyond
+wounds suffered.
+
+
+
+
+                                                                                                                    Gnolls
+

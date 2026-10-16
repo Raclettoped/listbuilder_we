@@ -1,0 +1,1194 @@
+{
+  "warband": "Dark Elf",
+  "version": "1.Ouch!",
+  "updated": "31/10/25",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "I designed this warband around a simple set of goals: it had to be in line with existing material for Erehwon, use only existing special rules, and be able to adequately represent any of the common archetypes for dark elves in fantasy gaming. This actually proved to be easier than I expected – a great testament to the ruleset's flexibility and elegance. Aside from tending to be involved in all kinds of unsavory activities, one near-constant across different depictions of dark elves is that they are a fractious lot – thus the choice of the Cold-eyed special rule from the Reptilians, in this case being less about a lack of emotion in and of itself and more that the survivors of a squad each probably have one or two enemies among the casualties, and were probably planning on finding an opportunity to do them in themselves until the foe was so considerate as to do it for them. Similarly, dark elves rarely seem to have access to the kinds of wondrous materials their “normal” kin use for armor, thus the lack of spangly armor, replacing it with normal medium armor instead. Many of the warband's mounted characters and units – even their chariots – have the option to replace their horses with slower but more fearsome “Riding Raptors” providing a tradeoff of greater combat prowess in exchange for becoming a less-mobile unit. In the spirit of Erehwon, these can of course be any of a variety of more terrifying mounts preferred by these fell riders, but reptiles of various sorts seem to be fairly common in media, so I defaulted to such. As another point of difference from traditional elves, dark elves are often depicted wielding crossbows of varying sorts, sometimes with any of a variety of mechanisms by which to increase rate of fire quite drastically. While normal crossbows were already found in the game's rulebook, repeating crossbows were not. However, this was easily rectified by “borrowing” the rules for slings, allowing for adequate rapid-firing missile weaponry. But these are merely the core of the warband; the real fun begins with the variety of specialists the dark elves are able to bring to bear on their foes. The first of these are the Infiltrators, stealthy combatants that serve as a dark mirror of the Elf Rangers; bearing any of a wide range of combat gear as they maneuver towards their goals, utilizing whatever if any cover they can to protect themselves from enemy missile weapons. Fanatics instead use a combination of Zealous and Berserk to become a fearsome if rather fragile unit, difficult to break and able to deal a significant amount of damage if they are able to survive moving to engage the enemy. The accursed Hex Riders function as a notable high-speed threat, making up for their lack of protective gear with the defensive edge afforded by the Dread rule, while their enchanted blades make quick work of the enemy's heavily-armored troops (though likely at the cost of several of these troops – a trade the other dark elves are more than okay with.) The last of the more unique units in the warband are the dreaded Spider Centaurs; a particular favorite monster of mine from RPGs, but one I have never seen in wargaming. This made them somewhat more difficult to devise characteristics for, but the existing monsters for Erehwon provide sufficient inspiration to bring them to life in a suitable manner.",
+  "units": [
+    {
+      "name": "Dark Elf Lord",
+      "type": "Warlord Warrior Unit",
+      "points_value": 111,
+      "special": "You must include one Dark Elf Lord, Mounted Dark Elf Lord, or Dark Elf Lord riding Chariot and one only.",
+      "profiles": [
+        {
+          "name": "Dark Elf Lord with sword, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Command, Follow, 3x HtH, Wound, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf Bodyguards with swords, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Dark Elf Lord to tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armor",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 5(7) or heavy armor @ 15pts increasing Res to 5(8)"
+        },
+        {
+          "description": "Upgrade Dark Elf Lord to Wound 2",
+          "cost": 12,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Dark Elf Bodyguards",
+          "cost": 18,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Dark Elf Lord",
+      "type": "Warlord Mounted Unit",
+      "points_value": 131,
+      "special": "You must include one Dark Elf Lord, Mounted Dark Elf Lord, or Dark Elf Lord riding Chariot and one only.",
+      "profiles": [
+        {
+          "name": "Dark Elf Lord with sword, light armor, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "8(7)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Command, Follow, Fast 8, 3x HtH, Wound, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf Bodyguards with swords, light armor, riding horses",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Fast 8, Cold-eyed"
+        },
+        {
+          "name": "Riding Raptors",
+          "ag": 6,
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Fast 6, 1x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armor",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 6(8) or heavy armor @ 15pts increasing Res to 6(9)"
+        },
+        {
+          "description": "Upgrade Dark Elf Lord to tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Dark Elf Lord to Wound 2",
+          "cost": 12,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Replace horses with Riding Raptors (replacing Fast 8 with Fast 6)",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Mounted Dark Elf Bodyguards",
+          "cost": 24,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Lord riding Chariot",
+      "type": "Warlord Chariot Unit",
+      "points_value": 153,
+      "special": "You must include one Dark Elf Lord, Mounted Dark Elf Lord, or Dark Elf Lord riding Chariot and one only.",
+      "profiles": [
+        {
+          "name": "Dark Elf chariot with 2+ Dark Elf crew pulled by 2 horses",
+          "ag": 6,
+          "acc": "-",
+          "str": "-",
+          "res": "10",
+          "init": "-",
+          "co": "-",
+          "special": "Large, Irresistible Charge, Fast 8"
+        },
+        {
+          "name": "Dark Elf Lord with sword, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Command, Follow, 3x HtH, Wound, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf crew with sword",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Cold-eyed"
+        },
+        {
+          "name": "Horses",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Riding Raptors",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Fast 6, 1x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace Horses with Riding Raptors",
+          "cost": 8,
+          "per": "model",
+          "note": "replacing Fast 8 with Fast 6"
+        },
+        {
+          "description": "Upgrade Dark Elf Lord to Wound 2 on foot only",
+          "cost": 12,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Dark Elf crew spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Dark Elf crew repeating crossbows",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Dark Elf crew crossbows",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Lord medium armor on foot only",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 5(7) or heavy armor @ 15pts increasing Res to 5(8) on foot only"
+        },
+        {
+          "description": "Give Dark Elf crew heavy crossbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give chariot scythes",
+          "cost": 25,
+          "per": "model",
+          "note": "with d6 SV1 impact hits on charge"
+        },
+        {
+          "description": "Upgrade Dark Elf Lord to Tough 2 on foot only",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Sorcerer",
+      "type": "Warrior Unit",
+      "points_value": 62,
+      "special": "You can include a maximum of one Dark Elf Sorcerer in your warband.",
+      "profiles": [
+        {
+          "name": "Dark Elf Sorcerer with dagger",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Wound, Magic Level 1, Cold-eyed"
+        },
+        {
+          "name": "Bodyguards with swords",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed"
+        },
+        {
+          "name": "Fell Spirits",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Sorcerer to Magic Level 2",
+          "cost": 25,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Sorcerer to Magic Level 3",
+          "cost": 35,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Sorcerer to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Fell Spirits",
+          "cost": 13,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Bodyguards",
+          "cost": 15,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Bodyguards light armor",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Hero",
+      "type": "Warrior Unit",
+      "points_value": 72,
+      "special": "You can include a maximum of one Dark Elf Hero in your warband, whether a Hero or Mounted Hero.",
+      "profiles": [
+        {
+          "name": "Dark Elf Hero with sword, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Cold-eyed"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Hero medium armor",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 5(7) or heavy armor @15pts, increasing 5(8)"
+        },
+        {
+          "description": "Give Hero long spear",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wounds 2",
+          "cost": 12,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wound 3",
+          "cost": 24,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Hero spear",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Dark Elf Hero",
+      "type": "Mounted Unit",
+      "points_value": 90,
+      "special": "You can include a maximum of one Dark Elf Hero in your warband, whether a Hero or Mounted Hero.",
+      "profiles": [
+        {
+          "name": "Dark Elf Hero",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Cold-eyed"
+        },
+        {
+          "name": "Riding Raptor",
+          "ag": 6,
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Fast 6, 1x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Hero medium armor",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 5(7) or heavy armor @15pts, increasing 5(8)"
+        },
+        {
+          "description": "Give Hero lance",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wounds 2",
+          "cost": 12,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wound 3",
+          "cost": 24,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Replace horse with Riding Raptor (replacing Fast 8 with Fast 6)",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Guard",
+      "type": "Warrior Unit",
+      "points_value": 110,
+      "special": "You can include a maximum of one Dark Elf Guard in your warband",
+      "profiles": [
+        {
+          "name": "Dark Elf Guard Leader with huge sword, medium armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf Guard with huge swords, medium armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Replace Cold-eyed with Zealous",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Dark Elf Guard",
+          "cost": 20,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Warriors",
+      "type": "Warrior Unit",
+      "points_value": 100,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dark Elf Warrior Leader with sword, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf Warrior with swords, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armor",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(7)"
+        },
+        {
+          "description": "Add up to 5 Dark Elf Warriors",
+          "cost": 18,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Crossbowmen",
+      "type": "Warrior Type",
+      "points_value": 110,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dark Elf Crossbowman Leader with dagger, crossbow, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf Crossbowman with daggers, crossbows, light armor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit repeating crossbows",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armor",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(7)"
+        },
+        {
+          "description": "Add up to 5 Dark Elf Crossbowmen",
+          "cost": 20,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Horsemen",
+      "type": "Mounted Unit",
+      "points_value": 82,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dark Elf Horseman with sword, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Fast 8, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf Horseman with sword, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6",
+          "init": 8,
+          "co": 8,
+          "special": "Fast 8, Cold-eyed"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit crossbows",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit repeating crossbows",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armor",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(7)"
+        },
+        {
+          "description": "Add up to 2 Dark Elf Horsemen",
+          "cost": 24,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Raptor Knights",
+      "type": "Mounted Unit",
+      "points_value": 112,
+      "special": "You may only include one unit of Raptor Knights in your warband",
+      "profiles": [
+        {
+          "name": "Raptor Seneschal with sword, heavy armor, riding raptor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(9)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Fast 6, Cold-eyed"
+        },
+        {
+          "name": "Raptor Knight with sword, heavy armor, riding raptor",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(9)",
+          "init": 8,
+          "co": 8,
+          "special": "Fast 6, Cold-eyed"
+        },
+        {
+          "name": "Riding Raptors",
+          "ag": 6,
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Raptor Knights",
+          "cost": 34,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Infiltrators",
+      "type": "Warrior Unit",
+      "points_value": 115,
+      "special": "You may only include one unit of Dark Elf Infiltrators in your warband",
+      "profiles": [
+        {
+          "name": "Dark Elf Infiltrator Leader with sword",
+          "ag": 7,
+          "acc": 6,
+          "str": 5,
+          "res": "5",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Cold-eyed, Stealthy"
+        },
+        {
+          "name": "Dark Elf Infiltrator with sword",
+          "ag": 7,
+          "acc": 6,
+          "str": 5,
+          "res": "5",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed, Stealthy"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit crossbows",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit repeater crossbows",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit huge swords",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armor",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Add up to 5 Infiltrators",
+          "cost": 21,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Fanatics",
+      "type": "Warriors Unit",
+      "points_value": 145,
+      "special": "You may only include one unit of Dark Elf Fanatics in your warband",
+      "profiles": [
+        {
+          "name": "Dark Elf Fanatic Leader with dagger",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Zealous, Berserk, Cold-eyed"
+        },
+        {
+          "name": "Dark Elf Fanatic with daggers",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5",
+          "init": 8,
+          "co": 8,
+          "special": "Zealous, Berserk, Cold-eyed"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit scourges",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit swords",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armor",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Add up to 5 Fanatics",
+          "cost": 27,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Hex Riders",
+      "type": "Mounted Unit",
+      "points_value": 105,
+      "special": "You may only include one unit of Hex Riders in your warband",
+      "profiles": [
+        {
+          "name": "Hex Rider with sword, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Fast 8, Cold-eyed, Dread, Deathly Chill"
+        },
+        {
+          "name": "Hex Rider with sword, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6",
+          "init": 8,
+          "co": 8,
+          "special": "Fast 8, Cold-eyed, Dread, Deathly Chill"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Hex Riders",
+          "cost": 25,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 96,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dark Elf crew with swords, light armor, bolt-throwing engine",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed, Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
+          "cost": 21,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Dark Elf crew to unit",
+          "cost": 18,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Spider Centaurs",
+      "type": "Monster Unit",
+      "points_value": 47,
+      "special": "You may only include one unit of Spider Centaurs in your warband",
+      "profiles": [
+        {
+          "name": "Spider Centaur with dagger",
+          "ag": 6,
+          "acc": 6,
+          "str": 6,
+          "res": "6",
+          "init": 8,
+          "co": 8,
+          "special": "2x HtH, Wound, Dread, Vengeful"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "give unit swords",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "give unit spears",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "give unit light armor",
+          "cost": 4,
+          "per": "model",
+          "note": "increasing Res to 6(7)"
+        },
+        {
+          "description": "Add up to 2 spider centaurs",
+          "cost": 37,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Elf Chariot",
+      "type": "Chariot Unit",
+      "points_value": 118,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Dark Elf chariot with 2+ Dark Elf crew pulled by 2 horses",
+          "ag": 6,
+          "acc": "-",
+          "str": "-",
+          "res": "10",
+          "init": "-",
+          "co": "-",
+          "special": "Large, Irresistible Charge, Fast 8"
+        },
+        {
+          "name": "Dark Elf crew with sword",
+          "ag": "-",
+          "acc": 6,
+          "str": 5,
+          "res": "-",
+          "init": 8,
+          "co": 8,
+          "special": "Cold-eyed"
+        },
+        {
+          "name": "Horses",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Riding Raptors",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Fast 6, 1x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace Horses with Riding Raptors",
+          "cost": 8,
+          "per": "model",
+          "note": "replacing Fast 8 with Fast 6"
+        },
+        {
+          "description": "Give Dark Elf crew spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Dark Elf crew crossbows",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Dark Elf crew heavy crossbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give chariot scythes",
+          "cost": 25,
+          "per": "model",
+          "note": "with d6 SV1 impact hits on charge"
+        },
+        {
+          "description": "Give Dark Elf crew repeating crossbows",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "-"
+    },
+    {
+      "weapon": "Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Fire Order to shoot"
+    },
+    {
+      "weapon": "Repeater Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "2x Ranged SV0 on Fire order"
+    },
+    {
+      "weapon": "Heavy Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "Fire Order to shoot"
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire Order to shoot, 3x Ranged SV3"
+    },
+    {
+      "weapon": "Large Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 5,
+      "special_rules": "Fire Order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Dagger",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sword",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Strength +1"
+    },
+    {
+      "weapon": "Huge Sword",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    },
+    {
+      "weapon": "Long Spear",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Cancels charge bonus"
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "Strength +1"
+    },
+    {
+      "weapon": "Scourge",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be 'cracked' during exchange of missiles"
+    },
+    {
+      "weapon": "Lance",
+      "short_range": "Hand-to-Hand",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "SV3 on charge"
+    }
+  ],
+  "special_rules": {
+    "Berserk": "Auto-pass order test or reactio to charge. Fights with double attacks. Ceases to apply once a break test is failed or defeated in combat",
+    "Cold-eyed": "Pin penalties to Command are reduced by 1",
+    "Command": "Friends within 10\" can use unit's command stat",
+    "Deathly Chill": "No armor bonus allowed",
+    "Dread": "-1 to hit shooting/close combat. -1 to break test if defeated by dreaded enemy. Dread units are immune to dread.",
+    "Follow": "Can activate friendly unpinned units within 5\" with same order. Additional activated units take their turns on at a time after the original unit.",
+    "Hero": "Friends within 10\" can use unit's initiative value for reaction tests.",
+    "Irresistible Charge": "+D3 Strike Value on charge.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS to or from over non-Large models.",
+    "Slow/Fast": "Unit's base movement as stated.",
+    "Stealthy": "If models are in cover shooting hits upon them must be re-rolled.",
+    "Tough": "can re-roll one failed Res roll or Damage Chart result",
+    "Vengeful": "Must follow-on if unit wins combat where possible. Double attacks in follow-on combat.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered.",
+    "Zealous": "Ignores pins when taking tests. Re-roll failed order tests."
+  }
+}

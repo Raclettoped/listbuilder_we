@@ -1,0 +1,887 @@
+{
+  "warband": "Goblins",
+  "version": "2.1",
+  "updated": "14/07/19",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "This updated version of the Goblin Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game. If you spot any errors, typos or grammatical infidelities please drop me a line via the This Gaming Life pages.\nThe Goblin list is a classic force of these underwhelming warriors. I've chosen to present this as a list in its own right rather than mix it with Orcs - but players who wish to combine the two are welcome to arrange to do so with their opponent. It takes a player with a certain mind-set to cheerfuly field a force of Goblins - and the paucity of same is one reason why it has become traditional to mix them in with Orcs. Pish I say - who needs a chunky stat line and massive iron-mongery - we have numbers on our side and if victories are rare and hard-won they are so much more to be savoured. Also, after the fighting we get to eat the casualties anyway, so its win-win really.\nI've not expanded the list from the original version but, as always, players are welcome to add or remove restrictions by prior arrangement and make such modifications to the lists as they feel best suits their own gaming style.",
+  "units": [
+    {
+      "name": "Goblin Chieftain",
+      "type": "Warlord Warrior Unit",
+      "points_value": 59,
+      "special": "You must include one Goblin Chieftain or Goblin Chieftain in Wolf Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Goblin Chieftain with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Command, 3x HtH, Wound"
+        },
+        {
+          "name": "Goblin Bodyguard with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Goblin bodyguards",
+          "cost": 9,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit big axes, huge swords, warhammers or massive maces",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Replace light armour with medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "+2pts per Bodyguard model increasing Res to 4(6)"
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Wounds 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Chieftain in Wolf Chariot",
+      "type": "Warlord Chariot Unit",
+      "points_value": 151,
+      "special": "You must include one Goblin Chieftain or Goblin Chieftain in Wolf Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Goblin Chariot with Chieftain, pulled by two wolves",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough, Irresistible Charge, Fast 6, Rapid Sprint"
+        },
+        {
+          "name": "Goblin Chieftain with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 8,
+          "co": 8,
+          "special": "[Tough], Command, 3x HtH, [Wound]"
+        },
+        {
+          "name": "Goblin crew with sword or axe",
+          "ag": "-",
+          "acc": 5,
+          "str": 4,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Wolves",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        },
+        {
+          "name": "Dire Wolves",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "2x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Chieftain and crew spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Chieftain and crew big axes, huge swords, warhammers or massive maces",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Goblin crew bows",
+          "cost": 2,
+          "per": "crew",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to [Wound 2]",
+          "cost": 10,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Replace Chieftain's light armour with medium armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to [4(6)]on foot only"
+        },
+        {
+          "description": "Upgrade Chieftain to [Tough 2]",
+          "cost": 10,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Add up to 2 Goblin crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Replace Wolves with Dire Wolves",
+          "cost": 12,
+          "per": null,
+          "note": "for 2 Dire Wolves"
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": "with D6 SV1 impact hits on charge"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Shaman",
+      "type": "Warrior Unit",
+      "points_value": 52,
+      "special": "You can include a maximum of one Goblin Shaman in your warband.",
+      "profiles": [
+        {
+          "name": "Goblin Shaman with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "Goblin Shamanic Cultists with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": null
+        },
+        {
+          "name": "Gobble Dogs",
+          "ag": 6,
+          "acc": "-",
+          "str": 5,
+          "res": 5,
+          "init": 5,
+          "co": 5,
+          "special": "Frenzied Charge, 2 x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Upgrade Shaman to Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shaman to Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shaman to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Goblin Shaman Cultists",
+          "cost": 7,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Gobble Dogs",
+          "cost": 16,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Guard",
+      "type": "Warrior Unit",
+      "points_value": 49,
+      "special": "You can include a maximum of one Goblin Guard unit in your warband.",
+      "profiles": [
+        {
+          "name": "Goblin Leader with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Goblin Guard with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 6,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 4(6)"
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit warhammers or maces",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Goblin Guards",
+          "cost": 7,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Warriors",
+      "type": "Warrior Unit",
+      "points_value": 47,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Goblin Leader with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Goblin Warrior with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 6,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Goblin Warriors",
+          "cost": 7,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Archers",
+      "type": "Warrior Unit",
+      "points_value": 47,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Goblin Leader with sword or axe, bow",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Goblin Warrior with sword or axe, bow",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 6,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 4(5)"
+        },
+        {
+          "description": "Add up to 5 Goblin Archers",
+          "cost": 7,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Whirling Dervishes",
+      "type": "Warrior Unit",
+      "points_value": 90,
+      "special": "You can include a maximum of one Goblin Whirling Dervish unit in your warband.",
+      "profiles": [
+        {
+          "name": "Whirling Dervishes",
+          "ag": 6,
+          "acc": 5,
+          "str": 10,
+          "res": 10,
+          "init": 7,
+          "co": 9,
+          "special": "Whirling Dervishes"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Whirling Dervishes",
+          "cost": 30,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Wolf Riders",
+      "type": "Mounted Unit",
+      "points_value": 69,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Goblin Wolf Rider Leader with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "Tough, Fast 6, Rapid Sprint: Wolf 1x HtH SV1"
+        },
+        {
+          "name": "Goblin Wolf Rider with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 6,
+          "special": "Fast 6, Rapid Sprint: Wolf 1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Mount unit on Dire Wolves",
+          "cost": 6,
+          "per": "model",
+          "note": "increasing Wolf to 2x HtH SV1"
+        },
+        {
+          "description": "Add up to 3 Goblin Wolf Riders",
+          "cost": 19,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Wolf Chariot",
+      "type": "Chariot Unit",
+      "points_value": 99,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Goblin Chariot: Goblin crew, pulled by two wolves",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Irresistible Charge, Fast 6, Rapid Sprint"
+        },
+        {
+          "name": "Goblin crew with sword or axe",
+          "ag": "-",
+          "acc": 5,
+          "str": 4,
+          "res": "-",
+          "init": 7,
+          "co": 7,
+          "special": null
+        },
+        {
+          "name": "Wolves",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        },
+        {
+          "name": "Dire Wolves",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "2x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Goblin crew spears",
+          "cost": 0,
+          "per": "crew",
+          "note": null
+        },
+        {
+          "description": "Give Goblin crew bows",
+          "cost": 2,
+          "per": "crew",
+          "note": null
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": "with D6 SV1 impact hits on charge"
+        },
+        {
+          "description": "Add up to 2 Goblin crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Replace Wolves with Dire Wolves",
+          "cost": 12,
+          "per": null,
+          "note": "for 2 Dire Wolves"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Sprog Swarm",
+      "type": "Swarm Unit",
+      "points_value": 81,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Goblin Sprog Swarm",
+          "ag": 8,
+          "acc": 5,
+          "str": 5,
+          "res": 6,
+          "init": 8,
+          "co": 8,
+          "special": "Surly, 3x HtH SV0"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit rocks to throw",
+          "cost": 1,
+          "per": "swarm",
+          "note": "adding 1x Ranged attack per swarm"
+        },
+        {
+          "description": "Add up to 2 Swarms",
+          "cost": 27,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Gobble Dog Pack",
+      "type": "Warrior/Beast Unit",
+      "points_value": 83,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Gobble Dog Pack Master with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Gobble Dogs",
+          "ag": 6,
+          "acc": "-",
+          "str": 5,
+          "res": 5,
+          "init": 5,
+          "co": 5,
+          "special": "Frenzied Charge, 2x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Pack Master medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 4(6)"
+        },
+        {
+          "description": "Give Pack Master spear",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Gobble Dogs",
+          "cost": 16,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Trolls",
+      "type": "Monster Unit",
+      "points_value": 105,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Troll",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": 7,
+          "init": 4,
+          "co": 7,
+          "special": "Large, 3x HtH SV2, Chunder, Regenerate"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Trolls",
+          "cost": 35,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Goblin Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 63,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Goblin crew with daggers, stone throwing engine",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 6,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "Small Stone Thrower",
+      "options": [
+        {
+          "description": "Give Goblin crew sword or axe",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Large Stone Thrower instead of Small Stone Thrower",
+          "cost": 27,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Goblin crew to unit",
+          "cost": 3,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Goblin crew light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 4(5)"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 51,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Goblin crew with daggers, bolt throwing engine",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 6,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
+          "cost": 21,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Goblin crew to unit",
+          "cost": 3,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Goblin crew sword or axe",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Goblin crew light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 4(5)"
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Rock",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be used in HtH"
+    },
+    {
+      "weapon": "Chunder",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": "Target counts Res of 5, exhausted on roll of 6+"
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire order to shoot, 3x Ranged SV3"
+    },
+    {
+      "weapon": "Large Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 5,
+      "special_rules": "Fire order to shoot, unstoppable"
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Large Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-50\"",
+      "extreme_range": "50-80\"",
+      "strike_value": 6,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Dagger",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be used during exchange of missiles"
+    },
+    {
+      "weapon": "Big Axe, Huge sword, Warhammer or Massive mace",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "+1 Strength"
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Chunder": "Range Attack counting target's Res as 5, exhausted on D10 roll of 6+.",
+    "Frenzied Charge": "+1 extra Attack when charging.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw Los over non-large models (artillery overhead only).",
+    "Rapid Sprint": "Sprint at 4M",
+    "Regenerate": "Re-roll failed Res and take pin if successful.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Surly": "Cannot benefit from Command, Hero or Follow rule.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Unstoppable": "Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time. Roll twice on the on monstrosity damage table.",
+    "Whirling Dervishes": "Must be given run order. On order roll of 10 move randomly. All shooting hits must be re-rolled, no close combat attacks possible, scores D6 hit +1 per goblin SV4, move randomly after combat.",
+    "Wounds": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

@@ -1,0 +1,1184 @@
+{
+  "warband": "Barbarians",
+  "version": "2.1",
+  "updated": "12/05/21",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "The Barbarians list represents a whole range of wild and savage warbands from hulking Neanderthal warriors of the Ice Age astride bellowing mammoths, hairy Norse raiders accompanied by fearless berserkers, and the proud Fianna of Celtic legend with their chariot-riding heroes. Our list is highly adaptable and can be used to create warbands from a wide variety of historical cultures as well as the mythic past. It is also an ideal way of building a force inspired by the pages of classic Sword & Sorcery fiction and - of course - the movies and model ranges inspired by them.",
+  "units": [
+    {
+      "name": "Barbarian Chieftain",
+      "type": "Warlord Warriors Unit",
+      "points_value": 96,
+      "special": "You must include one of Barbarian Chieftain, Mounted Barbarian Chieftain or Barbarian Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Barbarian Chieftain with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Barbarian Bodyguard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Wounds 2",
+          "cost": 12,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Barbarian bodyguards",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Berserk rule",
+          "cost": 5,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to 5(7)"
+        }
+      ]
+    },
+    {
+      "name": "Mounted Barbarian Chieftain",
+      "type": "Warlord Mounted Unit",
+      "points_value": 122,
+      "special": "You must include one of Barbarian Chieftain, Mounted Barbarian Chieftain or Barbarian Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Mounted Barbarian Chieftain with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Command, Follow, Fast 8, 3x HtH, Wound"
+        },
+        {
+          "name": "Mounted Barbarian Bodyguard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        },
+        {
+          "name": "Warhorses",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Wounds 2",
+          "cost": 14,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Berserk rule",
+          "cost": 5,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to 6(8)"
+        },
+        {
+          "description": "Replace Horses with Warhorses",
+          "cost": 6,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Mounted Barbarian bodyguards",
+          "cost": 20,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Chieftain in Chariot",
+      "type": "Warlord Chariot Unit",
+      "points_value": 152,
+      "special": "You must include one of Barbarian Chieftain, Mounted Barbarian Chieftain or Barbarian Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Chariot with Chieftain and crew in chariot pulled by horses",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough, Fast 8, Irresistable Charge"
+        },
+        {
+          "name": "Barbarian Chieftain with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "[Tough], Command, Follow, 3x HtH, [Wound]"
+        },
+        {
+          "name": "Barbarian crew with sword or axe",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Horses",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Warhorses",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Chieftain and crew Spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 3,
+          "per": null,
+          "note": "+1pt per crew and/or warhorse"
+        },
+        {
+          "description": "Upgrade Chieftain to Wounds 2",
+          "cost": 12,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Give Chieftain medium armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to 5(7) on foot"
+        },
+        {
+          "description": "Replace Horses with Warhorses",
+          "cost": 12,
+          "per": null,
+          "note": "for 2 War Horses"
+        },
+        {
+          "description": "Add up to 2 Barbarian crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Shaman",
+      "type": "Warriors Unit",
+      "points_value": 57,
+      "special": "You can include a maximum of one Barbarian Shaman in your warband.",
+      "profiles": [
+        {
+          "name": "Barbarian Shaman with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "Barbarian Bodyguard with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": null
+        },
+        {
+          "name": "Elemental Spirits",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Upgrade Shaman to Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shaman to Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shaman to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Barbarian Bodyguards",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Elemental Spirits",
+          "cost": 18,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Barbarian Bodyguard light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Hero",
+      "type": "Warriors Unit",
+      "points_value": 81,
+      "special": "You can include a maximum of one Barbarian Hero or Barbarian hero in Chariot in your warband.",
+      "profiles": [
+        {
+          "name": "Barbarian Hero with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Hero medium armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to 6(8)"
+        },
+        {
+          "description": "Give Hero huge sword or big axe",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wounds 2",
+          "cost": 14,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wounds 3",
+          "cost": 28,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Hero Savage rule",
+          "cost": 3,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Hero Berserk Rule",
+          "cost": 5,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Hero in Chariot",
+      "type": "Chariot Unit",
+      "points_value": 158,
+      "special": "You can include a maximum of one Barbarian Hero or Barbarian hero in Chariot in your warband.",
+      "profiles": [
+        {
+          "name": "Chariot with Hero and crew in chariot pulled by horses",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough 2, Fast 8, Irresistable Charge"
+        },
+        {
+          "name": "Barbarian Hero with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(7)",
+          "init": 9,
+          "co": 9,
+          "special": "[Tough 2], Hero, 3x HtH, [Wound]"
+        },
+        {
+          "name": "Barbarian crew with sword or axe",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Horses",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Warhorses",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Hero and crew spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Barbarian crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Replace Horses with Warhorses",
+          "cost": 12,
+          "per": null,
+          "note": "for 2 Warhorses"
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 3,
+          "per": null,
+          "note": "+1pt per crew and/or warhorse"
+        },
+        {
+          "description": "Give Hero medium armour",
+          "cost": 10,
+          "per": null,
+          "note": "increasing Res to 6(8) on foot only"
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Warriors",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Barbarian Warrior Leader with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Barbarian Warrior with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(7)"
+        },
+        {
+          "description": "Add up to 5 Barbarian Warriors",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Archers",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Barbarian Archer Leader with sword or axe, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Barbarian Archer with sword or axe, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Barbarian Archers",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Horsemen",
+      "type": "Mounted Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Horseman Leader with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "Horseman with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        },
+        {
+          "name": "Warhorses",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(8)"
+        },
+        {
+          "description": "Add up to 2 Barbarian Horsemen",
+          "cost": 20,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Mount unit on Warhorses",
+          "cost": 6,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": "or 2pts per model if riding warhorses"
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Berserkers",
+      "type": "Warriors Unit",
+      "points_value": 97,
+      "special": "You can include a maximum of one Barbarian Berserker unit in your warband unless your Barbarian Chieftain has the Berserk rule, in which case there is no limit.",
+      "profiles": [
+        {
+          "name": "Berserker Leader with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Berserk"
+        },
+        {
+          "name": "Berserkers with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": "Berserk"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Barbarian Berserkers",
+          "cost": 17,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Chariot",
+      "type": "Chariot Unit",
+      "points_value": 91,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Chariot: Barbarian crew, pulled by two horses",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Irresistible Charge, Fast 8"
+        },
+        {
+          "name": "Barbarian crew with sword or axe",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": null,
+          "init": 7,
+          "co": 8,
+          "special": null
+        },
+        {
+          "name": "Horses",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": null
+        },
+        {
+          "name": "Warhorses",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": null,
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Barbarian crew spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Barbarian crew bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Barbarian Chariot Savage rule",
+          "cost": 1,
+          "per": null,
+          "note": "+1pt per crew and/or warhorse"
+        },
+        {
+          "description": "Add up to 2 Barbarian crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Replace Horses with Warhorses",
+          "cost": 12,
+          "per": null,
+          "note": "for 2 Warhorses"
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Warhounds",
+      "type": "Warriors/Beast Unit",
+      "points_value": 66,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Pack Master with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Rapid Sprint"
+        },
+        {
+          "name": "Warhounds",
+          "ag": 5,
+          "acc": 0,
+          "str": 5,
+          "res": 6,
+          "init": 5,
+          "co": 5,
+          "special": "Savage, Rapid Sprint, 1x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Pack Master medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(7)"
+        },
+        {
+          "description": "Give Pack Master spear",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Warhounds",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Brats",
+      "type": "Warriors Unit",
+      "points_value": 37,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Barbarian Brat Leader with rock",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Barbarian Brat with rock",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit javelins",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit slings",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Barbarian Brats",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mammoth",
+      "type": "Monstrosity Unit",
+      "points_value": 156,
+      "special": "You can include a maximum of one Mammoth in your warband.",
+      "profiles": [
+        {
+          "name": "Mammoth with four riders",
+          "ag": 4,
+          "acc": "-",
+          "str": 5,
+          "res": 12,
+          "init": "-",
+          "co": "-",
+          "special": "Large, MoD 2, 5x HtH SV5, Surly, Stampede"
+        },
+        {
+          "name": "Barbarian crew with spears",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": null,
+          "init": 5,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Barbarian crew bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Barbarian crew javelins",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Barbarian crew rocks to throw",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Barbarian crew",
+          "cost": 5,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Barbarian Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 81,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Barbarian crew with daggers, stone throwing engine",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow 3"
+        },
+        {
+          "name": "Small Stone Thrower",
+          "ag": null,
+          "acc": null,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": null
+        }
+      ],
+      "equipment": "Small Stone Thrower",
+      "options": [
+        {
+          "description": "Give Barbarian crew swords or axes",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Large Stone Thrower instead of Small Stone Thrower",
+          "cost": 27,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Barbarian crew to unit",
+          "cost": 9,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Rocks",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be used in HtH"
+    },
+    {
+      "weapon": "Sling",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "2x ranged attacks on Fire order"
+    },
+    {
+      "weapon": "Javelin",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order required to shoot, D6 hits"
+    },
+    {
+      "weapon": "Large Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-50\"",
+      "extreme_range": "50-80\"",
+      "strike_value": 6,
+      "special_rules": "Overhead, Fire order required to shoot, D6 hits"
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can be used for exchange of missiles"
+    },
+    {
+      "weapon": "Rock",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be thrown as ranged weapon"
+    },
+    {
+      "weapon": "Huge Sword or Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Daggers",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    }
+  ],
+  "special_rules": {
+    "Berserk": "Until defeated or fail a break test, double attacks in HtH, automatically pass orders to charge.",
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Dead-Eye Shot": "Re-roll one miss.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Frenzied Charge": "+1 extra Attack when charging.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw Los over non-large models.",
+    "MoD2": "Unit has 2 order dice.",
+    "Rapid Sprint": "Sprint at 4M.",
+    "Savage": "Re-roll missed Str to hit in first round of combat in game.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Spirit": "Can be sacrificed for a re-roll. Destroyed if wizard is slain.",
+    "Stampede": "Stampede on failed Order test of 10. D10\"+2M in direction shown by dice. Each unit in path is attacked as if charged. Unit goes down and gains 1 pin per unit trampled.",
+    "Surly": "Cannot benefit from Command, Hero or Follow rule.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

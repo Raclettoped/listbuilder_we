@@ -1,0 +1,1040 @@
+{
+  "warband": "Elves",
+  "version": "2.1",
+  "updated": "21/08/19",
+  "special_army_rule": {
+    "name": "",
+    "description": ""
+  },
+  "additional_notes": "This updated version of the Elven Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game.",
+  "units": [
+    {
+      "name": "Elven Lord",
+      "type": "Warlord Warrior Unit",
+      "points_value": 108,
+      "special": "You must include one Elven Lord unit in your warband either an Elven Lord or Mounted Elven Lord and one only.",
+      "profiles": [
+        {
+          "name": "Elven Lord with sword, light armour",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "Elven Bodyguard with swords, light armour",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit spangly armour increasing Res to 5(8)",
+          "cost": 15,
+          "per": "model",
+          "note": "+4pts per Bodyguard model"
+        },
+        {
+          "description": "Give unit Haughty Distain rule",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Elven Lord to Tough 2",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Elven Lord to Wound 2",
+          "cost": 12,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Elven Bodyguards",
+          "cost": 17,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Mounted Elven Lord",
+      "type": "Warlord Mounted Unit",
+      "points_value": 128,
+      "special": "You must include one Elven Lord unit in your warband either an Elven Lord or Mounted Elven Lord and one only.",
+      "profiles": [
+        {
+          "name": "Mounted Elven Lord with sword, light armour, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(7)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Command, Follow, 3x HtH, Wound, Fast 8"
+        },
+        {
+          "name": "Mounted Elven Bodyguard with sword. light armour, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Fast 8"
+        },
+        {
+          "name": "Enchanted Steed",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1, Enchanted Steed"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit spangly armour increasing Res to 6(9)",
+          "cost": 15,
+          "per": "model",
+          "note": "+4pts per Bodyguard model"
+        },
+        {
+          "description": "Give unit Haughty Distain rule",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Elven Lord to Tough 2",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Elven Lord to Wound 2",
+          "cost": 14,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Replace horses with Enchanted Steeds",
+          "cost": 8,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Mounted Elven Bodyguards",
+          "cost": 23,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Hero",
+      "type": "Warrior Unit",
+      "points_value": 77,
+      "special": "You can include a maximum of one Elven Hero in your warband either a Hero or Mounted Hero",
+      "profiles": [
+        {
+          "name": "Elven Hero with sword, light armour",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3 x HtH, Wound"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give Hero spangly armour increasing Res to 5(8)",
+          "cost": 15,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wounds 2",
+          "cost": 12,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wounds 3",
+          "cost": 24,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Give Hero Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Give Hero spear",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero long spear",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Mounted Elven Hero",
+      "type": "Mounted Unit",
+      "points_value": 87,
+      "special": "You can include a maximum of one Elven Hero in your warband either a Hero or Mounted Hero",
+      "profiles": [
+        {
+          "name": "Mounted Elven Hero with sword, light armour, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(7)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Fast 8"
+        },
+        {
+          "name": "Enchanted Steed",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1, Enchanted Steed"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give Hero spangly armour increasing Res to 6(9)",
+          "cost": 15,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wounds 2",
+          "cost": 14,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wounds 3",
+          "cost": 28,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Give Hero Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Give Hero spear",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero lance",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Replace horse with Enchanted Steed",
+          "cost": 8,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Mage",
+      "type": "Warrior Unit",
+      "points_value": 62,
+      "special": "You can include a maximum of one Elven Mage in your warband.",
+      "profiles": [
+        {
+          "name": "Elven Mage with sword",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 5,
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "Apprentice Mages with swords",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 5,
+          "init": 8,
+          "co": 8,
+          "special": "Spirit, 1x HtH SV1"
+        },
+        {
+          "name": "Bound Daemons",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 3,
+          "co": 3,
+          "special": "Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Upgrade Mage to Magic Level 2",
+          "cost": 25,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Mage to Magic Level 3",
+          "cost": 50,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Mage to Tough 2",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Give unit Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 4 Bound Daemons",
+          "cost": 18,
+          "per": "each",
+          "note": "OR Add up to 4 Apprentice Mages"
+        },
+        {
+          "description": "Add up to 4 Apprentice Mages",
+          "cost": 15,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Give Apprentice Mages light armour increasing Res to 5(6)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Guard",
+      "type": "Warrior Unit",
+      "points_value": 95,
+      "special": "You can include a maximum of one Elven Guard in your warband.",
+      "profiles": [
+        {
+          "name": "Elven Guard Leader with spear, light armour",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Elven Guard with spear, light armour",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit long bows",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit spangly armour increasing Res to 5(8)",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Elven Guard",
+          "cost": 17,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Warriors",
+      "type": "Warrior Unit",
+      "points_value": 95,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Elven Leader with sword, light armour",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Elven Warrior with sword, light armour",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Elven Warriors",
+          "cost": 17,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Archers",
+      "type": "Warrior Unit",
+      "points_value": 105,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Elven Leader with sword, long bow",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 5,
+          "init": 8,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "Elven Archer with sword, long bow",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 5,
+          "init": 8,
+          "co": 8,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit light armour increasing Res to 5(6)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Elven Archers",
+          "cost": 19,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Rangers",
+      "type": "Warrior Unit",
+      "points_value": 140,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Ranger Leader with sword, long bow, light armour",
+          "ag": 7,
+          "acc": 7,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Woodsman"
+        },
+        {
+          "name": "Elven Ranger with sword, long bow, light armour",
+          "ag": 7,
+          "acc": 7,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 9,
+          "special": "Woodsman"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit spangly armour increasing Res to 5(8)",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Elven Rangers",
+          "cost": 26,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Cavalry",
+      "type": "Mounted Unit",
+      "points_value": 79,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Elven Leader, sword, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 6,
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "Elven Cavalry, sword, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": 6,
+          "init": 8,
+          "co": 8,
+          "special": "Fast 8"
+        },
+        {
+          "name": "Enchanted Steed",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1, Enchanted Steed"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit long bows",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit light armour increasing Res to 6(7)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit spangly armour increasing Res to 6(9)",
+          "cost": 6,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Haughty Distain",
+          "cost": 10,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Mount unit on Enchanted Steeds",
+          "cost": 8,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Elven Cavalry",
+          "cost": 23,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Knights",
+      "type": "Mounted Unit",
+      "points_value": 104,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Knight Leader, lance. spangly armour, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(9)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Fast 8, Haughty Distain"
+        },
+        {
+          "name": "Elven Knight, lance, spangly armour, riding horse",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6(9)",
+          "init": 8,
+          "co": 9,
+          "special": "Fast 8, Haughty Distain"
+        },
+        {
+          "name": "Enchanted Steed",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1, Enchanted Steed"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Mount unit on Enchanted Steeds",
+          "cost": 8,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Elven Knights",
+          "cost": 28,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Chariot",
+      "type": "Chariot Unit",
+      "points_value": 116,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Elven Chariot with Elven crew pulled by 2 horses",
+          "ag": 6,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Irresistible Charge, Fast 8"
+        },
+        {
+          "name": "Elven crew with sword, long bow",
+          "ag": "-",
+          "acc": 6,
+          "str": 5,
+          "res": "-",
+          "init": 8,
+          "co": 9,
+          "special": "Haughty Distain"
+        },
+        {
+          "name": "Horses",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": ""
+        },
+        {
+          "name": "Enchanted Steed",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1, Enchanted Steed"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Replace horses with Enchanted Steeds",
+          "cost": 16,
+          "per": "model",
+          "note": "for 2 Steeds"
+        },
+        {
+          "description": "Add up to 2 Elven crew",
+          "cost": 9,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Give Elven crew spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Elven crew long spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give chariot Scythes with D6 SV1 impact hits on charge",
+          "cost": 25,
+          "per": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Giant Eagle",
+      "type": "Monster Unit",
+      "points_value": 143,
+      "special": "You can include a maximum of one Giant Eagle in your warband.",
+      "profiles": [
+        {
+          "name": "Giant Eagle with rocks",
+          "ag": 10,
+          "acc": 6,
+          "str": 6,
+          "res": 8,
+          "init": 8,
+          "co": 8,
+          "special": "Large, Flies, Fast 10, 3x HtH SV3, 3x Drop SV3, Wound"
+        }
+      ],
+      "equipment": "",
+      "options": []
+    },
+    {
+      "name": "Elven Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 93,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Elven crew with swords, light armour, bolt throwing engine",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Large, Slow 3"
+        },
+        {
+          "name": "Small Bolt Thrower",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": ""
+        }
+      ],
+      "equipment": "1 x Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
+          "cost": 21,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Elven crew to unit",
+          "cost": 17,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Elven Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 105,
+      "special": "",
+      "profiles": [
+        {
+          "name": "Elven crew with swords, light armour, stone throwing engine",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Large, Slow 3"
+        },
+        {
+          "name": "Small Stone Thrower",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": ""
+        }
+      ],
+      "equipment": "1 x Small Stone Thrower",
+      "options": [
+        {
+          "description": "Give unit Large Stone Thrower instead of Small Stone Thrower",
+          "cost": 27,
+          "per": "",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Elven crew to unit",
+          "cost": 17,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Long Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": ""
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire order to shoot, 3x ranged"
+    },
+    {
+      "weapon": "Large Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 5,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits"
+    },
+    {
+      "weapon": "Large Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-50\"",
+      "extreme_range": "50-80\"",
+      "strike_value": 6,
+      "special_rules": "Overhead, Fire order to shoot, D6 hits,"
+    },
+    {
+      "weapon": "Rock Dropped by Eagle",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "Drop SV3"
+    },
+    {
+      "weapon": "Sword",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Long Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Cancels charge bonus"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    },
+    {
+      "weapon": "Lance",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "SV3 on charge"
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Enchanted Steed": "All water terrain counts as open terrain. Re-roll failed Res from shooting hits.",
+    "Flies": "Moves over any terrain/obstacles without test or penalties. Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, or if flyers are down.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Haughty Distain": "Automatically pass first Break Test.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw Los over non-large models (artilery overhead only).",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Spirit": "Can be sacrificed in exchange for re-roll. Destroyed if wizard slain.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Unstoppable": "Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time.",
+    "Woodsman": "Add +1 Res in woodland and ignore movement penalties.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

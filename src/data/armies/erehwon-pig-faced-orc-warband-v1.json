@@ -1,0 +1,783 @@
+{
+  "warband": "Pig-Faced Orc",
+  "version": "1.Oink",
+  "updated": "16/04/2020",
+  "special_army_rule": {
+    "name": "Slave and Slave Driver",
+    "description": "Two new special rules have been concocted for this list: Slave and Slave Driver. Units can be Slaves - the Slave rule applies to the whole unit - whilst Slave Drivers are always individual models. A Slave unit can be given an order in the usual way only if there is a Slave Driver model within 10\" when the order is given. If there is no Slave Driver within 10\" of a Slave unit when it is given an order then the opposing player makes a Command (Co) test for the unit. If the test is failed the unit goes down and a pin is removed in the usual way assuming the unit has any. If the test is passed the unit receives a run order and the opposing player gets to move the unit and must also remove a pin if it has any. The unit can be moved as the opposing player wishes in accordance with the rules, but it cannot charge (and so cannot initiate close combat), cannot use any missile weapons it has, and cannot otherwise make use of special rules. It just gets to make a standard 'double' move up to its normal run rate."
+  },
+  "additional_notes": "This warband is inspired by the Pig-faced Orc models made by Miniature Figurines Limited way back in the 1970's. These were originally designed as part of the licensed range for D&D, alongside other creatures such as Kobolds, Gnolls and the more usual Dwarves and Elves. Since those days, other manufacturers have made ranges that are similar, but it is the original models that I hold in great affection and for which I have put together this list.",
+  "units": [
+    {
+      "name": "Pig-faced Orc Chieftain",
+      "type": "Warlord Warrior Unit",
+      "points_value": 99,
+      "special": "You must include one Pig-faced Orc Chieftain unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Pig-faced Orc Chieftain with sword or axe, lash, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH Attacks, Wound, Slave Driver"
+        },
+        {
+          "name": "Pig-faced Orc Bodyguard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": "sword or axe, lash, light armour",
+      "options": [
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 3",
+          "cost": 20,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 12,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Frenzied Charge",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour increasing Res to 5(7)",
+          "cost": 10,
+          "per": "model",
+          "note": "+ 2pts per Pig-faced Orc Bodyguard model"
+        },
+        {
+          "description": "Add up to 2 Pig-faced Orc Bodyguards",
+          "cost": 12,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Human Wizard",
+      "type": "Warrior Unit",
+      "points_value": 45,
+      "special": "You can include a maximum of one Human Wizard in your warband.",
+      "profiles": [
+        {
+          "name": "Wizard with Cudgel (Wand)",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Magic Level 1, Wound, Slave Spirit, 1 x HtH SV1, Exchange of Missiles SV1"
+        },
+        {
+          "name": "Wizard's Familiars",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 3,
+          "co": 3,
+          "special": "-"
+        }
+      ],
+      "equipment": "Cudgel (Wand)",
+      "options": [
+        {
+          "description": "Give Wizard stave (Staff)",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Wizard sword, axe or mace",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Make Wizard Magic Level 2",
+          "cost": 25,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Make Wizard Magic Level 3",
+          "cost": 50,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Wizard to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 4 Wizard's Familiars",
+          "cost": 18,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Pig-faced Orc Champion",
+      "type": "Warrior Unit",
+      "points_value": 78,
+      "special": "You can include a maximum of one Pig-faced Orc Champion unit in your warband.",
+      "profiles": [
+        {
+          "name": "Pig-faced Orc Champion with sword or axe, lash, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Ferocious Charge, Slave Driver"
+        }
+      ],
+      "equipment": "sword or axe, lash, light armour",
+      "options": [
+        {
+          "description": "Give Champion huge sword or big axe",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Champion Halberd",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Champion to Tough 3",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Champion to Wound 2",
+          "cost": 12,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Champion to Wound 3",
+          "cost": 24,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Champion medium armour increasing Res to 5(7)",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Champion Frenzied Charge",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Champion Vengeful rule",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Champion Irresistible Charge instead of Ferocious Charge",
+          "cost": 9,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Pig-faced Orc Guard",
+      "type": "Warrior Unit",
+      "points_value": 74,
+      "special": "You can include a maximum of one Pig-faced Orc Guard unit in your warband.",
+      "profiles": [
+        {
+          "name": "Pig-faced Orc Leader with sword or axe, lash, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Slave Driver"
+        },
+        {
+          "name": "Pig-faced Orc Guard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": "sword or axe, light armour",
+      "options": [
+        {
+          "description": "Give unit medium armour increasing Res to 5(7)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Ferocious Charge rule",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Pig-faced Orc Guards",
+          "cost": 12,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Pig-faced Orc Warriors",
+      "type": "Warrior Unit",
+      "points_value": 70,
+      "special": "-",
+      "profiles": [
+        {
+          "name": "Pig-faced Orc Leader with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Pig-faced Orc Warrior with sword or axe, light armour",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": "sword or axe, light armour",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Ferocious Charge rule",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Leader Slave Driver rule and lash",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Pig-faced Orc Warriors",
+          "cost": 12,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Pig-faced Orc Archers",
+      "type": "Warrior Unit",
+      "points_value": 70,
+      "special": "-",
+      "profiles": [
+        {
+          "name": "Pig-faced Orc Leader with sword or axe, bow",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": 5,
+          "init": 6,
+          "co": 7,
+          "special": "Tough"
+        },
+        {
+          "name": "Pig-faced Orc Archer with sword or axe, bow",
+          "ag": 5,
+          "acc": 4,
+          "str": 6,
+          "res": 5,
+          "init": 6,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": "sword or axe, bow",
+      "options": [
+        {
+          "description": "Give unit light armour increasing Res to 5(6)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit crossbows",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Ferocious Charge rule",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Leader Slave Driver rule and lash",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Pig-faced Orc Archers",
+          "cost": 12,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Trolls",
+      "type": "Monster Unit",
+      "points_value": 95,
+      "special": "-",
+      "profiles": [
+        {
+          "name": "Troll",
+          "ag": 4,
+          "acc": 5,
+          "str": 6,
+          "res": 7,
+          "init": 4,
+          "co": 7,
+          "special": "Large, 3x HtH SV2, Chunder, Regenerate, Slave"
+        }
+      ],
+      "equipment": "-",
+      "options": [
+        {
+          "description": "Add up to 2 Trolls",
+          "cost": 35,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Captive Townsfolk",
+      "type": "Warrior Unit",
+      "points_value": 47,
+      "special": "-",
+      "profiles": [
+        {
+          "name": "Townsfolk Leader with stave",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Slave"
+        },
+        {
+          "name": "Townsfolk with staves",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
+          "special": "Slave"
+        }
+      ],
+      "equipment": "stave",
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit swords or axes",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit light armour increasing Res to 5(6)",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Captive Townsfolk",
+          "cost": 9,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Kobolds",
+      "type": "Warrior Unit",
+      "points_value": 52,
+      "special": "-",
+      "profiles": [
+        {
+          "name": "Kobold Leader with sword, axe or mace, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "3(4)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Frenzied Charge, Slave"
+        },
+        {
+          "name": "Kobold with sword, axe or mace, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "3(4)",
+          "init": 7,
+          "co": 7,
+          "special": "Frenzied Charge, Slave"
+        }
+      ],
+      "equipment": "sword, axe or mace, light armour",
+      "options": [
+        {
+          "description": "Give unit halberds",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit javelins",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit Ferocious Charge rule",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Kobolds",
+          "cost": 10,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Warriors",
+      "type": "Warrior Unit",
+      "points_value": 67,
+      "special": "-",
+      "profiles": [
+        {
+          "name": "Gnoll Leader with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": 7,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Slave"
+        },
+        {
+          "name": "Gnoll Warrior with axe or sword",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": 7,
+          "init": 7,
+          "co": 7,
+          "special": "Slave"
+        }
+      ],
+      "equipment": "axe or sword",
+      "options": [
+        {
+          "description": "Give unit big axes or huge swords",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit flails, chainmaces or morning stars",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Gnoll Warriors",
+          "cost": 13,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gnoll Archers",
+      "type": "Warrior Unit",
+      "points_value": 72,
+      "special": "-",
+      "profiles": [
+        {
+          "name": "Gnoll Leader with bow and dagger",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": 7,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Slave"
+        },
+        {
+          "name": "Gnoll Archer with bow and dagger",
+          "ag": 5,
+          "acc": 4,
+          "str": 5,
+          "res": 7,
+          "init": 7,
+          "co": 7,
+          "special": "Slave"
+        }
+      ],
+      "equipment": "bow and dagger",
+      "options": [
+        {
+          "description": "Give unit axes or swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit crossbows",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Gnoll Archers",
+          "cost": 14,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Fire order to shoot"
+    },
+    {
+      "weapon": "Chunder",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": "Target counts Res of 5, exhausted on roll of 6+"
+    },
+    {
+      "weapon": "Javelin",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Cudgel, club or wand",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Dagger or knife",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Flail, chain mace, morning star, or pick axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Armour +1 maximum bonus"
+    },
+    {
+      "weapon": "Halberd or other pole-arm",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Huge sword or big axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Lash or whip",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be cracked during exchange of missiles"
+    },
+    {
+      "weapon": "Stave or quarterstaff",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Sword, axe or mace",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Ferocious Charge": "+1 Strength bonus when charging.",
+    "Frenzied Charge": "+1 extra Attack when charging",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery OH only).",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Vengeful": "Must follow-on combat, double attacks in follow-on combats.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered.",
+    "Slave": "If more than 10\" from Slave Driver when order is given opponent rolls Command test, if passed the opposing player gives a Run order and moves the unit, if failed the unit goes Down as usual for a failed Order test.",
+    "Slave Driver": "Slave units are given orders as normal so long as there is a Slave Driver within 10\"."
+  }
+}

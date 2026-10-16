@@ -1,0 +1,305 @@
+                                           HALFLINGS
+VERSION 2.0
+UPDATED 02/04/19
+INCLUDING CORRECTIONS REVISIONS AND ADDITIONAL NOTES
+
+Our Halfling list take up the theme of the wee people of          We also have gallant Clan Chiefs - the leading chieftains
+folklore and - inevitably - those that have emerged from          of the biggest and most famous of the Halfling clans - so
+the pages of literature to populate role-playing and video        wealthy they even come mounted on a donkey! Once
+games, films, TV and popular culture. The name says it            again we feel no objection should players wish to substi-
+all really - they are ‘little people’ and about half the height   tute the donkey for some other creature - we’ve seen it all.
+of your average human, and their appearance and habits
+                                                                  The Halflings themselves are a lightly armed militia, short
+are popularly associated with the creations of Tolkien of
+                                                                  on height and equipment but pretty nifty when it comes
+course. Our list draws upon the character of these crea-
+                                                                  to shooting, throwing rocks, and sneaking about in the
+tures including those miniature people of traditional tales
+                                                                  undergrowth. The Sheriffs are the best equipped of the
+who helped shape that character in the first place: lep-
+                                                                  bunch, but that is not saying much. Archers are perhaps
+rechauns, gnomes, brownies and even pixies and faeries
+                                                                  the most effective fighters because Halflings are good
+should that be your bag.
+                                                                  shots and their arrows hit just as hard as those of larger
+Halflings are not shaped or inclined towards military             and stronger peoples. Even Halfling urchins, available as
+service and our warband has much of the character of a            swarms that might be imagined to include dogs, cats and
+militia or a mustering of well-meaning villagers. A Hal-          chickens, are remarkably adept at chucking rocks and can
+fling is as likely to carry a toasting fork or soup-ladle as a    be armed with slings - catapults most likely - which makes
+sword or spear. A cooking pot or colander might serve as          them even more annoying.
+a helmet. Despite this rather unprofessional approach to
+                                                                  It is an uncommonly brave or fool-hardy Halfling who is
+the art of war, Halflings are stout-hearted creatures and
+                                                                  prepared to climb aboard anything larger than a tiny pony
+not easily deterred.
+                                                                  or donkey, but some individuals can be found: though ‘no
+Halflings are loyal to their own kind, hide-bound by              good will come of it’ is the general attitude to such things.
+inclination, parochial in outlook and suspicious of larger        Although we’ve described these mounts as donkey’s any
+folk with fancy ideas. Those that live alongside or amongst       farmyard animal can easily be pressed into the same role
+humans are held to be unruly and a law unto themselves.           whether it be a pony, goat or good sized chicken. Our
+They are usually the first to be blamed whenever anything         mounted Halflings are more of a nod towards the avail-
+goes missing. Unfortunately for their neighbours, they            ability of such models than to any serious attempt at a
+are also fond of parties and other raucous entertainments,        mounted arm. Although not terrible fast they are good
+which go on long into the night accompanied by loud               shots with a bow, like all Halflings, and their mounts are
+music, bawdy singing and recreational violence.                   notoriously ill-tempered brutes prepared to bite, kick or
+                                                                  peck anyone who comes too close.
+Our Halfling warband is led by a pillar of Halfling society
+- the Chief Sheriff or head of what passes for a law-en-          We have also added a couple of small war machines in
+forcement body amongst Halflings: the Sheriffs. A cynic           the form of a stone thrower and a bolt thrower, though
+might say these worthies are more adept at extorting              pie-thrower might be a more apt description for the sort
+protection money from traders and farmers than they               of thing your average Halfling might cobble together.
+are at dealing with miscreants. None-the-less they are the
+                                                                  ADDITIONAL NOTES
+only representatives of authority that Halflings have, and
+it can’t be an easy job can it. The Chief Sheriff is afforded     This updated version of the Halfling Warband list in-
+the honour of riding in a donkey cart - but any farmyard          cludes corrections and revisions of the original published
+animal can be pressed into this role, including goats, dogs,      version. This list forms part of the online resource base
+or fowl, and can use the same stats.                              for the Erehwon game. If you spot any errors, typos or
+                                                                  grammatical infidelities please drop me a line via the This
+We include a Fortune Teller by way of a wizardly-type.
+                                                                  Gaming Life pages.
+Halfling Fortune Tellers may be a deft hand when it comes
+to manipulating cards and heaven-knows whether they
+are complete charlatans or genuine workers of magic - it is
+best not to ask.
+
+                                                                                                                   Halflings
+                                                    HALFLING CHIEF SHERIFF
+Warlord Warrior Unit                                          Points Value: 85
+Special: You must include one Halfling Chief Sheriff unit in your warband either a Halfling Chief Sheriff or a Halfling Chief Sheriff in Cart
+and one only.
+Unit: Chief Sheriff                          Ag       Acc       Str       Res       Init      Co                       Special
+                                                                                                        Tough, Command, Follow, 3x HtH,
+1 x Halfling Sheriff with sword or axe      6           6       4          4        8         8
+                                                                                                                   Wound
+2 x Halfling Henchmen with sword or
+                                             6           6       4          4        7         7
+    axe
+                                                                     Options
+•Give unit spears @Free per model                                       •Give unit light armour @10pts +2pts per Henchman increasing Res
+•Give unit bows @2pts per model                                           to 4(5)
+•Give unit slings @3pts per model                                       •Upgrade Chief Sheriff to Tough 2 @10pts
+•Give unit Dead Eye Shot rule @10pts                                    •Upgrade Chief Sheriff to Wound 2 @8pts
+•Give unit Stealthy rule @1pt per model                                 •Add up to 2 Henchmen @8pts per model
+
+
+
+                                            HALFLING CHIEF SHERIFF IN CART
+Special: You must include one Halfling Chief Sheriff unit in your warband either a Halfling Chief Sheriff or a Halfling Chief Sheriff in Cart
+and one only.
+Warlord Chariot Unit                                         Points Value: 130
+Unit: Chief Sheriff in Cart                  Ag       Acc       Str       Res       Init      Co                      Special
+1 xCart with Chief Sheriff and driver,                                                                         Large, Tough, Fast 6
+                                             3           -       -         10        -         -
+   pulled by one donkey
+1 x Halfling Chief Sheriff with sword                                                                 [Tough], Command, Follow, 3x HtH,
+                                             [6]         6       4         [4]       8         8
+    or axe                                                                                                         [Wound]
+1 x Halfing driver with sword or axe          -          6       4             -     -         -
+1x Donkey (pony, goat, chicken, etc)          -          -       4             -     -         -                     1x HtH SV0
+                                                                     Options
+•Give Chief Sheriff and driver spears @Free per model                   •Upgrade Chief Sheriff to Tough 2 @10pts
+•Give Chief Sheriff and driver bows @2pts per model                     •Upgrade Chief Sheriff to Wound 2 @8pts
+•Give Chief Sheriff and driver Dead Eye Shot rule @10pts                •Upgrade Cart to Fast 8 @4pts (by judicious use of carrots)
+•Give Chief Sherif light armour @10pts increasing Res to [4(5)] on
+  foot only
+
+
+
+                                                   HALFLING FORTUNE TELLER
+Warrior Unit                                                  Points Value: 51
+Special: You can include a maximum of one Halfing Fortune Teller in your warband.
+Unit: Fortune Teller                         Ag       Acc       Str        Res      Init      Co                       Special
+1 x Halfling Fortune Teller with club or
+                                              6          6       4             4     7         8           Tough, Wound, Magic Level 1
+    cudgel
+0 x Halfling Henchmen with clubs or
+                                              6          6       4             4     7         7
+    cudgels
+                                                                                                               Spirit, 1x HtH SV1,
+0 x Spirit Guides                             5          5       5             5     3         3
+                                                                                                             Exchange of Missiles SV1
+                                                                     Options
+•Make Fortune Teller Magic Level 2 @25pts                               •Give unit Stealthy rule @1pt per model
+•Make Fortune Teller Magic Level 3 @50pts                               •Add up to 4 Halfling Henchmen @6pts each OR
+•Upgrade Fortune Teller to Tough 2 @10pts                                Add up to 4 Spirit Guides @18pts each
+
+
+
+
+ Warlords of Erehwon
+                                                   HALFLING CLAN CHIEF
+Warrior Unit                                                    Points Value: 76
+Special: You can include one Halfling Clan Chief unit in your warband either a Clan Chief or Mounted Clan Chief.
+Unit: Clan Chief                             Ag      Acc         Str       Res       Init      Co                      Special
+1 x Halfling Clan Chief with sword or                                                                  Tough 2, Hero, 3x HtH, 3x Ranged (if
+                                              6       6           5          4        8         8
+    axe                                                                                                        bow armed), Wound
+                                                                   Options
+•Give Clan Chief spear @Free                                             •Give Clan Chief light armour @10pts increasing Res to 4(5)
+•Give Clan Chief bow @2 pts                                              •Upgrade Clan Chief to Tough 3 @10pts
+•Give Clan Chief Dead Eye Shot rule @5pts                                •Upgrade Clan Chief to Wound 2 @8pts
+•Give Clan Chief Stealthy rule @1pt                                      •Upgrade Clan Chief to Wound 3 @16pts
+
+
+
+                                             MOUNTED HALFLING CLAN CHIEF
+Mounted Unit                                                    Points Value: 87
+Special: You can include one Halfling Clan Chief unit in your warband either a Clan Chief or Mounted Clan Chief.
+Unit: Clan Chief                             Ag      Acc         Str       Res       Init      Co                      Special
+                                                                                                         Tough 2, Hero, Fast 6, 3x HtH, 3x
+1 x Halfling Clan Chief with sword or
+                                             6        6           5          5        8         8     Ranged )if bow armed) Wound: Donkey
+    axe, riding donkey
+                                                                                                                   1x HtH SV0
+                                                                   Options
+•Give Clan Chief spear @Free                                             •Upgrade Clan Chief to Fast 8 @4pts (by judicious use of carrots)
+•Give Clan Chief bow @2pts                                               •Upgrade Clan Chief to Tough 3 @10pts
+•Give Clan Chief Dead Eye Shot rule @5pts                                •Upgrade Clan Chief to Wound 2 @10pts
+•Give Clan Chief light armour @ 10pts increasing Res to 5(6)             •Upgrade Clan Chief to Wound 3 @20pts
+
+
+                                                     HALFLING SHERIFFS
+Warrior Unit                                                    Points Value: 47
+Unit: Halfling Sheriff                       Ag      Acc         Str        Res      Init      Co                      Special
+1 x Halfling Sheriff Leader with stave        6       6           4          4        7         8                       Tough
+4 x Halfling Sheriff with stave               6       6           4          4        7         7
+                                                                      Options
+•Give unit swords or axes @1pts per model                                •Give unit Stealthy rule @1pt per model
+•Give unit bows @2pts per model                                          •Give unit light armour @ 2pts per model increasing Res to 4(5)
+•Give unit slings @3pts per model                                        •Add up to 5 Halfling Sheriffs @7pts each
+•Give unit Dead Eye Shot rule @10pts
+
+
+
+                                                      HALFLING MILITIA
+Warrior Unit                                                    Points Value: 42
+Unit: Halfling Militia                       Ag      Acc         Str       Res       Init      Co                      Special
+1 x Halfling Militia Leader with club or
+                                              6       6           4          4        7         8                       Tough
+    cudgel
+4 x Halfling Militia with club or cudgel     6       6           4          4        7         7
+                                                                   Options
+•Give unit swords or axes @2pts per model                                •Give unit Stealthy rule @1pt per model
+•Give unit spears @2pts per model                                        •Give unit Dead Eye Shot rule @10pts
+•Give unit staves @1pt per model                                         •Add up to 5 Halfling Militia @6pts each
+•Give unit rocks to throw @1pt per model
+
+
+
+                                                                                                                                   Halflings
+                                                      HALFLING ARCHERS
+Warrior Unit                                                 Points Value: 52
+Unit: Halfling Archers                       Ag       Acc     Str       Res       Init      Co                      Special
+1 x Halfling Archer Leader with club
+                                             6         6          4         4      7         8                       Tough
+    and bow
+4 x Halfling Archer with club and bow       6         6          4         4      7         7
+                                                                   Options
+•Give unit daggers @1pt per model                                     •Give unit Stealthy rule @1pt per model
+•Give unit swords or axes @2pts per model                             •Give unit Dead Eye Shot rule @10pts
+•Give unit slings (instead of bows) @1pt per model                    •Add up to 5 Halfling Archers @8pts each
+
+
+
+
+                                                  HALFLING URCHIN SWARM
+Swarm Unit                                                  Points Value: 141
+Unit: Halfling Urchin Swarm                  Ag       Acc     Str       Res       Init     Co                       Special
+3 x Halfling Urchin Swarm with rocks         8         6          6         6      8        8                 3x HtH, 3x Ranged
+                                                                   Options
+•Give unit slings @9pts per Swarm                                     •Give unit Dead Eye Shot rule @10pts
+•Give unit Stealthy rule @1pt per Swarm                               •Add up to 2 Swarms @47pts per Swarm
+
+
+
+
+                                                      MOUNTED HALFLINGS
+Special: You can include a maximum of one unit of Mounted Halflings in your warband.
+Mounted Unit                                                Points Value: 63
+Unit: Halfling Riders                        Ag       Acc     Str       Res       Init     Co                       Special
+1 x Halfling Leader with sword or axe,
+                                             6         6          4         5      7        8         Tough, Fast 6: Donkey 1x HtH SV0
+    riding donkey
+2 x Halfling with sword or axe, riding
+                                             6         6          4         5      7        7            Fast 6, Donkey 1x HtH SV0
+    donkey
+                                                                   Options
+•Give unit light armour @2pts per model increasing Res to 5(6)        •Give unit Dead Eye Shot rule @10pts
+•Give unit spears @Free per model                                     •Add up to 2 Mounted Halflings @17pts each
+•Give unit bows @2pt per model
+
+
+
+
+                                                  HALFLING STONE THROWER
+Artillery Unit                                               Points Value: 72
+Unit: Halfling Stone Thrower                 Ag       Acc     Str        Res      Init      Co                      Special
+3 x Halfling crew with clubs, stone
+                                             6         6          4          4     7         7                    Large, Slow 3
+    throwing engine
+                                                                  Equipment
+1 x Small Stone Thrower
+                                                                  Options
+•Give Halfling crew sword or axe @2pts per model                      •Add up to 2 Halfling crew to unit @6pts each
+
+
+
+
+ Warlords of Erehwon
+                                               HALFLING BOLT THROWER
+Artillery Unit                                            Points Value: 60
+Unit: Halfling Bolt Thrower               Ag        Acc    Str      Res       Init      Co                      Special
+3 x Halfling crew with clubs, bolt
+                                           6         6      4         4        7         7                   Large, Slow 3
+    throwing engine
+                                                            Equipment
+1 x Small Bolt Thrower
+                                                            Options
+•Give Halfling crew sword or axe @2pts per model                  •Add up to 2 Halfling crew to unit @6pts each
+•Give unit Dead Eye Shot rule @10pts
+
+
+
+
+                                                                                                                             Halflings
+                              WEAPON AND SPECIAL RULE SUMMARY
+
+                                          RANGE
+                                                             Strike
+               WEAPON            Short    Long     Extreme   Value                      Special Rules
+                                                             (SV)
+Bow                              0-10”    10-20”      -        0
+Sling                            0-10”    10-20”               0      2x ranged attacks on Fire order
+Rock                             0-10”      -         -        0      Can also be used in HtH
+Small Bolt Thrower               0-20”    20-30”   30-40”      3      Fire order to shoot, 3x Ranged
+Small Stone Thrower              10-30”   30-40”   40-60”      3      Overhead, Fire order to shoot, D6 hits
+
+
+Club or Cudgel                     Hand-to-Hand Combat         0
+Stave                              Hand-to-Hand Combat         0      +1 Strength
+Rock                               Hand-to-Hand Combat         0      Can also be thrown as ranged weapon
+Dagger                             Hand-to-Hand Combat         1
+Sword or Axe                       Hand-to-Hand Combat         1      +1 Strength
+Spear                              Hand-to-Hand Combat         1      Can also be thrown during exchange of missiles
+
+
+
+Command. Friendly units within 10” can use the model’s Co stat to take Command based tests.
+Tough. Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).
+Hero. Friendly units within 10” can use the model’s Initiative stat to take Reaction tests.
+Follow. Friendly un-pinned units within 5” can follow the unit’s order immediatley.
+Wounds. Can lose the ‘wounds value’ of lives before a further Res fail slays. Can’t recover pins beyond
+wounds suffered.
+Slow/Fast. Move at the basic rate indicated.
+Dead Eye Shots. Re-roll 1 missed shot from unit.
+Stealthy. Re-roll hits on unit if in cover.
+Spirit. Can be sacrificed in exchange for re-roll. Destroyed if wizard slain.
+Large. +1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery over-
+head only).
+
+
+
+
+ Warlords of Erehwon
+

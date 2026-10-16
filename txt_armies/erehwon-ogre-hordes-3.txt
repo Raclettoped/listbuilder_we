@@ -1,0 +1,524 @@
+                                Ogre Hordes
+List Created by Rob Farley
+                                                            Yetis, Sabretusks and Ogroid Dragonkin are other
+Warlords of Erehwon already includes a unit of              common options that need to be included.
+Ogres as part of the Monsters list, which is great for      The Yetis and Sabretusks have been given the
+including units of mercenary Ogres as part of a             Woodsman rule to represent their place as wild
+larger army. But there are multiple manufacturers           creatures, while the Dragonkin are a faster, harder-
+who make a variety of different Ogre miniatures so          hitting option.
+this list exists for those of us who want to field a full
+army of these man-eating brutes.                            And finally, we have the Mammoth. One or two
+                                                            Ogre riders with a variety of weapon options
+I’ve tried to include entries for all of the core unit      available, should cover the various large beasts
+types from the different manufacturers, but there is a      available to interested players.
+certain amount of common ground that can be
+agreed on. Ogre warriors are straightforward                SPECIAL RULES FOR THE OGRE HORDES
+enough, these are just the entry from the Monsters
+list with a few more equipment options. Likewise            Scraplauncher Ammunition
+the Ogre veterans that I’ve called Ironguard, to avoid      Goblins and their kin have been known to load their
+favouring any particular company’s trademarked              stone throwers with whatever they can lay their
+name. The Ogre shooters have the option of heavy            grubby little mitts on, with a preference for sharp
+crossbows or hand cannons, a new weapon type that           bits of scrap metal, bones and other body parts.
+seems to be popular across the board for some               Being bombarded by this gruesome mess of debris is
+reason. And we have options for Ogre cavalry                extremely demoralising for the enemy, on top of the
+mounted on large angry riding beasts, or chariots           physical effects of being skewered by an assortment
+pulled by a variety of ornery beasts (the names are         of sharp objects.
+generic, but there’s less agreement on what kind of
+beasts Ogres favour so this encompasses all                 Scraplauncher ammunition has exactly the same
+options).                                                   effect as Howling Horror Ammunition (see rulebook
+                                                            p71).
+One common theme appears to be that Ogres are
+inevitably accompanied by Goblins (or some other            Heavily Laden
+breed of diminutive greenskins), so we need to              There are several items in the Ogre Hordes list with
+include them as well. The Goblin Hangers-On                 the Heavily Laden rule and this functions exactly as
+account for those who prefer them to be on the              it does for any other army. However it’s worth
+weedy and ineffectual end of the scale, while the           noting that as Ogres are monstrous units they do not
+Goblin Fighters, Archers and Wolf Riders provide            suffer the penalty to Agilty and Initiative that other
+cheap but effective unit choices. I’ve taken these          units do. For them, the only penalty is an inability to
+straight from the Goblin army list, with the                sprint.
+exception of removing the option for dire wolves (it
+felt like these should be reserved for exclusively          Large Angry Riding Beasts
+Goblin armies, who need all the help they can get).         Ogres employ a variety of creatures as cavalry
+                                                            mounts, ranging from massive sabre-toothed felines
+We also need to include some kind of stone thrower,         or giant wolves to woolly rhinoceros-like creatures.
+in this case with an optional upgrade to                    What they all have in common is that they are large,
+Scraplauncher ammunition. This is exactly the same          dangerous and ideally suited to the Ogres that ride
+as Howling Horror ammunition from the Erehwon               them. When mounted on one of these beasts this
+rulebook, as it seems like being hit in the face by a       cancels out the effects of the Heavily Laden rule,
+cloud of sharp metal and/or body parts would have a         allowing the unit to make a sprint move if it would
+similar effect. We also have the option to tow the          otherwise be allowed to do so.
+launcher behind a large, angry beast of some kind.
+
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+                                                    OGRE CHIEFTAIN
+  Warlord Monster Unit                                                   Points Value: 91
+  Special: You must include one Ogre Chieftain in your warband and one only, either an Ogre Chieftain, a Mounted Ogre Chieftain
+  or an Ogre Chieftain on Chariot.
+  Unit: Ogre Chieftain                   Ag        Acc   Str      Res      Init   Co    Special
+  1 x Ogre Chieftain with big axe,
+                                                                                         Large, Tough, Command, Follow,
+  huge sword or huge mace, light          5         5       6     8(9)      8      8
+                                                                                         Frenzied Charge, 4x HtH, Wound
+  armour
+  0 x Ogre Bodyguards with big axe,
+  huge sword or huge mace, light          5         5       6     8(9)      7      7     Large, 2x HtH, Frenzied Charge
+  armour
+                                                                Options
+      •    Give unit bloomin’ big axes or improbably vast            •  Give unit medium armour @10pts + 2pts per Bodyguard
+           swords @1pt per model                                        model increasing Res to 8(10)
+      •    Give unit heavy pistols @4pts per model                   •  Give unit heavy armour @14pts + 3pts per Bodyguard
+      •    Upgrade Chieftain to Tough 2 @10pts                          model increasing Res to 8(11) and adding the Heavily
+      •    Upgrade Chieftain to Tough 3 @20pts                          Laden special rule
+      •    Upgrade Chieftain to Wound 2 @16pts                       •  Add up to 2 Ogre Bodyguards @30pts each
+      •    Upgrade Chieftain to Wound 3 @32pts
+
+
+                                         MOUNTED OGRE CHIEFTAIN
+  Warlord Monster Unit                                                   Points Value: 102
+  Special: You must include one Ogre Chieftain in your warband and one only, either an Ogre Chieftain, a Mounted Ogre Chieftain
+  or an Ogre Chieftain on Chariot.
+  Unit: Ogre Chieftain                   Ag        Acc   Str      Res      Init    Co    Special
+  1 x Ogre Chieftain with big axe,
+                                                                                         Large, Tough, Command, Follow, Fast 7,
+  huge sword or huge mace, light           5        5       6     8(9)      8       8
+                                                                                         Frenzied Charge, 4x HtH, Wound
+  armour
+  0 x Ogre Bodyguards with big axe,
+  huge sword or huge mace, light           5        5       6     8(9)      7       7    Large, 2x HtH, Frenzied Charge, Fast 7
+  armour
+  1 x large angry riding beast             -        -       5       -     -        -    Large, 1xHtH SV2
+                                                                Options
+      •    Give unit bloomin’ big axes or improbably vast             • Give unit medium armour @10pts + 2pts per Bodyguard
+           swords @1pt per model                                        model increasing Res to 8(10)
+      •    Give unit lances @1pt per model                            • Give unit heavy armour @15pts + 4pts per Bodyguard
+      •    Give unit heavy pistols @4pts per model                      model increasing Res to 8(11)
+      •    Upgrade Chieftain to Tough 2 @10pts                        • Add up to 2 Ogre Bodyguards on large angry riding beasts
+      •    Upgrade Chieftain to Tough 3 @20pts                          @43pts each
+      •    Upgrade Chieftain to Wound 2 @16pts                        • Give large angry riding beasts Irresistable Charge @10pts
+      •    Upgrade Chieftain to Wound 3 @32pts                          per model
+
+
+                                      OGRE CHIEFTAIN ON CHARIOT
+  Warlord Monster Chariot Unit                                           Points Value: 168
+  Special: You must include one Ogre Chieftain in your warband and one only, either an Ogre Chieftain, a Mounted Ogre Chieftain
+  or an Ogre Chieftain on Chariot.
+  Unit: Ogre Chieftain                   Ag        Acc   Str      Res      Init    Co    Special
+  1 x Chariot with Chieftain and
+                                           3        -       -      10       -       -    Large, Tough, Fast 8, Irresistable Charge
+  crew pulled by ornery beasts
+  1 x Ogre Chieftain with big axe,
+                                                                                         Large, [Tough], Command, Follow,
+  huge sword or huge mace, light          [5]       5       6     [8(9)]    8       8
+                                                                                         Frenzied Charge, 4x HtH, [Wound]
+  armour
+  2 x ornery beasts                        -        -       5       -     -        -     1x HtH, SV1
+                                                                Options
+      •    Give Chieftain a bloomin’ big axe or improbably            • Give chariot Scythes @25pts with D6 SV1 impact hits on
+           vast sword @1pt                                              charge
+      •    Upgrade Chieftain to Tough 2 @10pts                        • Give Chieftain medium armour @10pts increasing Res to
+      •    Upgrade Chieftain to Tough 3 @20pts                          8(10) on foot only
+      •    Upgrade Chieftain to Wound 2 @16pts                        • Give Chieftain heavy armour @14pts increasing Res to
+      •    Upgrade Chieftain to Wound 3 @32pts                          8(11) and adding the Heavily Laden special rule on foot
+                                                                        only
+
+
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+                                                        OGRE SHAMAN
+  Monster Unit                                                         Points Value: 81
+  Special: You may include one Ogre Shaman in your warband and one only.
+  Unit: Ogre Shaman                      Ag        Acc   Str      Res     Init    Co     Special
+  1 x Ogre Shaman with big axe,
+                                                                                         Large, Tough, Frenzied Charge, 2x HtH,
+  huge sword or huge mace, light          5         5       6     8(9)      8      8
+                                                                                         Wound, Magic Level 1
+  armour
+  0 x Ogre Bodyguards with big axe,
+  huge sword or huge mace, light          5         5       6     8(9)      7      7     Large, 2x HtH, Frenzied Charge
+  armour
+                                                                Options
+      •    Give unit bloomin’ big axes or improbably vast            •  Upgrade Shaman to Wound 2 @16pts
+           swords @1pt per model                                     •  Give Shaman 3x Flaming Breath SV2 Fire @15pts
+      •    Upgrade Shaman to Magic Level 2 @25pts                    •  Give unit medium armour @10pts + 2pts per Bodyguard
+      •    Upgrade Shaman to Magic Level 3 @50pts                       model increasing Res to 8(10)
+      •    Upgrade Shaman to Tough 2 @10pts                          •  Add up to 2 Ogre Bodyguards @30pts each
+
+
+                                                         OGRE HERO
+  Monster Unit                                                           Points Value: 86
+  Special: You may include one Ogre Hero in your warband and one only, either an Ogre Hero or a Mounted Ogre Hero.
+  Unit: Ogre Hero                        Ag        Acc   Str      Res     Init    Co    Special
+  1 x Ogre Hero with big axe, huge                                                       Large, Hero, Tough 2, Frenzied Charge,
+                                          5         5       6     8(9)      8      8
+  sword or huge mace, light armour                                                       4x HtH, Wound
+                                                                Options
+      •    Give Hero a bloomin’ big axe or improbably vast           •    Upgrade Hero to Tough 3 @10pts
+           sword @1pt                                                •    Upgrade Hero to Wound 2 @16pts
+      •    Give Hero a halberd @1pt                                  •    Upgrade Hero to Wound 3 @32pts
+      •    Give Hero a heavy pistol @4pts                            •    Give Hero medium armour @10pts increasing Res to 8(10)
+      •    Give Hero a heavy crossbow @4pts                          •    Give Hero heavy armour @14pts increasing Res to 8(11)
+      •    Give Hero a hand cannon @5pts                                  and adding the Heavily Laden special rule
+
+
+                                               MOUNTED OGRE HERO
+  Monster Unit                                                           Points Value: 97
+  Special: You may include one Ogre Hero in your warband and one only, either an Ogre Hero or a Mounted Ogre Hero.
+  Unit: Ogre Hero                        Ag        Acc   Str      Res     Init     Co    Special
+  1 x Ogre Hero with big axe, huge                                                       Large, Hero, Tough 2, Fast 7, Frenzied
+                                           5        5       6     8(9)      8       8
+  sword or huge mace, light armour                                                       Charge, 4x HtH, Wound
+  1 x large angry riding beast             -        -       5       -       -       -    Large, 1xHtH SV2
+                                                                Options
+      •    Give Hero a bloomin’ big axe or improbably vast            •   Upgrade Hero to Tough 3 @10pts
+           sword @1pt                                                 •   Upgrade Hero to Wound 2 @16pts
+      •    Give Hero a halberd @1pt                                   •   Upgrade Hero to Wound 3 @32pts
+      •    Give Hero a lance @1pt                                     •   Give Hero medium armour @10pts increasing Res to 8(10)
+      •    Give Hero a heavy pistol @4pts                             •   Give Hero heavy armour @15pts increasing Res to 8(11)
+      •    Give Hero a heavy crossbow @4pts                           •   Give large angry riding beast Irresistable Charge @10pts
+      •    Give Hero a hand cannon @5pts
+
+
+                                                   OGRE IRONGUARD
+  Monster Unit                                                           Points Value: 102
+  Special: You can include a maximum of one unit of Ogre Ironguard in your warband.
+  Unit: Ogre Ironguard                   Ag        Acc   Str      Res     Init    Co    Special
+  1 x Ogre Ironguard leader with big
+  axe, huge sword or huge mace,           5         5       6     8(9)      7      8     Large, Tough, Frenzied Charge, 2x HtH
+  light armour
+  2 x Ogre Ironguard with big axe,
+  huge sword or huge mace, light          5         5       6     8(9)      7      7     Large, 2x HtH, Frenzied Charge
+  armour
+                                                                Options
+      •    Give unit bloomin’ big axes or improbably vast            •  Give unit heavy armour @3pts per model increasing Res to
+           swords @1pt per model                                        8(11) and adding the Heavily Laden special rule
+      •    Give unit medium armour @2pts per model                   •  Add up to 2 Ogre Ironguard @30pts each
+           increasing Res to 8(10)
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+                                                    OGRE WARRIORS
+  Monster Unit                                                               Points Value: 96
+  Unit: Ogre Warriors                    Ag        Acc    Str     Res     Init    Co    Special
+  1 x Ogre leader with big axe, huge
+                                          5         5       5     8(9)      7      8     Large, Tough, Frenzied Charge, 2x HtH
+  sword or huge mace, light armour
+  2 x Ogre warriors with big axe,
+  huge sword or huge mace, light          5         5       5     8(9)      7      7     Large, 2x HtH, Frenzied Charge
+  armour
+                                                                Options
+      •    Give unit bloomin’ big axes or improbably vast            •  Give unit medium armour @2pts per model increasing Res
+           swords @1pt per model                                        to 8(10)
+                                                                     •  Add up to 2 Ogre warriors @28pts each
+
+
+                                                    OGRE SHOOTERS
+  Monster Unit                                                              Points Value: 108
+  Unit: Ogre Shooters                    Ag        Acc    Str     Res     Init    Co    Special
+  1 x Ogre leader with axe, sword or
+  mace, heavy crossbow, light             5         5       5     8(9)      7      8     Large, Tough, Frenzied Charge, 2x HtH
+  armour
+  2 x Ogre shooters with axe, sword
+  or mace, heavy crossbow, light          5         5       5     8(9)      7      7     Large, 2x HtH, Frenzied Charge
+  armour
+                                                                Options
+      •    Replace heavy crossbows with hand cannons @1pt            •  Give unit medium armour @2pts per model increasing Res
+           per model                                                    to 8(10)
+                                                                     •  Add up to 2 Ogre shooters @32pts each
+
+
+                                                   OGRE BERSERKERS
+  Monster Unit                                                              Points Value: 105
+  Unit: Ogre Berserkers                  Ag        Acc    Str     Res     Init    Co    Special
+  1 x Ogre leader with big axe, huge                                                     Large, Tough, Frenzied Charge,
+                                          5         5       5       8       7      8
+  sword or huge mace                                                                     Berserk, 2x HtH
+  2 x Ogre warriors with big axe,                                                        Large, 2x HtH, Frenzied Charge,
+                                          5         5       5       8       7      7
+  huge sword or huge mace                                                                Berserk
+                                                                Options
+      •    Give unit bloomin’ big axes or improbably vast            •  Give unit light armour @2pts per model increasing Res to
+           swords @1pt per model                                        8(9)
+                                                                     •  Add up to 2 Ogre berserkers @31pts each
+
+
+                                                        OGRE CAVALRY
+  Monster Unit                                                              Points Value: 135
+  Unit: Ogre Cavalry                     Ag        Acc    Str     Res     Init    Co     Special
+  1 x Ogre leader with big axe, huge                                                     Large, Tough, Fast 7, Frenzied Charge,
+                                           5        5       5     8(9)      7      8
+  sword or huge mace, light armour                                                       2x HtH
+  2 x Ogre cavalry with big axe,
+  huge sword or huge mace, light           5        5       5     8(9)      7      7     Large, 2x HtH, Frenzied Charge, Fast 7
+  armour
+  3 x large angry riding beast             -        -       5       -     -        -    Large, 1xHtH SV2
+                                                                Options
+      •    Give unit bloomin’ big axes or improbably vast             • Give unit heavy armour @4pts per model increasing Res to
+           swords @1pt per model                                        8(11)
+      •    Give unit lances @1pt per model                            • Add up to 2 Ogre cavalry on large angry riding beasts
+      •    Give unit heavy crossbows @5pts per model                    @41pts each
+      •    Give unit medium armour @2pts per model                    • Give large angry riding beasts Irresistable Charge @10pts
+           increasing Res to 8(10)                                      per model
+
+
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+                                                        OGRE CHARIOT
+  Monster Chariot Unit                                                          Points Value: 103
+  Unit: Ogre Chariot                     Ag        Acc    Str       Res       Init       Co     Special
+  1 x Chariot with Ogre crew pulled
+                                           3        -         -      10         -          -    Large, Fast 8, Irresistable Charge
+  by ornery beasts
+  1 x Ogre crew with big axe, huge
+                                           -        5         5       -         7         7     Large, Frenzied Charge, 2x HtH
+  sword or huge mace
+  2 x ornery beasts                        -        -         5       -     -       -     1x HtH, SV1
+                                                                  Options
+      •      Give crew bloomin’ big axe or improbably vast              • Give chariot Scythes @25pts with D6 SV1 impact hits on
+             sword @1pt                                                   charge
+
+
+                                                   OGROID DRAGONKIN
+  Monster Unit                                                         Points Value: 129
+  Special: You may include a maximum of one unit of Ogroid Dragonkin in your warband.
+  Unit: Ogroid Dragonkin                 Ag        Acc    Str       Res       Init       Co    Special
+  1 x Ogroid Dragonkin leader with
+                                                                                                Large, Tough, Fast 7, Ferocious Charge,
+  big axe, huge sword or huge mace,       5         5         7     9(10)       7         8
+                                                                                                3x HtH
+  light armour
+  2 x Ogroid Dragonkin with big
+  axe, huge sword or huge mace,           5         5         7     9(10)       7         7     Large, Fast 7, 3x HtH, Ferocious Charge
+  light armour
+                                                                  Options
+      •      Give unit bloomin’ big axes or improbably vast            •  Give unit medium armour @2pts per model increasing Res
+             swords @1pt per model                                        to 9(11)
+                                                                       •  Add up to 2 Ogroid Dragonkin @39pts each
+
+
+                                                                  YETIS
+  Monster Unit                                                                  Points Value: 105
+  Unit: Yetis                            Ag        Acc    Str       Res       Init       Co    Special
+                                                                                                Large, Frenzied Charge, 3x HtH SV2,
+  3 x Yeti                                5         5         7      8          6         8
+                                                                                                Woodsman
+                                                                  Options
+      •      Give unit light armour @2pts per model increasing            •   Add up to 2 Yetis @35pts each
+             Res to 8(9)
+
+
+                                                         SABRETUSKS
+  Beast Unit                                                                        Points Value: 90
+  Unit: Sabretusks                       Ag        Acc    Str       Res       Init       Co    Special
+  5 x Sabretusks                          5         -         6      6          7         6     Fast 7, Woodsman, 1x HtH SV2
+                                                                  Options
+      •      Add up to 5 Sabretusks @18pts each
+
+
+                                               GOBLIN HANGERS-ON
+  Warrior Unit                                                                      Points Value: 27
+  Unit: Goblin Hangers-On                Ag        Acc    Str       Res       Init       Co    Special
+  1 x Goblin leader with cudgel or
+                                          6         5         4      4          7         7     Tough
+  club
+  4 x Goblin hangers-on with cudgel
+                                          6         5         4      4          7         6     -
+  or club
+                                                                  Options
+      •      Give unit daggers or knives @1pt per model                •  Add up to 5 Goblin hangers-on @3pts each
+      •      Give unit rocks to throw @1pt per model
+
+
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+                                                   GOBLIN FIGHTERS
+  Warrior Unit                                                               Points Value: 47
+  Unit: Goblin Fighters                  Ag        Acc   Str      Res      Init   Co    Special
+  1 x Goblin leader with sword or
+                                          6         5    4        4(5)      7      7     Tough
+  axe, light armour
+  4 x Goblin fighters with sword or
+                                          6         5    4        4(5)      7      6     -
+  axe, light armour
+                                                                Options
+      •    Give unit spears @free per model                          •  Add up to 5 Goblin fighters @7pts each
+
+
+                                                   GOBLIN ARCHERS
+  Warrior Unit                                                               Points Value: 47
+  Unit: Goblin Archers                   Ag        Acc   Str      Res      Init   Co    Special
+  1 x Goblin leader with sword or
+                                          6         5    4          4       7      7     Tough
+  axe, bow
+  4 x Goblin archers with sword or
+                                          6         5    4          4       7      6     -
+  axe, bow
+                                                                Options
+      •    Give unit light armour @2pts per model increasing         •  Add up to 5 Goblin archers @7pts each
+           Res to 4(5)
+
+
+                                               GOBLIN WOLF RIDERS
+  Mounted Unit                                                               Points Value: 69
+  Unit: Goblin Wolf Riders               Ag        Acc   Str      Res      Init   Co    Special
+  1 x Goblin wolf rider leader with                                                      Tough, Fast 6, Rapid Sprint
+                                          6         5    5          5       7      7
+  sword or axe                                                                           Wolf 1xHtH SV1
+  2 x Goblin wolf rider with sword                                                       Fast 6, Rapid Sprint
+                                          6         5    5          5       7      6
+  or axe                                                                                 Wolf 1xHtH SV1
+                                                                Options
+      •    Give unit light armour @2pts per model increasing         •  Give unit spears @free per model
+           Res to 5(6)                                               •  Add up to 3 Goblin wolf riders @19pts each
+      •    Give unit bows @2pts per model
+
+
+                                           GOBLIN STONE THROWER
+  Artillery Unit                                                       Points Value: 63
+  Special: You may include a maximum of one Goblin Stone Thrower in your warband.
+  Unit: Goblin Stone Thrower             Ag        Acc   Str      Res      Init   Co    Special
+  3 x Goblin crew with daggers,
+                                          6         5    4          4       7      6     Large, Slow 3
+  stone throwing engine
+  0 x Ogre crew with big axe, huge
+                                          5         5    5          8       5      8     Large, Frenzied Charge, 2xHtH
+  sword or huge mace
+  0 x large angry draft beast              4        5     5         6       7      6     Large, 1xHtH SV2
+                                                               Equipment
+      •    1 x Small Stone Thrower
+                                                             Options
+      •    Give unit Big Stone Thrower instead of Small Stone     •  Add up to 2 Goblin crew to unit @3pts each
+           Thrower @27pts                                         •  Add up to 1 Ogre crew to unit @26pts
+      •    Give unit Scraplauncher Ammunition @10pts              •  Add up to 1 large angry draft beast to unit @15pts,
+                                                                     removing the Slow 3 special rule
+
+
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+                                               OGRE GREAT CANNON
+  Artillery Unit                                                      Points Value: 124
+  Special: You may include a maximum of one Ogre Great Cannon in your warband.
+  Unit: Ogre Great Cannon                 Ag        Acc     Str      Res      Init     Co    Special
+  1 x Ogre crew with axe, sword or
+                                          5          5      5          8       5       8      Large, Frenzied Charge, 2xHtH, Slow 3
+  mace, large cannon
+  0 x Goblin crew with daggers            6          5      4          4       7       6
+  0 x large angry draft beast             4          5      5          6       7       6      Large, 1xHtH SV2
+                                                                  Equipment
+      •    1 x Large Cannon
+                                                                   Options
+      •    Add up to 2 Ogre crew to unit @26pts each                    •  Add up to 1 large angry draft beast to unit @15pts,
+      •    Add up to 3 Goblin crew to unit @3pts each                      removing the Slow 3 special rule
+
+
+                                                            MAMMOTH
+  Monstrosity Unit                                                   Points Value: 141
+  Special: You may include a maximum of one Mammoth in your warband.
+  Unit: Mammoth                           Ag        Acc     Str      Res      Init     Co    Special
+                                                                                              Large, MoD 2, 5x HtH SV5, Surly,
+  1 x Mammoth                             4          -      5         12       -       -
+                                                                                              Stampede
+  1 x Ogre crew with big axe, huge
+                                           -         5      5          -       5       8      Frenzied Charge, 2xHtH
+  sword or huge mace
+                                                                   Options
+      •    Give crew bloomin’ big axes or improbably vast               •  Give crew heavy crossbows @4pts per crew
+           swords @1pt per crew                                         •  Give crew hand cannons @5pts per crew
+      •    Give crew lances @1pt per crew                               •  Add up to 1 additional Ogre crew @12pts
+
+
+
+
+                            WEAPON AND SPECIAL RULES SUMMARY
+                                               RANGE
+                                                                            STRIKE
+          WEAPON                 SHORT             LONG     EXTREME                                    SPECIAL RULES
+                                                                           VALUE (SV)
+  Bow                            0-10”             10-20”           -              0                          -
+  Heavy Pistol                   0-10”                -             -              3                          -
+  Heavy Crossbow                 0-10”             10-30”           -              2         Fire order to shoot, Heavily Laden
+  Hand Cannon                    0-10”             10-20”           -              4         Fire order to shoot, Heavily Laden
+  Rock - thrown                  0-10”                -             -              0           Can also be used hand-to-hand
+  Small Stone Thrower            10-30”            30-40”        40-60”            3        Overhead, Fire order to shoot, D6 Hits
+  Large Stone Thrower            10-30”            30-50”        50-80”            6        Overhead, Fire order to shoot, D6 Hits
+  Large Cannon                   0-10”             10-50”       50-100”            6          Fire order to shoot, Unstoppable
+
+  Rock                                 Hand-to-Hand Combat                         0        Can also be thrown as a ranged weapon
+  Cudgel or Club                       Hand-to-Hand Combat                         0                           -
+  Dagger or Knife                      Hand-to-Hand Combat                         1                           -
+  Axe, Sword or Mace                   Hand-to-Hand Combat                         1                      Strength +1
+  Huge Sword, Big Axe,
+  Warhammer or Massive                 Hand-to-Hand Combat                         2                             -
+  Mace
+  Bloomin’ big axe or
+                                       Hand-to-Hand Combat                         3                             -
+  Improbably Vast Sword
+                                                                                            Can also be thrown during exchange of
+  Spear                                Hand-to-Hand Combat                         1
+                                                                                                            missiles
+  Halberd                              Hand-to-Hand Combat                       2                        Strength +1
+  Lance                                Hand-to-Hand Combat                      1/3                     SV3 on charge
+
+
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+                      Berserk Until defeated or fail a break test, double attacks in HtH, automatically pass orders to charge.
+
+                    Command Friendly units within 10” can use the models Co stat to take Command based tests.
+
+                           Fast Unit’s basic move as stated. Re-roll shooting hits at running target.
+
+                        Follow Can activate friendly unpinned units within 5” with the same order. Additional activated units take
+                               their turns one at a time after the original unit.
+
+            Ferocious Charge +1SV bonus when charging.
+
+              Flaming Breath Ranged attack 20”. Fire Attack. As stats.
+
+             Frenzied Charge +1 Attack on charge.
+
+               Heavily Laden Cannot sprint.
+
+                          Hero Friends within 10” can use unit’s Initiative value for reaction tests.
+
+          Irresistable Charge +D3 Strike Value (SV) on charge.
+
+                         Large +1 to hit shooting. Can draw LOS to body. Can draw LOS to or from over non-large models.
+
+                 Rapid Sprint The unit sprints 4M rather than 3M.
+
+Scraplauncher Ammunition Target suffers D3 additional pins.
+
+                    Stampede Stampede on failed Order test of 10. D10” +2M in direction shown by dice. Each unit in path is
+                             attacked as if charged. Unit goes down and gains 1 pin per unit trampled.
+
+                          Slow Unit’s basic move as stated.
+
+                         Surly Cannot benefit from Command, Follow or Hero rules.
+
+                        Tough Can re-roll one failed Res roll or Damage Chart result (can have value of 2 or 3).
+
+                   Woodsman Difficult terrain counts as open terrain.
+
+                      Wounds Can lose the ‘wounds value’ of lives before a further Res fail slays. Can’t recover pins beyond
+                             wounds suffered.
+
+
+
+
+Warlords of Erehwon - Ogre Hordes Army List v0.3
+Latest Revision 25/05/2023
+

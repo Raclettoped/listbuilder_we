@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+pdf2json-env/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local data (uncomment if you don't want to commit PDFs/JSONs)
+# pdfs/
+# txt/
+# json/
+
+# Vim swap files
+*.swp
+*.swo
+.*.swp
+
+# Failed LLM extractions
+*.bad.txt
+
+# Intermediate extraction (uncomment to skip)
+# txt_armies/

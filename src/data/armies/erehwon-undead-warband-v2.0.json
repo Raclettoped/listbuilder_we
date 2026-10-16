@@ -1,0 +1,508 @@
+{
+  "warband": "Undead",
+  "version": "2.0",
+  "updated": "16/03/19",
+  "special_army_rule": {
+    "name": "Undead Hoste",
+    "description": "If your warlord is slain then no further pins are removed from your units. Orders can still be issued as normal, and down dice recovered at the end of the turn, but no pins are removed when you do so. There is no point in issuing a Rally order because pins can't be removed anyway. Similarly, any spells or special abilities that would otherwise remove pins won't work."
+  },
+  "units": [
+    {
+      "name": "Necromancer",
+      "type": "Warlord Warrior Unit",
+      "points_value": 81,
+      "special": "You must include one command unit from Necromancer, Liche, Liche Riding Chariot, Wraith or Wraith Riding Helhorse and one only.",
+      "profiles": [
+        {
+          "name": "Necromancer with sword",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 10,
+          "special": "Tough, Command, 2x HtH, Wound, Magic Level 1"
+        },
+        {
+          "name": "Skeleton Bodyguard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 5,
+          "co": 6,
+          "special": "Undead"
+        },
+        {
+          "name": "Cursed Spirits",
+          "ag": 5,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "options": [
+        { "description": "Upgrade Necromancer to Magic Level 2", "cost": 25 },
+        { "description": "Upgrade Necromancer to Magic Level 3", "cost": 50 },
+        { "description": "Give Necromancer Zombie Master and Follow rules", "cost": 20 },
+        { "description": "Upgrade Necromancer to Tough 2", "cost": 10 },
+        { "description": "Upgrade Necromancer to Tough 3", "cost": 20 },
+        { "description": "Upgrade Necromancer to Wound 2", "cost": 10 },
+        { "description": "Upgrade Necromancer to Wound 3", "cost": 20 },
+        { "description": "Upgrade Necromancer to Wound 4", "cost": 23, "unit": "Cursed Spirits", "per": "each" }
+      ]
+    },
+    {
+      "name": "Liche",
+      "type": "Warlord Warrior Unit",
+      "points_value": 95,
+      "special": "You must include one command unit from Necromancer, Liche, Liche Riding Chariot, Wraith or Wraith Riding Helhorse and one only.",
+      "profiles": [
+        {
+          "name": "Liche with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": 6,
+          "init": 5,
+          "co": 10,
+          "special": "Tough, Command, 2x HtH, Undead, Wound, Magic Level 1"
+        },
+        {
+          "name": "Skeleton Bodyguard with sword or axe, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 5,
+          "co": 6,
+          "special": "Undead"
+        },
+        {
+          "name": "Cursed Spirits",
+          "ag": 5,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "options": [
+        { "description": "Upgrade Liche to Magic Level 2", "cost": 25 },
+        { "description": "Upgrade Liche to Magic Level 3", "cost": 50 },
+        { "description": "Upgrade Liche to Tough 2", "cost": 10 },
+        { "description": "Upgrade Liche to Tough 3", "cost": 20 },
+        { "description": "Upgrade Liche to Wound 2", "cost": 12 },
+        { "description": "Upgrade Liche to Wound 3", "cost": 24 },
+        { "description": "Give Skeleton Bodyguard spears", "cost": 0, "per": "model" },
+        { "description": "Give Skeleton Bodyguard halberds", "cost": 1, "per": "model" },
+        { "description": "Give Skeleton Bodyguard medium armour increasing Res to 5(7)", "cost": 2, "per": "model" },
+        { "description": "Add up to 4 Skeleton Bodyguards", "cost": 9, "per": "each" },
+        { "description": "Add up to 4 Cursed Spirits", "cost": 23, "per": "each" }
+      ]
+    },
+    {
+      "name": "Liche Riding Chariot",
+      "type": "Warlord Warrior Unit",
+      "points_value": null,
+      "special": "You must include one command unit from Necromancer, Liche, Liche Riding Chariot, Wraith or Wraith Riding Helhorses and one only.",
+      "profiles": [
+        {
+          "name": "Chariot with Liche and crew",
+          "ag": null,
+          "acc": null,
+          "str": 3,
+          "res": 10,
+          "init": null,
+          "co": null,
+          "special": null
+        },
+        {
+          "name": "Liche with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": 6,
+          "init": 5,
+          "co": 10,
+          "special": null
+        },
+        {
+          "name": "Skeleton crew with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": null
+        },
+        {
+          "name": "Helhorses",
+          "ag": null,
+          "acc": null,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": "Undead, 1x HtH SV1"
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Wraith Riding Helhorse",
+      "type": "Warlord Mounted Unit",
+      "points_value": 189,
+      "special": "You must include one command unit from Necromancer, Liche, Liche Riding Chariot, Wraith or Wraith Riding Helhorse and one only.",
+      "profiles": [
+        {
+          "name": "Wraith with sword, axe or mace, riding Helhorse",
+          "ag": 5,
+          "acc": 5,
+          "str": 7,
+          "res": 8,
+          "init": 10,
+          "co": 10,
+          "special": "Tough 2, Command, Fast 8, 3x HtH, Deathly Chill, Spectral Undead, Dread, Wound 2, Magic Level 1: Helhorse 3x HtH, Undead, Hero, Dread, Exchange of Missiles SV1, Fast 8"
+        },
+        {
+          "name": "Cursed Spirits",
+          "ag": 5,
+          "acc": 6,
+          "str": 6,
+          "res": 6,
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1, Fast 8"
+        }
+      ],
+      "options": [
+        { "description": "Upgrade Wraith to Magic Level 2", "cost": 25 },
+        { "description": "Upgrade Wraith to Magic Level 3", "cost": 50 },
+        { "description": "Upgrade Wraith to Tough 3", "cost": 10 },
+        { "description": "Upgrade Wraith to Wound 3", "cost": 14 },
+        { "description": "Add up to 4 Cursed Spirits", "cost": 29, "per": "each" }
+      ]
+    },
+    {
+      "name": "Undead Champion",
+      "type": "Warrior Unit",
+      "points_value": 81,
+      "special": "You can include a maximum of one Undead Champion in your warband.",
+      "profiles": [
+        {
+          "name": "Undead Champion with sword and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 5,
+          "co": 9,
+          "special": "Tough, Wound, 3x HtH, Undead, Hero, Dread"
+        }
+      ],
+      "options": [
+        { "description": "Give Champion huge sword, big axe, massive mace or warhammer", "cost": 0 },
+        { "description": "Give Champion heavy armour adding Heavily Laden rule and increasing Res to 6(9)", "cost": 3 },
+        { "description": "Upgrade Champion to Wound 2", "cost": 16 },
+        { "description": "Upgrade Champion to Wound 3", "cost": 32 },
+        { "description": "Upgrade Champion to Tough 2", "cost": 10 },
+        { "description": "Replace Undead special rule with Spectral Undead rule", "cost": 2 }
+      ]
+    },
+    {
+      "name": "Skeleton Guard",
+      "type": "Warrior Unit",
+      "points_value": 59,
+      "special": "You can include a maximum of one Skeleton Guard unit in your warband.",
+      "profiles": [
+        {
+          "name": "Skeleton Leader with spear, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 5,
+          "co": 8,
+          "special": "Tough, Undead"
+        },
+        {
+          "name": "Skeleton Guard with spear, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 5,
+          "co": 6,
+          "special": "Undead"
+        }
+      ],
+      "options": [
+        { "description": "Give unit medium armour increasing Res to 5(7)", "cost": 2, "per": "model" },
+        { "description": "Give unit long spears instead of spears", "cost": 0, "per": "model" },
+        { "description": "Give unit halberds instead of spears", "cost": 1, "per": "model" },
+        { "description": "Give unit huge swords, big axes, massive maces or warhammer", "cost": 0, "per": "model" },
+        { "description": "Add up to 5 Skeleton Guards", "cost": 9, "per": "each" },
+        { "description": "Replace Undead special rule with Spectral Undead rule", "cost": 1, "per": "model" }
+      ]
+    },
+    {
+      "name": "Skeleton Warriors",
+      "type": "Warrior Unit",
+      "points_value": 57,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Skeleton Leader with sword, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 5,
+          "co": 7,
+          "special": "Tough, Undead"
+        },
+        {
+          "name": "Skeleton Warrior with sword, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 5,
+          "co": 6,
+          "special": "Undead"
+        }
+      ],
+      "options": [
+        { "description": "Give unit spears", "cost": 0, "per": "model" },
+        { "description": "Give unit long spears", "cost": 0, "per": "model" },
+        { "description": "Add up to 5 Skeleton Warriors", "cost": 9, "per": "each" }
+      ]
+    },
+    {
+      "name": "Skeleton Archers",
+      "type": "Warrior Unit",
+      "points_value": 57,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Skeleton Leader with sword, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 5,
+          "co": 7,
+          "special": "Tough, Undead"
+        },
+        {
+          "name": "Skeleton Warrior with sword, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 5,
+          "co": 6,
+          "special": "Undead"
+        }
+      ],
+      "options": [
+        { "description": "Give unit light armour increasing Res to 5(6)", "cost": 2, "per": "model" },
+        { "description": "Give unit crossbows", "cost": 1, "per": "model" },
+        { "description": "Add up to 5 Skeleton Archers", "cost": 9, "per": "each" },
+        { "description": "Replace Undead special rule with Spectral Undead rule", "cost": 1, "per": "model" }
+      ]
+    },
+    {
+      "name": "Zombies",
+      "type": "Warrior Unit",
+      "points_value": 25,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Zombies",
+          "ag": 2,
+          "acc": 2,
+          "str": 3,
+          "res": 3,
+          "init": 2,
+          "co": 5,
+          "special": "Zombie, 1x HtH SV0, Undead"
+        }
+      ],
+      "options": [
+        { "description": "Upgrade Zombies to Res 6", "cost": 2, "per": "model" },
+        { "description": "Add up to 5 Zombies", "cost": 5, "per": "each" }
+      ]
+    },
+    {
+      "name": "Wights",
+      "type": "Warrior Unit",
+      "points_value": 102,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Wight Leader with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 7,
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Spectral Undead, Dread"
+        },
+        {
+          "name": "Wight with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 7,
+          "init": 7,
+          "co": 7,
+          "special": "Spectral Undead, Dread"
+        }
+      ],
+      "options": [
+        { "description": "Give unit spears", "cost": 0, "per": "model" },
+        { "description": "Give unit Frenzied Charge rule", "cost": 2, "per": "model" }
+      ]
+    },
+    {
+      "name": "Skeleton Riders",
+      "type": "Warrior Unit",
+      "points_value": null,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Skeleton Rider Leader with sword, light armour",
+          "ag": null,
+          "acc": null,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": null
+        },
+        {
+          "name": "Skeleton Rider with sword, light armour",
+          "ag": null,
+          "acc": null,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": null
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Skeleton Knights",
+      "type": "Warrior Unit",
+      "points_value": null,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Skeleton Knight with lance, heavy armour riding helhorse",
+          "ag": null,
+          "acc": null,
+          "str": null,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": null
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Carrion Beast",
+      "type": "Monster Unit",
+      "points_value": 153,
+      "special": "You can include a maximum of one Carrion Beast unit in your warband.",
+      "profiles": [
+        {
+          "name": "Carrion Beast with rocks",
+          "ag": 10,
+          "acc": 6,
+          "str": 6,
+          "res": 8,
+          "init": 8,
+          "co": 8,
+          "special": "Large, Flies, Fast 10, 3x HtH SV3, 3x Drop SV3, Wound, Undead"
+        },
+        {
+          "name": "Skeleton Rider with sword or axe",
+          "ag": null,
+          "acc": 5,
+          "str": 5,
+          "res": null,
+          "init": null,
+          "co": null,
+          "special": "Undead"
+        }
+      ],
+      "options": [
+        { "description": "Give Carrion Beast Skeleton Rider", "cost": 5 },
+        { "description": "Give Carrion Beast Skeleton Rider bow", "cost": 2 },
+        { "description": "Give Carrion Beast Skeleton Rider spear", "cost": 0 },
+        { "description": "Replace Undead special rule with Spectral Undead rule", "cost": 5 }
+      ]
+    },
+    {
+      "name": "Skeleton Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 60,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Skeleton crew with daggers, bolt throwing engine",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 5,
+          "co": 7,
+          "special": "Undead, Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Bolt Thrower",
+      "options": [
+        { "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower", "cost": 21 },
+        { "description": "Give crew swords instead of daggers", "cost": 1, "per": "model" },
+        { "description": "Give crew light armour increasing Res to 5(6)", "cost": 2, "per": "model" },
+        { "description": "Add up to 2 Skeleton crew to unit", "cost": 6, "per": "each" }
+      ]
+    },
+    {
+      "name": "Skeleton Stone Thrower",
+      "type": "Artillery Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Skeleton crew with daggers, stone throwing engine",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 5,
+          "co": 7,
+          "special": "Undead, Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Stone Thrower",
+      "options": [
+        { "description": "Give crew swords instead of daggers", "cost": 1, "per": "model" },
+        { "description": "Give unit Large Stone Thrower instead of Small Stone Thrower", "cost": 27 },
+        { "description": "Give unit Howling Horror ammunition", "cost": 10 }
+      ]
+    }
+  ]
+}
