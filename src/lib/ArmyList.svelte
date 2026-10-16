@@ -54,6 +54,11 @@ let { title, units, items, total, limit, warnings, printStats = false, onqty, on
       {/each}
     </tbody>
   </table>
+  {#if chosen}
+  <div class="stats-upgrades only-print">
+    <b>Aufwertungen:</b> {chosen}
+  </div>
+{/if}
 {/if}
       {#if u.opts.length}
         <div class="opts noprint">

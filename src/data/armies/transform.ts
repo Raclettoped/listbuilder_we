@@ -2,9 +2,11 @@ import type {
   RawWarband,
   RawUnit,
   RawOption,
+  RawProfile,
   Army,
   ArmyUnit,
-  ArmyOption
+  ArmyOption,
+  ArmyProfile
 } from './types/warband';
 
 function slug(s: string): string {
@@ -23,6 +25,19 @@ function extractMax(special?: string | null): number | null {
   if (/maximum of one/i.test(special)) return 1;
   if (/must include one .* and one only/i.test(special)) return 1;
   return null;
+}
+
+function normalizeProfile(p: RawProfile): ArmyProfile {
+  return {
+    name: p.name,
+    ag: p.ag ?? '-',
+    acc: p.acc ?? '-',
+    str: p.str ?? '-',
+    res: p.res ?? '-',
+    init: p.init ?? '-',
+    co: p.co ?? '-',
+    special: p.special ?? undefined
+  };
 }
 
 export function toArmy(raw: RawWarband): Army {
@@ -45,7 +60,8 @@ export function toArmy(raw: RawWarband): Army {
         pts: u.points_value ?? 0,
         max: extractMax(u.special) ?? 1,
         note: u.type ?? '',
-        opts
+        opts,
+        profiles: (u.profiles ?? []).map(normalizeProfile)
       };
     })
   };
