@@ -30,3 +30,12 @@ build/
 
 # Intermediate extraction (uncomment to skip)
 # txt_armies/
+
+# Source PDFs (nicht für die App nötig)
+pdf_armies/
+
+# Intermediate extraction
+txt_armies/
+
+# Failed LLM outputs
+*.bad.txt
