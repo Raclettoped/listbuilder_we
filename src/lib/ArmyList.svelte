@@ -22,7 +22,7 @@ let { title, units, items, total, limit, warnings, printStats = false, onqty, on
           <b>{u.name}</b><span class="qtyprint"> × {it.qty}</span>
           {#if chosen}<div class="meta only-print">{chosen}</div>{/if}
         </div>
-        <div class="qty">
+        <div class="qty noprint">
           <button aria-label="Weniger" onclick={() => onqty(it, -1)}>−</button>
           <span>{it.qty}</span>
           <button aria-label="Mehr" onclick={() => onqty(it, 1)}>+</button>

@@ -1,30 +1,16 @@
 import type {
-  RawWarband,
-  RawUnit,
-  RawOption,
-  Army,
-  ArmyUnit,
-  ArmyOption,
-  RawProfile,
-  ArmyProfile
+  RawWarband, RawUnit, RawOption, RawProfile,
+  Army, ArmyUnit, ArmyOption, ArmyProfile
 } from './types/warband';
 
 function slug(s: string): string {
-  return s
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-function isUnitOption(o: RawOption): boolean {
-  return !/^add up to/i.test(o.description);
-}
-
-function extractMax(special?: string | null): number | null {
-  if (!special) return null;
-  if (/maximum of one/i.test(special)) return 1;
-  if (/must include one .* and one only/i.test(special)) return 1;
-  return null;
+// Liest die Zahl vor dem "x" (z.B. "4 x Warrior" -> 4)
+function getCountFromName(name: string): number {
+  const match = name.match(/^(\d+)\s*x/i);
+  return match ? parseInt(match[1], 10) : 1;
 }
 
 function normalizeProfile(p: RawProfile): ArmyProfile {
@@ -40,29 +26,64 @@ function normalizeProfile(p: RawProfile): ArmyProfile {
   };
 }
 
-
 export function toArmy(raw: RawWarband): Army {
   return {
     name: raw.warband,
     units: raw.units.map((u: RawUnit): ArmyUnit => {
       const id = slug(u.name);
 
-      const opts: ArmyOption[] = (u.options ?? [])
-        .filter(isUnitOption)
-        .map((o: RawOption, i: number): ArmyOption => ({
-          id: `${id}-opt-${i}`,
-          name: o.description,
-          pts: o.cost ?? 0
-        }));
+      // 1. Basisgröße aus den Profilen berechnen
+      const base_size = (u.profiles ?? []).reduce((sum, p) => sum + getCountFromName(p.name), 0) || 1;
+
+      // 2. Standardwerte für das Maximum
+      let max_size = base_size;
+      let pts_per_extra = 0;
+
+      // 3. Optionen parsen
+      const opts: ArmyOption[] = [];
+      for (const [i, o] of (u.options ?? []).entries()) {
+        const desc = o.description;
+
+                const addMatch = desc.match(/add up to (\d+)/i);
+        
+        if (addMatch) {
+          max_size += parseInt(addMatch[1], 10);
+          
+          // Look for the cost either in the text ("@21pts") or in the JSON cost field ("cost": 21)
+          const costMatch = desc.match(/@(\d+)\s*pts?/i);
+          if (costMatch) {
+            pts_per_extra = parseInt(costMatch[1], 10);
+          } else if (o.cost) {
+            pts_per_extra = o.cost;
+          }
+          continue; // Hide this option from the checkboxes
+        }
+      }
+
+     let max = 999;
+if (typeof u.special === 'string' && u.special.length > 0) {
+  const oneAndOnly = /one and only/i.test(u.special);
+  const maxOf = u.special.match(/maximum of (\w+)/i);
+
+  if (oneAndOnly) {
+    max = 1;
+  } else if (maxOf) {
+    const words: Record<string, number> = { one: 1, two: 2, three: 3, four: 4 };
+    max = words[maxOf[1].toLowerCase()] ?? parseInt(maxOf[1], 10) ?? 999;
+  }
+}
 
       return {
         id,
         name: u.name,
         pts: u.points_value ?? 0,
-        max: extractMax(u.special) ?? 1,
+        max,
         note: u.type ?? '',
         opts,
-        profiles: (u.profiles ?? []).map(normalizeProfile)
+        profiles: (u.profiles ?? []).map(normalizeProfile),
+        base_size,
+        max_size,
+        pts_per_extra
       };
     })
   };

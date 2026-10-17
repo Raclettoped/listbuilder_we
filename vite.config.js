@@ -1,8 +1,10 @@
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+// vite.config.js
 import { defineConfig } from 'vite'
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 
-// https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [svelte()],
-  base: '/listbuilder_we/',  // dein Repo-Name
-})
+  // In production (GitHub Pages), files live under /listbuilder_we/
+  // In dev (npm run dev), files live at /
+  base: command === 'build' ? '/listbuilder_we/' : '/',
+}))

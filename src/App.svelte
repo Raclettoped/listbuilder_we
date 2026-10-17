@@ -5,7 +5,7 @@
   import UnitPicker from './lib/UnitPicker.svelte';
   import ArmyList from './lib/ArmyList.svelte';
   // ... your existing imports
-  console.log(armies); // sanity check
+  console.log("Loaded Armies:", Object.keys(armies));
 
   const fresh = () => ({ id: null, name: 'Meine Liste', army: Object.keys(armies)[0], limit: 1000, items: [] });
 
@@ -25,9 +25,16 @@
       .map((u) => `${u.name}: ${countOf(list.items, u.id)} in der Liste, erlaubt sind ${u.max}.`)
   );
 
-  function add(unit) {
-    list.items.push({ uid: crypto.randomUUID(), unitId: unit.id, qty: 1, opts: [] });
+    
+    function add(unit) {
+    list.items.push({ 
+      uid: crypto.randomUUID(), 
+      unitId: unit.id, 
+      qty: unit.base_size, // Startet mit der Grundgröße (z.B. 5)
+      opts: [] 
+    });
   }
+
   function changeQty(item, delta) {
     item.qty = Math.max(1, item.qty + delta);
   }

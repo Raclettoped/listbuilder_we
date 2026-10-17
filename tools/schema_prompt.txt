@@ -58,6 +58,13 @@ RULES:
 - Copy the warband's own name into "warband" (e.g. "Dwarfs", not the filename).
 - Omit optional keys entirely when their value would be null
   (special_army_rule, equipment, note, per).
+- CRITICAL: Every profile's "name" MUST begin with the model count, exactly as shown in the source text.
+  Examples:
+    "1 x Orc Chieftain with sword or axe, light armour"
+    "4 x Orc Warriors with sword or axe, light armour"
+    "2 x Orc Bodyguard with sword or axe, light armour"
+  If the PDF lists "1 x Leader" and "4 x Warriors", output BOTH profiles with their respective numbers. 
+  Do not drop the "N x" prefix under any circumstances — it is required for the app to calculate unit sizes.
 
 EXAMPLE (one unit — your output must follow this shape exactly):
 {

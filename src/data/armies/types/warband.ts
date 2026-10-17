@@ -59,11 +59,13 @@ export interface ArmyUnit {
   id: string;
   name: string;
   pts: number;
-  max: number;
+  max: number; // How many Units a army can have
   note: string;
   opts: ArmyOption[];
   profiles: ArmyProfile[];   // ← new
-
+  base_size: number;
+  max_size: number;
+  pts_per_extra: number;
 }
 
 
