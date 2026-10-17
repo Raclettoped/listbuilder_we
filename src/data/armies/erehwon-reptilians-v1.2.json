@@ -1,0 +1,453 @@
+{
+  "warband": "Reptilians",
+  "version": "1.2",
+  "updated": "09/10/2019",
+  "additional_notes": "Note: I have not considered the possibility of 'bolasing' monsters, chariots or the like. Aside from complication when it comes to the effect on crews and such, it seems unlikely a vast monster or construction would be all that inconvenienced.",
+  "special_army_rule": {
+    "name": "Cold-Eyed",
+    "description": "Cold-eyed is a new special rule that applies to all Lizardmen and Efts; cold-blooded creatures not easily stirred by adversity. This is costed as 1pt per model. When taking any test against Command the unit ignores the usual -1 penalty applied for one pin. So, 1 pin would impose no penalty, 2 pins a penalty of -1, 3 pins -2 and so on. When making an Order test, a test is still required if the unit has a single pin, even though the usual -1 penalty is ignored and the test made against the full Command value."
+  },
+  "units": [
+    {
+      "name": "Reptilian Chieftain",
+      "type": "Warlord Warriors Unit",
+      "points_value": 106,
+      "special": "You must include one of Reptilian Chieftain, Mounted Reptilian Chieftain or Reptilian Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Reptilian Chieftain with sword or axe, light armour",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound, Cold-Eyed"
+        },
+        {
+          "name": "Reptilian Bodyguard with sword or axe, light armour",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 7,
+          "special": "Cold-Eyed"
+        }
+      ],
+      "options": [
+        { "description": "Give unit huge swords or big axes", "cost": 0, "per": "model" },
+        { "description": "Upgrade Chieftain to Wounds 2", "cost": 14 },
+        { "description": "Upgrade Chieftain to Tough 2", "cost": 10 },
+        { "description": "Add up to 2 Reptilian bodyguards", "cost": 15, "per": "each" },
+        { "description": "Give unit Aquatic rule", "cost": 0 }
+      ]
+    },
+    {
+      "name": "Mounted Reptilian Chieftain",
+      "type": "Warlord Mounted Unit",
+      "points_value": 138,
+      "special": "You must include one of Reptilian Chieftain, Mounted Reptilian Chieftain or Reptilian Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Mounted Reptilian Chieftain with sword or axe, light armour, riding Scaly Beast",
+          "ag": 6, "acc": 5, "str": 5, "res": "7(8)", "init": 6, "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound, Cold-Eyed, Fast 6; Scaly Beast 1x HtH SV1"
+        },
+        {
+          "name": "Mounted Reptilian Bodyguard with sword or axe, light armour, riding Scaly Beast",
+          "ag": 6, "acc": 5, "str": 5, "res": "7(8)", "init": 6, "co": 7,
+          "special": "Fast 6, Cold-Eyed; Scaly Beast 1x HtH SV1"
+        }
+      ],
+      "options": [
+        { "description": "Give unit huge swords or big axes", "cost": 0, "per": "model" },
+        { "description": "Give Scaly Beasts Savage rule", "cost": 1, "per": "model" },
+        { "description": "Give unit lances", "cost": 1, "per": "model" },
+        { "description": "Give unit medium armour", "cost": 10 },
+        { "description": "Upgrade Chieftain to Wounds 2", "cost": 16 },
+        { "description": "Upgrade Chieftain to Tough 2", "cost": 10 },
+        { "description": "Add up to 2 Mounted Reptilian bodyguards", "cost": 25, "per": "each" }
+      ]
+    },
+    {
+      "name": "Reptilian Chieftain in Chariot",
+      "type": "Warlord Chariot Unit",
+      "points_value": 156,
+      "special": "You must include one of Reptilian Chieftain, Mounted Reptilian Chieftain or Reptilian Chieftain in Chariot unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "Chariot with Chieftain and crew drawn by Scaly Beasts",
+          "ag": 3, "acc": "-", "str": "-", "res": 10, "init": "-", "co": "-",
+          "special": "Large, Tough, Fast 6, Irresistible Charge, Cold-Eyed"
+        },
+        {
+          "name": "Chieftain with sword or axe [light armour]",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 8,
+          "special": "[Tough], Command, Follow, 3x HtH, [Wound], [Cold-Eyed]"
+        },
+        {
+          "name": "Crew with sword or axe [light armour]",
+          "ag": "-", "acc": 5, "str": 5, "res": "-", "init": "-", "co": "-",
+          "special": "-"
+        },
+        {
+          "name": "Scaly Beast",
+          "ag": "-", "acc": "-", "str": 5, "res": "-", "init": "-", "co": "-",
+          "special": "1x HtH SV1"
+        },
+        {
+          "name": "Great Scaly Beast",
+          "ag": "-", "acc": "-", "str": 5, "res": "-", "init": "-", "co": "-",
+          "special": "3x HtH SV2"
+        }
+      ],
+      "options": [
+        { "description": "Give Chieftain and crew huge swords or big axes", "cost": 0, "per": "model" },
+        { "description": "Give Chieftain and crew spears", "cost": 0, "per": "model" },
+        { "description": "Give Chieftain medium armour", "cost": 10, "per": "model" },
+        { "description": "Give chariot scythes", "cost": 25 },
+        { "description": "Give Scaly Beasts Savage rule", "cost": 2 },
+        { "description": "Substitute Scaly Beasts for 1x Great Scaly Beast", "cost": 9 },
+        { "description": "Upgrade Chieftain to [Wounds 2]", "cost": 14 },
+        { "description": "Upgrade Chieftain to [Tough 2]", "cost": 10 },
+        { "description": "Add up to 2 Reptilian crew", "cost": 5, "per": "each" },
+        { "description": "Give Great Scaly Beast Savage rule", "cost": 3 }
+      ]
+    },
+    {
+      "name": "Reptilian Priest",
+      "type": "Warriors Unit",
+      "points_value": 61,
+      "special": "You can include a maximum of one Reptilian Priest in your warband.",
+      "profiles": [
+        {
+          "name": "Reptilian Priest with dagger",
+          "ag": 6, "acc": 5, "str": 5, "res": 6, "init": 6, "co": 8,
+          "special": "Tough, Wound, Cold-Eyed, Magic Level 1"
+        },
+        {
+          "name": "Reptilian Acolyte with dagger",
+          "ag": 6, "acc": 5, "str": 5, "res": 6, "init": 6, "co": 7,
+          "special": "Cold-Eyed"
+        },
+        {
+          "name": "Cosmic Spirits",
+          "ag": 6, "acc": 5, "str": 5, "res": 6, "init": 3, "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "options": [
+        { "description": "Give Priest and Acolytes Swords or Axes", "cost": 1, "per": "model" },
+        { "description": "Give Reptilian Acolytes light armour", "cost": 2, "per": "model" },
+        { "description": "Give unit Divine Intervention rule", "cost": 10 },
+        { "description": "Give unit Aquatic rule", "cost": 0 },
+        { "description": "Upgrade Priest to Magic Level 2", "cost": 25 },
+        { "description": "Upgrade Priest to Magic Level 3", "cost": 50 },
+        { "description": "Upgrade Priest to Tough 2", "cost": 10 },
+        { "description": "Add up to 4 Reptilian Acolytes", "cost": 12, "per": "each" },
+        { "description": "Add up to 4 Cosmic Spirits", "cost": 21, "per": "each" }
+      ]
+    },
+    {
+      "name": "Reptilian Hero",
+      "type": "Warriors Unit",
+      "points_value": 79,
+      "special": "You can include a maximum of one Reptilian Hero or Mounted Reptilian Hero in your warband.",
+      "profiles": [
+        {
+          "name": "Reptilian Hero with sword or axe, light armour",
+          "ag": 6, "acc": 5, "str": 6, "res": "6(7)", "init": 7, "co": 8,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Cold-Eyed"
+        }
+      ],
+      "options": [
+        { "description": "Give Hero huge sword or big axe", "cost": 0 },
+        { "description": "Give Hero bolas", "cost": 1 },
+        { "description": "Give Hero medium armour", "cost": 10 },
+        { "description": "Give Hero Aquatic rule", "cost": 0 },
+        { "description": "Upgrade Hero to Wounds 2", "cost": 14 },
+        { "description": "Upgrade Hero to Wounds 3", "cost": 28 },
+        { "description": "Upgrade Hero to Tough 3", "cost": 10 }
+      ]
+    },
+    {
+      "name": "Mounted Reptilian Hero",
+      "type": "Mounted Unit",
+      "points_value": 91,
+      "special": "You can include a maximum of one Reptilian Hero or Mounted Reptilian Hero in your warband.",
+      "profiles": [
+        {
+          "name": "Mounted Reptilian Hero with sword or axe, light armour, riding Scaly Beast",
+          "ag": 6, "acc": 5, "str": 6, "res": "7(8)", "init": 7, "co": 8,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Fast 6, Cold-Eyed; Scaly Beast 1x HtH SV1"
+        }
+      ],
+      "options": [
+        { "description": "Give Hero lance", "cost": 1 },
+        { "description": "Give Hero bolas", "cost": 1 },
+        { "description": "Give Hero medium armour", "cost": 10 },
+        { "description": "Give Scaly Beast Savage rule", "cost": 2 },
+        { "description": "Upgrade Hero to Wounds 2", "cost": 16 },
+        { "description": "Upgrade Hero to Wounds 3", "cost": 32 },
+        { "description": "Upgrade Hero to Tough 3", "cost": 10 }
+      ]
+    },
+    {
+      "name": "Reptilian Guard",
+      "type": "Warriors Unit",
+      "points_value": 87,
+      "special": "You can include a maximum of one unit of Reptilian Guards in your warband.",
+      "profiles": [
+        {
+          "name": "Reptilian Guard Leader with sword or axe, light armour",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 8,
+          "special": "Tough, Cold-Eyed"
+        },
+        {
+          "name": "Reptilian Guard with sword or axe, light armour",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 7,
+          "special": "Cold-Eyed"
+        }
+      ],
+      "options": [
+        { "description": "Give unit spears", "cost": 0 },
+        { "description": "Give unit huge swords or big axes", "cost": 0 },
+        { "description": "Give unit halberds", "cost": 1, "per": "model" },
+        { "description": "Give unit bolas", "cost": 1, "per": "model" },
+        { "description": "Give unit medium armour increasing Res to 6(8)", "cost": 2, "per": "model" },
+        { "description": "Add up to 5 Reptilian Guards", "cost": 14, "per": "each" }
+      ]
+    },
+    {
+      "name": "Reptilian Warriors",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Reptilian Warrior Leader with sword or axe, light armour",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 8,
+          "special": "Tough, Cold-Eyed"
+        },
+        {
+          "name": "Reptilian Warrior with sword or axe, light armour",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 7,
+          "special": "Cold-Eyed"
+        }
+      ],
+      "options": [
+        { "description": "Give unit spears", "cost": 0 },
+        { "description": "Give unit huge swords or big axes", "cost": 0 },
+        { "description": "Add up to 5 Reptilian Warriors", "cost": 11, "per": "each" }
+      ]
+    },
+    {
+      "name": "Reptilian Skirmishers",
+      "type": "Warriors Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Reptilian Skirmisher Leader with dagger and bow",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 8,
+          "special": "Tough, Cold-Eyed"
+        },
+        {
+          "name": "Reptilian Skirmisher with dagger and bow",
+          "ag": 6, "acc": 5, "str": 5, "res": "6(7)", "init": 6, "co": 7,
+          "special": "Cold-Eyed"
+        }
+      ],
+      "options": [
+        { "description": "Give unit swords or axes", "cost": 1, "per": "model" },
+        { "description": "Give unit poisonous arrows - bow hits count as Venomous", "cost": 5 },
+        { "description": "Add up to 5 Reptilian Skirmishers", "cost": 12, "per": "each" }
+      ]
+    },
+    {
+      "name": "Reptilian Cobra Guard",
+      "type": "Warriors Unit",
+      "points_value": 87,
+      "special": "You can include a maximum of one unit of Reptilian Cobra Guard in your warband.",
+      "profiles": [
+        {
+          "name": "Reptilian Cobra Guard Leader with dagger and crossbow",
+          "ag": 6, "acc": 5, "str": 6, "res": "6(7)", "init": 6, "co": 8,
+          "special": "Tough, Cold-Eyed"
+        },
+        {
+          "name": "Reptilian Cobra Guard with dagger and crossbow",
+          "ag": 6, "acc": 5, "str": 6, "res": "6(7)", "init": 6, "co": 7,
+          "special": "Cold-Eyed"
+        }
+      ],
+      "options": [
+        { "description": "Give unit swords or axes", "cost": 1, "per": "model" },
+        { "description": "Give unit poisonous quarrels - crossbow hits count as Venomous", "cost": 5 },
+        { "description": "Make unit cold-eyed adding Stubborn rule", "cost": 2, "per": "model" }
+      ]
+    },
+    {
+      "name": "Hemata Guardian",
+      "type": "Monster Unit",
+      "points_value": 41,
+      "special": "You can include a maximum of one unit of Hemata Guardians in your warband.",
+      "profiles": [
+        {
+          "name": "Hemata Guardian",
+          "ag": 6, "acc": 5, "str": 5, "res": 8, "init": 7, "co": 7,
+          "special": "Large, 2x HtH SV2 Choking, 1x HtH SV3 Venomous"
+        },
+        {
+          "name": "Hemata Guardian Leader",
+          "ag": 6, "acc": 5, "str": 5, "res": 8, "init": 7, "co": 8,
+          "special": "Tough, Large, 2x HtH SV2 Choking, 1x HtH SV3 Venomous"
+        }
+      ],
+      "options": [
+        { "description": "Add up to 2 Hemata Guardians", "cost": 36, "per": "each" },
+        { "description": "Make one Hemata Guardian in a unit of three or more a leader", "cost": 12 }
+      ]
+    },
+    {
+      "name": "Gorgon",
+      "type": "Monster Unit",
+      "points_value": 62,
+      "special": "You can include a maximum of one Gorgon in your warband.",
+      "profiles": [
+        {
+          "name": "Gorgon with bow",
+          "ag": 6, "acc": 5, "str": 5, "res": 8, "init": 7, "co": 8,
+          "special": "Large, 3x HtH SV2 Choking, 3x Ranged (bow), Wound"
+        }
+      ],
+      "options": [
+        { "description": "Give Gorgon Baleful Glare - can shoot bow or use Baleful Glare but not both at the same time", "cost": 20 },
+        { "description": "Give Gorgon poisonous arrows - bow hits count as Venomous", "cost": 5 }
+      ]
+    },
+    {
+      "name": "Saurian Slithering Beasts",
+      "type": "Warrior/Beast Unit",
+      "points_value": 94,
+      "special": null,
+      "profiles": [
+        {
+          "name": "Snakeman Pack Master with sword or axe",
+          "ag": 6, "acc": 5, "str": 5, "res": 6, "init": 6, "co": 8,
+          "special": "Tough, Rapid Sprint"
+        },
+        {
+          "name": "Saurian Beast",
+          "ag": 6, "acc": "-", "str": 5, "res": 6, "init": 5, "co": 5,
+          "special": "Savage, Rapid Sprint, 1x HtH SV1"
+        }
+      ],
+      "options": [
+        { "description": "Give Pack Master light armour increasing Res to 6(7)", "cost": 2 },
+        { "description": "Give Pack Master spear", "cost": 0 },
+        { "description": "Give Pack Master bow", "cost": 2 },
+        { "description": "Give Saurian Beasts Venomous attacks for the unit", "cost": 5 },
+        { "description": "Give Saurian Beasts Choking attacks", "cost": 1, "per": "model" },
+        { "description": "Add up to 5 Saurian Beasts", "cost": 17, "per": "each" }
+      ]
+    },
+    {
+      "name": "Pterosaurs",
+      "type": "Beast Unit",
+      "points_value": 129,
+      "special": "You can include a maximum of one Pterosaur unit in your warband.",
+      "profiles": [
+        {
+          "name": "Pterosaur",
+          "ag": 10, "acc": "-", "str": 5, "res": 5, "init": 6, "co": 8,
+          "special": "Flies, Fast 10, 2x HtH SV1, Surly"
+        }
+      ],
+      "options": [
+        { "description": "Add up to 2 Pterosaurs", "cost": 43, "per": "each" }
+      ]
+    },
+    {
+      "name": "Raptors",
+      "type": "Monster Unit",
+      "points_value": 93,
+      "special": "You can include a maximum of one Raptor unit in your warband.",
+      "profiles": [
+        {
+          "name": "Raptor",
+          "ag": 7, "acc": "-", "str": 6, "res": 6, "init": 5, "co": 8,
+          "special": "Large, Fast 8, 2x HtH SV2, Surly"
+        }
+      ],
+      "options": [
+        { "description": "Add up to 2 Raptors", "cost": 31, "per": "each" }
+      ]
+    },
+    {
+      "name": "Tyrannosaur",
+      "type": "Monstrosity Unit",
+      "points_value": 188,
+      "special": "You can include a maximum of one Monstrosity unit from this list, a Tyrannosaur, Sail Back Saurian or Giant Horned Saurian.",
+      "profiles": [
+        {
+          "name": "Tyrannosaur",
+          "ag": 6, "acc": "-", "str": 7, "res": 12, "init": 7, "co": 7,
+          "special": "Large, MoD2, 5x HtH SV5, Dread, Terror, Irresistable charge, Surly"
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Sail Back Saurian",
+      "type": "Monstrosity Unit",
+      "points_value": 126,
+      "special": "You can include a maximum of one Monstrosity unit from this list, a Tyrannosaur, Sail Back Saurian or Giant Horned Saurian.",
+      "profiles": [
+        {
+          "name": "Sail Back Saurian",
+          "ag": 5, "acc": "-", "str": 6, "res": 10, "init": 7, "co": 7,
+          "special": "Large, MoD2, 5x HtH SV3, Dread, Fast 6, Surly"
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Giant Horned Saurian",
+      "type": "Monstrosity Unit",
+      "points_value": 122,
+      "special": "You can include a maximum of one Monstrosity unit from this list, a Tyrannosaur, Sail Back Saurian or Giant Horned Saurian.",
+      "profiles": [
+        {
+          "name": "Giant Horned Saurian",
+          "ag": 5, "acc": "-", "str": 6, "res": 12, "init": 7, "co": 7,
+          "special": "Large, MoD2, 3x HtH SV5, Dread, Stampede, Irresistable charge, Surly"
+        }
+      ],
+      "options": []
+    }
+  ],
+  "weapons_table": [
+    { "weapon": "Bow", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },
+    { "weapon": "Crossbow", "short_range": "0-10\"", "long_range": "10-30\"", "extreme_range": "-", "strike_value": 1, "special_rules": "Fire order to shoot" },
+    { "weapon": "Sword or Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": "+1 Strength" },
+    { "weapon": "Long Spear", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": "Cancels charge bonus" },
+    { "weapon": "Big Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": null },
+    { "weapon": "Daggers", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": null }
+  ],
+  "special_rules": {
+    "Choking": "No armour bonus or cover bonus allowed.",
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Cold-Eyed": "When taking any test against Command the unit ignores the usual -1 penalty applied for one pin.",
+    "Disciplined": "Loses all pins when it passes a Rally test.",
+    "Divine Intervention": "Can steal an order dice from an enemy unit within 20\" with successful Command test. If fail take 1 pin instead. Maximum of one attempt in any turn.",
+    "Dread": "-1 to hit shooting/close combat. -1 to break test if defeated by dreaded enemy.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Fast": "Move at the basic rate indicated.",
+    "Flies": "Moves over any terrain/obstacles without test or penalties.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Frenzied Charge": "+1 extra Attack when charging.",
+    "Irresistible Charge": "D3 SV (Strike Value) bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models.",
+    "MoD2": "Monstrosity unit with 2 order dice.",
+    "Rapid Sprint": "Sprint at 4x Move rate (4M) rather than 3M.",
+    "Spirit": "Can be sacrificed for a re-roll. Destroyed if wizard is slain.",
+    "Stampede": "Stampede on failed Order test of 10. D10\" +2M in direction shown by dice. Each unit in path is attacked as if charged.",
+    "Surly": "Cannot benefit from Command, Hero or Follow rule.",
+    "Terror": "Units within 15\" remove no pins when taking an order test. Units failing a break test within 5\" are automatically destroyed.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Venomous": "Add +1 hit from unit if any venomous hits are scored.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays."
+  }
+}
