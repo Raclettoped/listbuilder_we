@@ -1,7 +1,7 @@
 <script>
   import { armies } from './data/armies/index.ts';
   import { loadAll, saveAll } from './lib/storage.js';
-  import { itemCost, countOf } from './lib/calc.js';
+  import { itemCost } from './lib/calc.js';
   import UnitPicker from './lib/UnitPicker.svelte';
   import ArmyList from './lib/ArmyList.svelte';
   // ... your existing imports
@@ -20,10 +20,10 @@
     list.items.reduce((s, it) => s + itemCost(army.units.find((u) => u.id === it.unitId), it), 0)
   );
   let warnings = $derived(
-    army.units
-      .filter((u) => countOf(list.items, u.id) > u.max)
-      .map((u) => `${u.name}: ${countOf(list.items, u.id)} in der Liste, erlaubt sind ${u.max}.`)
-  );
+  army.units
+    .filter((u) => list.items.filter((i) => i.unitId === u.id).length > u.max)
+    .map((u) => `${u.name}: ${list.items.filter((i) => i.unitId === u.id).length}× in der Liste, erlaubt sind ${u.max}.`)
+);
 
     
     function add(unit) {
