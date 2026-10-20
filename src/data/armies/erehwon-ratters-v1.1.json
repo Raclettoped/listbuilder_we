@@ -32,14 +32,43 @@
         }
       ],
       "options": [
-        { "description": "Give unit huge swords or big axes", "cost": 0, "per": "model" },
-        { "description": "Give unit spears", "cost": 0, "per": "model" },
-        { "description": "Give unit halberds", "cost": 1, "per": "model" },
-        { "description": "Give unit medium armour increasing Res to 5(7)", "cost": 10, "note": "+2pts per Bodyguard model" },
-        { "description": "Give unit Venomous rule making all HtH attacks Venomous", "cost": 5 },
-        { "description": "Upgrade Broodlord to Wounds 2", "cost": 12 },
-        { "description": "Upgrade Broodlord to Tough 2", "cost": 10 },
-        { "description": "Add up to 2 Ratter Bodyguards", "cost": 9, "per": "each" }
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give unit medium armour increasing Res to 5(7)",
+          "cost": 10,
+          "note": "+2pts per Bodyguard model"
+        },
+        {
+          "description": "Give unit Venomous rule making all HtH attacks Venomous",
+          "cost": 5
+        },
+        {
+          "description": "Upgrade Broodlord to Wounds 2",
+          "cost": 12
+        },
+        {
+          "description": "Upgrade Broodlord to Tough 2",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 2 Ratter Bodyguards",
+          "cost": 9,
+          "per": "each"
+        }
       ]
     },
     {
@@ -80,15 +109,46 @@
         }
       ],
       "options": [
-        { "description": "Give Rat Slaves swords or axes", "cost": 1, "per": "model" },
-        { "description": "Give Rat Slaves light armour increasing Res to 4(5)", "cost": 2, "per": "model" },
-        { "description": "Give Warlock 2x HtH SV1 Venomous attacks", "cost": 6 },
-        { "description": "Upgrade Warlock to Command 8 (only available if there is no Broodmaster in the warband)", "cost": 2 },
-        { "description": "Upgrade Warlock to Magic Level 2", "cost": 25 },
-        { "description": "Upgrade Warlock to Magic Level 3", "cost": 50 },
-        { "description": "Upgrade Warlock to Tough 2", "cost": 10 },
-        { "description": "Add up to 4 Rat Slaves", "cost": 4, "per": "each" },
-        { "description": "Add up to 4 Spirits of Contagion", "cost": 18, "per": "each" }
+        {
+          "description": "Give Rat Slaves swords or axes",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give Rat Slaves light armour increasing Res to 4(5)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give Warlock 2x HtH SV1 Venomous attacks",
+          "cost": 6
+        },
+        {
+          "description": "Upgrade Warlock to Command 8 (only available if there is no Broodmaster in the warband)",
+          "cost": 2
+        },
+        {
+          "description": "Upgrade Warlock to Magic Level 2",
+          "cost": 25
+        },
+        {
+          "description": "Upgrade Warlock to Magic Level 3",
+          "cost": 50
+        },
+        {
+          "description": "Upgrade Warlock to Tough 2",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 4 Rat Slaves",
+          "cost": 4,
+          "per": "each"
+        },
+        {
+          "description": "Add up to 4 Spirits of Contagion",
+          "cost": 18,
+          "per": "each"
+        }
       ]
     },
     {
@@ -109,12 +169,87 @@
         }
       ],
       "options": [
-        { "description": "Give Broodmaster huge sword or big axe", "cost": 0 },
-        { "description": "Give Broodmaster halberd", "cost": 1 },
-        { "description": "Give Broodmaster medium armour increasing Res to 5(7)", "cost": 10 },
-        { "description": "Upgrade Broodmaster to Wounds 2", "cost": 12 },
-        { "description": "Upgrade Broodmaster to Wounds 3", "cost": 24 },
-        { "description": "Upgrade Broodmaster to Tough 3", "cost": 10 }
+        {
+          "description": "Give Broodmaster huge sword or big axe",
+          "cost": 0
+        },
+        {
+          "description": "Give Broodmaster halberd",
+          "cost": 1
+        },
+        {
+          "description": "Give Broodmaster medium armour increasing Res to 5(7)",
+          "cost": 10
+        },
+        {
+          "description": "Upgrade Broodmaster to Wounds 2",
+          "cost": 12
+        },
+        {
+          "description": "Upgrade Broodmaster to Wounds 3",
+          "cost": 24
+        },
+        {
+          "description": "Upgrade Broodmaster to Tough 3",
+          "cost": 10
+        }
+      ]
+    },
+    {
+      "name": "Rat Slaves",
+      "type": "Warriors Unit",
+      "points_value": 28,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Ratter Slavedriver with lash",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "4 x Rat Slave with sword or axe",
+          "ag": 6,
+          "acc": 4,
+          "str": 4,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": null
+        }
+      ],
+      "options": [
+        {
+          "description": "Give Rat Slaves spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give Ratter Slavedriver sword or axe",
+          "cost": 1
+        },
+        {
+          "description": "Give unit light armour increasing Res to 4(5)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give Ratter Slavedriver spear",
+          "cost": 1
+        },
+        {
+          "description": "Give unit Venomous rule making all HtH attacks Venomous",
+          "cost": 5
+        },
+        {
+          "description": "Add up to 5 Rat Slaves",
+          "cost": 3,
+          "per": "each"
+        }
       ]
     },
     {
@@ -145,12 +280,33 @@
         }
       ],
       "options": [
-        { "description": "Give Rat Slaves swords or axes", "cost": 1, "per": "model" },
-        { "description": "Give Slavedriver sword or axe", "cost": 1 },
-        { "description": "Give Slavedriver bow", "cost": 2 },
-        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "model" },
-        { "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous", "cost": 5 },
-        { "description": "Add up to 5 Rat Slaves with bows", "cost": 4, "per": "each" }
+        {
+          "description": "Give Rat Slaves swords or axes",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give Slavedriver sword or axe",
+          "cost": 1
+        },
+        {
+          "description": "Give Slavedriver bow",
+          "cost": 2
+        },
+        {
+          "description": "Give unit light armour increasing Res to 4(5)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous",
+          "cost": 5
+        },
+        {
+          "description": "Add up to 5 Rat Slaves with bows",
+          "cost": 4,
+          "per": "each"
+        }
       ]
     },
     {
@@ -181,12 +337,33 @@
         }
       ],
       "options": [
-        { "description": "Give Rat Slaves swords or axes", "cost": 1, "per": "model" },
-        { "description": "Give Slavedriver sword or axe", "cost": 1 },
-        { "description": "Give Slavedriver sling", "cost": 3 },
-        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "model" },
-        { "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous", "cost": 5 },
-        { "description": "Add up to 5 Rat Slaves with slings", "cost": 5, "per": "each" }
+        {
+          "description": "Give Rat Slaves swords or axes",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give Slavedriver sword or axe",
+          "cost": 1
+        },
+        {
+          "description": "Give Slavedriver sling",
+          "cost": 3
+        },
+        {
+          "description": "Give unit light armour increasing Res to 4(5)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Venomous rule making all HtH and all ranged attacks Venomous",
+          "cost": 5
+        },
+        {
+          "description": "Add up to 5 Rat Slaves with slings",
+          "cost": 5,
+          "per": "each"
+        }
       ]
     },
     {
@@ -217,9 +394,20 @@
         }
       ],
       "options": [
-        { "description": "Give unit Berserk rule", "cost": 5, "per": "model" },
-        { "description": "Give unit Dread rule", "cost": 10 },
-        { "description": "Add up to 5 Plague Ratters", "cost": 6, "per": "each" }
+        {
+          "description": "Give unit Berserk rule",
+          "cost": 5,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Dread rule",
+          "cost": 10
+        },
+        {
+          "description": "Add up to 5 Plague Ratters",
+          "cost": 6,
+          "per": "each"
+        }
       ]
     },
     {
@@ -240,8 +428,16 @@
         }
       ],
       "options": [
-        { "description": "Give unit Choking attacks rule", "cost": 2, "per": "model" },
-        { "description": "Add up to 2 Super Ratters", "cost": 32, "per": "each" }
+        {
+          "description": "Give unit Choking attacks rule",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 2 Super Ratters",
+          "cost": 32,
+          "per": "each"
+        }
       ]
     },
     {
@@ -272,10 +468,23 @@
         }
       ],
       "options": [
-        { "description": "Give Rat Master light armour increasing Res to 4(5)", "cost": 2 },
-        { "description": "Give Rat Master spear", "cost": 1 },
-        { "description": "Give Rat Master sword or axe", "cost": 1 },
-        { "description": "Add up to 2 Giant Rats", "cost": 10, "per": "each" }
+        {
+          "description": "Give Rat Master light armour increasing Res to 4(5)",
+          "cost": 2
+        },
+        {
+          "description": "Give Rat Master spear",
+          "cost": 1
+        },
+        {
+          "description": "Give Rat Master sword or axe",
+          "cost": 1
+        },
+        {
+          "description": "Add up to 2 Giant Rats",
+          "cost": 10,
+          "per": "each"
+        }
       ]
     },
     {
@@ -296,7 +505,11 @@
         }
       ],
       "options": [
-        { "description": "Add up to 2 Rat Swarms", "cost": 25, "per": "each" }
+        {
+          "description": "Add up to 2 Rat Swarms",
+          "cost": 25,
+          "per": "each"
+        }
       ]
     },
     {
@@ -318,9 +531,20 @@
       ],
       "equipment": "1 x Small Cannon",
       "options": [
-        { "description": "Give Ratter crew swords or axes", "cost": 1, "per": "model" },
-        { "description": "Give unit Large Cannon instead of Small Cannon", "cost": 50 },
-        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "crew model" }
+        {
+          "description": "Give Ratter crew swords or axes",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Large Cannon instead of Small Cannon",
+          "cost": 50
+        },
+        {
+          "description": "Give unit light armour increasing Res to 4(5)",
+          "cost": 2,
+          "per": "crew model"
+        }
       ]
     },
     {
@@ -351,22 +575,272 @@
         }
       ],
       "options": [
-        { "description": "Give crew spears", "cost": 0, "per": "model" },
-        { "description": "Give Cart Tough rule allowing re-roll of damage chart result", "cost": 10 }
+        {
+          "description": "Give crew spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give Cart Tough rule allowing re-roll of damage chart result",
+          "cost": 10
+        }
+      ]
+    },
+    {
+      "name": "Ratter Guard",
+      "type": "Warriors Unit",
+      "points_value": 57,
+      "special": "You can include a maximum of one unit of Ratter Guard in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Ratter Guard Leader with sword or axe, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "5(6)",
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "4 x Ratter Guard with sword or axe, light armour",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "5(6)",
+          "init": 6,
+          "co": 6,
+          "special": "Pack"
+        }
+      ],
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit medium armour increasing Res to 5(7)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 5 Ratter Guard",
+          "cost": 9,
+          "per": "each"
+        },
+        {
+          "description": "Give unit Venomous rule",
+          "cost": 5,
+          "per": "each"
+        }
+      ]
+    },
+    {
+      "name": "Ratter Warriors",
+      "type": "Warriors Unit",
+      "points_value": 37,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Ratter Warrior Leader with sword or axe ",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "4",
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "4 x Ratter Warrior with sword or axe",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": "4",
+          "init": 6,
+          "co": 6,
+          "special": "Pack"
+        }
+      ],
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model"
+        },
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model"
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit light armour increasing Res to 4(5)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit medium armour increasing Res to 4(6)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Add up to 5 Ratter Warriors",
+          "cost": 5,
+          "per": "each"
+        },
+        {
+          "description": "Give unit Venomous rule making all HtH attacks Venomous",
+          "cost": 5
+        }
+      ]
+    },
+    {
+      "name": "Ratter Blunderbusters",
+      "type": "Warriors Unit",
+      "points_value": 57,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Ratter Blunderbuster Leader with sword or axe, handgun",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Pack"
+        },
+        {
+          "name": "4 x Ratter Blunderbuster with sword or axe, handgun",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 4,
+          "init": 6,
+          "co": 6,
+          "special": "Pack"
+        }
+      ],
+      "options": [
+        {
+          "description": "Give unit light armour increasing Res to 4(5)",
+          "cost": 2,
+          "per": "model"
+        },
+        {
+          "description": "Give unit Venomous rule making all HtH and ranged attacks Venomous",
+          "cost": 5
+        },
+        {
+          "description": "Add up to 5 Ratter Blunderbusters",
+          "cost": 9,
+          "per": "each"
+        }
       ]
     }
   ],
   "weapons_table": [
-    { "weapon": "Bow", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },
-    { "weapon": "Sling", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },
-    { "weapon": "Small Cannon", "short_range": "0-10\"", "long_range": "10-30\"", "extreme_range": "30-40\"", "strike_value": 5, "special_rules": "Fire order to shoot, Unstoppable" },
-    { "weapon": "Large Cannon", "short_range": "0-10\"", "long_range": "10-50\"", "extreme_range": "50-100\"", "strike_value": 8, "special_rules": "Fire order to shoot, Unstoppable" },
-    { "weapon": "Lash", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": null, "special_rules": null },
-    { "weapon": "Dagger", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": null, "special_rules": null },
-    { "weapon": "Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": null, "special_rules": "+1 to Strength" },
-    { "weapon": "Big Axe", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": null },
-    { "weapon": "Halberd", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": "+1 to Strength" },
-    { "weapon": "Spear", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": "Can also be thrown during exchange of missiles" }
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": "-",
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sling",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": "-",
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Small Cannon",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 5,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Large Cannon",
+      "short_range": "0-10\"",
+      "long_range": "10-50\"",
+      "extreme_range": "50-100\"",
+      "strike_value": 8,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Lash",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": null
+    },
+    {
+      "weapon": "Dagger",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": null
+    },
+    {
+      "weapon": "Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": "+1 to Strength"
+    },
+    {
+      "weapon": "Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "+1 to Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    }
   ],
   "special_rules": {
     "Pack": "Units with the Pack special rule are treated as having a Command stat equal to the Command stat of a Pack Master within 10\". If more than one Pack Master is within 10\", count the highest stat value. Applies to all rules that use the Command stat, including Automatic Breaks from Pins.",
