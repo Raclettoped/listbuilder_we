@@ -1,19 +1,109 @@
+/* Body text */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+/* Headers */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap');
+/* Stats tables */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
 :root {
-  --bg: #e9edf1; --panel: #fff; --ink: #1c2631; --mute: #5d6b79; --line: #cdd5dd;
-  --accent: #0f5c63; --accent-ink: #fff; --brass: #8a6516; --bad: #b3261e;
+  /* Default = parchment (light) */
+  --parchment:       #f4ecd8;
+  --parchment-dark:  #e6dcc4;
+  --ink:             #2b1f0e;
+  --ink-soft:        #5a4634;
+  --blood:           #7a1f1a;
+  --brass:           #a8863c;
+  --forest:          #3d4a2b;
+
+  /* Aliases */
+  --bg:          var(--parchment);
+  --panel:       #faf4e4;
+  --mute:        var(--ink-soft);
+  --line:        var(--brass);
+  --accent:      var(--blood);
+  --accent-ink:  var(--parchment);
+  --bad:         #8b2c25;
+  --stats-bg:    #eee;
+  --stats-border:#999;
+  --stats-bg:    #eee;
+  --stats-border:#999;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121a22; --panel: #1b2530; --ink: #e6ebf0; --mute: #9aa8b5; --line: #2e3b48;
-    --accent: #4fb3bb; --accent-ink: #0b1a1c; --brass: #d9b25a; --bad: #f08a82;
-  }
+
+/* Dark theme — applied via [data-theme="dark"] on <html> */
+[data-theme="dark"] {
+  --parchment:       #1a1612;   /* deep charcoal-brown, not blue */
+  --parchment-dark:  #262019;
+  --ink:             #e8ddc8;   /* warm off-white, like candlelight */
+  --ink-soft:        #a89880;
+  --blood:           #b8443a;
+  --brass:           #c9a24e;
+  --forest:          #6a8a4b;
+
+  --bg:          var(--parchment);
+  --panel:       #221d17;
+  --mute:        var(--ink-soft);
+  --line:        #3f3628;
+  --accent:      var(--brass);
+  --accent-ink:  #1a1612;
+  --bad:         #d35f55;
+  --stats-bg:    #2a241c;
+  --stats-border:#4a3f2e;
 }
+
+[data-theme="dark"] {
+  --parchment:       #1a1612;
+  --parchment-dark:  #262019;
+  --ink:             #e8ddc8;
+  --ink-soft:        #a89880;
+  --blood:           #b8443a;
+  --brass:           #c9a24e;
+  --forest:          #6a8a4b;
+
+  --bg:          var(--parchment);
+  --panel:       #221d17;
+  --mute:        var(--ink-soft);
+  --line:        #3f3628;
+  --accent:      var(--brass);
+  --accent-ink:  #1a1612;
+  --bad:         #d35f55;
+  --stats-bg:    #2a241c;
+  --stats-border:#4a3f2e;
+}
+
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-h1, h2, .total { font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif; }
-header { padding: 20px 20px 8px; max-width: 1100px; margin: 0 auto; }
-h1 { margin: 0; font-size: 1.7rem; }
-h2 { margin: 0 0 10px; font-size: 1.2rem; }
+body {
+  font-family: 'EB Garamond', serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--ink);
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--brass);
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  border-bottom: 1px solid var(--brass);
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+table.stats {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10pt;
+}
 .notice { margin: 8px 0 0; padding: 8px 12px; border-left: 4px solid var(--brass); background: var(--panel); font-size: .9rem; color: var(--mute); }
 .bar { max-width: 1100px; margin: 12px auto 0; padding: 0 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
 label { display: flex; flex-direction: column; font-size: .85rem; color: var(--mute); gap: 2px; }
@@ -72,8 +162,9 @@ table.stats td {
   text-align: center;
   vertical-align: top;
 }
+
 table.stats th {
-  background: #eee;
+  background: var(--stats-bg);
   font-weight: 600;
 }
 table.stats .pname {
@@ -87,7 +178,7 @@ table.stats .pspecial {
 
 details.monster-group {
   margin-top: 16px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--line);
   padding-top: 8px;
 }
 details.monster-group > summary {

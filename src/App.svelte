@@ -4,7 +4,8 @@
   import { itemCost } from './lib/calc.js';
   import UnitPicker from './lib/UnitPicker.svelte';
   import ArmyList from './lib/ArmyList.svelte';
-  // ... your existing imports
+  import { getInitialTheme, applyTheme } from './lib/theme.js';
+  
   console.log("Loaded Armies:", Object.keys(armies));
 
   const fresh = () => ({ id: null, name: 'Meine Liste', army: Object.keys(armies)[0], limit: 1000, items: [] });
@@ -13,6 +14,10 @@
   let saved = $state(loadAll());
   let storageOk = $state(true);
   let printStats = $state(true);
+  let theme = $state(getInitialTheme());
+  $effect(() => {
+    applyTheme(theme);
+  });
 
   let army = $derived(armies[list.army]);
   let limit = $derived(list.limit ?? 0);
@@ -94,10 +99,13 @@
   <label>Punktelimit
     <input type="number" min="0" step="50" bind:value={list.limit} style="width:100px" />
   </label>
-  <label class="printopt">
-  <input type="checkbox" bind:checked={printStats} />
-  Stats drucken
-</label>
+    <label class="printopt">
+    <input type="checkbox" bind:checked={printStats} />
+    Stats drucken
+  </label>
+  <button class="themebtn" onclick={() => theme = theme === 'light' ? 'dark' : 'light'}>
+    {theme === 'light' ? '🌙 Dunkel' : '☀️ Hell'}
+  </button>
   <button class="primary" onclick={save}>Liste speichern</button>
   <button onclick={newList}>Neue Liste</button>
   <button onclick={() => window.print()}>Drucken</button>
