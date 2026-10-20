@@ -1,8 +1,12 @@
 {
   "warband": "Ogre Hordes",
-  "version": "0.3",
+  "version": "v0.3",
   "updated": "25/05/2023",
-  "additional_notes": "Warlords of Erehwon already includes a unit of Ogres as part of the Monsters list. This list exists for those who want to field a full army of these man-eating brutes. One common theme is that Ogres are inevitably accompanied by Goblins, so we have included them as well. Yetis, Sabretusks and Ogroid Dragonkin are other common options.",
+  "special_army_rule": {
+    "name": "Scraplauncher Ammunition",
+    "description": "Goblins and their kin have been known to load their stone throwers with whatever they can lay their grubby little mitts on, with a preference for sharp bits of scrap metal, bones and other body parts. Being bombarded by this gruesome mess of debris is extremely demoralising for the enemy, on top of the physical effects of being skewered by an assortment of sharp objects. Scraplauncher ammunition has exactly the same effect as Howling Horror Ammunition (see rulebook p71)."
+  },
+  "additional_notes": "Yetis, Sabretusks and Ogroid Dragonkin are other common options that need to be included. The Yetis and Sabretusks have been given the Woodsman rule to represent their place as wild creatures, while the Dragonkin are a faster, harder-hitting option. And finally, we have the Mammoth. One or two Ogre riders with a variety of weapon options available, should cover the various large beasts available to interested players.",
   "units": [
     {
       "name": "Ogre Chieftain",
@@ -11,26 +15,75 @@
       "special": "You must include one Ogre Chieftain in your warband and one only, either an Ogre Chieftain, a Mounted Ogre Chieftain or an Ogre Chieftain on Chariot.",
       "profiles": [
         {
-          "name": "Ogre Chieftain with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 8, "co": 8,
+          "name": "1 x Ogre Chieftain with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 8,
+          "co": 8,
           "special": "Large, Tough, Command, Follow, Frenzied Charge, 4x HtH, Wound"
         },
         {
-          "name": "Ogre Bodyguard with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 7, "co": 7,
+          "name": "0 x Ogre Bodyguards with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 7,
+          "co": 7,
           "special": "Large, 2x HtH, Frenzied Charge"
         }
       ],
       "options": [
-        { "description": "Give unit bloomin' big axes or improbably vast swords", "cost": 1, "per": "model" },
-        { "description": "Give unit heavy pistols", "cost": 4, "per": "model" },
-        { "description": "Upgrade Chieftain to Tough 2", "cost": 10 },
-        { "description": "Upgrade Chieftain to Tough 3", "cost": 20 },
-        { "description": "Upgrade Chieftain to Wound 2", "cost": 16 },
-        { "description": "Upgrade Chieftain to Wound 3", "cost": 32 },
-        { "description": "Give unit medium armour increasing Res to 8(10)", "cost": 10, "note": "+2pts per Bodyguard model" },
-        { "description": "Give unit heavy armour increasing Res to 8(11) and adding the Heavily Laden special rule", "cost": 14, "note": "+3pts per Bodyguard model" },
-        { "description": "Add up to 2 Ogre Bodyguards", "cost": 30, "per": "each" }
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "+ 2pts per Bodyguard model increasing Res to 8(10)"
+        },
+        {
+          "description": "Give unit heavy pistols",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 3",
+          "cost": 20,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 3",
+          "cost": 32,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Ogre Bodyguards",
+          "cost": 30,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -40,33 +93,103 @@
       "special": "You must include one Ogre Chieftain in your warband and one only, either an Ogre Chieftain, a Mounted Ogre Chieftain or an Ogre Chieftain on Chariot.",
       "profiles": [
         {
-          "name": "Ogre Chieftain with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 8, "co": 8,
+          "name": "1 x Ogre Chieftain with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 8,
+          "co": 8,
           "special": "Large, Tough, Command, Follow, Fast 7, Frenzied Charge, 4x HtH, Wound"
         },
         {
-          "name": "Ogre Bodyguard with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 7, "co": 7,
+          "name": "0 x Ogre Bodyguards with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 7,
+          "co": 7,
           "special": "Large, 2x HtH, Frenzied Charge, Fast 7"
         },
         {
-          "name": "Large angry riding beast",
-          "ag": "-", "acc": "-", "str": 5, "res": "-", "init": "-", "co": "-",
-          "special": "Large, 1x HtH SV2"
+          "name": "1 x large angry riding beast",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Large, 1xHtH SV2"
         }
       ],
       "options": [
-        { "description": "Give unit bloomin' big axes or improbably vast swords", "cost": 1, "per": "model" },
-        { "description": "Give unit lances", "cost": 1, "per": "model" },
-        { "description": "Give unit heavy pistols", "cost": 4, "per": "model" },
-        { "description": "Upgrade Chieftain to Tough 2", "cost": 10 },
-        { "description": "Upgrade Chieftain to Tough 3", "cost": 20 },
-        { "description": "Upgrade Chieftain to Wound 2", "cost": 16 },
-        { "description": "Upgrade Chieftain to Wound 3", "cost": 32 },
-        { "description": "Give unit medium armour increasing Res to 8(10)", "cost": 10, "note": "+2pts per Bodyguard model" },
-        { "description": "Give unit heavy armour increasing Res to 8(11)", "cost": 15, "note": "+4pts per Bodyguard model" },
-        { "description": "Add up to 2 Ogre Bodyguards on large angry riding beasts", "cost": 43, "per": "each" },
-        { "description": "Give large angry riding beasts Irresistible Charge", "cost": 10, "per": "model" }
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit heavy pistols",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 3",
+          "cost": 20,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 3",
+          "cost": 32,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "+ 2pts per Bodyguard model increasing Res to 8(10)"
+        },
+        {
+          "description": "Give unit heavy armour",
+          "cost": 15,
+          "per": "model",
+          "note": "+ 4pts per Bodyguard model increasing Res to 8(11)"
+        },
+        {
+          "description": "Add up to 2 Ogre Bodyguards on large angry riding beasts",
+          "cost": 43,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Give large angry riding beasts Irresistable Charge",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        }
       ]
     },
     {
@@ -76,26 +199,85 @@
       "special": "You must include one Ogre Chieftain in your warband and one only, either an Ogre Chieftain, a Mounted Ogre Chieftain or an Ogre Chieftain on Chariot.",
       "profiles": [
         {
-          "name": "Chariot with Chieftain and crew pulled by ornery beasts",
-          "ag": 3, "acc": "-", "str": "-", "res": 10, "init": "-", "co": "-",
-          "special": "Large, Tough, Fast 8, Irresistible Charge"
+          "name": "1 x Chariot with Chieftain and crew pulled by ornery beasts",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough, Fast 8, Irresistable Charge"
         },
         {
-          "name": "Ogre Chieftain with big axe, huge sword or huge mace, light armour",
-          "ag": "[5]", "acc": 5, "str": 6, "res": "[8(9)]", "init": 8, "co": 8,
+          "name": "1 x Ogre Chieftain with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 8,
+          "co": 8,
           "special": "Large, [Tough], Command, Follow, Frenzied Charge, 4x HtH, [Wound]"
         },
         {
-          "name": "Ornery beasts",
-          "ag": "-", "acc": "-", "str": 5, "res": "-", "init": "-", "co": "-",
+          "name": "2 x ornery beasts",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
           "special": "1x HtH, SV1"
         }
       ],
       "options": [
-        { "description": "Give Chieftain a bloomin' big axe or improbably vast sword", "cost": 1 },
-        { "description": "Give Chariot Scythes with D6 SV1 impact hits on charge", "cost": 25 },
-        { "description": "Give Chieftain medium armour increasing Res to 8(10) on foot only", "cost": 10 },
-        { "description": "Give Chieftain heavy armour increasing Res to 8(11) and adding the Heavily Laden special rule on foot only", "cost": 14 }
+        {
+          "description": "Give Chieftain a bloomin' big axe or improbably vast sword",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 3",
+          "cost": 20,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 2",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Chieftain to Wound 3",
+          "cost": 32,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": "model",
+          "note": "with D6 SV1 impact hits on charge"
+        },
+        {
+          "description": "Give Chieftain medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 8(10) on foot only"
+        },
+        {
+          "description": "Give Chieftain heavy armour",
+          "cost": 14,
+          "per": "model",
+          "note": "increasing Res to 8(11) and adding the Heavily Laden special rule on foot only"
+        }
       ]
     },
     {
@@ -105,21 +287,75 @@
       "special": "You may include one Ogre Shaman in your warband and one only.",
       "profiles": [
         {
-          "name": "Ogre Shaman with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 8, "co": 8,
+          "name": "1 x Ogre Shaman with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 8,
+          "co": 8,
           "special": "Large, Tough, Frenzied Charge, 2x HtH, Wound, Magic Level 1"
         },
         {
-          "name": "Ogre Bodyguard with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 7, "co": 7,
+          "name": "0 x Ogre Bodyguards with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 7,
+          "co": 7,
           "special": "Large, 2x HtH, Frenzied Charge"
         }
       ],
       "options": [
-        { "description": "Give unit bloomin' big axes or improbably vast swords", "cost": 1, "per": "model" },
-        { "description": "Upgrade Shaman to Magic Level 2", "cost": 25 },
-        { "description": "Upgrade Shaman to Magic Level 3", "cost": 50 },
-        { "description": "Upgrade Shaman to Tough 2", "cost": 10 }
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Shaman to Magic Level 2",
+          "cost": 25,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Shaman to Magic Level 3",
+          "cost": 50,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Shaman to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Shaman to Wound 2",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Shaman 3x Flaming Breath SV2 Fire",
+          "cost": 15,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "+ 2pts per Bodyguard model increasing Res to 8(10)"
+        },
+        {
+          "description": "Add up to 2 Ogre Bodyguards",
+          "cost": 30,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -129,17 +365,77 @@
       "special": "You may include one Ogre Hero in your warband and one only, either an Ogre Hero or a Mounted Ogre Hero.",
       "profiles": [
         {
-          "name": "Ogre Hero with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 8, "co": 8,
+          "name": "1 x Ogre Hero with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 8,
+          "co": 8,
           "special": "Large, Hero, Tough 2, Frenzied Charge, 4x HtH, Wound"
         }
       ],
       "options": [
-        { "description": "Give Hero a bloomin' big axe or improbably vast sword", "cost": 1 },
-        { "description": "Give Hero a halberd", "cost": 1 },
-        { "description": "Give Hero a heavy pistol", "cost": 4 },
-        { "description": "Give Hero a heavy crossbow", "cost": 4 },
-        { "description": "Give Hero a hand cannon", "cost": 5 }
+        {
+          "description": "Give Hero a bloomin' big axe or improbably vast sword",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a halberd",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a heavy pistol",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a heavy crossbow",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a hand cannon",
+          "cost": 5,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wound 2",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wound 3",
+          "cost": 32,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 8(10)"
+        },
+        {
+          "description": "Give Hero heavy armour",
+          "cost": 14,
+          "per": "model",
+          "note": "increasing Res to 8(11) and adding the Heavily Laden special rule"
+        }
       ]
     },
     {
@@ -149,23 +445,99 @@
       "special": "You may include one Ogre Hero in your warband and one only, either an Ogre Hero or a Mounted Ogre Hero.",
       "profiles": [
         {
-          "name": "Ogre Hero with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 8, "co": 8,
+          "name": "1 x Ogre Hero with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 8,
+          "co": 8,
           "special": "Large, Hero, Tough 2, Fast 7, Frenzied Charge, 4x HtH, Wound"
         },
         {
-          "name": "Large angry riding beast",
-          "ag": "-", "acc": "-", "str": 5, "res": "-", "init": "-", "co": "-",
-          "special": "Large, 1x HtH SV2"
+          "name": "1 x large angry riding beast",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Large, 1xHtH SV2"
         }
       ],
       "options": [
-        { "description": "Give Hero a bloomin' big axe or improbably vast sword", "cost": 1 },
-        { "description": "Give Hero a halberd", "cost": 1 },
-        { "description": "Give Hero a lance", "cost": 1 },
-        { "description": "Give Hero a heavy pistol", "cost": 4 },
-        { "description": "Give Hero a heavy crossbow", "cost": 4 },
-        { "description": "Give Hero a hand cannon", "cost": 5 }
+        {
+          "description": "Give Hero a bloomin' big axe or improbably vast sword",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a halberd",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a lance",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a heavy pistol",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a heavy crossbow",
+          "cost": 4,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero a hand cannon",
+          "cost": 5,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wound 2",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wound 3",
+          "cost": 32,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero medium armour",
+          "cost": 10,
+          "per": "model",
+          "note": "increasing Res to 8(10)"
+        },
+        {
+          "description": "Give Hero heavy armour",
+          "cost": 15,
+          "per": "model",
+          "note": "increasing Res to 8(11)"
+        },
+        {
+          "description": "Give large angry riding beast Irresistable Charge",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        }
       ]
     },
     {
@@ -175,47 +547,277 @@
       "special": "You can include a maximum of one unit of Ogre Ironguard in your warband.",
       "profiles": [
         {
-          "name": "Ogre Ironguard leader with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 7, "co": 8,
+          "name": "1 x Ogre Ironguard leader with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 7,
+          "co": 8,
           "special": "Large, Tough, Frenzied Charge, 2x HtH"
         },
         {
-          "name": "Ogre Ironguard with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 7, "co": 7,
+          "name": "2 x Ogre Ironguard with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "8(9)",
+          "init": 7,
+          "co": 7,
           "special": "Large, 2x HtH, Frenzied Charge"
         }
       ],
       "options": [
-        { "description": "Give unit bloomin' big axes or improbably vast swords", "cost": 1, "per": "model" },
-        { "description": "Give unit medium armour increasing Res to 8(10)", "cost": 2, "per": "model" }
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 8(10)"
+        },
+        {
+          "description": "Give unit heavy armour",
+          "cost": 3,
+          "per": "model",
+          "note": "increasing Res to 8(11) and adding the Heavily Laden special rule"
+        },
+        {
+          "description": "Add up to 2 Ogre Ironguard",
+          "cost": 30,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
       "name": "Ogre Warriors",
       "type": "Monster Unit",
-      "points_value": 90,
+      "points_value": 96,
       "special": null,
       "profiles": [
         {
-          "name": "Ogre leader with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 7, "co": 8,
+          "name": "1 x Ogre leader with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "8(9)",
+          "init": 7,
+          "co": 8,
           "special": "Large, Tough, Frenzied Charge, 2x HtH"
         },
         {
-          "name": "Ogre warrior with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 6, "res": "8(9)", "init": 7, "co": 7,
+          "name": "2 x Ogre warriors with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "8(9)",
+          "init": 7,
+          "co": 7,
           "special": "Large, 2x HtH, Frenzied Charge"
-        },
-        {
-          "name": "Large angry riding beast",
-          "ag": "-", "acc": "-", "str": 5, "res": "-", "init": "-", "co": "-",
-          "special": "Large, 1x HtH SV2"
         }
       ],
       "options": [
-        { "description": "Give unit bloomin' big axes or improbably vast swords", "cost": 1, "per": "model" },
-        { "description": "Give unit medium armour increasing Res to 8(10)", "cost": 2, "per": "model" },
-        { "description": "Add up to 2 Ogre warriors", "cost": 30, "per": "each" }
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 8(10)"
+        },
+        {
+          "description": "Add up to 2 Ogre warriors",
+          "cost": 28,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Ogre Shooters",
+      "type": "Monster Unit",
+      "points_value": 108,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Ogre leader with axe, sword or mace, heavy crossbow, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "8(9)",
+          "init": 7,
+          "co": 8,
+          "special": "Large, Tough, Frenzied Charge, 2x HtH"
+        },
+        {
+          "name": "2 x Ogre shooters with axe, sword or mace, heavy crossbow, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "8(9)",
+          "init": 7,
+          "co": 7,
+          "special": "Large, 2x HtH, Frenzied Charge"
+        }
+      ],
+      "options": [
+        {
+          "description": "Replace heavy crossbows with hand cannons",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 8(10)"
+        },
+        {
+          "description": "Add up to 2 Ogre shooters",
+          "cost": 32,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Ogre Berserkers",
+      "type": "Monster Unit",
+      "points_value": 105,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Ogre leader with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 8,
+          "init": 7,
+          "co": 8,
+          "special": "Large, Tough, Frenzied Charge, Berserk, 2x HtH"
+        },
+        {
+          "name": "2 x Ogre warriors with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 8,
+          "init": 7,
+          "co": 7,
+          "special": "Large, 2x HtH, Frenzied Charge, Berserk"
+        }
+      ],
+      "options": [
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 8(9)"
+        },
+        {
+          "description": "Add up to 2 Ogre berserkers",
+          "cost": 31,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Ogre Cavalry",
+      "type": "Monster Unit",
+      "points_value": 135,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Ogre leader with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "8(9)",
+          "init": 7,
+          "co": 8,
+          "special": "Large, Tough, Fast 7, Frenzied Charge, 2x HtH"
+        },
+        {
+          "name": "2 x Ogre cavalry with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "8(9)",
+          "init": 7,
+          "co": 7,
+          "special": "Large, 2x HtH, Frenzied Charge, Fast 7"
+        },
+        {
+          "name": "3 x large angry riding beast",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "Large, 1xHtH SV2"
+        }
+      ],
+      "options": [
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit heavy crossbows",
+          "cost": 5,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 8(10)"
+        },
+        {
+          "description": "Give unit heavy armour",
+          "cost": 4,
+          "per": "model",
+          "note": "increasing Res to 8(11)"
+        },
+        {
+          "description": "Add up to 2 Ogre cavalry on large angry riding beasts",
+          "cost": 41,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Give large angry riding beasts Irresistable Charge",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        }
       ]
     },
     {
@@ -225,24 +827,49 @@
       "special": null,
       "profiles": [
         {
-          "name": "Chariot with Ogre crew pulled by ornery beasts",
-          "ag": 3, "acc": "-", "str": "-", "res": 10, "init": "-", "co": "-",
-          "special": "Large, Fast 8, Irresistible Charge"
+          "name": "1 x Chariot with Ogre crew pulled by ornery beasts",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": 10,
+          "init": "-",
+          "co": "-",
+          "special": "Large, Fast 8, Irresistable Charge"
         },
         {
-          "name": "Ogre crew with big axe, huge sword or huge mace",
-          "ag": "-", "acc": 5, "str": 5, "res": "-", "init": 7, "co": 7,
+          "name": "1 x Ogre crew with big axe, huge sword or huge mace",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": "-",
+          "init": 7,
+          "co": 7,
           "special": "Large, Frenzied Charge, 2x HtH"
         },
         {
-          "name": "Ornery beasts",
-          "ag": "-", "acc": "-", "str": 5, "res": "-", "init": "-", "co": "-",
+          "name": "2 x ornery beasts",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
           "special": "1x HtH, SV1"
         }
       ],
       "options": [
-        { "description": "Give crew bloomin' big axe or improbably vast sword", "cost": 1 },
-        { "description": "Give chariot Scythes with D6 SV1 impact hits on charge", "cost": 25 }
+        {
+          "description": "Give crew bloomin' big axe or improbably vast sword",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": "model",
+          "note": "with D6 SV1 impact hits on charge"
+        }
       ]
     },
     {
@@ -252,20 +879,45 @@
       "special": "You may include a maximum of one unit of Ogroid Dragonkin in your warband.",
       "profiles": [
         {
-          "name": "Ogroid Dragonkin leader with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 7, "res": "9(10)", "init": 7, "co": 8,
+          "name": "1 x Ogroid Dragonkin leader with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 7,
+          "res": "9(10)",
+          "init": 7,
+          "co": 8,
           "special": "Large, Tough, Fast 7, Ferocious Charge, 3x HtH"
         },
         {
-          "name": "Ogroid Dragonkin with big axe, huge sword or huge mace, light armour",
-          "ag": 5, "acc": 5, "str": 7, "res": "9(10)", "init": 7, "co": 7,
+          "name": "2 x Ogroid Dragonkin with big axe, huge sword or huge mace, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 7,
+          "res": "9(10)",
+          "init": 7,
+          "co": 7,
           "special": "Large, Fast 7, 3x HtH, Ferocious Charge"
         }
       ],
       "options": [
-        { "description": "Give unit bloomin' big axes or improbably vast swords", "cost": 1, "per": "model" },
-        { "description": "Give unit medium armour increasing Res to 9(11)", "cost": 2, "per": "model" },
-        { "description": "Add up to 2 Ogroid Dragonkin", "cost": 39, "per": "each" }
+        {
+          "description": "Give unit bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 9(11)"
+        },
+        {
+          "description": "Add up to 2 Ogroid Dragonkin",
+          "cost": 39,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -275,14 +927,29 @@
       "special": null,
       "profiles": [
         {
-          "name": "Yeti",
-          "ag": 5, "acc": 5, "str": 7, "res": 8, "init": 6, "co": 8,
+          "name": "3 x Yeti",
+          "ag": 5,
+          "acc": 5,
+          "str": 7,
+          "res": 8,
+          "init": 6,
+          "co": 8,
           "special": "Large, Frenzied Charge, 3x HtH SV2, Woodsman"
         }
       ],
       "options": [
-        { "description": "Give unit light armour increasing Res to 8(9)", "cost": 2, "per": "model" },
-        { "description": "Add up to 2 Yetis", "cost": 35, "per": "each" }
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 8(9)"
+        },
+        {
+          "description": "Add up to 2 Yetis",
+          "cost": 35,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -292,13 +959,23 @@
       "special": null,
       "profiles": [
         {
-          "name": "Sabretusk",
-          "ag": 5, "acc": "-", "str": 6, "res": 6, "init": 7, "co": 6,
+          "name": "5 x Sabretusks",
+          "ag": 5,
+          "acc": "-",
+          "str": 6,
+          "res": 6,
+          "init": 7,
+          "co": 6,
           "special": "Fast 7, Woodsman, 1x HtH SV2"
         }
       ],
       "options": [
-        { "description": "Add up to 5 Sabretusks", "cost": 18, "per": "each" }
+        {
+          "description": "Add up to 5 Sabretusks",
+          "cost": 18,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -308,19 +985,45 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Hangers-On",
-          "ag": 6, "acc": 5, "str": 4, "res": 4, "init": 7, "co": 7,
+          "name": "1 x Goblin leader with cudgel or club",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
           "special": "Tough"
         },
         {
-          "name": "Goblin leader with cudgel or club",
-          "ag": 6, "acc": 5, "str": 4, "res": 4, "init": 7, "co": 6,
+          "name": "4 x Goblin hangers-on with cudgel or club",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 6,
           "special": "-"
         }
       ],
       "options": [
-        { "description": "Give unit daggers or knives", "cost": 1, "per": "model" },
-        { "description": "Give unit rocks to throw", "cost": 1, "per": "model" }
+        {
+          "description": "Give unit daggers or knives",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit rocks to throw",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Goblin hangers-on",
+          "cost": 3,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -330,18 +1033,39 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Fighters",
-          "ag": 6, "acc": 5, "str": 4, "res": "4(5)", "init": 7, "co": 7,
+          "name": "1 x Goblin leader with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 7,
           "special": "Tough"
         },
         {
-          "name": "Goblin leader with sword or axe, light armour",
-          "ag": 6, "acc": 5, "str": 4, "res": "4(5)", "init": 7, "co": 6,
+          "name": "4 x Goblin fighters with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": "4(5)",
+          "init": 7,
+          "co": 6,
           "special": "-"
         }
       ],
       "options": [
-        { "description": "Give unit spears", "cost": 0, "per": "model" }
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Goblin fighters",
+          "cost": 7,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -351,18 +1075,39 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Archers",
-          "ag": 6, "acc": 5, "str": 4, "res": 4, "init": 7, "co": 7,
+          "name": "1 x Goblin leader with sword or axe, bow",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 7,
           "special": "Tough"
         },
         {
-          "name": "Goblin leader with sword or axe, bow",
-          "ag": 6, "acc": 5, "str": 4, "res": 4, "init": 7, "co": 6,
+          "name": "4 x Goblin archers with sword or axe, bow",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 6,
           "special": "-"
         }
       ],
       "options": [
-        { "description": "Give unit light armour increasing Res to 4(5)", "cost": 2, "per": "model" }
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 4(5)"
+        },
+        {
+          "description": "Add up to 5 Goblin archers",
+          "cost": 7,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -372,24 +1117,51 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Wolf Riders",
-          "ag": 6, "acc": 5, "str": 5, "res": 5, "init": 7, "co": 7,
+          "name": "1 x Goblin wolf rider leader with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 7,
           "special": "Tough, Fast 6, Rapid Sprint Wolf 1xHtH SV1"
         },
         {
-          "name": "Goblin wolf rider leader with sword or axe",
-          "ag": 6, "acc": 5, "str": 5, "res": 5, "init": 7, "co": 6,
-          "special": "Fast 6, Rapid Sprint Wolf 1xHtH SV1"
-        },
-        {
-          "name": "Goblin wolf rider with sword or axe",
-          "ag": 6, "acc": 5, "str": 5, "res": 5, "init": 7, "co": 6,
+          "name": "2 x Goblin wolf rider with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": 5,
+          "init": 7,
+          "co": 6,
           "special": "Fast 6, Rapid Sprint Wolf 1xHtH SV1"
         }
       ],
       "options": [
-        { "description": "Give unit light armour increasing Res to 5(6)", "cost": 2, "per": "model" },
-        { "description": "Give unit bows", "cost": 2, "per": "model" }
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit bows",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 3 Goblin wolf riders",
+          "cost": 19,
+          "per": "each",
+          "note": ""
+        }
       ]
     },
     {
@@ -399,25 +1171,62 @@
       "special": "You may include a maximum of one Goblin Stone Thrower in your warband.",
       "profiles": [
         {
-          "name": "Goblin crew with daggers, stone throwing engine",
-          "ag": 6, "acc": 5, "str": 4, "res": 4, "init": 7, "co": 6,
+          "name": "3 x Goblin crew with daggers, stone throwing engine",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 6,
           "special": "Large, Slow 3"
         },
         {
-          "name": "Ogre crew with big axe, huge sword or huge mace",
-          "ag": 5, "acc": 5, "str": 5, "res": 8, "init": 5, "co": 8,
+          "name": "0 x Ogre crew with big axe, huge sword or huge mace",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 8,
+          "init": 5,
+          "co": 8,
           "special": "Large, Frenzied Charge, 2xHtH"
         },
         {
-          "name": "Large angry draft beast",
-          "ag": 4, "acc": 5, "str": 5, "res": 6, "init": 7, "co": 6,
+          "name": "0 x large angry draft beast",
+          "ag": 4,
+          "acc": 5,
+          "str": 5,
+          "res": 6,
+          "init": 7,
+          "co": 6,
           "special": "Large, 1xHtH SV2"
         }
       ],
       "equipment": "1 x Small Stone Thrower",
       "options": [
-        { "description": "Give unit Big Stone Thrower instead of Small Stone Thrower", "cost": 27 },
-        { "description": "Give unit Scraplauncher Ammunition", "cost": 10 }
+        {
+          "description": "Give unit Big Stone Thrower instead of Small Stone Thrower",
+          "cost": 27,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Goblin crew to unit",
+          "cost": 3,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Add up to 1 Ogre crew to unit",
+          "cost": 26,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Add up to 1 large angry draft beast to unit",
+          "cost": 15,
+          "per": "model",
+          "note": "removing the Slow 3 special rule"
+        }
       ]
     },
     {
@@ -427,26 +1236,56 @@
       "special": "You may include a maximum of one Ogre Great Cannon in your warband.",
       "profiles": [
         {
-          "name": "Ogre crew with axe, sword or mace, large cannon",
-          "ag": 5, "acc": 5, "str": 5, "res": 8, "init": 5, "co": 8,
+          "name": "1 x Ogre crew with axe, sword or mace, large cannon",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": 8,
+          "init": 5,
+          "co": 8,
           "special": "Large, Frenzied Charge, 2xHtH, Slow 3"
         },
         {
-          "name": "Goblin crew with daggers",
-          "ag": 6, "acc": 5, "str": 4, "res": 4, "init": 7, "co": 6,
+          "name": "0 x Goblin crew with daggers",
+          "ag": 6,
+          "acc": 5,
+          "str": 4,
+          "res": 4,
+          "init": 7,
+          "co": 6,
           "special": "-"
         },
         {
-          "name": "Large angry draft beast",
-          "ag": 4, "acc": 5, "str": 5, "res": 6, "init": 7, "co": 6,
+          "name": "0 x large angry draft beast",
+          "ag": 4,
+          "acc": 5,
+          "str": 5,
+          "res": 6,
+          "init": 7,
+          "co": 6,
           "special": "Large, 1xHtH SV2"
         }
       ],
       "equipment": "1 x Large Cannon",
       "options": [
-        { "description": "Add up to 2 Ogre crew", "cost": 26, "per": "each" },
-        { "description": "Add up to 1 large angry draft beast, removing the Slow 3 special rule", "cost": 15, "per": "each" },
-        { "description": "Add up to 3 Goblin crew", "cost": 3, "per": "each" }
+        {
+          "description": "Add up to 2 Ogre crew to unit",
+          "cost": 26,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Add up to 3 Goblin crew to unit",
+          "cost": 3,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Add up to 1 large angry draft beast to unit",
+          "cost": 15,
+          "per": "model",
+          "note": "removing the Slow 3 special rule"
+        }
       ]
     },
     {
@@ -456,60 +1295,209 @@
       "special": "You may include a maximum of one Mammoth in your warband.",
       "profiles": [
         {
-          "name": "Mammoth",
-          "ag": 4, "acc": "-", "str": 5, "res": 12, "init": "-", "co": "-",
+          "name": "1 x Mammoth",
+          "ag": 4,
+          "acc": "-",
+          "str": 5,
+          "res": 12,
+          "init": "-",
+          "co": "-",
           "special": "Large, MoD 2, 5x HtH SV5, Surly, Stampede"
         },
         {
-          "name": "Ogre crew with big axe, huge sword or huge mace",
-          "ag": "-", "acc": 5, "str": 5, "res": "-", "init": 5, "co": 8,
+          "name": "1 x Ogre crew with big axe, huge sword or huge mace",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": "-",
+          "init": 5,
+          "co": 8,
           "special": "Frenzied Charge, 2xHtH"
         }
       ],
       "options": [
-        { "description": "Give crew bloomin' big axes or improbably vast swords", "cost": 1, "per": "crew" },
-        { "description": "Give crew lances", "cost": 1, "per": "crew" }
+        {
+          "description": "Give crew bloomin' big axes or improbably vast swords",
+          "cost": 1,
+          "per": "crew",
+          "note": ""
+        },
+        {
+          "description": "Give crew lances",
+          "cost": 1,
+          "per": "crew",
+          "note": ""
+        },
+        {
+          "description": "Give crew heavy crossbows",
+          "cost": 4,
+          "per": "crew",
+          "note": ""
+        },
+        {
+          "description": "Give crew hand cannons",
+          "cost": 5,
+          "per": "crew",
+          "note": ""
+        },
+        {
+          "description": "Add up to 1 additional Ogre crew",
+          "cost": 12,
+          "per": "each",
+          "note": ""
+        }
       ]
     }
   ],
   "weapons_table": [
-    { "weapon": "Bow", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },
-    { "weapon": "Heavy Pistol", "short_range": "0-10\"", "long_range": "-", "extreme_range": "-", "strike_value": 3, "special_rules": null },
-    { "weapon": "Heavy Crossbow", "short_range": "0-10\"", "long_range": "10-30\"", "extreme_range": "-", "strike_value": 2, "special_rules": "Fire order to shoot, Heavily Laden" },
-    { "weapon": "Hand Cannon", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 4, "special_rules": "Fire order to shoot, Heavily Laden" },
-    { "weapon": "Rock - thrown", "short_range": "0-10\"", "long_range": "-", "extreme_range": "-", "strike_value": 0, "special_rules": "Can also be used hand-to-hand" },
-    { "weapon": "Small Stone Thrower", "short_range": "10-30\"", "long_range": "30-40\"", "extreme_range": "40-60\"", "strike_value": 3, "special_rules": "Overhead, Fire order to shoot, D6 Hits" },
-    { "weapon": "Large Stone Thrower", "short_range": "10-30\"", "long_range": "30-50\"", "extreme_range": "50-80\"", "strike_value": 6, "special_rules": "Overhead, Fire order to shoot, D6 Hits" },
-    { "weapon": "Large Cannon", "short_range": "0-10\"", "long_range": "10-50\"", "extreme_range": "50-100\"", "strike_value": 6, "special_rules": "Fire order to shoot, Unstoppable" },
-    { "weapon": "Rock", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 0, "special_rules": "Can also be thrown as a ranged weapon" },
-    { "weapon": "Cudgel or Club", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 0, "special_rules": null },
-    { "weapon": "Dagger or Knife", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": null },
-    { "weapon": "Axe, Sword or Mace", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": "Strength +1" },
-    { "weapon": "Huge Sword, Big Axe, Warhammer or Massive Mace", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": null },
-    { "weapon": "Bloomin' big axe or Improbably Vast Sword", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 3, "special_rules": null },
-    { "weapon": "Spear", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 1, "special_rules": "Can also be thrown during exchange of missiles" },
-    { "weapon": "Halberd", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": 2, "special_rules": "Strength +1" },
-    { "weapon": "Lance", "short_range": "Hand-to-Hand Combat", "long_range": null, "extreme_range": null, "strike_value": "1/3", "special_rules": "SV3 on charge" }
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": "-"
+    },
+    {
+      "weapon": "Heavy Pistol",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "-"
+    },
+    {
+      "weapon": "Heavy Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "Fire order to shoot, Heavily Laden"
+    },
+    {
+      "weapon": "Hand Cannon",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 4,
+      "special_rules": "Fire order to shoot, Heavily Laden"
+    },
+    {
+      "weapon": "Rock - thrown",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be used hand-to-hand"
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order to shoot, D6 Hits"
+    },
+    {
+      "weapon": "Large Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-50\"",
+      "extreme_range": "50-80\"",
+      "strike_value": 6,
+      "special_rules": "Overhead, Fire order to shoot, D6 Hits"
+    },
+    {
+      "weapon": "Large Cannon",
+      "short_range": "0-10\"",
+      "long_range": "10-50\"",
+      "extreme_range": "50-100\"",
+      "strike_value": 6,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Rock",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be thrown as a ranged weapon"
+    },
+    {
+      "weapon": "Cudgel or Club",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "-"
+    },
+    {
+      "weapon": "Dagger or Knife",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "-"
+    },
+    {
+      "weapon": "Axe, Sword or Mace",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Strength +1"
+    },
+    {
+      "weapon": "Huge Sword, Big Axe, Warhammer or Massive Mace",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "-"
+    },
+    {
+      "weapon": "Bloomin' big axe or Improbably Vast Sword",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "-"
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "Strength +1"
+    }
   ],
   "special_rules": {
     "Berserk": "Until defeated or fail a break test, double attacks in HtH, automatically pass orders to charge.",
     "Command": "Friendly units within 10\" can use the models Co stat to take Command based tests.",
     "Fast": "Unit's basic move as stated. Re-roll shooting hits at running target.",
-    "Follow": "Can activate friendly unpinned units within 5\" with the same order. Additional activated units take their turns one at a time after the original unit.",
+    "Follow": "Can activate friendly unpinned units within 5\" with the same order.",
     "Ferocious Charge": "+1SV bonus when charging.",
     "Flaming Breath": "Ranged attack 20\". Fire Attack. As stats.",
     "Frenzied Charge": "+1 Attack on charge.",
     "Heavily Laden": "Cannot sprint. (Ogres ignore the Agility and Initiative penalties).",
     "Hero": "Friends within 10\" can use unit's Initiative value for reaction tests.",
     "Irresistible Charge": "+D3 Strike Value (SV) on charge.",
-    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS to or from over non-large models.",
+    "Large": "+1 to hit shooting. Can draw LOS to body.",
     "Rapid Sprint": "The unit sprints 4M rather than 3M.",
     "Scraplauncher Ammunition": "Target suffers D3 additional pins.",
-    "Stampede": "Stampede on failed Order test of 10. D10\" +2M in direction shown by dice. Each unit in path is attacked as if charged. Unit goes down and gains 1 pin per unit trampled.",
+    "Stampede": "Stampede on failed Order test of 10. D10\" +2M in direction shown by dice.",
     "Slow": "Unit's basic move as stated.",
     "Surly": "Cannot benefit from Command, Follow or Hero rules.",
-    "Tough": "Can re-roll one failed Res roll or Damage Chart result (can have value of 2 or 3).",
+    "Tough": "Can re-roll one failed Res roll or Damage Chart result.",
     "Woodsman": "Difficult terrain counts as open terrain.",
-    "Wounds": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+    "Wounds": "Can lose the 'wounds value' of lives before a further Res fail slays."
   }
 }

@@ -1,0 +1,399 @@
+{
+  "warband": "Winged Monkey",
+  "version": "1.Eeeek!",
+  "updated": "05/11/20",
+  "special_army_rule": {
+    "name": "Monkey King",
+    "description": "You must include one Monkey King unit in your warband and one only."
+  },
+  "additional_notes": "The Monkey King is accompanied by a monkey Band of Musicians who relay the King's instructions to the other monkeys by means of different tunes. The range of the music is measured from the nearest musician and equals 5\" for each musician in the band. Thus a band of four musicians has a range of 20\", a solo musician has a range of only 5\", and so on.",
+  "units": [
+    {
+      "name": "Monkey King",
+      "type": "Warlord Warrior/Wizard Unit",
+      "points_value": 108,
+      "special": "You must include one Monkey King unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Monkey King with club",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 6,
+          "special": "Tough, 3x HtH Attacks, Wound, Monkey King, Magic Level 1, Flies"
+        },
+        {
+          "name": "4 x Monkey Musician with club",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 6,
+          "special": "Band of Musicians, Flies"
+        }
+      ],
+      "equipment": "club",
+      "options": [
+        {
+          "description": "Upgrade Monkey King to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Monkey King to Magic Level 3",
+          "cost": 50,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Monkey King to Tough 3",
+          "cost": 20,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit bananas",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Monkey King to Wound 2",
+          "cost": 6,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Monkey King to Magic Level 2",
+          "cost": 25,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Monkey Musicians",
+          "cost": 11,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Winged Monkeys with swords",
+      "type": "Warrior Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Monkey Leader with sword",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Flies"
+        },
+        {
+          "name": "4 x Monkey with sword",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 6,
+          "special": "Flies"
+        }
+      ],
+      "equipment": "sword",
+      "options": [
+        {
+          "description": "Give unit bananas",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Monkeys",
+          "cost": 13,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Winged Monkeys with spears",
+      "type": "Warrior Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Monkey Leader with spear",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Flies"
+        },
+        {
+          "name": "4 x Monkey with spear",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 6,
+          "special": "Flies"
+        }
+      ],
+      "equipment": "spear",
+      "options": [
+        {
+          "description": "Give unit bananas",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Monkeys",
+          "cost": 13,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Winged Monkeys with bows",
+      "type": "Warrior Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Monkey Leader with bow, club",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Flies, 1x HtH SV0"
+        },
+        {
+          "name": "4 x Monkey with bow, club",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 6,
+          "special": "Flies"
+        }
+      ],
+      "equipment": "bow, club",
+      "options": [
+        {
+          "description": "Give unit bananas",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Monkeys",
+          "cost": 13,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Winged Monkeys with firearms",
+      "type": "Warrior Unit",
+      "points_value": 87,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Monkey Leader with handgun, club",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 7,
+          "special": "Tough, Flies"
+        },
+        {
+          "name": "4 x Monkey with handgun, club",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 3,
+          "init": 6,
+          "co": 6,
+          "special": "Flies"
+        }
+      ],
+      "equipment": "handgun, club",
+      "options": [
+        {
+          "description": "Give unit bananas",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Monkeys",
+          "cost": 15,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Flying Carpet",
+      "type": "Monster Unit",
+      "points_value": 82,
+      "special": "You can include a maximum of one Flying Carpert unit in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Flying Carpet laden with monkeys, coconuts, assorted fruit, etc",
+          "ag": 6,
+          "acc": 4,
+          "str": 5,
+          "res": 6,
+          "init": 6,
+          "co": 7,
+          "special": "Large, Flies, Fast 7, 3x HtH SV0, Ranged 3x Coconuts SV0 Drop, 2 Wounds"
+        }
+      ],
+      "equipment": "coconuts, assorted fruit",
+      "options": [
+        {
+          "description": "Add a wound",
+          "cost": 12,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit bananas",
+          "cost": 3,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 2 Flying Carpets to unit",
+          "cost": 82,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Huge Ape",
+      "type": "Monster Unit",
+      "points_value": 70,
+      "special": "You can include a maximum of one Huge Ape in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Huge Ape",
+          "ag": 6,
+          "acc": 5,
+          "str": 6,
+          "res": 8,
+          "init": 8,
+          "co": 8,
+          "special": "Large, 3x HtH SV3, Irresistable Charge, Savage, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Giant Ape wings",
+          "cost": 50,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add a wound",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Handgun",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "Fire order to shoot"
+    },
+    {
+      "weapon": "Coconuts",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Drop"
+    },
+    {
+      "weapon": "Bananas",
+      "short_range": "-",
+      "long_range": "-",
+      "extreme_range": "-",
+      "strike_value": null,
+      "special_rules": "Exchange only - can be used in addition to other exchange. No damage. Hit/s add a pin."
+    },
+    {
+      "weapon": "Club",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sword",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    }
+  ],
+  "special_rules": {
+    "Band of Musicians": "Units within earshot (5\" per musician measured from closest) given the same order as the Monkey King raise their Command stat by the number of musicians up to a maximum value of 10.",
+    "Drop": "No Res bonus from cover is added against drop attacks.",
+    "Fast": "Move at the basic rate indicated.",
+    "Flies": "Moves over any terrain/obstacles without test or penalties. Enemy cannot charge/countercharge or follow-on in combat unless they can also fly or if flyers are down.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery OH only).",
+    "Monkey King": "Command = stat + number of musicians in unit up to a maximum value of of 10. Must be given first order of the turn.",
+    "Savage": "Re-roll all misses the first time the unit fights close combat during the game.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

@@ -39,3 +39,7 @@ txt_armies/
 
 # Failed LLM outputs
 *.bad.txt
+
+# PDF processing inbox/archive
+pdf_todo/
+pdf_done/

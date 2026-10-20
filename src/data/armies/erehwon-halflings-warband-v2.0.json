@@ -15,7 +15,7 @@
       "special": "You must include one Halfling Chief Sheriff unit in your warband either a Halfling Chief Sheriff or a Halfling Chief Sheriff in Cart and one only.",
       "profiles": [
         {
-          "name": "Halfling Sheriff with sword or axe",
+          "name": "1 x Halfling Sheriff with sword or axe",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -25,7 +25,7 @@
           "special": "Tough, Command, Follow, 3x HtH, Wound"
         },
         {
-          "name": "Halfling Henchmen with sword or axe",
+          "name": "2 x Halfling Henchmen with sword or axe",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -68,12 +68,6 @@
           "note": null
         },
         {
-          "description": "Give unit light armour",
-          "cost": 10,
-          "per": null,
-          "note": "+2pts per Henchman increasing Res to 4(5)"
-        },
-        {
           "description": "Upgrade Chief Sheriff to Tough 2",
           "cost": 10,
           "per": null,
@@ -100,7 +94,7 @@
       "special": "You must include one Halfling Chief Sheriff unit in your warband either a Halfling Chief Sheriff or a Halfling Chief Sheriff in Cart and one only.",
       "profiles": [
         {
-          "name": "Cart with Chief Sheriff and driver",
+          "name": "1 x Cart with Chief Sheriff and driver",
           "ag": 3,
           "acc": "-",
           "str": "-",
@@ -110,7 +104,7 @@
           "special": "Large, Tough, Fast 6"
         },
         {
-          "name": "Halfling Chief Sheriff with sword or axe",
+          "name": "1 x Halfling Chief Sheriff with sword or axe",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -120,7 +114,7 @@
           "special": "[Tough], Command, Follow, 3x HtH, [Wound]"
         },
         {
-          "name": "Halfing driver with sword or axe",
+          "name": "1 x Halfing driver with sword or axe",
           "ag": "-",
           "acc": 6,
           "str": 4,
@@ -130,7 +124,7 @@
           "special": null
         },
         {
-          "name": "Donkey (pony, goat, chicken, etc)",
+          "name": "1x Donkey (pony, goat, chicken, etc)",
           "ag": "-",
           "acc": "-",
           "str": 4,
@@ -164,7 +158,7 @@
           "description": "Give Chief Sherif light armour",
           "cost": 10,
           "per": null,
-          "note": "increasing Res to [4(5)] on foot only"
+          "note": null
         },
         {
           "description": "Upgrade Chief Sheriff to Tough 2",
@@ -193,7 +187,7 @@
       "special": "You can include a maximum of one Halfing Fortune Teller in your warband.",
       "profiles": [
         {
-          "name": "Halfling Fortune Teller with club or cudgel",
+          "name": "1 x Halfling Fortune Teller with club or cudgel",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -203,7 +197,7 @@
           "special": "Tough, Wound, Magic Level 1"
         },
         {
-          "name": "Halfling Henchmen with clubs or cudgels",
+          "name": "0 x Halfling Henchmen with clubs or cudgels",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -213,7 +207,7 @@
           "special": null
         },
         {
-          "name": "Spirit Guides",
+          "name": "0 x Spirit Guides",
           "ag": 5,
           "acc": 5,
           "str": 5,
@@ -270,7 +264,7 @@
       "special": "You can include one Halfling Clan Chief unit in your warband either a Clan Chief or Mounted Clan Chief.",
       "profiles": [
         {
-          "name": "Halfling Clan Chief with sword or axe",
+          "name": "1 x Halfling Clan Chief with sword or axe",
           "ag": 6,
           "acc": 6,
           "str": 5,
@@ -285,13 +279,13 @@
         {
           "description": "Give Clan Chief spear",
           "cost": 0,
-          "per": "model",
+          "per": null,
           "note": null
         },
         {
           "description": "Give Clan Chief bow",
           "cost": 2,
-          "per": "model",
+          "per": null,
           "note": null
         },
         {
@@ -303,14 +297,14 @@
         {
           "description": "Give Clan Chief Stealthy rule",
           "cost": 1,
-          "per": "model",
+          "per": null,
           "note": null
         },
         {
           "description": "Give Clan Chief light armour",
           "cost": 10,
           "per": null,
-          "note": "increasing Res to 4(5)"
+          "note": null
         },
         {
           "description": "Upgrade Clan Chief to Tough 3",
@@ -339,7 +333,7 @@
       "special": "You can include one Halfling Clan Chief unit in your warband either a Clan Chief or Mounted Clan Chief.",
       "profiles": [
         {
-          "name": "Halfling Clan Chief with sword or axe, riding donkey",
+          "name": "1 x Halfling Clan Chief with sword or axe, riding donkey",
           "ag": 6,
           "acc": 6,
           "str": 5,
@@ -354,13 +348,13 @@
         {
           "description": "Give Clan Chief spear",
           "cost": 0,
-          "per": "model",
+          "per": null,
           "note": null
         },
         {
           "description": "Give Clan Chief bow",
           "cost": 2,
-          "per": "model",
+          "per": null,
           "note": null
         },
         {
@@ -373,7 +367,7 @@
           "description": "Give Clan Chief light armour",
           "cost": 10,
           "per": null,
-          "note": "increasing Res to 5(6)"
+          "note": null
         },
         {
           "description": "Upgrade Clan Chief to Fast 8",
@@ -408,7 +402,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Halfling Sheriff Leader with stave",
+          "name": "1 x Halfling Sheriff Leader with stave",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -418,7 +412,7 @@
           "special": "Tough"
         },
         {
-          "name": "Halfling Sheriff with stave",
+          "name": "4 x Halfling Sheriff with stave",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -464,7 +458,7 @@
           "description": "Give unit light armour",
           "cost": 2,
           "per": "model",
-          "note": "increasing Res to 4(5)"
+          "note": null
         },
         {
           "description": "Add up to 5 Halfling Sheriffs",
@@ -481,7 +475,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Halfling Militia Leader with club or cudgel",
+          "name": "1 x Halfling Militia Leader with club or cudgel",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -491,7 +485,7 @@
           "special": "Tough"
         },
         {
-          "name": "Halfling Militia with club or cudgel",
+          "name": "4 x Halfling Militia with club or cudgel",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -554,7 +548,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Halfling Archer Leader with club and bow",
+          "name": "1 x Halfling Archer Leader with club and bow",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -564,7 +558,7 @@
           "special": "Tough"
         },
         {
-          "name": "Halfling Archer with club and bow",
+          "name": "4 x Halfling Archer with club and bow",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -621,7 +615,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Halfling Urchin Swarm with rocks",
+          "name": "3 x Halfling Urchin Swarm with rocks",
           "ag": 8,
           "acc": 6,
           "str": 6,
@@ -666,7 +660,7 @@
       "special": "You can include a maximum of one unit of Mounted Halflings in your warband.",
       "profiles": [
         {
-          "name": "Halfling Leader with sword or axe, riding donkey",
+          "name": "1 x Halfling Leader with sword or axe, riding donkey",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -676,7 +670,7 @@
           "special": "Tough, Fast 6: Donkey 1x HtH SV0"
         },
         {
-          "name": "Halfling with sword or axe, riding donkey",
+          "name": "2 x Halfling with sword or axe, riding donkey",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -692,7 +686,7 @@
           "description": "Give unit light armour",
           "cost": 2,
           "per": "model",
-          "note": "increasing Res to 5(6)"
+          "note": null
         },
         {
           "description": "Give unit spears",
@@ -727,7 +721,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Halfling crew with clubs, stone throwing engine",
+          "name": "3 x Halfling crew with clubs, stone throwing engine",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -737,7 +731,7 @@
           "special": "Large, Slow 3"
         }
       ],
-      "equipment": "Small Stone Thrower",
+      "equipment": "1 x Small Stone Thrower",
       "options": [
         {
           "description": "Give Halfling crew sword or axe",
@@ -760,7 +754,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Halfling crew with clubs, bolt throwing engine",
+          "name": "3 x Halfling crew with clubs, bolt throwing engine",
           "ag": 6,
           "acc": 6,
           "str": 4,
@@ -770,7 +764,7 @@
           "special": "Large, Slow 3"
         }
       ],
-      "equipment": "Small Bolt Thrower",
+      "equipment": "1 x Small Bolt Thrower",
       "options": [
         {
           "description": "Give Halfling crew sword or axe",
@@ -849,6 +843,14 @@
       "extreme_range": null,
       "strike_value": 0,
       "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Rock",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Can also be thrown as ranged weapon"
     },
     {
       "weapon": "Dagger",

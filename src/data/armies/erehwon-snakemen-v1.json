@@ -1,0 +1,781 @@
+{
+  "warband": "Snakemen",
+  "version": "",
+  "updated": "",
+  "special_army_rule": {
+    "name": "",
+    "description": ""
+  },
+  "additional_notes": "You can include a maximum of one Monstrosity unit from this list, a Tyrannosaur, Sail Back Saurian or Giant Horned Saurian.",
+  "units": [
+    {
+      "name": "Snakeman Serpent Lord",
+      "type": "Warlord Warrior Unit",
+      "points_value": 103,
+      "special": "You must include one Snakeman Serpent Lord in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Snakeman Serpent Lord with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "2 x Snakeman Bodyguard with sword or axe, light armour",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 6,
+          "co": 7,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit huge swords or big axes",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Serpent Lord and Bodyguard unit poisonous fangs making all HtH attacks Venomous.",
+          "cost": 5,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Serpent Lord to Wounds 2",
+          "cost": 14,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Serpent Lord to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit medium armour increasing Res to 6(8)",
+          "cost": 10,
+          "per": "model",
+          "note": "+ 2pts per Bodyguard model"
+        },
+        {
+          "description": "Add up to 2 Snakeman Bodyguards",
+          "cost": 14,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Snakeman High-Priest of Hissta",
+      "type": "Warrior Unit",
+      "points_value": 60,
+      "special": "You can include a maximum of one Snakeman High-Priest in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Snakeman High-Priest with dagger",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "0 x Snakeman Acolytes with dagger",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 7,
+          "special": ""
+        },
+        {
+          "name": "0 x Serpentine Spirits",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Upgrade Wizard to Magic Level 2",
+          "cost": 25,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Wizard to Magic Level 3",
+          "cost": 50,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Wizard to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit swords or axes",
+          "cost": 1,
+          "per": "model",
+          "note": "+ 1pt per Acolyte"
+        },
+        {
+          "description": "Upgrade to Servants of the Cosmic Sky Serpent giving unit the Displined rule",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 4 Snakeman Acolytes",
+          "cost": 11,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Add up to 4 Serpentine Spirits",
+          "cost": 21,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Snakeman Cosmic Star Serpent Hero",
+      "type": "Warrior Unit",
+      "points_value": 86,
+      "special": "You can include a maximum of one Snakeman Cosmic Star Serpent Hero",
+      "profiles": [
+        {
+          "name": "1 x Snakeman Hero with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 6,
+          "res": "6",
+          "init": 7,
+          "co": 8,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Stubborn, Disciplined"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give Hero light armour increasing Res to 6(7)",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero medium armour increasing Res to 6(8)",
+          "cost": 20,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero huge sword or big axe",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wounds 2",
+          "cost": 12,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Wounds 3",
+          "cost": 24,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero poisonous fangs making all HtH attacks Venomous",
+          "cost": 5,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Hero cosmic destiny giving Hero the Divine Intervention rule",
+          "cost": 10,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Snakemen Python Guard",
+      "type": "Warrior Unit",
+      "points_value": 82,
+      "special": "You can include a maximum of one unit of Snakeman Python Guards",
+      "profiles": [
+        {
+          "name": "1 x Snakeman Python Guard Leader with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 6,
+          "res": "6",
+          "init": 6,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Snakeman Python Guard with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 6,
+          "res": "6",
+          "init": 6,
+          "co": 7,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit big axes",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit light armour increasing Res to 6(7)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Make unit cold-eyed adding Stubborn rule",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Snakeman Python Guards",
+          "cost": 14,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Snakemen Warriors",
+      "type": "Warrior Unit",
+      "points_value": 72,
+      "special": "",
+      "profiles": [
+        {
+          "name": "1 x Snakeman Warrior Leader with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Snakeman Warrior with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 7,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit big axes",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit light armour increasing Res to 6(7)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Snakeman Warriors",
+          "cost": 12,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Snakemen Viper Warriors",
+      "type": "Warrior Unit",
+      "points_value": 77,
+      "special": "",
+      "profiles": [
+        {
+          "name": "1 x Snakeman Viper Warrior Leader with dagger and bow",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Snakemen Viper Warrior with dagger and bow",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 7,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit swords or axes",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit poisonous arrows - bow hits count as Venomous.",
+          "cost": 5,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Snakemen Viper Warriors",
+          "cost": 13,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Snakemen Cobra Guard",
+      "type": "Warrior Unit",
+      "points_value": 87,
+      "special": "You can include a maximum of one unit of Snakeman Cobra Guard",
+      "profiles": [
+        {
+          "name": "1 x Snakemen Cobra Guard Leader with dagger and crossbow",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Snakemen Cobra Guard with dagger and crossbow",
+          "ag": 6,
+          "acc": 6,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 7,
+          "special": ""
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give unit swords or axes",
+          "cost": 1,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give unit poisonous quarrels - crossbow hits count as Venomous.",
+          "cost": 5,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Make unit cold-eyed adding Stubborn rule",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Add up to 5 Snakemen Cobra Guard",
+          "cost": 14,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Hemata Elder Guardian",
+      "type": "Monster Unit",
+      "points_value": 41,
+      "special": "You can include a maximum of one unit of Hemata Guardians in your warband",
+      "profiles": [
+        {
+          "name": "1 x Hemata Guardian",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "8",
+          "init": 7,
+          "co": 7,
+          "special": "Large, 2x HtH SV2 Choking, 1x HtH SV3 Venomous, Tough"
+        },
+        {
+          "name": "0 x Hemata Guardian Leader",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "8",
+          "init": 7,
+          "co": 8,
+          "special": "Large, 2x HtH SV2 Choking, 1x HtH SV3 Venomous, Tough"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Add up to 2 Hemata Guardians",
+          "cost": 36,
+          "per": "each",
+          "note": ""
+        },
+        {
+          "description": "Make one Hemata Guardian in a unit of three or more a leader",
+          "cost": 12,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Gorgon Elder Serpent",
+      "type": "Monster Unit",
+      "points_value": 62,
+      "special": "You can include a maximum of one Gorgon in your warband",
+      "profiles": [
+        {
+          "name": "1 x Gorgon with bow",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "8",
+          "init": 7,
+          "co": 8,
+          "special": "Large, 3x HtH SV2 Choking, 3x Ranged (bow), Wound"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give Gorgon Baleful Glare - can shoot bow or use Baleful Glare but not both at the same time.",
+          "cost": 20,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Gorgon poisonous arrows - bow hits count as Venomous.",
+          "cost": 5,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Upgrade Gorgon to Wound 2",
+          "cost": 16,
+          "per": "model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Saurian Slithering Beast Pack",
+      "type": "Warrior/Beast Unit",
+      "points_value": 94,
+      "special": "",
+      "profiles": [
+        {
+          "name": "1 x Snakeman Pack Master with sword or axe",
+          "ag": 6,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Rapid Sprint"
+        },
+        {
+          "name": "4 x Saurians Beasts",
+          "ag": 6,
+          "acc": "-",
+          "str": 5,
+          "res": "6",
+          "init": 5,
+          "co": 5,
+          "special": "Savage, Rapid Sprint, 1x HtH SV1"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Give Pack Master light armour increasing Res to 6(7)",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Pack Master spear",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Pack Master bow",
+          "cost": 2,
+          "per": "model",
+          "note": ""
+        },
+        {
+          "description": "Give Saurian Beasts Venomous attacks for the unit OR Give Saurian Beasts Choking attacks",
+          "cost": 5,
+          "per": "model",
+          "note": "+1pt per model"
+        },
+        {
+          "description": "Add up to 5 Saurian Beasts",
+          "cost": 17,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Pterosaurs",
+      "type": "Beast Unit",
+      "points_value": 129,
+      "special": "You can include a maximum of one Pterosaur unit in your warband.",
+      "profiles": [
+        {
+          "name": "3 x Pterosaurs",
+          "ag": 10,
+          "acc": "-",
+          "str": 5,
+          "res": "5",
+          "init": 6,
+          "co": 8,
+          "special": "Flies, Fast 10, 2x HtH SV1, Surly"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Add up to 2 Pterosaurs",
+          "cost": 43,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Raptors",
+      "type": "Monster Unit",
+      "points_value": 93,
+      "special": "You can include a maximum of one Raptor unit in your warband.",
+      "profiles": [
+        {
+          "name": "3 x Raptors",
+          "ag": 7,
+          "acc": "-",
+          "str": 6,
+          "res": "6",
+          "init": 5,
+          "co": 8,
+          "special": "Large, Fast 8, 2x HtH SV2, Surly"
+        }
+      ],
+      "equipment": "",
+      "options": [
+        {
+          "description": "Add up to 2 Raptors",
+          "cost": 31,
+          "per": "each",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "Tyrannosaur",
+      "type": "Monstrosity Unit",
+      "points_value": 188,
+      "special": "You can include a maximum of one Monstrosity unit from this list, a Tyrannosaur, Sail Back Saurian or Giant Horned Saurian.",
+      "profiles": [
+        {
+          "name": "1 x Tyrannosaur",
+          "ag": 6,
+          "acc": "-",
+          "str": 7,
+          "res": "12",
+          "init": 7,
+          "co": 7,
+          "special": "Large, MoD2, 5x HtH SV5, Dread, Terror, Irresistable charge, Surly"
+        }
+      ],
+      "equipment": "",
+      "options": []
+    },
+    {
+      "name": "Sail Back Saurian",
+      "type": "Monstrosity Unit",
+      "points_value": 126,
+      "special": "You can include a maximum of one Monstrosity unit from this list, a Tyrannosaur, Sail Back Saurian or Giant Horned Saurian.",
+      "profiles": [
+        {
+          "name": "1 x Sail Back Saurian",
+          "ag": 5,
+          "acc": "-",
+          "str": 6,
+          "res": "10",
+          "init": 7,
+          "co": 7,
+          "special": "Large, MoD2, 5x HtH SV3, Dread, Fast 6, Surly"
+        }
+      ],
+      "equipment": "",
+      "options": []
+    },
+    {
+      "name": "Giant Horned Saurian",
+      "type": "Monstrosity Unit",
+      "points_value": 122,
+      "special": "You can include a maximum of one Monstrosity unit from this list, a Tyrannosaur, Sail Back Saurian or Giant Horned Saurian.",
+      "profiles": [
+        {
+          "name": "1 x Giant Horned Saurian",
+          "ag": 5,
+          "acc": "-",
+          "str": 6,
+          "res": "12",
+          "init": 7,
+          "co": 7,
+          "special": "Large, MoD2, 3x HtH SV5, Dread, Stampede, Irresistable charge, Surly"
+        }
+      ],
+      "equipment": "",
+      "options": []
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": ""
+    },
+    {
+      "weapon": "Crossbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Fire order to shoot"
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Long Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Cancels charge bonus"
+    },
+    {
+      "weapon": "Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": ""
+    },
+    {
+      "weapon": "Daggers",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": ""
+    }
+  ],
+  "special_rules": {
+    "Choking": "No armour bonus or cover bonus allowed.",
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Disciplined": "Loses all pins when it passes a Rally test.",
+    "Divine Intervention": "Can steal an order dice from an enemy unit within 20\" with successful Command test. If fail take 1 pin instead. Maximum of one attempt in any turn",
+    "Dread": "-1 to hit shooting/close combat. -1 to break test if defeated by dreaded enemy,",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Fast": "Move at the basic rate indicated.",
+    "Flies": "Moves over any terrain/obstacles without test or penalties. Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, or if flyers are down.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Frenzied Charge": "+1 extra Attack when charging.",
+    "Irresistible Charge": "D3 SV (Strike Value) bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw Line of Sight (LOS) to body. Can draw LOS over non-large models (artillery overhead only).",
+    "MoD2": "Monstrosity unit with 2 order dice.",
+    "Rapid Sprint": "Sprint at 4x Move rate (4M) rather than 3M.",
+    "Spirit": "Can be sacrificed for a re-roll. Destroyed if wizard is slain.",
+    "Stampede": "Stampede on failed Order test of 10. D10\"+2M in direction shown by dice. Each unit in path is attacked as if charged. Unit goes down and gains 1 pin per unit trampled.",
+    "Surly": "Cannot benefit from Command, Hero or Follow rule.",
+    "Terror": "Units within 15\" remove no pins when taking an order test. Units failing a break test within 5\" are automatically destroyed. Routing foes within 5\" are destroyed.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Venomous": "Add +1 hit from unit if any venomous hits are scored.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Once wounded the unit can't recover pins beyond the number of wounds carried."
+  }
+}

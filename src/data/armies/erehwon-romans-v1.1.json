@@ -1,0 +1,1225 @@
+{
+  "warband": "Romans",
+  "version": "1.1",
+  "updated": "21/11/2019",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "Yes I know... Romans are not what you'd call a figment of the imagination. So, what are they doing here you might well ask? Well, Warlords of Erehwon aims to encompass the whole realm of myth and folklore as well as pure fantasy, which naturally leads us to classical subjects and historical mythology. This list is based on the age of the Roman legions, which we'll acknowledge as lasting from the time of Augustus to the mid-third century. In other words, we are talking about Romans as they are commonly portrayed and understood in film, TV, etc.\n\nThis list is not strictly 'historical' in so far as I've constructed it to represent a warband as defined in the game. However, it uses historical troop types wielding historical weapons, and we will have to simply imagine how such a body of men has come about. Perhaps they are refugees from some disaster: the remnants of the 9th Legion fleeing the wrath of the Iceni Queen, or a band of survivors from the sorry defeat of Crassus at the hands of the Parthians. Maybe they are a small force dispatched to raid beyond the frontier, rescue Roman captives, or detain some trouble-making tribal chief.\n\nEither way, I have taken the liberty of adding a Haruspex to turn the 'historical' warband into a fantasy one, should players wish to do so. I've also added gladiators and a few other romantic elements. Gladiators did actually take to the field on at least one occasion, but that was rather the exception. Anyone wishing to play a more accurately historical game can ignore such things.\n\nI'm sure that anyone who has a yen to field Romans will be familiar enough with the subject to dispense with the usual Erehwonian summary of their place in literature, popular culture and history. If we choose to take our examples from history, then we already know what we are about and I shall spare you a potted history of the Julio-Claudian dynasty and its successors. If, on the other hand, our motivation comes from such sources as The Life of Bryan, Carry On Cleo, and Gladiator, then we are already primed with all we need to know. So, step forward Biggus Dickus... the mighty Hengist Pod by your side ... and titter ye not Lurkio... the Romans are here.\n\n\"Nec terrore! Nec terrore!\"\n\nOptio Ionnis",
+  "units": [
+    {
+      "name": "Centurion",
+      "type": "Warlord Warriors Unit",
+      "points_value": 108,
+      "special": "You must include one Centurion or Mounted Centurion in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Centurion with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "2 x Bodyguard with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit pila",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Centurion to Wounds 2",
+          "cost": 14,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Centurion to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Bodyguards",
+          "cost": 16,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Centurion",
+      "type": "Warlord Mounted Unit",
+      "points_value": 134,
+      "special": "You must include one Centurion or Mounted Centurion in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Mounted Centurion with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Command, Follow, Fast 8, 3x HtH, Wound"
+        },
+        {
+          "name": "2 x Mounted Bodyguard with sword, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 7,
+          "co": 8,
+          "special": "Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Centurion to Wounds 2",
+          "cost": 16,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Centurion to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Bodyguards",
+          "cost": 24,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Haruspex",
+      "type": "Warriors Unit",
+      "points_value": 57,
+      "special": "You can include a maximum of one Haruspex in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Haruspex with sword",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "0 x Acolytes with sword",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "Spirit"
+        },
+        {
+          "name": "0 x Genii Spirits",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 3,
+          "co": 3,
+          "special": "1x HtH SV1, Exchange of Missiles SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Haruspex dolabra (big axe)",
+          "cost": 0,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Haruspex to Magic Level 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Haruspex to Magic Level 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Haruspex to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Haruspex and Acolytes light armour",
+          "cost": 5,
+          "per": null,
+          "note": "+ a further 2pts per Acolyte model increasing Res to 5(6)"
+        },
+        {
+          "description": "Add up to 4 Acolytes",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Genii Spirits",
+          "cost": 18,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit Divine Intervention rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Roman Hero",
+      "type": "Warriors Unit",
+      "points_value": 85,
+      "special": "You can include a maximum of one Roman Hero, Roman Mounted Hero or Roman Hero in Chariot in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Roman Hero with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Hero pilum",
+          "cost": 2,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wounds 2",
+          "cost": 16,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wounds 3",
+          "cost": 32,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Roman Hero",
+      "type": "Mounted Unit",
+      "points_value": 95,
+      "special": "You can include a maximum of one Roman Hero, Roman Mounted Hero or Roman Hero in Chariot in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Mounted Roman Hero with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "7(9)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Hero spear",
+          "cost": 0,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give Hero javelins",
+          "cost": 2,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wound 2",
+          "cost": 18,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wound 3",
+          "cost": 36,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Roman Hero in Chariot",
+      "type": "Chariot Unit",
+      "points_value": 160,
+      "special": "You can include a maximum of one Roman Hero, Roman Mounted Hero or Roman Hero in Chariot in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Chariot with Roman Hero and crew",
+          "ag": 3,
+          "acc": "-",
+          "str": "-",
+          "res": "10",
+          "init": "-",
+          "co": "-",
+          "special": "Large, Tough 2, Fast 8, Irresistible Charge"
+        },
+        {
+          "name": "1 x Roman Hero with sword, [medium armour]",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "[6(8)]",
+          "init": 9,
+          "co": 9,
+          "special": "[Tough 2], Hero, 3x HtH, [Wound]"
+        },
+        {
+          "name": "1 x Roman crew with sword",
+          "ag": "-",
+          "acc": 5,
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        },
+        {
+          "name": "2 x Horse",
+          "ag": "-",
+          "acc": "-",
+          "str": "-",
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Hero and crew pilum",
+          "cost": 4,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Wound 2",
+          "cost": 16,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Upgrade Hero to Wound 3",
+          "cost": 32,
+          "per": null,
+          "note": "on foot only"
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give chariot Scythes",
+          "cost": 25,
+          "per": null,
+          "note": "with D6 SV1 impact hits on charge"
+        }
+      ]
+    },
+    {
+      "name": "Roman Legionaries",
+      "type": "Warriors Unit",
+      "points_value": 82,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Roman Optio with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Roman Legionary with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit pila",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Roman legionaries",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Legionary Working Party",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": "You can include a maximum of one Legionary Working Party in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Roman Optio with dolabra (big axe), light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Roman Legionary with dolabra (big axe), light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(7)"
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Legionaries with dolabra",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Legionaries in Heavy Armour",
+      "type": "Warriors Unit",
+      "points_value": 77,
+      "special": "You can include a maximum of one unit of Legionaries in Heavy Armour in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Roman Optio in heavy armour with sword, heavy armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 5,
+          "res": "5(8)",
+          "init": 6,
+          "co": 8,
+          "special": "Tough, Heavily Laden"
+        },
+        {
+          "name": "4 x Roman Legionary in heavy armour with sword, heavy armour",
+          "ag": 4,
+          "acc": 5,
+          "str": 5,
+          "res": "5(8)",
+          "init": 6,
+          "co": 7,
+          "special": "Heavily Laden"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit pila",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Legionaries in heavy armour",
+          "cost": 13,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Veteran Legionaries",
+      "type": "Warriors Unit",
+      "points_value": 100,
+      "special": "You can include a maximum of one unit of Veteran Legionaries in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Veteran Optio with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Veteran Legionary with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit pila",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Disciplined rule",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Veteran Legionaries",
+          "cost": 18,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Roman Auxiliaries",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Auxiliary Decurion with sword, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Auxiliary with sword, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(7)"
+        },
+        {
+          "description": "Add up to 5 Roman Auxiliaries",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Auxiliary Infantry with Bows",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Decurion with sword or axe, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Bowman with sword or axe, bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Add up to 5 Bowmen",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Auxiliary Infantry with Javelins",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Decurion with sword, javelin",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Infantry with sword, javelin",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Add up to 5 Infantry with javelin",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Auxiliary Infantry with Slings",
+      "type": "Warriors Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Decurion with sword, sling",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Slinger with sword, sling",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 5(6)"
+        },
+        {
+          "description": "Add up to 5 Slingers",
+          "cost": 13,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Auxiliary Cavalry - Equites",
+      "type": "Mounted Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Decurion with spear, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "2 x Cavalryman with spear, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": "to make Contarii"
+        },
+        {
+          "description": "Add up to 2 Cavalrymen",
+          "cost": 20,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Cataphract Cavalry - Cataphractarii",
+      "type": "Mounted Unit",
+      "points_value": 81,
+      "special": "You can include a maximum of one Cataphract unit in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Decurion with lance, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "2 x Cavalryman with lance, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit heavy armour",
+          "cost": 1,
+          "per": "model",
+          "note": "increasing Res to 6(9) and adding Heavily Laden rule (no sprint)"
+        },
+        {
+          "description": "Give unit bow",
+          "cost": 2,
+          "per": "model",
+          "note": "only if also given heavy armour to make eastern Clibanarii"
+        },
+        {
+          "description": "Add up to 2 Cavalrymen",
+          "cost": 23,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Horse Archers - Sagittarii",
+      "type": "Mounted Unit",
+      "points_value": 78,
+      "special": "You can include a maximum of one Horse Archer unit in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Decurion with sword, bow, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "2 x Horse Archer with sword, bow, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Horse Archers",
+          "cost": 22,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Light Cavalry",
+      "type": "Mounted Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Decurion with sword, javelin",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "2 x Cavalryman with sword, javelin",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Light Cavalry",
+          "cost": 20,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Gladiators",
+      "type": "Warriors Unit",
+      "points_value": 82,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Gladiator Leader with sword",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Gladiator with sword",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": "increasing Res to 6(7)"
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 4,
+          "per": "model",
+          "note": "increasing Res to 6(8)"
+        },
+        {
+          "description": "Give unit heavy armour",
+          "cost": 3,
+          "per": "model",
+          "note": "a model increasing Res to 6(9) reducing Ag and Init by 1 and adding Heavily Laden rule"
+        },
+        {
+          "description": "Give unit Nets",
+          "cost": 1,
+          "per": "model",
+          "note": "- not available to Gladiators in heavy armour"
+        },
+        {
+          "description": "Add up to 5 Gladiators",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Roman Catapult - Scorpion",
+      "type": "Artillery Unit",
+      "points_value": 84,
+      "special": null,
+      "profiles": [
+        {
+          "name": "3 x Legionary crew with swords, medium armour, bolt throwing engine",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
+          "cost": 21,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Legionary crew to unit",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Roman Catapult - Ballista",
+      "type": "Artillery Unit",
+      "points_value": 96,
+      "special": null,
+      "profiles": [
+        {
+          "name": "3 x Legionary crew with swords, medium armour, stone throwing engine",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow 3"
+        }
+      ],
+      "equipment": "1 x Small Stone Thrower",
+      "options": [
+        {
+          "description": "Give unit Large Stone Thrower instead of Small Stone Thrower",
+          "cost": 27,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Legionary crew to unit",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Pilum",
+      "short_range": "-",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Exchange of missiles only. SV2 first use."
+    },
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sling",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "2x ranged attacks on Fire order"
+    },
+    {
+      "weapon": "Javelin",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Net",
+      "short_range": "-",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": null,
+      "special_rules": "Exchange of missiles only. No Damage. Test number of hits to disable."
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire Order to Shoot, 3x Ranged SV3"
+    },
+    {
+      "weapon": "Large Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 5,
+      "special_rules": "Fire Order to Shoot, Unstoppable"
+    },
+    {
+      "weapon": "Small Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 3,
+      "special_rules": "Overhead, Fire order required to shoot, D6 hits"
+    },
+    {
+      "weapon": "Large Stone Thrower",
+      "short_range": "10-30\"",
+      "long_range": "30-50\"",
+      "extreme_range": "50-80\"",
+      "strike_value": 6,
+      "special_rules": "Overhead, Fire order required to shoot, D6 hits"
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can be used for exchange of missiles"
+    },
+    {
+      "weapon": "Lance",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "SV3 on Charge"
+    },
+    {
+      "weapon": "Huge Sword or Big Axe",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Daggers",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Disciplined": "Lose all pins when pass a Rally test.",
+    "Divine Intervention": "Can steal an order dice from an enemy unit within 20\" with successful Command test. If fail take 1 pin instead. Maximum of 1 attempt in any turn.",
+    "Heavily Laden": "Cannot Sprint.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Irresistible Charge": "D3 SV bonus when charging.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Spirit": "Can be sacrificed for a re-roll. Destroyed if wizard is slain.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered."
+  }
+}

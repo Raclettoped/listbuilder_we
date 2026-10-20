@@ -15,7 +15,7 @@
       "special": "You must include one Gnoll Chieftain unit in your warband and one only.",
       "profiles": [
         {
-          "name": "Gnoll Chieftain with axe or sword, light armour",
+          "name": "1 x Gnoll Chieftain with axe or sword, light armour",
           "ag": 5,
           "acc": 4,
           "str": 7,
@@ -25,7 +25,7 @@
           "special": "Tough, Command, Follow, 3x HtH, Wound"
         },
         {
-          "name": "Gnoll Guard with axes or swords, light armour",
+          "name": "2 x Gnoll Guard with axes or swords, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -82,7 +82,7 @@
       "special": "You can include a maximum of one Gnoll Shaman unit in your warband.",
       "profiles": [
         {
-          "name": "Gnoll Shaman with axe or sword",
+          "name": "1 x Gnoll Shaman with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -92,7 +92,7 @@
           "special": "Tough, Wound, Magic Level 1"
         },
         {
-          "name": "Totem Beasts: Dogs, Wolves or Hyenas",
+          "name": "0 x Totem Beasts: Dogs, Wolves or Hyenas",
           "ag": 5,
           "acc": 0,
           "str": 5,
@@ -102,7 +102,7 @@
           "special": "Savage, 1x HtH SV1"
         },
         {
-          "name": "Animal Spirit Guides or Familiars",
+          "name": "0 x Animal Spirit Guides or Familiars",
           "ag": 5,
           "acc": 6,
           "str": 6,
@@ -153,7 +153,7 @@
       "special": "You can include a maximum of one Gnoll Champion unit in your warband.",
       "profiles": [
         {
-          "name": "Gnoll Champion with axe or sword, light armour",
+          "name": "1 x Gnoll Champion with axe or sword, light armour",
           "ag": 5,
           "acc": 4,
           "str": 7,
@@ -204,7 +204,7 @@
       "special": "You can include a maximum of one unit of Gnoll Guard in your warband.",
       "profiles": [
         {
-          "name": "Gnoll Guard Pack Master with axe or sword",
+          "name": "1 x Gnoll Guard Pack Master with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -214,7 +214,7 @@
           "special": "Tough"
         },
         {
-          "name": "Gnoll Guard with axe or sword",
+          "name": "4 x Gnoll Guard with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -265,7 +265,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Gnoll Pack Master with axe or sword",
+          "name": "1 x Gnoll Pack Master with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -275,7 +275,7 @@
           "special": "Tough"
         },
         {
-          "name": "Gnoll Warrior with axe or sword",
+          "name": "4 x Gnoll Warrior with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -308,7 +308,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Gnoll Pack Master with bow and dagger",
+          "name": "1 x Gnoll Pack Master with bow and dagger",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -318,7 +318,7 @@
           "special": "Tough"
         },
         {
-          "name": "Gnoll Archer with bow and dagger",
+          "name": "4 x Gnoll Archer with bow and dagger",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -357,7 +357,7 @@
       "special": "You can include a maximum of one unit of Gnoll Scouts in your warband.",
       "profiles": [
         {
-          "name": "Gnoll Pack Master with axe or sword",
+          "name": "1 x Gnoll Pack Master with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -367,7 +367,7 @@
           "special": "Tough, Rapid Sprint, Stealthy"
         },
         {
-          "name": "Gnoll Scout with axe or sword",
+          "name": "4 x Gnoll Scout with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -406,7 +406,7 @@
       "special": "You can include a maximum of one unit of Gnoll Trackers in your warband.",
       "profiles": [
         {
-          "name": "Gnoll Tracker with axe or sword",
+          "name": "1 x Gnoll Tracker with axe or sword",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -416,7 +416,7 @@
           "special": "Tough, Rapid Sprint, Woodsmen"
         },
         {
-          "name": "Hyenas",
+          "name": "4 x Hyenas",
           "ag": 5,
           "acc": 0,
           "str": 5,
@@ -461,7 +461,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Chariot: Gnoll crew, pulled by two hyenas",
+          "name": "1 x Chariot: Gnoll crew, pulled by two hyenas",
           "ag": 3,
           "acc": "-",
           "str": "-",
@@ -471,7 +471,7 @@
           "special": "Large, Irresistible Charge, Rapid Sprint, Fast 6"
         },
         {
-          "name": "Gnoll crew with sword or axe",
+          "name": "2 x Gnoll crew with sword or axe",
           "ag": "-",
           "acc": 4,
           "str": 5,
@@ -481,7 +481,7 @@
           "special": "-"
         },
         {
-          "name": "Hyenas",
+          "name": "2 x Hyenas",
           "ag": "-",
           "acc": "-",
           "str": 5,
@@ -538,7 +538,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Gnoll crew with daggers, stone throwing engine",
+          "name": "3 x Gnoll crew with daggers, stone throwing engine",
           "ag": 5,
           "acc": 4,
           "str": 5,
@@ -548,7 +548,7 @@
           "special": "Large, Slow 3"
         }
       ],
-      "equipment": "Small Stone Thrower",
+      "equipment": "1 x Small Stone Thrower",
       "options": [
         {
           "description": "Give Gnoll crew swords or axes instead of daggers",
@@ -563,16 +563,16 @@
           "note": ""
         },
         {
-          "description": "Add up to 2 Gnoll crew to unit",
-          "cost": 14,
-          "per": "each",
-          "note": ""
-        },
-        {
           "description": "Give Gnoll crew light armour",
           "cost": 2,
           "per": "model",
           "note": "increasing Res to 7(8)"
+        },
+        {
+          "description": "Add up to 2 Gnoll crew to unit",
+          "cost": 14,
+          "per": "each",
+          "note": ""
         }
       ]
     }

@@ -17,23 +17,30 @@
   let army = $derived(armies[list.army]);
   let limit = $derived(list.limit ?? 0);
   let total = $derived(
-    list.items.reduce((s, it) => s + itemCost(army.units.find((u) => u.id === it.unitId), it), 0)
-  );
+  list.items.reduce((s, it) => {
+    const unit =
+      army.units.find((u) => u.id === it.unitId) ||
+      (armies.monsters?.units ?? []).find((u) => u.id === it.unitId);
+    return s + itemCost(unit, it);
+  }, 0)
+);
   let warnings = $derived(
-  army.units
+  [...army.units, ...(armies.monsters?.units ?? [])]
     .filter((u) => list.items.filter((i) => i.unitId === u.id).length > u.max)
     .map((u) => `${u.name}: ${list.items.filter((i) => i.unitId === u.id).length}× in der Liste, erlaubt sind ${u.max}.`)
 );
 
     
-    function add(unit) {
-    list.items.push({ 
-      uid: crypto.randomUUID(), 
-      unitId: unit.id, 
-      qty: unit.base_size, // Startet mit der Grundgröße (z.B. 5)
-      opts: [] 
+     function add(unit, isMonster = false) {
+    list.items.push({
+      uid: crypto.randomUUID(),
+      unitId: unit.id,
+      qty: unit.base_size ?? 1,
+      opts: [],
+      monster_mode: isMonster ? 'allied' : undefined
     });
   }
+
 
   function changeQty(item, delta) {
     item.qty = Math.max(1, item.qty + delta);
@@ -97,11 +104,13 @@
 </div>
 
 <div class="wrap">
-  <UnitPicker units={army.units} items={list.items} onadd={add} />
+  <UnitPicker units={army.units}   monsters={armies.monsters?.units ?? []}
+ items={list.items} onadd={add} />
   <div>
     <ArmyList
       title={list.name}
       units={army.units}
+      monsters={armies.monsters?.units ?? []}
       items={list.items}
       {total}
       {limit}

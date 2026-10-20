@@ -6,7 +6,7 @@
     "name": null,
     "description": null
   },
-  "additional_notes": "This updated version of the Goblin Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game. If you spot any errors, typos or grammatical infidelities please drop me a line via the This Gaming Life pages.\nThe Goblin list is a classic force of these underwhelming warriors. I've chosen to present this as a list in its own right rather than mix it with Orcs - but players who wish to combine the two are welcome to arrange to do so with their opponent. It takes a player with a certain mind-set to cheerfuly field a force of Goblins - and the paucity of same is one reason why it has become traditional to mix them in with Orcs. Pish I say - who needs a chunky stat line and massive iron-mongery - we have numbers on our side and if victories are rare and hard-won they are so much more to be savoured. Also, after the fighting we get to eat the casualties anyway, so its win-win really.\nI've not expanded the list from the original version but, as always, players are welcome to add or remove restrictions by prior arrangement and make such modifications to the lists as they feel best suits their own gaming style.",
+  "additional_notes": "This updated version of the Goblin Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game. If you spot any errors, typos or grammatical infidelities please drop me a line via the This Gaming Life pages.\n\nThe Goblin list is a classic force of these underwhelming warriors. I've chosen to present this as a list in its own right rather than mix it with Orcs - but players who wish to combine the two are welcome to arrange to do so with their opponent. It takes a player with a certain mind-set to cheerfuly field a force of Goblins - and the paucity of same is one reason why it has become traditional to mix them in with Orcs. Pish I say - who needs a chunky stat line and massive iron-mongery - we have numbers on our side and if victories are rare and hard-won they are so much more to be savoured. Also, after the fighting we get to eat the casualties anyway, so its win-win really.\n\nI've not expanded the list from the original version but, as always, players are welcome to add or remove restrictions by prior arrangement and make such modifications to the lists as they feel best suits their own gaming style.",
   "units": [
     {
       "name": "Goblin Chieftain",
@@ -15,7 +15,7 @@
       "special": "You must include one Goblin Chieftain or Goblin Chieftain in Wolf Chariot unit in your warband and one only.",
       "profiles": [
         {
-          "name": "Goblin Chieftain with sword or axe, light armour",
+          "name": "1 x Goblin Chieftain with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -25,7 +25,7 @@
           "special": "Tough, Command, 3x HtH, Wound"
         },
         {
-          "name": "Goblin Bodyguard with sword or axe, light armour",
+          "name": "2 x Goblin Bodyguard with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -82,7 +82,7 @@
       "special": "You must include one Goblin Chieftain or Goblin Chieftain in Wolf Chariot unit in your warband and one only.",
       "profiles": [
         {
-          "name": "Goblin Chariot with Chieftain, pulled by two wolves",
+          "name": "1 x Goblin Chariot with Chieftain, pulled by two wolves",
           "ag": 3,
           "acc": "-",
           "str": "-",
@@ -92,7 +92,7 @@
           "special": "Large, Tough, Irresistible Charge, Fast 6, Rapid Sprint"
         },
         {
-          "name": "Goblin Chieftain with sword or axe, light armour",
+          "name": "1 x Goblin Chieftain with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -102,7 +102,7 @@
           "special": "[Tough], Command, 3x HtH, [Wound]"
         },
         {
-          "name": "Goblin crew with sword or axe",
+          "name": "1 x Goblin crew with sword or axe",
           "ag": "-",
           "acc": 5,
           "str": 4,
@@ -112,7 +112,7 @@
           "special": null
         },
         {
-          "name": "Wolves",
+          "name": "2 x Wolves",
           "ag": "-",
           "acc": "-",
           "str": 5,
@@ -122,7 +122,7 @@
           "special": "1x HtH SV1"
         },
         {
-          "name": "Dire Wolves",
+          "name": "0 x Dire Wolves",
           "ag": "-",
           "acc": "-",
           "str": 5,
@@ -165,12 +165,6 @@
           "note": "increasing Res to [4(6)]on foot only"
         },
         {
-          "description": "Upgrade Chieftain to [Tough 2]",
-          "cost": 10,
-          "per": null,
-          "note": "on foot only"
-        },
-        {
           "description": "Add up to 2 Goblin crew",
           "cost": 5,
           "per": "each",
@@ -197,7 +191,7 @@
       "special": "You can include a maximum of one Goblin Shaman in your warband.",
       "profiles": [
         {
-          "name": "Goblin Shaman with sword or axe",
+          "name": "1 x Goblin Shaman with sword or axe",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -207,7 +201,7 @@
           "special": "Tough, Wound, Magic Level 1"
         },
         {
-          "name": "Goblin Shamanic Cultists with sword or axe",
+          "name": "0 x Goblin Shamanic Cultists with sword or axe",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -217,7 +211,7 @@
           "special": null
         },
         {
-          "name": "Gobble Dogs",
+          "name": "0 x Gobble Dogs",
           "ag": 6,
           "acc": "-",
           "str": 5,
@@ -268,7 +262,7 @@
       "special": "You can include a maximum of one Goblin Guard unit in your warband.",
       "profiles": [
         {
-          "name": "Goblin Leader with sword or axe, light armour",
+          "name": "1 x Goblin Leader with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -278,7 +272,7 @@
           "special": "Tough"
         },
         {
-          "name": "Goblin Guard with sword or axe, light armour",
+          "name": "4 x Goblin Guard with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -323,7 +317,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Leader with sword or axe, light armour",
+          "name": "1 x Goblin Leader with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -333,7 +327,7 @@
           "special": "Tough"
         },
         {
-          "name": "Goblin Warrior with sword or axe, light armour",
+          "name": "4 x Goblin Warrior with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -366,7 +360,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Leader with sword or axe, bow",
+          "name": "1 x Goblin Leader with sword or axe, bow",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -376,7 +370,7 @@
           "special": "Tough"
         },
         {
-          "name": "Goblin Warrior with sword or axe, bow",
+          "name": "4 x Goblin Warrior with sword or axe, bow",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -409,7 +403,7 @@
       "special": "You can include a maximum of one Goblin Whirling Dervish unit in your warband.",
       "profiles": [
         {
-          "name": "Whirling Dervishes",
+          "name": "3 x Whirling Dervishes",
           "ag": 6,
           "acc": 5,
           "str": 10,
@@ -436,7 +430,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Wolf Rider Leader with sword or axe",
+          "name": "1 x Goblin Wolf Rider Leader with sword or axe",
           "ag": 6,
           "acc": 5,
           "str": 5,
@@ -446,7 +440,7 @@
           "special": "Tough, Fast 6, Rapid Sprint: Wolf 1x HtH SV1"
         },
         {
-          "name": "Goblin Wolf Rider with sword or axe",
+          "name": "2 x Goblin Wolf Rider with sword or axe",
           "ag": 6,
           "acc": 5,
           "str": 5,
@@ -497,7 +491,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Chariot: Goblin crew, pulled by two wolves",
+          "name": "1 x Goblin Chariot: Goblin crew, pulled by two wolves",
           "ag": 3,
           "acc": "-",
           "str": "-",
@@ -507,7 +501,7 @@
           "special": "Large, Irresistible Charge, Fast 6, Rapid Sprint"
         },
         {
-          "name": "Goblin crew with sword or axe",
+          "name": "2 x Goblin crew with sword or axe",
           "ag": "-",
           "acc": 5,
           "str": 4,
@@ -517,7 +511,7 @@
           "special": null
         },
         {
-          "name": "Wolves",
+          "name": "2 x Wolves",
           "ag": "-",
           "acc": "-",
           "str": 5,
@@ -527,7 +521,7 @@
           "special": "1x HtH SV1"
         },
         {
-          "name": "Dire Wolves",
+          "name": "0 x Dire Wolves",
           "ag": "-",
           "acc": "-",
           "str": 5,
@@ -578,7 +572,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin Sprog Swarm",
+          "name": "3 x Goblin Sprog Swarm",
           "ag": 8,
           "acc": 5,
           "str": 5,
@@ -611,7 +605,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Gobble Dog Pack Master with sword or axe, light armour",
+          "name": "1 x Gobble Dog Pack Master with sword or axe, light armour",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -621,7 +615,7 @@
           "special": "Tough"
         },
         {
-          "name": "Gobble Dogs",
+          "name": "4 x Gobble Dogs",
           "ag": 6,
           "acc": "-",
           "str": 5,
@@ -656,11 +650,13 @@
     {
       "name": "Trolls",
       "type": "Monster Unit",
-      "points_value": 105,
+      "points_value": {
+        "wild": 105
+      },
       "special": null,
       "profiles": [
         {
-          "name": "Troll",
+          "name": "3 x Troll",
           "ag": 4,
           "acc": 5,
           "str": 6,
@@ -687,7 +683,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin crew with daggers, stone throwing engine",
+          "name": "3 x Goblin crew with daggers, stone throwing engine",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -697,7 +693,7 @@
           "special": "Large, Slow 3"
         }
       ],
-      "equipment": "Small Stone Thrower",
+      "equipment": "1 x Small Stone Thrower",
       "options": [
         {
           "description": "Give Goblin crew sword or axe",
@@ -712,16 +708,16 @@
           "note": null
         },
         {
-          "description": "Add up to 2 Goblin crew to unit",
-          "cost": 3,
-          "per": "each",
-          "note": null
-        },
-        {
           "description": "Give Goblin crew light armour",
           "cost": 2,
           "per": "model",
           "note": "increasing Res to 4(5)"
+        },
+        {
+          "description": "Add up to 2 Goblin crew to unit",
+          "cost": 3,
+          "per": "each",
+          "note": null
         }
       ]
     },
@@ -732,7 +728,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Goblin crew with daggers, bolt throwing engine",
+          "name": "3 x Goblin crew with daggers, bolt throwing engine",
           "ag": 6,
           "acc": 5,
           "str": 4,
@@ -742,18 +738,12 @@
           "special": "Large, Slow 3"
         }
       ],
-      "equipment": "Small Bolt Thrower",
+      "equipment": "1 x Small Bolt Thrower",
       "options": [
         {
           "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
           "cost": 21,
           "per": null,
-          "note": null
-        },
-        {
-          "description": "Add up to 2 Goblin crew to unit",
-          "cost": 3,
-          "per": "each",
           "note": null
         },
         {
@@ -767,6 +757,12 @@
           "cost": 2,
           "per": "model",
           "note": "increasing Res to 4(5)"
+        },
+        {
+          "description": "Add up to 2 Goblin crew to unit",
+          "cost": 3,
+          "per": "each",
+          "note": null
         }
       ]
     }

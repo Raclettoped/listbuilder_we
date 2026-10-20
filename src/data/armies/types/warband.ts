@@ -20,7 +20,7 @@ export interface RawProfile {
 export interface RawUnit {
   name: string;
   type?: string;
-  points_value?: number | null;
+  points_value?: number | MonsterPoints | null;
   special?: string | null;
   profiles?: RawProfile[];
   equipment?: string;
@@ -59,13 +59,15 @@ export interface ArmyUnit {
   id: string;
   name: string;
   pts: number;
-  max: number; // How many Units a army can have
+  max: number; 
   note: string;
   opts: ArmyOption[];
-  profiles: ArmyProfile[];   // ← new
+  profiles: ArmyProfile[];   
   base_size: number;
   max_size: number;
   pts_per_extra: number;
+  points_value: number | MonsterPoints;   
+  is_monster: boolean;                     
 }
 
 
@@ -73,4 +75,10 @@ export interface ArmyUnit {
 export interface Army {
   name: string;
   units: ArmyUnit[];
+}
+
+export interface MonsterPoints {
+  wild?: number;
+  bound?: number;
+  allied?: number;
 }

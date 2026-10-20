@@ -1,0 +1,837 @@
+{
+  "warband": "Vikings",
+  "version": "0.3",
+  "updated": "January 30th 2022",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "The list has been designed around the excellent Viking miniatures available from companies like Wargames Foundry, Warlord Games, Artizan, Crusader, Victrix, Gripping Beast. The Vikings list is primarily intended to play a historical warband without the use of any magic. However it can be adapted to playing a standard game of Warlords of Erewhon by adding units from the Fantasy section of the list. It's suggested that the majority of the warband consists of Bóndi and Thrall units. While there have been graves found with female skeletons and weapons as grave goods, there is no evidence of entire units of trained female warriors so the Shieldmaidens unit can be found in the Fantasy section of the list.",
+  "units": [
+    {
+      "name": "Hersir (Viking Chieftain)",
+      "type": "Warlord Warriors Unit",
+      "points_value": 99,
+      "special": "You must include one Hersir or mounted Hersir in your war band and only one.",
+      "profiles": [
+        {
+          "name": "1 x Hersir (Chieftain) with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 8,
+          "co": 8,
+          "special": "Command, Follow, Tough, Wound, 3 x HtH"
+        },
+        {
+          "name": "2 x Húskarl with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace swords or axes with Dane (big) axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Make the Hersir a Berserkir",
+          "cost": 5,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 more Húskarl",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit frakka (javelins)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hersir to Wounds 2",
+          "cost": 14,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hersir to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Hersir (Mounted Viking Chieftain)",
+      "type": "Warlord Mounted Unit",
+      "points_value": 136,
+      "special": "You must include one of Hersir or mounted Hersir in your war band and only one.",
+      "profiles": [
+        {
+          "name": "1 x Mounted Hersir (Chieftain) with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 8,
+          "co": 8,
+          "special": "Command, Follow, Tough, Wound, 3 x HtH, Fast 8"
+        },
+        {
+          "name": "2 x Mounted Húskarl with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace swords or axes with Dane (big) axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 more Mounted Húskarl",
+          "cost": 25,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit additional frakka (javelins)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hersir to Wounds 2",
+          "cost": 16,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hersir to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Seiðr (Priest of Freya)",
+      "type": "Warriors Command Unit",
+      "points_value": 64,
+      "special": "You can include a maximum of one Seiðr in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Seiðr with stave",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 9,
+          "special": "Tough, Command, Divine Intervention, Wound 2"
+        },
+        {
+          "name": "0 x attendants",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "Zealous"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 attendants to the unit",
+          "cost": 8,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give Seiðr \"the luck of the gods\"",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give the unit light armour",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Viking Hero",
+      "type": "Warriors Unit",
+      "points_value": 84,
+      "special": "You can include a maximum of one Viking Hero or mounted Viking hero in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Viking Hero with sword and axe in medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3 x HtH, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace sword or axe with Dane (big) axe",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Hero Wounds 2",
+          "cost": 16,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Hero Savage rule",
+          "cost": 3,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Hero Berserk rule",
+          "cost": 5,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Hero Wounds 3",
+          "cost": 32,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Viking Hero",
+      "type": "Mounted Unit",
+      "points_value": 94,
+      "special": "You can include a maximum of one Viking Hero or mounted Viking hero in your warband.",
+      "profiles": [
+        {
+          "name": "1 x mounted Viking hero with medium armour and sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(9)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3xHtH, Wound, Fast 8"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace sword or axe with Dane (big) axe",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Hero Wounds 2",
+          "cost": 18,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Hero Wounds 3",
+          "cost": 36,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Hero to Tough 3",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Hird (Húskarl)",
+      "type": "Warriors Unit",
+      "points_value": 82,
+      "special": "You can only include a maximum of one unit of Hird or mounted Hird in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Hird Leader with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Hird Warrior with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace swords or axes with Dane (big) axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 more Húskarl",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit additional frakka (javelins)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Hird (Húskarl)",
+      "type": "Mounted Unit",
+      "points_value": 82,
+      "special": "You can only include a maximum of one unit of Hird or mounted Hird in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Mounted Hird Leader with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "2 x Mounted Hird Warriors with sword or axe and medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6(8)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace swords or axes with Dane (big) axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 more Húskarl",
+          "cost": 22,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit additional frakka (javelins)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Berserkir",
+      "type": "Warriors Unit",
+      "points_value": 97,
+      "special": "You can include a maximum of one Viking Berserkir unit in your warband unless your Hersir (Viking Chieftain) has the Berserk rule, in which case there is no limit.",
+      "profiles": [
+        {
+          "name": "1 x Berserkir warrior with sword or axe",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Berserk"
+        },
+        {
+          "name": "4 x Berserkir with swords or axes",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": "Berserk"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace swords or axes with Dane (big) axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Spears",
+          "cost": 0,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Berserkir",
+          "cost": 17,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Bóndi",
+      "type": "Warriors Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Bóndi Leader with sword or axe and shield (light armour)",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Bóndi Warrior with sword or axe and shield (light armour)",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Warriors Spears",
+          "cost": 0,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Warriors",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Give unit additional frakka (javelins)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Bóndi Archers",
+      "type": "Warriors Unit",
+      "points_value": 67,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Bóndi Leader with seax (dagger) and bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": null
+        },
+        {
+          "name": "4 x Bóndi Warrior with seax (dagger) and bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace daggers with swords",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Warriors",
+          "cost": 11,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Thrall",
+      "type": "Warriors Unit",
+      "points_value": 62,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Thrall Leader with seax (dagger) and frakka (javelin)",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": null
+        },
+        {
+          "name": "4 x Thrall with seax (dagger) and frakka (javelin)",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Repace seax and frakka with a spear",
+          "cost": -1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add Surly",
+          "cost": -1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Warriors",
+          "cost": 11,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Seiðr (Priest of Odin)",
+      "type": "Warriors Unit",
+      "points_value": 56,
+      "special": "You can include a maximum of one Seiðr in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Seiðr with Stave",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "0 x bodyguard with axe or sword and light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": null
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Upgrade Seiðr to Magic Level 2",
+          "cost": 25,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Seiðr to Magic Level 3",
+          "cost": 50,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Seiðr to Tough 2",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 bodyguards",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        },
+        {
+          "description": "Upgrade bodyguard to medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Skjaldmær (Shield Maiden)",
+      "type": "Warriors Unit",
+      "points_value": 97,
+      "special": "You can only include a maximum of one unit of Shield Maidens in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Skjaldmær Leader with sword or axe and light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 8,
+          "co": 8,
+          "special": "Tough, Zealous"
+        },
+        {
+          "name": "4 x Skjaldmær with sword or axe and light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": "Zealous"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Replace swords or axes with Dane axes",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit frakka (javelins)",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Savage rule",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 more Skjaldmær",
+          "cost": 17,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Odin's hounds (Wolves)",
+      "type": "Warrior/Beast Unit",
+      "points_value": 60,
+      "special": null,
+      "profiles": [
+        {
+          "name": "5 x Odin's hounds",
+          "ag": 5,
+          "acc": "-",
+          "str": 6,
+          "res": "6",
+          "init": 5,
+          "co": 5,
+          "special": "Savage, Rapid Sprint, HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 5 extra hounds",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Frakka / Javelin",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sword or Axe",
+      "short_range": "Hand-to-hand combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Strength +1"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-hand combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can be used for exchange of missiles"
+    },
+    {
+      "weapon": "Dane (big) Axe",
+      "short_range": "Hand-to-hand combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Seax / Dagger",
+      "short_range": "Hand-to-hand combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Stave",
+      "short_range": "Hand-to-hand combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "Strength +1"
+    },
+    {
+      "weapon": "Cudgel",
+      "short_range": "Hand-to-hand combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    }
+  ],
+  "special_rules": {
+    "Berserk": "Until defeated or fail a break test, double attacks in HtH, automatically pass orders to charge.",
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Divine Intervention": "Can steal an order dice from an enemy unit within 20\" with successful Command test. If you fail, take 1 pin instead. Maximum of one attempt in any turn",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Savage": "Re-roll missed Str to hit in first round of combat in game",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Surly": "Cannot benefit from Command, Hero or Follow rule.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered.",
+    "Zealous": "Ignore pins when taking a break test. Re-roll failed order test."
+  }
+}

@@ -1,8 +1,10 @@
 <script>
   import { itemCost } from './calc.js';
-let { title, units, items, total, limit, warnings, printStats = false, onqty, ontoggle, onremove } = $props();
+let { title, units, monsters = [], items, total, limit, warnings, printStats = false, onqty, ontoggle, onremove } = $props();
 
-  const unitOf = (it) => units.find((u) => u.id === it.unitId);
+  const unitOf = (it) =>
+  units.find((u) => u.id === it.unitId) ||
+  monsters.find((u) => u.id === it.unitId);
   let over = $derived(total - limit);
 </script>
 
@@ -20,6 +22,25 @@ let { title, units, items, total, limit, warnings, printStats = false, onqty, on
       <div class="row">
         <div>
           <b>{u.name}</b><span class="qtyprint"> × {it.qty}</span>
+          {#if u.is_monster && u.points_value && typeof u.points_value === 'object'}
+  <span class="only-print"> ({it.monster_mode ?? 'allied'})</span>
+  <div class="monster-mode noprint">
+    <label>
+      Modus:
+      <select bind:value={it.monster_mode}>
+        {#if u.points_value.wild !== undefined}
+          <option value="wild">Wild ({u.points_value.wild})</option>
+        {/if}
+        {#if u.points_value.bound !== undefined}
+          <option value="bound">Bound ({u.points_value.bound})</option>
+        {/if}
+        {#if u.points_value.allied !== undefined}
+          <option value="allied">Allied ({u.points_value.allied})</option>
+        {/if}
+      </select>
+    </label>
+  </div>
+{/if}
           {#if chosen}<div class="meta only-print">{chosen}</div>{/if}
         </div>
         <div class="qty noprint">

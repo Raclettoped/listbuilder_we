@@ -6,7 +6,7 @@
     "name": null,
     "description": null
   },
-  "additional_notes": "This updated version of the Orc Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game.",
+  "additional_notes": "This updated version of the Orc Warband list includes corrections and revisions of the original published version. This list forms part of the online resource base for the Erehwon game. If you spot any errors, typos or grammatical infidelities please drop me a line via the This Gaming Life pages.",
   "units": [
     {
       "name": "Orc Chieftain",
@@ -15,7 +15,7 @@
       "special": "You must include one Orc Chieftain or Orc Chieftain Boar Rider unit in your warband and one only.",
       "profiles": [
         {
-          "name": "Orc Chieftain with sword or axe, light armour",
+          "name": "1 x Orc Chieftain with sword or axe, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -25,7 +25,7 @@
           "special": "Tough, Command, Follow, 3x HtH Attacks, Wound"
         },
         {
-          "name": "Orc Bodyguard with sword or axe, light armour",
+          "name": "2 x Orc Bodyguard with sword or axe, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -64,8 +64,8 @@
         {
           "description": "Give unit medium armour increasing Res to 5(7)",
           "cost": 10,
-          "per": null,
-          "note": "+ 2pts per Bodyguard model"
+          "per": "model",
+          "note": null
         },
         {
           "description": "Add up to 2 Orc bodyguards",
@@ -94,7 +94,7 @@
       "special": "You must include one Orc Chieftain or Orc Chieftain Boar Rider unit in your warband and one only.",
       "profiles": [
         {
-          "name": "Orc Chieftain with sword or axe, light armour, riding Wild Boar",
+          "name": "1 x Orc Chieftain with sword or axe, light armour, riding Wild Boar",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -104,7 +104,7 @@
           "special": "Tough, Command, Follow, Fast 6, Ferocious Charge, 3x HtH, Wound: Boar 1HtH Attack SV3"
         },
         {
-          "name": "Orc Bodyguard with sword or axe , light armour, riding Wild Boar",
+          "name": "2 x Orc Bodyguard with sword or axe , light armour, riding Wild Boar",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -141,12 +141,6 @@
           "note": null
         },
         {
-          "description": "Upgrade Chieftain to Tough 3",
-          "cost": 20,
-          "per": null,
-          "note": null
-        },
-        {
           "description": "Upgrade Chieftain to Wound 2",
           "cost": 14,
           "per": null,
@@ -155,13 +149,19 @@
         {
           "description": "Give unit medium armour increasing Res to 6(8)",
           "cost": 10,
-          "per": null,
-          "note": "+2pts per Bodyguard model"
+          "per": "model",
+          "note": null
         },
         {
           "description": "Add up to 2 Orc bodyguards",
           "cost": 25,
           "per": "each",
+          "note": null
+        },
+        {
+          "description": "Upgrade Chieftain to Tough 3",
+          "cost": 20,
+          "per": null,
           "note": null
         }
       ]
@@ -173,7 +173,7 @@
       "special": "You can include a maximum of one Orc Shaman in your warband.",
       "profiles": [
         {
-          "name": "Orc Shaman with sword or axe",
+          "name": "1 x Orc Shaman with sword or axe",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -183,7 +183,7 @@
           "special": "Tough, Magic Level 1, Wound"
         },
         {
-          "name": "Orc Bodyguard with sword or axe",
+          "name": "0 x Orc Bodyguard with sword or axe",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -240,7 +240,7 @@
       "special": "You can include a maximum of one Orc Champion unit in your warband.",
       "profiles": [
         {
-          "name": "Orc Champion with sword or axe, light armour",
+          "name": "1 x Orc Champion with sword or axe, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -255,31 +255,31 @@
         {
           "description": "Give Champion huge sword or big axe",
           "cost": 0,
-          "per": null,
+          "per": "model",
           "note": null
         },
         {
           "description": "Give Champion improbably huge sword or bloomin' big axe adding the Heavily Laden special rule",
           "cost": 1,
-          "per": null,
+          "per": "model",
           "note": null
         },
         {
           "description": "Give Champion medium armour increasing Res to 5(7)",
           "cost": 10,
-          "per": null,
+          "per": "model",
           "note": null
         },
         {
           "description": "Give Champion Vengeful rule",
           "cost": 1,
-          "per": null,
+          "per": "model",
           "note": null
         },
         {
           "description": "Give Champion Frenzied Charge",
           "cost": 2,
-          "per": null,
+          "per": "model",
           "note": null
         },
         {
@@ -297,7 +297,7 @@
         {
           "description": "Give Champion Irresistible Charge instead of Ferocious Charge",
           "cost": 9,
-          "per": null,
+          "per": "model",
           "note": null
         },
         {
@@ -315,7 +315,7 @@
       "special": "You can include a maximum of one Orc Guard unit in your warband.",
       "profiles": [
         {
-          "name": "Orc Leader with sword or axe, light armour",
+          "name": "1 x Orc Leader with sword or axe, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -325,7 +325,7 @@
           "special": "Tough"
         },
         {
-          "name": "Orc Guard with sword or axe, light armour",
+          "name": "4 x Orc Guard with sword or axe, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -376,7 +376,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Orc Leader with sword, light armour",
+          "name": "1 x Orc Leader with sword, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -386,7 +386,7 @@
           "special": "Tough"
         },
         {
-          "name": "Orc Warrior with sword, light armour",
+          "name": "4 x Orc Warrior with sword, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -431,7 +431,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Orc Leader with sword, bow",
+          "name": "1 x Orc Leader with sword, bow",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -441,7 +441,7 @@
           "special": "Tough"
         },
         {
-          "name": "Orc Archer with sword, bow",
+          "name": "4 x Orc Archer with sword, bow",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -486,7 +486,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Orc Boar Rider Leader with sword or axe, light armour",
+          "name": "1 x Orc Boar Rider Leader with sword or axe, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -496,7 +496,7 @@
           "special": "Tough, Fast 6, Ferocious Charge: Boar 1xHtH SV3"
         },
         {
-          "name": "Orc Boar Rider with sword or axe, light armour",
+          "name": "2 x Orc Boar Rider with sword or axe, light armour",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -535,7 +535,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Orc Chariot: Orc crew, pulled by two boars",
+          "name": "1 x Orc Chariot: Orc crew, pulled by two boars",
           "ag": 3,
           "acc": "-",
           "str": "-",
@@ -545,7 +545,7 @@
           "special": "Large, Irresistible Charge, Fast 6"
         },
         {
-          "name": "Orc crew with swords or axes",
+          "name": "2 x Orc crew with swords or axes",
           "ag": "-",
           "acc": 4,
           "str": 6,
@@ -555,7 +555,7 @@
           "special": "-"
         },
         {
-          "name": "Boars",
+          "name": "2 x Boars",
           "ag": "-",
           "acc": "-",
           "str": 5,
@@ -596,11 +596,13 @@
     {
       "name": "Trolls",
       "type": "Monster Unit",
-      "points_value": 105,
+      "points_value": {
+        "wild": 105
+      },
       "special": null,
       "profiles": [
         {
-          "name": "Troll",
+          "name": "3 x Troll",
           "ag": 4,
           "acc": 5,
           "str": 6,
@@ -627,7 +629,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Orc crew with swords or axes, stone throwing engine",
+          "name": "3 x Orc crew with swords or axes, stone throwing engine",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -637,7 +639,7 @@
           "special": "Large, Slow 3"
         },
         {
-          "name": "Small Stone Thrower",
+          "name": "1 x Small Stone Thrower",
           "ag": null,
           "acc": null,
           "str": null,
@@ -676,7 +678,7 @@
       "special": null,
       "profiles": [
         {
-          "name": "Orc crew with swords or axes, bolt throwing engine",
+          "name": "3 x Orc crew with swords or axes, bolt throwing engine",
           "ag": 5,
           "acc": 4,
           "str": 6,
@@ -686,7 +688,7 @@
           "special": "Large, Slow 3"
         },
         {
-          "name": "Small Bolt Thrower",
+          "name": "1 x Small Bolt Thrower",
           "ag": null,
           "acc": null,
           "str": null,

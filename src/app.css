@@ -84,3 +84,27 @@ table.stats .pspecial {
   text-align: left;
   font-size: 9pt;
 }
+
+details.monster-group {
+  margin-top: 16px;
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+details.monster-group > summary {
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 0;
+  list-style: none;
+}
+details.monster-group > summary::-webkit-details-marker {
+  display: none;
+}
+details.monster-group > summary::before {
+  content: '▸ ';
+  display: inline-block;
+  transition: transform 0.15s;
+  margin-right: 4px;
+}
+details.monster-group[open] > summary::before {
+  content: '▾ ';
+}

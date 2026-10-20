@@ -1,15 +1,25 @@
 export function itemCost(unit, item) {
-  // 1. Kosten für Upgrades (Waffen, Rüstung, etc.)
+  if (!unit) return 0;
+  let basePts;
+  if (unit.is_monster && unit.points_value && typeof unit.points_value === 'object') {
+    const mode = item.monster_mode ?? 'allied';
+    basePts = unit.points_value[mode]
+          ?? unit.points_value.allied
+          ?? unit.points_value.bound
+          ?? unit.points_value.wild
+          ?? 0;
+  } else {
+    basePts = unit.pts ?? 0;
+  }
+
   const extraOpts = unit.opts
     .filter((o) => item.opts.includes(o.id))
     .reduce((s, o) => s + o.pts, 0);
 
-  // 2. Kosten für zusätzliche Modelle (falls mehr als base_size)
   const extraModels = Math.max(0, item.qty - unit.base_size);
   const extraModelCost = extraModels * (unit.pts_per_extra || 0);
 
-  // 3. Gesamtkosten
-  return (unit.pts + extraOpts + extraModelCost) * 1; // *1 weil wir nicht mehr mit qty multiplizieren!
+  return basePts + extraOpts + extraModelCost;
 }
 
 export function countOf(items, unitId) {

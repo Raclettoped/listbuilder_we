@@ -1,0 +1,1268 @@
+{
+  "warband": "Samurai",
+  "version": "1.1",
+  "updated": "10/06/19",
+  "special_army_rule": {
+    "name": null,
+    "description": null
+  },
+  "additional_notes": "This list is inspired by the days of the Samurai and by films, comic books and numerous games that feature the famous warrior-caste of medieval Japan. Of course, ours is a fantasy warband, so we shall take our cue from the heroic portrayal that features so vividly in martial-arts cinema rather than attempt a strictly realistic representation.",
+  "units": [
+    {
+      "name": "Daimyo",
+      "type": "Warlord Warrior Unit",
+      "points_value": 122,
+      "special": "You must include one Daimyo or Mounted Daimyo in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Daimyo with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "5(7)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Stubborn, Command, Follow, 3x HtH, Wound"
+        },
+        {
+          "name": "2 x Hatamoto with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Stubborn"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit naginata",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit longbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Daimyo to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Daimyo to Wounds 2",
+          "cost": 14,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Hatamoto",
+          "cost": 20,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Daimyo",
+      "type": "Warlord Mounted Unit",
+      "points_value": 148,
+      "special": "You must include one Daimyo or Mounted Daimyo in your warband and one only.",
+      "profiles": [
+        {
+          "name": "1 x Daimyo with sword, medium armour riding horse",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 8,
+          "co": 9,
+          "special": "Tough, Stubborn, Command, Follow, Fast 8, 3x HtH, Wound"
+        },
+        {
+          "name": "2 x Hatamoto with sword, medium armour riding horses",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 8,
+          "special": "Stubborn, Fast 8"
+        },
+        {
+          "name": "0 x Warhorses",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1xHtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit longbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Daimyo to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Daimyo to Wound 2",
+          "cost": 16,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Mount unit on Warhorses",
+          "cost": 6,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Hatamoto",
+          "cost": 28,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Onmyoji Diviner",
+      "type": "Warrior Unit",
+      "points_value": 55,
+      "special": "You can include a maximum of one Onmyoji in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Onmyoji with hanbo or cane",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Wound, Magic Level 1"
+        },
+        {
+          "name": "0 x Servants with hanbo, scroll or tea service",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        },
+        {
+          "name": "0 x Shikigami Spirits",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 3,
+          "co": 3,
+          "special": "Spirit, 1x HtH SV1, Exchange of Missiles SV 1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 4 Servants",
+          "cost": 8,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 4 Shikigami Spirits",
+          "cost": 18,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Onmyoji to Tough 2",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Onmyoji to Magic 2",
+          "cost": 25,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Onmyoji to Magic 3",
+          "cost": 50,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Shugyosha Samurai Hero",
+      "type": "Warrior Unit",
+      "points_value": 86,
+      "special": "You can only include a maximum of one Shugyosha Samurai, Mounted Shugyosha Samurai or Ninja Master in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Shugyosha Samurai with sword, medium armour",
+          "ag": 5,
+          "acc": 6,
+          "str": 6,
+          "res": "6(8)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Shugyosha naginata",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Shugyosha longbow",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Shugyosha Challenge rule",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Shugyosha Zealous rule",
+          "cost": 5,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Shugyosha to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shugyosha to Wound 2",
+          "cost": 16,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shugyosha to Wound 3",
+          "cost": 32,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Shugyosha Samurai Hero",
+      "type": "Mounted Unit",
+      "points_value": 102,
+      "special": "You can only include a maximum of one Shugyosha Samurai, Mounted Shugyosha Samurai or Ninja Master in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Shugyosha Samurai with sword, medium armour, riding warhorse",
+          "ag": 5,
+          "acc": 6,
+          "str": 6,
+          "res": "7(9)",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, 3x HtH, Wound, Fast 8, Warhorse 1x HtH SV1"
+        },
+        {
+          "name": "0 x Komainu Lion Dog",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Shugyosha lance",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Shugyosha longbow",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Shugyosha Challenge rule",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Shugyosha Zealous rule",
+          "cost": 5,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Shugyosha to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shugyosha to Wound 2",
+          "cost": 18,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Shugyosha to Wound 3",
+          "cost": 36,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Mount Shugyosha on Komainu Lion Dog",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Ninja Master",
+      "type": "Warrior Unit",
+      "points_value": 90,
+      "special": "You can only include a maximum of one Shugyosha Samurai, Mounted Shugyosha Samurai or Ninja Master in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Ninja Hero with sword and shuriken",
+          "ag": 7,
+          "acc": 7,
+          "str": 6,
+          "res": "6",
+          "init": 9,
+          "co": 9,
+          "special": "Tough 2, Hero, Stealthy, 3x HtH, 3x Ranged, Wound"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give Ninja Master nunchaku",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Ninja Master naginata",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give Ninja Master Dead Eye Shot rule",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Upgrade Ninja Master to Tough 3",
+          "cost": 10,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Ninja Master to Wound 2",
+          "cost": 12,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Upgrade Ninja Master to Wound 3",
+          "cost": 24,
+          "per": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Mounted Samurai",
+      "type": "Mounted Unit",
+      "points_value": 84,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Samurai Leader with sword, medium armour, riding horse",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Fast 8"
+        },
+        {
+          "name": "2 x Samurai with sword, medium armour, riding horse",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "6(8)",
+          "init": 7,
+          "co": 7,
+          "special": "Fast 8"
+        },
+        {
+          "name": "0 x Warhorses",
+          "ag": "-",
+          "acc": "-",
+          "str": 5,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV1"
+        },
+        {
+          "name": "0 x Komainu Lion Dog",
+          "ag": "-",
+          "acc": "-",
+          "str": 6,
+          "res": "-",
+          "init": "-",
+          "co": "-",
+          "special": "1x HtH SV2"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit lances",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit longbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Mount unit on Warhorses",
+          "cost": 6,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Mount unit on Komainu Lion Dog",
+          "cost": 9,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Samurai",
+          "cost": 24,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Samurai",
+      "type": "Warrior Unit",
+      "points_value": 92,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Samurai Leader with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "5(7)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Samurai with sword, medium armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 6,
+          "res": "5(7)",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit naginata",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit longbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Samurai",
+          "cost": 16,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Ashigaru",
+      "type": "Warrior Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Leader with sword, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Ashigaru with sword, light armour",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5(6)",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit long spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit naginata",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit halberds",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Ashigaru",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Archers",
+      "type": "Warrior Unit",
+      "points_value": 72,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Leader with sword and bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Archer with sword and bow",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit long bows",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Archers",
+          "cost": 12,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Bandits and Brigands",
+      "type": "Warrior Unit",
+      "points_value": 57,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Leader with mixed arm",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Bandit with mixed arms",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Bandits",
+          "cost": 9,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Tanigashima Men",
+      "type": "Warrior Unit",
+      "points_value": 82,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Leader with sword and handgun",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Tanigashima men with sword and handgun",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit pavisse",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Tanigashima Men",
+          "cost": 14,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Onna Bugeisha",
+      "type": "Warrior Unit",
+      "points_value": 62,
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Onna Bugeisha leader with naginata",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 8,
+          "special": "Tough"
+        },
+        {
+          "name": "4 x Onna Bugeisha with naginata",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "-"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit swords",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit spears",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit longbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit medium armour",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Onna Bugeisha",
+          "cost": 10,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Sohei Warrior Monks",
+      "type": "Warrior Unit",
+      "points_value": 132,
+      "special": "You can include a maximum of one unit of Sohei Warrior Monks in your warband.",
+      "profiles": [
+        {
+          "name": "1 x Monk Leader with stave",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 7,
+          "co": 8,
+          "special": "Tough, Zealous, 2x HtH"
+        },
+        {
+          "name": "4 x Monk with stave",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "6",
+          "init": 7,
+          "co": 7,
+          "special": "Zealous, 2x HtH"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit naginata",
+          "cost": 1,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit longbows",
+          "cost": 4,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit light armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Divine Intervention rule",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Warrior Monks",
+          "cost": 25,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Ninja",
+      "type": "Warrior Unit",
+      "points_value": 205,
+      "special": "You can include a maximum of one unit of Ninja in your warband.",
+      "profiles": [
+        {
+          "name": "5 x Ninja with sword and shuriken",
+          "ag": 7,
+          "acc": 7,
+          "str": 6,
+          "res": "6",
+          "init": 9,
+          "co": 9,
+          "special": "Stealthy, 2x HtH, 2x Ranged"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Give unit nunchaku",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit naginata",
+          "cost": 0,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Give unit Dead Eye Shot rule",
+          "cost": 10,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 5 Ninja",
+          "cost": 41,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Oni Ogres",
+      "type": "Monster Unit",
+      "points_value": {
+        "wild": 26
+      },
+      "special": null,
+      "profiles": [
+        {
+          "name": "1 x Oni with massive mace",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "8",
+          "init": 7,
+          "co": 7,
+          "special": "Large, 2x HtH"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Oni",
+          "cost": 26,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Tengu Birdmen",
+      "type": "Beast Unit",
+      "points_value": 144,
+      "special": "You can include a maximum of one unit of Tengu Birdmen in your warband.",
+      "profiles": [
+        {
+          "name": "3 x Tengu Birdmen",
+          "ag": 10,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 9,
+          "co": 9,
+          "special": "Flies, Fast 10, 2x HtH SV1"
+        }
+      ],
+      "equipment": null,
+      "options": [
+        {
+          "description": "Add up to 2 Tengu Birdmen to unit",
+          "cost": 48,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Cannon",
+      "type": "Artillery Unit",
+      "points_value": 77,
+      "special": null,
+      "profiles": [
+        {
+          "name": "3 x Crew with daggers, cannon",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow3"
+        }
+      ],
+      "equipment": "1 x Small Cannon",
+      "options": [
+        {
+          "description": "Give unit Large Cannon instead of Small Cannon",
+          "cost": 50,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give crew light armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 crew to unit",
+          "cost": 9,
+          "per": "each",
+          "note": null
+        }
+      ]
+    },
+    {
+      "name": "Bolt Thrower",
+      "type": "Artillery Unit",
+      "points_value": 69,
+      "special": null,
+      "profiles": [
+        {
+          "name": "3 x Crew with daggers, bolt throwing engine",
+          "ag": 5,
+          "acc": 5,
+          "str": 5,
+          "res": "5",
+          "init": 7,
+          "co": 7,
+          "special": "Large, Slow3"
+        }
+      ],
+      "equipment": "1 x Small Bolt Thrower",
+      "options": [
+        {
+          "description": "Give unit Large Bolt Thrower instead of Small Bolt Thrower",
+          "cost": 21,
+          "per": null,
+          "note": null
+        },
+        {
+          "description": "Give crew light armour",
+          "cost": 2,
+          "per": "model",
+          "note": null
+        },
+        {
+          "description": "Add up to 2 Crew to unit",
+          "cost": 9,
+          "per": "each",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "weapons_table": [
+    {
+      "weapon": "Shuriken",
+      "short_range": "0-10\"",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Bow",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Longbow",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Hand gun",
+      "short_range": "0-10\"",
+      "long_range": "10-20\"",
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "Fire order to shoot"
+    },
+    {
+      "weapon": "Small Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 3,
+      "special_rules": "Fire order to shoot, 3x Ranged"
+    },
+    {
+      "weapon": "Large Bolt Thrower",
+      "short_range": "0-20\"",
+      "long_range": "20-40\"",
+      "extreme_range": "40-60\"",
+      "strike_value": 5,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Small Cannon",
+      "short_range": "0-10\"",
+      "long_range": "10-30\"",
+      "extreme_range": "30-40\"",
+      "strike_value": 5,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Large Cannon",
+      "short_range": "0-10\"",
+      "long_range": "10-50\"",
+      "extreme_range": "50-100\"",
+      "strike_value": 8,
+      "special_rules": "Fire order to shoot, Unstoppable"
+    },
+    {
+      "weapon": "Hanbo, Cane, Scroll or Tea Service",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": null
+    },
+    {
+      "weapon": "Stave",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Bandits with Mixed Arms",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Nunchaku",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 0,
+      "special_rules": "+2 Strength"
+    },
+    {
+      "weapon": "Dagger",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": null
+    },
+    {
+      "weapon": "Sword",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Can also be thrown during exchange of missiles"
+    },
+    {
+      "weapon": "Long Spear",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 1,
+      "special_rules": "Cancels charge bonus"
+    },
+    {
+      "weapon": "Lance",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 3,
+      "special_rules": "SV3 on Charge"
+    },
+    {
+      "weapon": "Halberd",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": "+1 Strength"
+    },
+    {
+      "weapon": "Massive Mace",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    },
+    {
+      "weapon": "Naginata",
+      "short_range": "Hand-to-Hand Combat",
+      "long_range": null,
+      "extreme_range": null,
+      "strike_value": 2,
+      "special_rules": null
+    }
+  ],
+  "special_rules": {
+    "Command": "Friendly units within 10\" can use the model's Co stat to take Command based tests.",
+    "Dead-Eye Shot": "Can re-roll one miss.",
+    "Divine Intervention": "Can steal an order dice from an enemy unit within 20\" with successful Command test. If fail take 1 pin instead. Max use once per turn.",
+    "Follow": "Friendly un-pinned units within 5\" can follow the unit's order immediately.",
+    "Hero": "Friendly units within 10\" can use the model's Initiative stat to take Reaction tests.",
+    "Large": "+1 to hit shooting. Can draw LOS to body. Can draw LOS over non-large models (artillery overhead only).",
+    "Pavisse": "Cannot be give Run order. -3 Agility. Counts as cover with +2 Res bonus.",
+    "Slow/Fast": "Move at the basic rate indicated.",
+    "Spirit": "Can be sacrificed for a re-roll. Destroyed if wizard is slain.",
+    "Stealthy": "Re-roll shooting hits when in cover.",
+    "Stubborn": "Recover 2 pins on successful Order test.",
+    "Tough": "Re-roll a failed Res test (Tough 2 re-roll 2 separate fails, and so on).",
+    "Unstoppable": "Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time.",
+    "Wound": "Can lose the 'wounds value' of lives before a further Res fail slays. Can't recover pins beyond wounds suffered.",
+    "Zealous": "Ignore pins when taking a break test. Re-roll failed order test."
+  }
+}

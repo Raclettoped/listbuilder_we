@@ -6,86 +6,90 @@
     "name": "Monster Horde",
     "description": "This list can be used to select a monstrous horde if players are agreeable - a warband made up entirely of monsters! This is envisaged as an entertaining, but not necessarily very serious, option for players who fancy fielding an array of all those monsters that we all like to collect but rarely find a role for."
   },
-  "additional_notes": "Agree to Include Monsters: Before selecting their forces, players must agree to include monsters where they wish to do so, and must set any limits or restrictions that are mutually acceptable. For example, players might agree to allow the inclusion of a single monster unit of up to 150 points, or could allow any wild monster, or any monsters with a Res of less than 10, and so on. Monsters from this list can only be included in a warband where the players agree to do so.\n\nRiders: Some players might harbour a yen to field dragon riders or other heroic types riding gigantic monsters. This can be done by combining the stats for a warlord, hero or wizard with those of a monstrosity from this list. The Elf Hero is taken from the Elven Warband list and the stats for the model combined with those of a dragon. The dragon loses its Init and Co stats as they are no longer needed - all tests are taken on the rider's Init and Co. The rider doesn't need Ag or Res but these are retained in brackets should the dragon be slain leaving the rider, who can sustain a wound, to fight on foot. The Hero's Tough special ability is transferred to the whole model, note this is Tough 2 because that's the base value of an Elven hero, and both Tough and Wound on the Hero's stats are bracketed because neither are used by the combined model.\n\nMonstrosities or monsters with riders are still bound by the rules for allied, bound or (you must be very brave!) wild monsters. They cannot benefit from the command, follow or hero special rules and - in the case of bound and wild monsters - order test fails of a 10 will have appropriate consequences for mount and rider. Where a bound or wild monster fails an order test on a roll of 10 and would otherwise be considered a casualty as a result then the rider is assumed to fall casualty too, i.e. if the bound monster flees the field or a wild monster goes 'wild'.\n\nAdditional Notes: If players agree to use units from his list does than mean they can be used as mounts by characters? Well - we know that's up to the players - but it's only fair to be specific about monstrosity riders. So, agree to use monsters by all means, but if you want to mount characters on monstrosities this should be agreed specifically. If I mount a wizard on a monstrosity with two or three order dice does that mean the wizard can cast two or three spells - one each time an order is issued? Again - I think we know the answer - a wizard can only make one attempt to cast a spell in a turn, and that applies regardless of how many order dice - or actions - the wizard has. When I mount a character on a monstrosity what happens to the unit's bodyguards? Well - unluckily you lose them - except for a wizard's spirits which can tag along. If such things are of concern, you can deduct the cost of bodyguards lost from the points value of the new combined model.\n\nI have added an option for Ogre leaders in Ogre units of three or more models, and I have added a stinging tail option onto the Manticore; both were queried and I can see no reason not to include them as options if the desire is there. Both entries also serve as example of how these things can be done should anyone fancy more tinkerage.\n\nI have also reordered the section into strict alphabetical order; although this does tend to mean all of the 'Giant' somethings are grouped together, of course.\n\nA few folks queried the fact that Ogres are not monstrosities. I have portrayed Ogres as I see them, and as they are traditionally portrayed in folklore, as large, brutish humanoids towering over normal sized humans for sure, but not giants. Of course, if your models happen to be vast, bloated critters the size of a small giant then I suggest they are treated as such and fielded as individuals. They might alternatively be given a Wound if fielded in units - though this is very powerful. A wound is generally costed at double the Res value of a model, should players wish to sort such things out for themselves.",
+  "additional_notes": "Agree to Include Monsters: Before selecting their forces, players must agree to include monsters where they wish to do so, and must set any limits or restrictions that are mutually acceptable. For example, players might agree to allow the inclusion of a single monster unit of up to 150 points, or could allow any wild monster, or any monsters with a Res of less than 10, and so on. Monsters from this list can only be included in a warband where the players agree to do so.",
   "units": [
-    {
-      "name": "Elf Hero Riding Dragon",
-      "type": "Mounted Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
-      "profiles": [
-        {
-          "name": "Elf Hero Riding Dragon",
-          "ag": 5,
-          "acc": 4,
-          "str": 6,
-          "res": "15",
-          "init": "-",
-          "co": "-",
-          "special": "Large, Tough 2, MoD3, 7x HtH Attacks SV6, 3x Flaming Breath SV3 Fire, Dread, Terror, Flies, Fast 6"
-        }
-      ],
-      "equipment": "1 x Dragon; 1 x Mounted Elven Hero with sword, light armour",
-      "options": []
-    },
+    
     {
       "name": "Basilisk",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 158,
+        "bound": 178,
+        "allied": 198
+      },
+      "special": "Large, MoD2, 5x HtH SV4, Baleful Glare, Dread",
       "profiles": [
         {
-          "name": "Basilisk",
+          "name": "1 x Basilisk",
           "ag": 5,
           "acc": 4,
           "str": 6,
-          "res": "10",
+          "res": 10,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH SV4, Baleful Glare, Dread"
+          "special": ""
         }
       ],
-      "equipment": "1 x Basilisk",
-      "options": []
+      "equipment": "",
+      "options": [
+        {
+          "description": "None",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "Brontosaur",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 115,
+        "bound": 135
+      },
+      "special": "Large, MoD2, 5x HtH SV3, Blundering, Stampede",
       "profiles": [
         {
-          "name": "Brontosaur",
+          "name": "1 x Brontosaur",
           "ag": 4,
           "acc": "-",
           "str": 5,
-          "res": "12",
+          "res": 12,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH SV3, Blundering, Stampede"
+          "special": ""
         }
       ],
-      "equipment": "1 x Brontosaur",
-      "options": []
+      "equipment": "",
+      "options": [
+        {
+          "description": "None",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "Cave Bear",
       "type": "Monster Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 62
+      },
+      "special": "Large, 3x HtH SV3, Irresistable charge, Frenzied charge, Wound",
       "profiles": [
         {
-          "name": "Cave Bear",
+          "name": "1 x Cave Bear",
           "ag": 5,
           "acc": 5,
           "str": 6,
-          "res": "8",
+          "res": 8,
           "init": 2,
           "co": 8,
-          "special": "Large, 3x HtH SV3, Irresistable charge, Frenzied charge, Wound"
+          "special": ""
         }
       ],
-      "equipment": "1 x Cave Bear",
+      "equipment": "",
       "options": [
         {
           "description": "Make Were Bear",
@@ -98,21 +102,25 @@
     {
       "name": "Chimera",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 158,
+        "bound": 178,
+        "allied": 198
+      },
+      "special": "Large, MoD2, 4x HtH SV4, 1x HtH SV10 Venomous, 3x Flaming Breath SV3 Fire, Dread",
       "profiles": [
         {
-          "name": "Chimera",
+          "name": "1 x Chimera",
           "ag": 5,
           "acc": 4,
           "str": 6,
-          "res": "9",
+          "res": 9,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 4x HtH SV4, 1x HtH SV10 Venomous, 3x Flaming Breath SV3 Fire, Dread"
+          "special": ""
         }
       ],
-      "equipment": "1 x Chimera",
+      "equipment": "",
       "options": [
         {
           "description": "Give Chimera Wings",
@@ -125,41 +133,56 @@
     {
       "name": "Cockatrice",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 157,
+        "bound": 177,
+        "allied": 197
+      },
+      "special": "Large, MoD2, 5x HtH Attacks SV3, Baleful Glare, Dread, Flies",
       "profiles": [
         {
-          "name": "Cockatrice",
+          "name": "1 x Cockatrice",
           "ag": 5,
           "acc": 4,
           "str": 7,
-          "res": "10",
+          "res": 10,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH Attacks SV3, Baleful Glare, Dread, Flies"
+          "special": ""
         }
       ],
-      "equipment": "1 x Cockatrice",
-      "options": []
+      "equipment": "",
+      "options": [
+        {
+          "description": "None",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "Cyclops/Small Giant",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 150,
+        "bound": 170,
+        "allied": 190
+      },
+      "special": "Large, MoD2, 5x HtH SV4, Dread",
       "profiles": [
         {
-          "name": "Cyclops",
+          "name": "1 x Cyclops",
           "ag": 5,
           "acc": 5,
           "str": 6,
-          "res": "12",
+          "res": 12,
           "init": 4,
           "co": 8,
-          "special": "Large, MoD2, 5x HtH SV4, Dread"
+          "special": ""
         }
       ],
-      "equipment": "1 x Cyclops",
+      "equipment": "",
       "options": [
         {
           "description": "Give Cyclops rock to hurl",
@@ -172,21 +195,25 @@
     {
       "name": "Dragon",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 380,
+        "bound": 410,
+        "allied": 440
+      },
+      "special": "Large, MoD3, Fast 6, 7x HtH SV6, 3x Flaming Breath SV3 Fire, Dread, Terror, Flies",
       "profiles": [
         {
-          "name": "Dragon",
+          "name": "1 x Dragon",
           "ag": 5,
           "acc": 4,
           "str": 6,
-          "res": "15",
+          "res": 15,
           "init": 7,
           "co": 9,
-          "special": "Large, MoD3, Fast 6, 7x HtH SV6, 3x Flaming Breath SV3 Fire, Dread, Terror, Flies"
+          "special": ""
         }
       ],
-      "equipment": "1 x Dragon",
+      "equipment": "",
       "options": [
         {
           "description": "Substitute Flaming Breath attacks for Beastly Breath",
@@ -197,8 +224,8 @@
         {
           "description": "Upgrade Flaming Breath to SV4",
           "cost": 5,
-          "per": "attack",
-          "note": ""
+          "per": "model",
+          "note": "per attack"
         },
         {
           "description": "Upgrade Flaming Breath to 6x attacks",
@@ -217,21 +244,25 @@
     {
       "name": "Ghouls",
       "type": "Beast Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 85,
+        "bound": 95,
+        "allied": 105
+      },
+      "special": "2x HtH SV1",
       "profiles": [
         {
-          "name": "Ghouls",
+          "name": "5 x Ghouls",
           "ag": 5,
           "acc": "-",
           "str": 5,
-          "res": "5",
+          "res": 5,
           "init": 7,
           "co": 7,
-          "special": "2x HtH SV1"
+          "special": ""
         }
       ],
-      "equipment": "5 x Ghouls",
+      "equipment": "",
       "options": [
         {
           "description": "Give unit Venomous rule",
@@ -250,21 +281,25 @@
     {
       "name": "Giant",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 253,
+        "bound": 283,
+        "allied": 313
+      },
+      "special": "Large, MoD3, 5x HtH SV5, Dread, Terror, Blundering",
       "profiles": [
         {
-          "name": "Giant",
+          "name": "1 x Giant",
           "ag": 5,
           "acc": 5,
           "str": 6,
-          "res": "13",
+          "res": 13,
           "init": 3,
           "co": 8,
-          "special": "Large, MoD3, 5x HtH SV5, Dread, Terror, Blundering"
+          "special": ""
         }
       ],
-      "equipment": "1 x Giant",
+      "equipment": "",
       "options": [
         {
           "description": "Give Giant rock to hurl",
@@ -283,21 +318,25 @@
     {
       "name": "Giant Rats",
       "type": "Beast Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 46,
+        "bound": 56,
+        "allied": 66
+      },
+      "special": "2x HtH SV1 Venomous",
       "profiles": [
         {
-          "name": "Giant Rats",
+          "name": "3 x Giant Rats",
           "ag": 6,
           "acc": "-",
           "str": 4,
-          "res": "4",
+          "res": 4,
           "init": 7,
           "co": 7,
-          "special": "2x HtH SV1 Venomous"
+          "special": ""
         }
       ],
-      "equipment": "3 x Giant Rats",
+      "equipment": "",
       "options": [
         {
           "description": "Add up to 2 Giant Rats",
@@ -310,21 +349,25 @@
     {
       "name": "Giant Scorpions",
       "type": "Monster Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 57,
+        "bound": 67,
+        "allied": 77
+      },
+      "special": "2x HtH SV2, 1x HtH SV10 Venomous, Wound",
       "profiles": [
         {
-          "name": "Giant Scorpion",
+          "name": "1 x Giant Scorpion",
           "ag": 6,
           "acc": "-",
           "str": 6,
-          "res": "6",
+          "res": 6,
           "init": 6,
           "co": 8,
-          "special": "2x HtH SV2, 1x HtH SV10 Venomous, Wound"
+          "special": ""
         }
       ],
-      "equipment": "1 x Giant Scorpion",
+      "equipment": "",
       "options": [
         {
           "description": "Add up to 2 Giant Scorpions",
@@ -337,21 +380,25 @@
     {
       "name": "Giant Spiders",
       "type": "Monster Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 50,
+        "bound": 60,
+        "allied": 70
+      },
+      "special": "3x HtH SV3, Wound",
       "profiles": [
         {
-          "name": "Giant Spider",
+          "name": "1 x Giant Spider",
           "ag": 6,
           "acc": "-",
           "str": 6,
-          "res": "6",
+          "res": 6,
           "init": 7,
           "co": 9,
-          "special": "3x HtH SV3, Wound"
+          "special": ""
         }
       ],
-      "equipment": "1 x Giant Spider",
+      "equipment": "",
       "options": [
         {
           "description": "Add up to 2 Giant Spiders",
@@ -364,21 +411,23 @@
     {
       "name": "Giant Treeman",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "allied": 204
+      },
+      "special": "Large, MoD2, 5x HtH SV4, Blundering, Slow 4, Woodsman, Stubborn, Tough, Dread",
       "profiles": [
         {
-          "name": "Giant Treeman",
+          "name": "1 x Giant Treeman",
           "ag": 5,
           "acc": 5,
           "str": 6,
-          "res": "12",
+          "res": 12,
           "init": 2,
           "co": 8,
-          "special": "Large, MoD2, 5x HtH SV4, Blundering, Slow 4, Woodsman, Stubborn, Tough, Dread"
+          "special": ""
         }
       ],
-      "equipment": "1 x Giant Treeman",
+      "equipment": "",
       "options": [
         {
           "description": "Give Giant Treeman rock to hurl",
@@ -391,21 +440,25 @@
     {
       "name": "Gigantic Spider",
       "type": "Monstosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 218,
+        "bound": 238,
+        "allied": 258
+      },
+      "special": "Large, MoD2, 6x HtH SV6, Dread, Terror",
       "profiles": [
         {
-          "name": "Gigantic Spider",
+          "name": "1 x Gigantic Spider",
           "ag": 6,
           "acc": "-",
           "str": 6,
-          "res": "13",
+          "res": 13,
           "init": 7,
           "co": 9,
-          "special": "Large, MoD2, 6x HtH SV6, Dread, Terror"
+          "special": ""
         }
       ],
-      "equipment": "1 x Gigantic Spider",
+      "equipment": "",
       "options": [
         {
           "description": "Give unit Venomous attacks",
@@ -418,21 +471,23 @@
     {
       "name": "Golem",
       "type": "Monster Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "bound": 64
+      },
+      "special": "Tough, Slow 4, 3x HtH SV2, Dread",
       "profiles": [
         {
-          "name": "Golem",
+          "name": "1 x Golem",
           "ag": 3,
           "acc": "-",
           "str": 7,
-          "res": "13",
+          "res": 13,
           "init": 3,
           "co": 10,
-          "special": "Tough, Slow 4, 3x HtH SV2, Dread"
+          "special": ""
         }
       ],
-      "equipment": "1 x Golem",
+      "equipment": "",
       "options": [
         {
           "description": "Give unit Choking attacks",
@@ -445,81 +500,117 @@
     {
       "name": "Griffin",
       "type": "Monstosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 144,
+        "bound": 164,
+        "allied": 184
+      },
+      "special": "Large, MoD2, 5x HtH SV3, Dread, Savage, Fast 6, Flies",
       "profiles": [
         {
-          "name": "Griffin",
+          "name": "1 x Griffin",
           "ag": 5,
           "acc": "-",
           "str": 6,
-          "res": "10",
+          "res": 10,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH SV3, Dread, Savage, Fast 6, Flies"
+          "special": ""
         }
       ],
-      "equipment": "1 x Griffin",
-      "options": []
+      "equipment": "",
+      "options": [
+        {
+          "description": "None",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "Horned Dinosaur",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 122,
+        "bound": 142
+      },
+      "special": "Large, MoD2, 3x HtH SV5, Dread, Stampede, Irresistable charge",
       "profiles": [
         {
-          "name": "Horned Dinosaur",
+          "name": "1 x Horned Dinosaur",
           "ag": 5,
           "acc": "-",
           "str": 6,
-          "res": "12",
+          "res": 12,
           "init": 7,
           "co": 7,
-          "special": "Large, MoD2, 3x HtH SV5, Dread, Stampede, Irresistable charge"
+          "special": ""
         }
       ],
-      "equipment": "1 x Horned Dinosaur",
-      "options": []
+      "equipment": "",
+      "options": [
+        {
+          "description": "None",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "Hippogriff",
       "type": "Monstosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 138,
+        "bound": 159,
+        "allied": 179
+      },
+      "special": "Large, MoD2, 5x HtH SV3, Dread, Fast 6, Flies",
       "profiles": [
         {
-          "name": "Hippogriff",
+          "name": "1 x Hippogriff",
           "ag": 5,
           "acc": "-",
           "str": 6,
-          "res": "10",
+          "res": 10,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH SV3, Dread, Fast 6, Flies"
+          "special": ""
         }
       ],
-      "equipment": "1 x Hippogriff",
-      "options": []
+      "equipment": "",
+      "options": [
+        {
+          "description": "None",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "Hydra",
       "type": "Monstosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 182,
+        "bound": 202,
+        "allied": 222
+      },
+      "special": "Large, MOD2, 9x HtH SV2, Stubborn, Dread, Regenerate",
       "profiles": [
         {
-          "name": "Hydra",
+          "name": "1 x Hydra",
           "ag": 5,
           "acc": 5,
           "str": 5,
-          "res": "9",
+          "res": 9,
           "init": 7,
           "co": 7,
-          "special": "Large, MOD2, 9x HtH SV2, Stubborn, Dread, Regenerate"
+          "special": ""
         }
       ],
-      "equipment": "1 x Hydra",
+      "equipment": "",
       "options": [
         {
           "description": "Give 3x Flaming Breath SV3 Fire",
@@ -538,21 +629,25 @@
     {
       "name": "Manticore",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 158,
+        "bound": 178,
+        "allied": 198
+      },
+      "special": "Large, MoD2, 5x HtH Attacks SV4, Beastly Breath, Dread",
       "profiles": [
         {
-          "name": "Manticore",
+          "name": "1 x Manticore",
           "ag": 5,
           "acc": 5,
           "str": 6,
-          "res": "12",
+          "res": 12,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH Attacks SV4, Beastly Breath, Dread"
+          "special": ""
         }
       ],
-      "equipment": "1 x Manticore",
+      "equipment": "",
       "options": [
         {
           "description": "Give Chimera Wings",
@@ -571,37 +666,41 @@
     {
       "name": "Ogres",
       "type": "Monster Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 28,
+        "bound": 38,
+        "allied": 48
+      },
+      "special": "Large, 2x HtH, Frenzied Charge",
       "profiles": [
         {
-          "name": "Ogre with big axe, huge mace or warhammer",
+          "name": "1 x Ogre with big axe, huge mace or warhammer",
           "ag": 5,
           "acc": 5,
           "str": 5,
-          "res": "8",
+          "res": 8,
           "init": 7,
           "co": 7,
-          "special": "Large, 2x HtH, Frenzied Charge"
+          "special": ""
         },
         {
-          "name": "Ogre Chieftain leader with big axe, huge mace or warhammer",
+          "name": "0 x Ogre Chieftain leader with big axe, huge mace or warhammer",
           "ag": 5,
           "acc": 5,
           "str": 5,
-          "res": "8",
+          "res": 8,
           "init": 7,
           "co": 8,
           "special": "Tough, Large, 2x HtH, Frenzied Charge"
         }
       ],
-      "equipment": "1 x Ogre with big axe, huge mace or warhammer; 0 x Ogre Chieftain leader",
+      "equipment": "",
       "options": [
         {
-          "description": "Give unit light armour increasing Res to 8(9)",
+          "description": "Give unit light armour",
           "cost": 2,
           "per": "model",
-          "note": ""
+          "note": "increasing Res to 8(9)"
         },
         {
           "description": "Add up to 2 Ogres",
@@ -616,14 +715,14 @@
           "note": ""
         },
         {
-          "description": "Make unit Vengeful",
-          "cost": 1,
+          "description": "Make one Ogre in a unit of three or more a leader",
+          "cost": 12,
           "per": "model",
           "note": ""
         },
         {
-          "description": "Make one Ogre in a unit of three or more a leader",
-          "cost": 12,
+          "description": "Make unit Vengeful",
+          "cost": 1,
           "per": "model",
           "note": ""
         }
@@ -632,71 +731,73 @@
     {
       "name": "Swarm",
       "type": "Swarm Unit",
-      "points_value": 0,
+      "points_value": {
+        "wild": 75
+      },
       "special": "Choose one kind of swarm",
       "profiles": [
         {
-          "name": "Ratswarm - furry things",
+          "name": "3 x Ratswarm - furry things",
           "ag": 6,
           "acc": "-",
           "str": 4,
-          "res": "5",
+          "res": 5,
           "init": 3,
           "co": 8,
           "special": "3x HtH SV1 Venomous"
         },
         {
-          "name": "Batswarm - flappy things",
+          "name": "3 x Batswarm - flappy things",
           "ag": 6,
           "acc": "-",
           "str": 4,
-          "res": "5",
+          "res": 5,
           "init": 3,
           "co": 8,
           "special": "3x HtH SV1, Flies, Fast 7"
         },
         {
-          "name": "Spiderswarm - scuttling things",
+          "name": "3 x Spiderswarm - scuttling things",
           "ag": 6,
           "acc": "-",
           "str": 4,
-          "res": "5",
+          "res": 5,
           "init": 3,
           "co": 8,
           "special": "4x HtH SV0"
         },
         {
-          "name": "Frogswarm - slimey things",
+          "name": "3 x Frogswarm - slimey things",
           "ag": 6,
           "acc": "-",
           "str": 4,
-          "res": "5",
+          "res": 5,
           "init": 3,
           "co": 8,
           "special": "3xHtH SV0, Dread"
         },
         {
-          "name": "Beeswarm - stinging things",
+          "name": "3 x Beeswarm - stinging things",
           "ag": 6,
           "acc": "-",
           "str": 4,
-          "res": "5",
+          "res": 5,
           "init": 3,
           "co": 8,
           "special": "3x HtH SV0 Venomous, Flies"
         },
         {
-          "name": "Serpentswarm - wriggly things",
+          "name": "3 x Serpentswarm - wriggly things",
           "ag": 6,
           "acc": "-",
           "str": 4,
-          "res": "5",
+          "res": 5,
           "init": 3,
           "co": 8,
           "special": "4x HtH SV0, Venomous, Slow 4"
         }
       ],
-      "equipment": "3 x Swarm",
+      "equipment": "",
       "options": [
         {
           "description": "Add up to 2 Swarms",
@@ -709,21 +810,23 @@
     {
       "name": "Treemen/Dryads",
       "type": "Monster Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "allied": 53
+      },
+      "special": "Large, 2x HtH SV3, Blundering, Slow 4, Woodsman, Stubborn, Tough",
       "profiles": [
         {
-          "name": "Treeman",
+          "name": "1 x Treeman",
           "ag": 5,
           "acc": 5,
           "str": 6,
-          "res": "8",
+          "res": 8,
           "init": 2,
           "co": 8,
-          "special": "Large, 2x HtH SV3, Blundering, Slow 4, Woodsman, Stubborn, Tough"
+          "special": ""
         }
       ],
-      "equipment": "1 x Treeman",
+      "equipment": "",
       "options": [
         {
           "description": "Add up to 2 Treemen/Dryads",
@@ -736,21 +839,24 @@
     {
       "name": "Trolls",
       "type": "Monster Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 105,
+        "bound": 115
+      },
+      "special": "Large, 3x HtH SV2, Chunder, Regenerate",
       "profiles": [
         {
-          "name": "Troll",
+          "name": "3 x Troll",
           "ag": 4,
           "acc": 5,
           "str": 6,
-          "res": "7",
+          "res": 7,
           "init": 4,
           "co": 7,
-          "special": "Large, 3x HtH SV2, Chunder, Regenerate"
+          "special": ""
         }
       ],
-      "equipment": "3 x Troll",
+      "equipment": "",
       "options": [
         {
           "description": "Add up to 2 Trolls",
@@ -763,41 +869,55 @@
     {
       "name": "Tyrannosaur",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 188,
+        "bound": 208
+      },
+      "special": "Large, MoD2, 5x HtH SV5, Dread, Terror, Irresistable charge",
       "profiles": [
         {
-          "name": "Tyrannosaur",
+          "name": "1 x Tyrannosaur",
           "ag": 6,
           "acc": "-",
           "str": 7,
-          "res": "12",
+          "res": 12,
           "init": 7,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH SV5, Dread, Terror, Irresistable charge"
+          "special": ""
         }
       ],
-      "equipment": "1 x Tyrannosaur",
-      "options": []
+      "equipment": "",
+      "options": [
+        {
+          "description": "None",
+          "cost": 0,
+          "per": "model",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "Wyvern",
       "type": "Monstrosity Unit",
-      "points_value": 0,
-      "special": null,
+      "points_value": {
+        "wild": 160,
+        "bound": 180,
+        "allied": 200
+      },
+      "special": "Large, MoD2, 5x HtH SV3 Venomous, Beastly Breath, Dread, Flies",
       "profiles": [
         {
-          "name": "Wyvern",
+          "name": "1 x Wyvern",
           "ag": 5,
           "acc": 5,
           "str": 6,
-          "res": "10",
+          "res": 10,
           "init": 5,
           "co": 7,
-          "special": "Large, MoD2, 5x HtH SV3 Venomous, Beastly Breath, Dread, Flies"
+          "special": ""
         }
       ],
-      "equipment": "1 x Wyvern",
+      "equipment": "",
       "options": [
         {
           "description": "Give 5x Flaming Breath SV4 Fire instead of Beastly Breath",
@@ -818,11 +938,10 @@
   "special_rules": {
     "Monster Horde": "This list can be used to select a monstrous horde if players are agreeable - a warband made up entirely of monsters! This is envisaged as an entertaining, but not necessarily very serious, option for players who fancy fielding an array of all those monsters that we all like to collect but rarely find a role for.",
     "Agree to Include Monsters": "Before selecting their forces, players must agree to include monsters where they wish to do so, and must set any limits or restrictions that are mutually acceptable. For example, players might agree to allow the inclusion of a single monster unit of up to 150 points, or could allow any wild monster, or any monsters with a Res of less than 10, and so on. Monsters from this list can only be included in a warband where the players agree to do so.",
-    "Riders": "Some players might harbour a yen to field dragon riders or other heroic types riding gigantic monsters. This can be done by combining the stats for a warlord, hero or wizard with those of a monstrosity from this list. The Elf Hero is taken from the Elven Warband list and the stats for the model combined with those of a dragon. The dragon loses its Init and Co stats as they are no longer needed - all tests are taken on the rider's Init and Co. The rider doesn't need Ag or Res but these are retained in brackets should the dragon be slain leaving the rider, who can sustain a wound, to fight on foot. The Hero's Tough special ability is transferred to the whole model, note this is Tough 2 because that's the base value of an Elven hero, and both Tough and Wound on the Hero's stats are bracketed because neither are used by the combined model.",
-    "Monstrosities or monsters with riders": "Monstrosities or monsters with riders are still bound by the rules for allied, bound or (you must be very brave!) wild monsters. They cannot benefit from the command, follow or hero special rules and - in the case of bound and wild monsters - order test fails of a 10 will have appropriate consequences for mount and rider. Where a bound or wild monster fails an order test on a roll of 10 and would otherwise be considered a casualty as a result then the rider is assumed to fall casualty too, i.e. if the bound monster flees the field or a wild monster goes 'wild'.",
-    "Additional Notes": "If players agree to use units from his list does than mean they can be used as mounts by characters? Well - we know that's up to the players - but it's only fair to be specific about monstrosity riders. So, agree to use monsters by all means, but if you want to mount characters on monstrosities this should be agreed specifically. If I mount a wizard on a monstrosity with two or three order dice does that mean the wizard can cast two or three spells - one each time an order is issued? Again - I think we know the answer - a wizard can only make one attempt to cast a spell in a turn, and that applies regardless of how many order dice - or actions - the wizard has. When I mount a character on a monstrosity what happens to the unit's bodyguards? Well - unluckily you lose them - except for a wizard's spirits which can tag along. If such things are of concern, you can deduct the cost of bodyguards lost from the points value of the new combined model.\n\nI have added an option for Ogre leaders in Ogre units of three or more models, and I have added a stinging tail option onto the Manticore; both were queried and I can see no reason not to include them as options if the desire is there. Both entries also serve as example of how these things can be done should anyone fancy more tinkerage.\n\nI have also reordered the section into strict alphabetical order; although this does tend to mean all of the 'Giant' somethings are grouped together, of course.\n\nA few folks queried the fact that Ogres are not monstrosities. I have portrayed Ogres as I see them, and as they are traditionally portrayed in folklore, as large, brutish humanoids towering over normal sized humans for sure, but not giants. Of course, if your models happen to be vast, bloated critters the size of a small giant then I suggest they are treated as such and fielded as individuals. They might alternatively be given a Wound if fielded in units - though this is very powerful. A wound is generally costed at double the Res value of a model, should players wish to sort such things out for themselves.",
-    "Wild": "Monsters from this list can only be included in a warband where the players agree to do so.",
-    "Bound": "Allied monsters are the most reliable and they cost the most points. Points added to bound and allied units are added to the unit as a whole. Note that the points values of individual creatures remains constant when adding more models to some units, regardless of whether the unit is wild, bound or allied.",
-    "Allied": "Allied monsters are the most reliable and they cost the most points."
+    "Monstrosity Riders": "Some players might harbour a yen to field dragon riders or other heroic types riding gigantic monsters. This can be done by combining the stats for a warlord, hero or wizard with those of a monstrosity from this list. Essentially the same as for riding a chariot, with stats that only apply on foot bracketed like this [7]. See the rules for Monstrosities for more about how this is done.",
+    "Wizard Mounting": "If I mount a wizard on a monstrosity with two or three order dice does that mean the wizard can cast two or three spells - one each time an order is issued? Again - I think we know the answer - a wizard can only make one attempt to cast a spell in a turn, and that applies regardless of how many order dice - or actions - the wizard has.",
+    "Bodyguards on Mount": "When I mount a character on a monstrosity what happens to the unit's bodyguards? Well - unluckily you lose them - except for a wizard's spirits which can tag along. If such things are of concern, you can deduct the cost of bodyguards lost from the points value of the new combined model.",
+    "Ogre Classification": "A few folks queried the fact that Ogres are not monstrosities. I have portrayed Ogres as I see them, and as they are traditionally portrayed in folklore, as large, brutish humanoids towering over normal sized humans for sure, but not giants. Of course, if your models happen to be vast, bloated critters the size of a small giant then I suggest they are treated as such and fielded as individuals.",
+    "Ogre Wound": "They might alternatively be given a Wound if fielded in units - though this is very powerful. A wound is generally costed at double the Res value of a model, should players wish to sort such things out for themselves."
   }
 }

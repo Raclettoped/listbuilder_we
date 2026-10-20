@@ -84,17 +84,31 @@ export function toArmy(raw: RawWarband): Army {
         }
       }
 
+            const pv = u.points_value;
+      const isMonster =
+        typeof pv === 'object' &&
+        pv !== null &&
+        ('wild' in pv || 'bound' in pv || 'allied' in pv);
+
+      const pts = typeof pv === 'number'
+        ? pv
+        : (pv && typeof pv === 'object'
+            ? (pv.allied ?? pv.bound ?? pv.wild ?? 0)
+            : 0);
+
       return {
         id,
         name: u.name,
-        pts: u.points_value ?? 0,
+        pts,
         max,
         note: u.type ?? '',
         opts,
         profiles: (u.profiles ?? []).map(normalizeProfile),
         base_size,
         max_size,
-        pts_per_extra
+        pts_per_extra,
+        points_value: pv ?? 0,
+        is_monster: isMonster
       };
     })
   };

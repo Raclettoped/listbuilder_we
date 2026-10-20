@@ -58,6 +58,24 @@ RULES:
 - Copy the warband's own name into "warband" (e.g. "Dwarfs", not the filename).
 - Omit optional keys entirely when their value would be null
   (special_army_rule, equipment, note, per).
+- MONSTER PRICING: Some units (from the Monsters list) have tiered
+  points values in the form "Wild N, Bound N, Allied N". In that case
+  output:
+      "points_value": { "wild": N, "bound": N, "allied": N }
+  Only include the tiers that appear in the source text:
+      "Wild 115 Bound 135 (Wild or Bound only)"  → { "wild": 115, "bound": 135 }
+      "Wild 62 (available as Wild only)"          → { "wild": 62 }
+      "Wild 158, Bound 178, Allied 198"           → { "wild": 158, "bound": 178, "allied": 198 }
+  Do NOT invent a tier that is not in the source.
+  For all non-monster units, "points_value" remains a single integer.
+  - If the Points Value line has NO numeric values at all (e.g. it says
+  "Combined rider and monstrosity" or is blank), then:
+    - Set "points_value": null
+    - Do NOT create the object with null keys.
+- If SOME tiers are present as numbers and others are missing, include
+  ONLY the numeric tiers:
+    "Wild 115 Bound 135 (Wild or Bound only)"  → { "wild": 115, "bound": 135 }
+    
 - CRITICAL: Every profile's "name" MUST begin with the model count, exactly as shown in the source text.
   Examples:
     "1 x Orc Chieftain with sword or axe, light armour"
