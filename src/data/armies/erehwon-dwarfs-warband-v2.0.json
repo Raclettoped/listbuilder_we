@@ -388,7 +388,29 @@
       "options": [
         { "description": "Add up to 2 Dwarf crew to unit", "cost": 16, "per": "each" }
       ]
+    },
+    {
+  "name": "Dwarf Greek Fire Team",
+  "type": "Warrior Unit",
+  "points_value": 63,
+  "special": "You can include a maximum of one unit of Dwarf Greek Fire Team in your warband.",
+  "profiles": [
+    {
+      "name": "1 x Dwarf Greek Fire Leader with axe, light armour, Greek Fire",
+      "ag": 4, "acc": 5, "str": 6, "res": "6(7)", "init": 6, "co": 8,
+      "special": "Tough, Greek Fire (3x SV3 Fire, 0-10\")"
+    },
+    {
+      "name": "2 x Dwarf with axe, light armour, Greek Fire",
+      "ag": 4, "acc": 5, "str": 6, "res": "6(7)", "init": 6, "co": 8,
+      "special": "Greek Fire (3x SV3 Fire, 0-10\")"
     }
+  ],
+  "options": [
+    { "description": "Give unit medium armour increasing Res to 6(8)", "cost": 2, "per": "model" },
+    { "description": "Give unit heavy armour increasing Res to 6(9) and adding Heavily Laden rule", "cost": 9, "per": "model" }
+  ]
+}
   ],
   "weapons_table": [
     { "weapon": "Bow", "short_range": "0-10\"", "long_range": "10-20\"", "extreme_range": "-", "strike_value": 0, "special_rules": null },

@@ -7,8 +7,8 @@
 
 :root {
   /* Default = parchment (light) */
-  --parchment:       #f4ecd8;
-  --parchment-dark:  #e6dcc4;
+  --parchment:       #e8dcc0;
+  --parchment-dark:  #dbcdaf;
   --ink:             #2b1f0e;
   --ink-soft:        #5a4634;
   --blood:           #7a1f1a;
@@ -17,16 +17,16 @@
 
   /* Aliases */
   --bg:          var(--parchment);
-  --panel:       #faf4e4;
+  --panel:       #eee3c9;
   --mute:        var(--ink-soft);
   --line:        var(--brass);
   --accent:      var(--blood);
   --accent-ink:  var(--parchment);
   --bad:         #8b2c25;
-  --stats-bg:    #eee;
+  --stats-bg:    #e0d4b6;
   --stats-border:#999;
   --stats-bg:    #eee;
-  --stats-border:#999;
+  --stats-border:#b8a676;
 }
 
 /* Dark theme — applied via [data-theme="dark"] on <html> */
