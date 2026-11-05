@@ -42,6 +42,7 @@ export interface ArmyOption {
   id: string;
   name: string;
   pts: number;
+  per?: 'model' | 'each' | null;
 }
 
 export interface ArmyProfile {

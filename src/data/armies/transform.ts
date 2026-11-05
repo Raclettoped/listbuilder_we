@@ -66,7 +66,8 @@ export function toArmy(raw: RawWarband): Army {
         opts.push({
           id: `${id}-opt-${i}`,
           name: desc,
-          pts: o.cost ?? 0
+          pts: o.cost ?? 0,
+          per: o.per ?? undefined
         });
       }
 
